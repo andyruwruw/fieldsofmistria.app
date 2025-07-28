@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+#root {
+	width: 100%;
+  text-align: center;
+}
+
+body {
+	background-color: rgb(10, 10, 10);
+}
+
+@layer base {
+	@font-face {
+		font-family: "3x5";
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(/fonts/3-by-5-pixel-font.woff2) format("woff2");
+	}
+}
+
+a {
+	color: inherit !important;
+}
+
+.sidebar {
+	border-right: 1px solid rgb(38,38,38);
+}
+
+.top-bar {
+	border-bottom: 1px solid rgb(38,38,38);
+
+	h1 {
+		font-size: 16px;
+	}
+}
+
+.page-title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-left: 4px;
+}
+
+.page-subtitle {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.character-image {
+	background-size: cover;
+}

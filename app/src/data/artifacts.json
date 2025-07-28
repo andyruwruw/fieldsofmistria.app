@@ -1,0 +1,362 @@
+{
+  "aldarian-gauntlet": {
+    "id": "aldarian-gauntlet",
+    "name": "Aldarian Gauntlet",
+    "description": "A rare artifact. This battle-worn gauntlet shows heavy use.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-narrows" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Aldarian_gauntlet.png?8a771d&20240716093255"
+  },
+  "aldarian-sword": {
+    "id": "aldarian-sword",
+    "name": "Aldarian Sword",
+    "description": "An uncommon artifact. A worn military sword, likely from the War of the Lilies.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-narrows" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0f/Aldarian_sword.png?3cee2a&20240716093256"
+  },
+  "aldarian-war-banner": {
+    "id": "aldarian-war-banner",
+    "name": "Aldarian War Banner",
+    "description": "A rare artifact. Emblazoned with the royal crest of Aldaria.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-narrows" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3f/Aldarian_war_banner.png?d1fe55&20240716093257"
+  },
+  "family-crest-pendant": {
+    "id": "family-crest-pendant",
+    "name": "Family Crest Pendant",
+    "description": "An uncommon artifact. Once widely adopted in Aldaria, pendants were given to family members who were leaving home for the first time.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-narrows" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8c/Family_crest_pendant.png?bddca5"
+  },
+  "lost-crown-of-aldaria": {
+    "id": "lost-crown-of-aldaria",
+    "name": "Lost Crown of Aldaria",
+    "description": "A legendary artifact. Could this be the crown that was lost after the Caldosian Empire's invasion?",
+    "rarity": "legendary",
+    "price": 75,
+    "location": [ "the-narrows" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Lost_crown_of_aldaria.png?54d972"
+  },
+  "caldosian-breastplate": {
+    "id": "caldosian-breastplate",
+    "name": "Caldosian Breastplate",
+    "description": "A rare artifact. This magnificent breastplate is so ornate, it was likely used for ceremonial purposes.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-eastern-road" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Caldosian_breastplate.png?b44ce6"
+  },
+  "caldosian-drinking-horn": {
+    "id": "caldosian-drinking-horn",
+    "name": "Caldosian Drinking Horn",
+    "description": "A rare artifact. Drinking horns were usually passed down through the family line.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-eastern-road" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5c/Caldosian_drinking_horn.png?b8a4b8"
+  },
+  "caldosian-emperor-bust": {
+    "id": "caldosian-emperor-bust",
+    "name": "Caldosian Emperor Bust",
+    "description": "An uncommon artifact. The bust of a Caldosian Emperor. It's not clear which one.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-eastern-road" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Caldosian_emperor_bust.png?6b467c"
+  },
+  "caldosian-sword": {
+    "id": "caldosian-sword",
+    "name": "Caldosian Sword",
+    "description": "An uncommon artifact. An imperial officer's sword from the early days of the Caldosian Empire.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-eastern-road" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/1/12/Caldosian_sword.png?a2fed5"
+  },
+  "statuette-of-caldarus": {
+    "id": "statuette-of-caldarus",
+    "name": "Statuette of Caldarus",
+    "description": "A legendary artifact. There seems to have been a subset of the empire that once worshiped Caldarus...",
+    "rarity": "legendary",
+    "price": 125,
+    "location": [ "the-eastern-road" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Statuette_of_caldarus.png?e94015"
+  },
+  "alda-bronze-sword": {
+    "id": "alda-bronze-sword",
+    "name": "Alda Bronze Sword",
+    "description": "A rare artifact. Its intricate carvings and blue-green patina give this sword an otherworldly appearance.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "sweetwater-farm" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c9/Alda_bronze_sword.png?5bd40d"
+  },
+  "alda-clay-pot": {
+    "id": "alda-clay-pot",
+    "name": "Alda Clay Pot",
+    "description": "An uncommon artifact. Made from rich river clay, a faded pattern can still be seen. Once used by the Alda people to store food.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "sweetwater-farm" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5b/Alda_clay_pot.png?f31937"
+  },
+  "alda-feather-pendant": {
+    "id": "alda-feather-pendant",
+    "name": "Alda Feather Pendant",
+    "description": "An uncommon artifact. Once used in marriage proposals, beautifully designed.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "sweetwater-farm" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Alda_feather_pendant.png?430950"
+  },
+  "alda-gem-bracelet": {
+    "id": "alda-gem-bracelet",
+    "name": "Alda Gem Bracelet",
+    "description": "A legendary artifact. Non-local gems suggest the Alda had trading partners across the sea.",
+    "rarity": "legendary",
+    "price": 125,
+    "location": [ "sweetwater-farm" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Alda_gem_bracelet.png?347810"
+  },
+  "alda-mural-tablet": {
+    "id": "alda-mural-tablet",
+    "name": "Alda Mural Tablet",
+    "description": "A rare artifact. Depicts a scene of the Mistrian coast, as seen hundreds of years ago.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "sweetwater-farm" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/6/62/Alda_mural_tablet.png?c9e735"
+  },
+  "ancient-crystal-goblet": {
+    "id": "ancient-crystal-goblet",
+    "name": "Ancient Crystal Goblet",
+    "description": "A rare artifact. Elegant and sturdy, this goblet was likely used during Witch Queen rituals.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-western-ruins" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Ancient_crystal_goblet.png?fe9d66&20240716093259"
+  },
+  "ancient-gold-coin": {
+    "id": "ancient-gold-coin",
+    "name": "Ancient Gold Coin",
+    "description": "An uncommon artifact. Etched with the outline of the Witch Queen on one side, and a magnificent tower on the other.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-western-ruins" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bd/Ancient_gold_coin.png?2a288d"
+  },
+  "ancient-horn-circlet": {
+    "id": "ancient-horn-circlet",
+    "name": "Ancient Horn Circlet",
+    "description": "A rare artifact. A horn circlet from the age of the Witch Queens. Was this a fashion accessory or did it serve a greater purpose?",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-western-ruins" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b6/Ancient_horn_circlet.png?1a5f50"
+  },
+  "ancient-royal-scepter": {
+    "id": "ancient-royal-scepter",
+    "name": "Ancient Royal Scepter",
+    "description": "A legendary artifact. A Royal Scepter with the head of a dragon. The symbol of the Witch Queen's authority.",
+    "rarity": "legendary",
+    "price": 125,
+    "location": [ "the-western-ruins" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Ancient_royal_scepter.png?d40633"
+  },
+  "ancient-stone-lantern": {
+    "id": "ancient-stone-lantern",
+    "name": "Ancient Stone Lantern",
+    "description": "An uncommon artifact. An impossibly delicate stone lantern from the age of the Witch Queens. It still retains an ethereal glow from within.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-western-ruins" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/2/20/Ancient_stone_lantern.png?df1705"
+  },
+  "amber-trapped-insect": {
+    "id": "amber-trapped-insect",
+    "name": "Amber Trapped Insect",
+    "description": "An uncommon artifact. It's noticeably bigger than today's insects.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-beach" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cb/Amber_trapped_insect.png?b7950c"
+  },
+  "fossilized-egg": {
+    "id": "fossilized-egg",
+    "name": "Fossilized Egg",
+    "description": "A rare artifact. What could be inside?",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-beach" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Fossilized_egg.png?339dce"
+  },
+  "meteorite": {
+    "id": "meteorite",
+    "name": "Meteorite",
+    "description": "A legendary artifact. There's no telling how long ago it fell...",
+    "rarity": "legendary",
+    "price": 125,
+    "location": [ "the-beach" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9e/Meteorite.png?b07875"
+  },
+  "tiny-dinosaur-skeleton": {
+    "id": "tiny-dinosaur-skeleton",
+    "name": "Tiny Dinosaur Skeleton",
+    "description": "A rare artifact. Definitely not just a lizard.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ "the-beach" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e7/Tiny_dinosaur_skeleton.png?3aaba1"
+  },
+  "trilobite-fossil": {
+    "id": "trilobite-fossil",
+    "name": "Trilobite Fossil",
+    "description": "An uncommon artifact. Too many legs, but still kinda cute.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ "the-beach" ],
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c6/Trilobite_fossil.png?9d4562"
+  },
+  "black-tablet": {
+    "id": "black-tablet",
+    "name": "Black Tablet",
+    "description": "An uncommon artifact. Made of a strange metal, it's not clear what this is for.",
+    "rarity": "uncommon",
+    "price": 125,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Black_tablet.png?832df5"
+  },
+  "completely-wrong-map": {
+    "id": "completely-wrong-map",
+    "name": "Completely Wrong Map",
+    "description": "An uncommon artifact. A badly faded map that appears to show a landmass where the Western Bay now lies.",
+    "rarity": "uncommon",
+    "price": 125,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/8/80/Completely_wrong_map.png?a6fd45"
+  },
+  "muttering-cube": {
+    "id": "muttering-cube",
+    "name": "Muttering Cube",
+    "description": "An uncommon artifact. This device emits a low hiss most of the time, and occasionally what sounds like voices from far away.",
+    "rarity": "uncommon",
+    "price": 75,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/3/32/Muttering_cube.png?b28764"
+  },
+  "unknown-dragon-statuette": {
+    "id": "unknown-dragon-statuette",
+    "name": "Unknown Dragon Statuette",
+    "description": "An uncommon artifact. This doesn't appear to be Caldarus.",
+    "rarity": "uncommon",
+    "price": 125,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bc/Unknown_dragon_statuette.png?35ff5c"
+  },
+  "weightless-stone": {
+    "id": "weightless-stone",
+    "name": "Weightless Stone",
+    "description": "An uncommon artifact. This black stone appears otherworldly in origin. It has no weight, and will roll around from the slightest breeze.",
+    "rarity": "uncommon",
+    "price": 75,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Weightless_stone.png?93dc95"
+  },
+  "coin-lamp": {
+    "id": "coin-lamp",
+    "name": "Coin Lamp",
+    "description": "An uncommon artifact. A mass of old coins, fused together by time.",
+    "rarity": "rare",
+    "price": 75,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4e/Coin_lump.png?6d73f7"
+  },
+  "giant-fish-scale": {
+    "id": "giant-fish-scale",
+    "name": "Giant Fish Scale",
+    "description": "An uncommon artifact. Can't imagine what fish this came from.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/1/13/Giant_fish_scale.png?dbfae2"
+  },
+  "rubber-fish": {
+    "id": "rubber-fish",
+    "name": "Rubber Fish",
+    "description": "An uncommon artifact. How did this get in the water in the first place?",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/5/59/Rubber_fish.png?9e0977"
+  },
+  "rusted-treasure-chest": {
+    "id": "rusted-treasure-chest",
+    "name": "Rusted Treasure Chest",
+    "description": "An uncommon artifact. Looks quite valuable, a shame it can't be opened.",
+    "rarity": "uncommon",
+    "price": 75,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Rusted_treasure_chest.png?9b9f17"
+  },
+  "water-sphere": {
+    "id": "water-sphere",
+    "name": "Water Sphere",
+    "description": "An uncommon artifact. You're not sure why, but it won't pop.",
+    "rarity": "uncommon",
+    "price": 75,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Water_sphere.png?f84df6"
+  },
+  "criminal-confession": {
+    "id": "criminal-confession",
+    "name": "Criminal Confession",
+    "description": "An uncommon artifact. Too bad the pages are fused together.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ae/Criminal_confession.png?7454d3"
+  },
+  "mermaids-comb": {
+    "id": "mermaids-comb",
+    "name": "Mermaid's Comb",
+    "description": "An uncommon artifact. Looks suspiciously like a fork.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7d/Mermaid%27s_comb.png?d7aea9"
+  },
+  "rainbow-seaweed": {
+    "id": "rainbow-seaweed",
+    "name": "Rainbow Seaweed",
+    "description": "An uncommon artifact. Can only be found floating in the current, no one seems to know where it grows.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/5/53/Rainbow_seaweed.png?52af58"
+  },
+  "rock-with-a-hole": {
+    "id": "rock-with-a-hole",
+    "name": "Rock with a Hole",
+    "description": "An uncommon artifact. Seems to be naturally formed.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cb/Rock_with_a_hole.png?44f55a"
+  },
+  "rusted-shield": {
+    "id": "rusted-shield",
+    "name": "Rusted Shield",
+    "description": "An uncommon artifact. A very old shield with an unusual design.",
+    "rarity": "uncommon",
+    "price": 50,
+    "location": [ ],
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c9/Rusted_shield.png?211914"
+  },
+}

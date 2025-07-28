@@ -1,0 +1,426 @@
+{
+  "celine": {
+    "id": "celine",
+    "name": "Celine",
+    "gender": "Female",
+    "dateable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/5/59/Celine_Portrait.png/75px-Celine_Portrait.png?25d431",
+    "icon": "https://fieldsofmistria.wiki.gg/images/thumb/8/8d/Celine_Bubble.png/120px-Celine_Bubble.png?f50a09",
+    "birthday-season": "Summer",
+    "birthday-day": 14,
+    "species": "Human",
+    "occupation": "Gardener, Part-Timer",
+    "loved": [
+      "breath-of-flame",
+      "crystal-rose",
+      "frost-lily",
+      "hydrangea",
+      "middlemist",
+      "plum-blossom",
+      "rose",
+      "snowdrop-anemone",
+      "temple-flower"
+    ],
+    "liked": [
+      "catmint",
+      "celosia",
+      "chrysanthemum",
+      "cosmos",
+      "crocus",
+      "daffodil",
+      "daisy",
+      "dandelion",
+      "heather",
+      "iris",
+      "jasmine",
+      "lilac",
+      "marigold",
+      "poinsettia",
+      "rose-tea",
+      "snapdragon",
+      "spring-salad",
+      "sunflower",
+      "tulip",
+      "viola"
+    ],
+    "disliked": [],
+    "hated": [ "caterpillar" ]
+  },
+  "juniper": {
+    "id": "juniper",
+    "name": "Juniper",
+    "gender": "Female",
+    "dateable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/0/0f/Juniper_Portrait.png/93px-Juniper_Portrait.png?efb756",
+    "icon": "https://fieldsofmistria.wiki.gg/images/thumb/7/75/Juniper_Bubble.png/120px-Juniper_Bubble.png?77be9e",
+    "birthday-season": "Fall",
+    "birthday-day": 26,
+    "species": "Human?",
+    "occupation": "Sorceress, Bathhouse Owner",
+    "loved": [
+      "ancient-royal-scepter",
+      "black-tablet",
+      "crystal-rose",
+      "fish-tacos",
+      "golden-cookies",
+      "moon-fruit-cake",
+      "mushroom-brew",
+      "pizza"
+    ],
+    "liked": [
+      "crunchy-chickpeas",
+      "crystal",
+      "fog-orchid",
+      "frog",
+      "latte",
+      "middlemist",
+      "monster-powder",
+      "morel-mushroom",
+      "nettle",
+      "newt",
+      "night-queen",
+      "poinsettia",
+      "red-toadstool",
+      "red-wine",
+      "shadow-flower",
+      "toasted-sunflower-seeds",
+      "water-chestnut-fritters",
+      "white-whine"
+    ],
+    "disliked": [
+    ],
+    "hated": [
+      "sod"
+    ]
+  },
+  "reina": {
+    "id": "reina",
+    "name": "Reina",
+    "gender": "Female",
+    "dateable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/45/Reina_Portrait.png?a8cb11",
+    "icon": "https://fieldsofmistria.wiki.gg/images/thumb/8/84/Reina_Bubble.png/120px-Reina_Bubble.png?9f395e",
+    "birthday-season": "Fall",
+    "birthday-day": 12,
+    "species": "Human",
+    "occupation": "Head Cook",
+    "loved": [
+      "apple-honey-curry",
+      "breaded-catfish",
+      "cabbage-slaw",
+      "ice-cream-sundae",
+      "incredibly-hot-pot",
+      "rosemary-garlic-noodles",
+      "seafood-boil",
+      "seafood-snow-pea-noodes",
+      "sushi-platter"
+    ],
+    "liked": [
+      "cauliflower-curry",
+      "cheese",
+      "cod-with-thyme",
+      "coffee",
+      "crystal-berry-pie",
+      "daffodil",
+      "deep-sea-soup",
+      "flour",
+      "garlic-bread",
+      "garlic",
+      "grilled-cheese",
+      "iced-coffee",
+      "miners-mushroom-stew",
+      "pizza",
+      "rice",
+      "spicy-cheddar-biscuit",
+      "sugar",
+      "turnip-and-potato-gratin",
+      "upper-mines-mushroom",
+      "wild-berry-pie"
+    ],
+    "disliked": [
+    ],
+    "hated": [
+      "tunnel-millipede"
+    ]
+  },
+  "valen": {
+    "id": "valen",
+    "name": "Valen",
+    "gender": "Female",
+    "dateable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/8/8d/Valen_Portrait.png/180px-Valen_Portrait.png?c8822c",
+    "icon": "https://fieldsofmistria.wiki.gg/images/thumb/c/ce/Valen_Bubble.png/120px-Valen_Bubble.png?858177",
+    "birthday-season": "Fall",
+    "birthday-day": 1,
+    "species": "Human",
+    "occupation": "Town Doctor",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "adeline": {
+    "id": "adeline",
+    "name": "Adeline",
+    "gender": "Female",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 18,
+    "species": "Human",
+    "occupation": "Acting Leader of Mistria",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "balor": {
+    "id": "balor",
+    "name": "Balor",
+    "gender": "Male",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Summer",
+    "birthday-day": 10,
+    "species": "Human",
+    "occupation": "Traveling Merchant",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "march": {
+    "id": "march",
+    "name": "March",
+    "gender": "Male",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Spring",
+    "birthday-day": 18,
+    "species": "Human",
+    "occupation": "Blacksmith",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "hayden": {
+    "id": "hayden",
+    "name": "Hayden",
+    "gender": "Male",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 8,
+    "species": "Human",
+    "occupation": "Runs Sweetwater Farm",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "ryis": {
+    "id": "ryis",
+    "name": "Ryis",
+    "gender": "Male",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Spring",
+    "birthday-day": 4,
+    "species": "Human",
+    "occupation": "Carpenter",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "eiland": {
+    "id": "eiland",
+    "name": "Eiland",
+    "gender": "Male",
+    "dateable": true,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Summer",
+    "birthday-day": 20,
+    "species": "Human",
+    "occupation": "Archaeologist, Noble",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "dell": {
+    "id": "dell",
+    "name": "Dell",
+    "gender": "Male",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 3,
+    "species": "Human",
+    "occupation": "Leader of the Dragonguard",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "dozy": {
+    "id": "dozy",
+    "name": "Dozy",
+    "gender": "Male",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Fall",
+    "birthday-day": 16,
+    "species": "Human",
+    "occupation": "Bathhouse Co-owner",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "elsie": {
+    "id": "elsie",
+    "name": "Elsie",
+    "gender": "Female",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Summer",
+    "birthday-day": 2,
+    "species": "Human",
+    "occupation": "Retired Socialite",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "errol": {
+    "id": "errol",
+    "name": "Errol",
+    "gender": "Male",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 11,
+    "species": "Human",
+    "occupation": "Museum Curator",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "hemlock": {
+    "id": "hemleck",
+    "name": "Hemlock",
+    "gender": "Male",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 23,
+    "species": "Human",
+    "occupation": "Inn Co-owner, Bartender",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "holt": {
+    "id": "holt",
+    "name": "Holt",
+    "gender": "Male",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Fall",
+    "birthday-day": 14,
+    "species": "Human",
+    "occupation": "General Store Co-owner",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  },
+  "henrietta": {
+    "id": "henrietta",
+    "name": "Henrietta",
+    "gender": "Female",
+    "dateable": false,
+    "image": "",
+    "icon": "",
+    "birthday-season": "Winter",
+    "birthday-day": 7,
+    "species": "Chicken",
+    "occupation": "Prize-winning Chicken",
+    "loved": [
+    ],
+    "liked": [
+    ],
+    "disliked": [
+    ],
+    "hated": [
+    ]
+  }
+}

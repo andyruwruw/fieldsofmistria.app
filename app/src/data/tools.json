@@ -1,0 +1,501 @@
+{
+  "pickaxes": {
+    "worn-pickaxe": {
+      "id": "worn-pickaxe",
+      "name": "Worn Pickaxe",
+      "description": "A worn but still serviceable pickaxe. Used to break small rocks and to excavate dig spots.",
+      "sell": 50,
+      "buy": 0,
+      "type": "pickaxe",
+      "craftable": false,
+      "recipe": [],
+      "equiptment": [],
+      "skill": -1,
+      "range": 1,
+      "image": "https://fieldsofmistria.wiki.gg/images/8/8f/Worn_Pickaxe.png?727004",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Worn_Pickaxe"
+    },
+    "copper-pickaxe": {
+      "id": "copper-pickaxe",
+      "name": "Copper Pickaxe",
+      "description": "A copper pickaxe. Can break big rocks & can be charged to strike 3 tiles in a row.",
+      "sell": 480,
+      "buy": 1000,
+      "type": "pickaxe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "copper-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 4,
+      "range": 3,
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Copper_Pickaxe.png?c71d62",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Copper_Pickaxe"
+    },
+    "iron-pickaxe": {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe",
+      "description": "An iron pickaxe. Can be charged to strike a 3x3 area.",
+      "sell": 725,
+      "buy": 2000,
+      "type": "pickaxe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "iron-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 10,
+      "range": 9,
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a2/Iron_Pickaxe.png?4f5dae",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Iron_Pickaxe"
+    },
+    "silver-pickaxe": {
+      "id": "silver-pickaxe",
+      "name": "Silver Pickaxe",
+      "description": "A silver pickaxe. Can be charged to strike a 3x6 area.",
+      "sell": 970,
+      "buy": 3000,
+      "type": "pickaxe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "silver-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 16,
+      "range": 18,
+      "image": "https://fieldsofmistria.wiki.gg/images/9/94/Silver_Pickaxe.png?eda4ea",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Silver_Pickaxe"
+    },
+    "gold-pickaxe": {
+      "id": "gold-pickaxe",
+      "name": "Gold Pickaxe",
+      "description": "A splendid golden pickaxe. Can be charged to chop a 6x6 area.",
+      "sell": 1200,
+      "buy": 4000,
+      "type": "pickaxe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "gold-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 26,
+      "range": 36,
+      "image": "https://fieldsofmistria.wiki.gg/images/a/ac/Gold_pickaxe.png?5e9bec",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Gold_Pickaxe"
+    }
+  },
+  "axes": {
+    "worn-axe": {
+      "id": "worn-axe",
+      "name": "Worn Axe",
+      "description": "A worn but still serviceable axe. Used to destroy branches and trees.",
+      "sell": 50,
+      "buy": 0,
+      "type": "axe",
+      "craftable": false,
+      "recipe": [],
+      "equiptment": [],
+      "skill": -1,
+      "range": 1,
+      "image": "https://fieldsofmistria.wiki.gg/images/9/93/Worn_Axe.png?753372",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Worn_Axe"
+    },
+    "copper-axe": {
+      "id": "copper-axe",
+      "name": "Copper Axe",
+      "description": "A copper axe. Can be charged to chop 3 tiles in a row.",
+      "sell": 480,
+      "buy": 1000,
+      "type": "axe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "copper-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 4,
+      "range": 3,
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d6/Copper_axe.png?83e910",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Copper_Axe"
+    },
+    "iron-axe": {
+      "id": "iron-axe",
+      "name": "Iron Axe",
+      "description": "An iron axe. Can be charged to chop a 3x3 area.",
+      "sell": 725,
+      "buy": 2000,
+      "type": "axe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "iron-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 10,
+      "range": 9,
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b3/Iron_axe.png?d68bcd",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Iron_Axe"
+    },
+    "silver-axe": {
+      "id": "silver-axe",
+      "name": "Silver Axe",
+      "description": "A silver axe. Can be charged to chop a 3x6 area.",
+      "sell": 970,
+      "buy": 3000,
+      "type": "axe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "silver-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 16,
+      "range": 18,
+      "image": "https://fieldsofmistria.wiki.gg/images/b/be/Silver_axe.png?12c5e2",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Silver_Axe"
+    },
+    "gold-axe": {
+      "id": "gold-axe",
+      "name": "Gold Axe",
+      "description": "A splendid golden axe. Can be charged to chop a 6x6 area.",
+      "sell": 1200,
+      "buy": 4000,
+      "type": "axe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "gold-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 26,
+      "range": 36,
+      "image": "https://fieldsofmistria.wiki.gg/images/7/71/Gold_axe.png?1e4c73",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Gold_Axe"
+    }
+  },
+  "hoes": {
+    "worn-hoe": {
+      "id": "worn-hoe",
+      "name": "Worn Hoe",
+      "description": "A worn but still serviceable hoe. Used to till dirt in preparation for planting seeds.",
+      "buy": 150,
+      "sell": 50,
+      "type": "hoe",
+      "craftable": false,
+      "recipe": [],
+      "equiptment": [],
+      "skill": -1,
+      "range": 1,
+      "image": "https://fieldsofmistria.wiki.gg/images/0/00/Worn_Hoe.png?c76b85",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Worn_Hoe"
+    },
+    "copper-hoe": {
+      "id": "copper-hoe",
+      "name": "Copper Hoe",
+      "description": "A copper hoe. Can be charged to till 3 tiles in a row.",
+      "sell": 480,
+      "buy": 1000,
+      "type": "hoe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "copper-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 4,
+      "range": 3,
+      "image": "https://fieldsofmistria.wiki.gg/images/0/0f/Copper_hoe.png?b0be91",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Copper_Hoe"
+    },
+    "iron-hoe": {
+      "id": "iron-hoe",
+      "name": "Iron Hoe",
+      "description": "An iron hoe. Can be charged to till a 3x3 area.",
+      "sell": 725,
+      "buy": 2000,
+      "type": "hoe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "iron-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 10,
+      "range": 9,
+      "image": "https://fieldsofmistria.wiki.gg/images/6/6d/Iron_hoe.png?66ae30",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Iron_Hoe"
+    },
+    "silver-hoe": {
+      "id": "silver-hoe",
+      "name": "Silver Hoe",
+      "description": "A silver hoe. Can be charged to till a 3x6 area.",
+      "sell": 970,
+      "buy": 3000,
+      "type": "hoe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "silver-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 16,
+      "range": 18,
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a3/Silver_hoe.png?5883b2",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Silver_Hoe"
+    },
+    "gold-hoe": {
+      "id": "gold-hoe",
+      "name": "Gold Hoe",
+      "description": "A splendid golden hoe. Can be charged to till a 6x6 area.",
+      "sell": 1200,
+      "buy": 4000,
+      "type": "hoe",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "gold-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 26,
+      "range": 36,
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3c/Gold_hoe.png?a2598a",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Gold_Hoe"
+    }
+  },
+  "watering-cans": {
+    "worn-watering-can": {
+      "id": "worn-watering-can",
+      "name": "Worn Watering Can",
+      "description": "A worn but still serviceable watering can. Used to water plants.",
+      "sell": 50,
+      "buy": 150,
+      "type": "watering-can",
+      "craftable": false,
+      "recipe": [],
+      "equiptment": [],
+      "skill": -1,
+      "range": 1,
+      "image": "https://fieldsofmistria.wiki.gg/images/7/76/Worn_Watering_Can.png?5da004",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Worn_Watering_Can"
+    },
+    "copper-watering-can": {
+      "id": "copper-watering-can",
+      "name": "Copper Watering Can",
+      "description": "A copper watering can. Can be charged to water 3 tiles in a row.",
+      "sell": 480,
+      "buy": 1000,
+      "type": "watering-can",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "copper-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 4,
+      "range": 3,
+      "image": "https://fieldsofmistria.wiki.gg/images/4/46/Copper_watering_can.png?c5d397",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Copper_Watering_Can"
+    },
+    "iron-watering-can": {
+      "id": "iron-watering-can",
+      "name": "Iron Watering Can",
+      "description": "An iron watering can. Can be charged to water a 3x3 area.",
+      "sell": 725,
+      "buy": 2000,
+      "type": "watering-can",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "iron-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 10,
+      "range": 9,
+      "image": "https://fieldsofmistria.wiki.gg/images/e/e6/Iron_watering_can.png?b15601",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Iron_Watering_Can"
+    },
+    "silver-watering-can": {
+      "id": "silver-watering-can",
+      "name": "Silver Watering Can",
+      "description": "A silver watering can. Can be charged to water a 3x6 area.",
+      "sell": 970,
+      "buy": 3000,
+      "type": "watering-can",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "silver-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 16,
+      "range": 18,
+      "image": "https://fieldsofmistria.wiki.gg/images/5/56/Silver_Watering_Can.png?337902",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Silver_Watering_Can"
+    },
+    "gold-watering-can": {
+      "id": "gold-watering-can",
+      "name": "Gold Watering Can",
+      "description": "A splendid golden watering can. Can be charged to water a 6x6 area.",
+      "sell": 1200,
+      "buy": 4000,
+      "type": "watering-can",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "gold-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 26,
+      "range": 36,
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Gold_watering_can.png?d78dce",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Gold_Watering_Can"
+    }
+  },
+  "fishing-rods": {
+    "worn-fishing-rod": {
+      "id": "worn-fishing-rod",
+      "name": "Worn Fishing Rod",
+      "description": "A worn but still serviceable fishing rod. Used to catch fish.",
+      "sell": 50,
+      "buy": 0,
+      "type": "fishing-rod",
+      "craftable": false,
+      "recipe": [],
+      "equiptment": [],
+      "skill": -1,
+      "range": 1,
+      "image": "https://fieldsofmistria.wiki.gg/images/1/1f/Worn_Fishing_Rod.png?cd94f6",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Worn_Fishing_Rod"
+    },
+    "copper-fishing-rod": {
+      "id": "copper-fishing-rod",
+      "name": "Copper Fishing Rod",
+      "description": "A copper fishing rod. Can be charged to cast 3 tiles in a row.",
+      "sell": 480,
+      "buy": 1000,
+      "type": "fishing-rod",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "copper-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 4,
+      "range": 3,
+      "image": "https://fieldsofmistria.wiki.gg/images/4/4e/Copper_Fishing_Rod.png?1ecc1e",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Copper_Fishing_Rod"
+    },
+    "iron-fishing-rod": {
+      "id": "iron-fishing-rod",
+      "name": "Iron Fishing Rod",
+      "description": "An iron fishing rod. Can be charged to cast a 3x3 area.",
+      "sell": 725,
+      "buy": 2000,
+      "type": "fishing-rod",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "iron-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 10,
+      "range": 9,
+      "image": "https://fieldsofmistria.wiki.gg/images/c/ca/Iron_Fishing_Rod.png?996d06",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fishing_Rod"
+    },
+    "silver-fishing-rod": {
+      "id": "silver-fishing-rod",
+      "name": "Silver Fishing Rod",
+      "description": "A silver fishing rod. Can be charged to cast a 3x6 area.",
+      "sell": 970,
+      "buy": 3000,
+      "type": "fishing-rod",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "silver-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 16,
+      "range": 18,
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b5/Silver_Fishing_Rod.png?b55b77",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Silver_Fishing_Rod"
+    },
+    "gold-fishing-rod": {
+      "id": "gold-fishing-rod",
+      "name": "Gold Fishing Rod",
+      "description": "A splendid golden fishing rod. Can be charged to cast a 6x6 area.",
+      "sell": 1200,
+      "buy": 4000,
+      "type": "fishing-rod",
+      "craftable": true,
+      "recipe": [
+        {
+          "id": "gold-ingot",
+          "quantity": 4
+        }
+      ],
+      "equiptment": [ "anvil" ],
+      "skill": 26,
+      "range": 36,
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a5/Gold_Fishing_Rod.png?b51638",
+      "link": "https://fieldsofmistria.wiki.gg/wiki/Gold_Fishing_Rod"
+    }
+  },
+  "shovels": [
+    "Worn Shovel",
+    "Copper Shovel",
+    "Iron Shovel",
+    "Silver Shovel",
+    "Gold Shovel"
+  ],
+  "nets": [
+    "Worn Net",
+    "Copper Net",
+    "Iron Net",
+    "Silver Net", 
+    "Gold Net"
+  ]
+}
