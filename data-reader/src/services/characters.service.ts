@@ -1,8 +1,10 @@
 // Local Imports
-import { CharacterPageParser } from '../parsers/character-page-parser';
-import { CharacterListParser } from '../parsers/character-list-parser';
+import { normalizeStringLength } from '../utils/convert';
+import { CharacterPageParser } from '../parsers/character.parser';
+import { CharacterListParser } from '../parsers/character-list.parser';
 import { CHARACTER_LIST_URL } from '../config';
-import { fetchPage } from './scraper';
+import { fetchPage } from '../utils/scraper';
+import wait from '../utils/wait';
 
 // Types
 import { Character } from '../models/characters';
@@ -10,7 +12,7 @@ import { Character } from '../models/characters';
 /**
  * Service for managing character data.
  */
-export class CharacterService {
+export class CharactersService {
   /**
    * Fetches character data for all characters.
    *
@@ -20,17 +22,30 @@ export class CharacterService {
     const characterUrls = await this._getCharacterList();
 
     const characterPromises = [];
+    let last = 0;
 
     // for (let i = 0; i < 2; i += 1) {
     for (let i = 0; i < characterUrls.length; i += 1) {
       const url = characterUrls[i];
+
+      const percent = Math.floor((i / characterUrls.length) * 10);
+      if (percent > last) {
+        last = percent;
+        console.log(`${normalizeStringLength(`${percent * 10}%`, 4)} | Fetching Characters`);
+      }
+
+      await wait(500);
 
       // Fetch each character's data
       // characterPromises.push(this._getCharacter('https://fieldsofmistria.wiki.gg/wiki/Adeline'));
       characterPromises.push(this._getCharacter(url));
     }
 
-    return Promise.all(characterPromises);
+    const result = await Promise.all(characterPromises);
+
+    console.log(`100% | Done Fetching Characters`);
+
+    return result;
   }
 
   /**

@@ -1,9 +1,12 @@
+// Types
+import { Item } from '../models/items';
+
 /**
  * ItemService class to manage items and their links.
  * This class provides methods to queue items and keep track of their links.
  * It is designed to be used in a data reader context.
  */
-export class ItemService {
+export class ItemsService {
   /**
    * Static property to keep track of what items have been processed.
    */
@@ -13,6 +16,15 @@ export class ItemService {
    * Static property to keep track of item links.
    */
   static _links: Record<string, string> = {};
+
+  /**
+   * Fetches character data for all characters.
+   *
+   * @returns {Promise<Character[]>} A promise that resolves to an array of Character objects.
+   */
+  async fetch(): Promise<Item[]> {
+    return [];
+  }
 
   /**
    * Static method to queue an item for processing.

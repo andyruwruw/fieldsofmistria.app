@@ -8,27 +8,45 @@ import {
   ContextMenu,
   ContextMenuTrigger,
 } from '../ui/context-menu';
+import type {
+	JSXElementConstructor,
+	ReactElement,
+} from 'react';
 import { combineNames } from '../../lib/utils';
-import type { JSXElementConstructor, ReactElement } from 'react';
+
+// Types
+import type { Character } from '../../types/characters';
 
 /**
  * Props for the CharacterCard component.
  */
 interface CharacterCardProps {
+	/**
+	 * The character to display.
+	 */
 	character: Character;
-}
 
-const classes = [
-	'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950 hover:bg-neutral-100 dark:hover:bg-neutral-800',
-	'border-green-900 bg-green-500/20 hover:bg-green-500/30 dark:bg-green-500/10 hover:dark:bg-green-500/20',
-];
+	/**
+	 * Optional function to set the open state of the character sheet.
+	 */
+	setIsOpen?: (open: boolean) => void;
+
+	/**
+	 * Optional function to set the character.
+	 */
+	setCharacter?: (character: Character) => void;
+}
 
 /**
  * CharacterCard component that displays a character's information.
- * @param param0 - The props for the component.
+ * @param props The props for the component.
  * @returns The rendered component.
  */
-export const CharacterCard = ({ character }: CharacterCardProps) => {
+export const CharacterCard = ({
+	character,
+	setIsOpen,
+	setCharacter,
+}: CharacterCardProps) => {
   const hearts = Math.floor(0 / 250);
 
   const getHearts = (count: number) => {
@@ -55,9 +73,14 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
   return (
     <ContextMenu>
       <ContextMenuTrigger asChild>
-				<button className='flex select-none items-center space-x-3 overflow-x-clip rounded-lg border px-5 py-4 text-left text-neutral-950 shadow-sm transition-colors hover:cursor-pointer dark:text-neutral-50'>
+				<button
+					className='flex select-none items-center space-x-3 overflow-x-clip rounded-lg border px-5 py-4 text-left text-neutral-950 shadow-sm transition-colors hover:cursor-pointer dark:text-neutral-50'
+					onClick={() => {
+						setCharacter?.(character);
+						setIsOpen?.(true);
+					}}>
 					<img
-            src={character.image}
+            src={character['icon-image']}
             alt={character.name}
             className='h-12 w-12 object-cover object-top' />
 

@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc --build",
     "start": "nodemon --config nodemon.json src/index.ts",
-    "clean": "rimraf ./dist && rimraf src/minecraft/libraries && rimraf src/minecraft/logs && rimraf src/minecraft/versions && rimraf src/minecraft/world && rimraf src/minecraft/banned-ips.json && rimraf src/minecraft/banned-players.json && rimraf src/minecraft/eula.txt && rimraf src/minecraft/ops.json && rimraf src/minecraft/server.properties && rimraf src/minecraft/usercache.json && rimraf src/minecraft/whitelist.json",
+    "clean": "rimraf ./dist && rimraf export/*",
     "test": "jest --colors --no-stdin",
     "test:verbose": "jest --verbose --colors",
     "lint": "eslint . --ext .ts",
@@ -35,6 +35,10 @@
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0"
   }
 }

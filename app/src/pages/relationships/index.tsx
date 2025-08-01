@@ -4,16 +4,21 @@ import {
   useState,
   type ReactElement,
 } from 'react';
-import { combineNames } from '../../lib/utils';
 
 // Data
 import characterData from '../../data/characters.json';
 import { CharacterCard } from '../../components/cards/character-card';
 
+// Types
+import type { Character } from '../../types/characters';
+import { CharacterSheet } from '../../components/sheets/character-sheet';
+
 /**
  * Relationships page component.
  */
 export default function Relationships(): ReactElement {
+  const characters = characterData as unknown as Record<string, Character>;
+
   const [
     search,
     setSearch,
@@ -22,15 +27,23 @@ export default function Relationships(): ReactElement {
     sort,
     setSort,
   ] = useState('name');
+  const [
+    open,
+    setIsOpen,
+  ] = useState(false);
+  const [
+    character,
+    setCharacter,
+  ] = useState<Character>(characters['celine']);
 
   const [
     characterList,
     setCharacterList,
-  ] = useState(Object.values(characterData) as Character[]);
+  ] = useState(Object.values(characters) as Character[]);
 
   useEffect(() => {
     // Fetch characters data if needed
-    const characters = Object.values(characterData) as Character[];
+    const characters = Object.values(characterData as unknown as Record<string, Character>) as Character[];
 
     setCharacterList(characters);
   }, [ search ]);
@@ -57,10 +70,17 @@ export default function Relationships(): ReactElement {
           {characterList.map((character) => (
             <CharacterCard
               key={character.id}
-              character={character} />
+              character={character}
+              setIsOpen={setIsOpen}
+              setCharacter={setCharacter} />
           ))}
         </div>
       </section>
+
+      <CharacterSheet
+        open={open}
+        setIsOpen={setIsOpen}
+        character={character} />
     </div>
   );
 }

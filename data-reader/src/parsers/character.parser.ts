@@ -1,4 +1,7 @@
 // Local Imports
+import { CharacterGiftParser } from './character-gifts.parser';
+import { CharacterListParser } from './character-list.parser';
+import { fetchPage } from '../utils/scraper';
 import { BASE_URL } from '../config';
 import { Parser } from './parser';
 
@@ -8,8 +11,6 @@ import {
   CharacterRelation,
   CharacterRelationType,
 } from '../models/characters';
-import { fetchPage } from '../services/scraper';
-import { CharacterGiftParser } from './character-gift-parser';
 
 /**
  * Parses a character page to extract character information.
@@ -47,6 +48,8 @@ export class CharacterPageParser extends Parser<Character> {
 
     const giftData = await giftParser.parse();
 
+    const icon = CharacterListParser.getIcon(name.toLowerCase().replace(/\s+/g, '-')) || '';
+
     // Implement the parsing logic to extract character information from the data
     return {
       id: name.toLowerCase().replace(/\s+/g, '-'),
@@ -61,6 +64,8 @@ export class CharacterPageParser extends Parser<Character> {
       dateable: await this._isDateable(name),
       relationships: await this._getRelationships(),
       'small-icon-image': await this._getSmallIcon(name),
+      'icon-image': icon,
+      href: this._url,
       ...(await this._getImageUrls()),
       ...giftData,
     } as unknown as Character;
@@ -72,8 +77,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the character's name.
    */
   async _getName(): Promise<string> {
-    const nameElement = this._page('span.mw-page-title-main');
-    return nameElement.text().trim();
+    return this._getText('span.mw-page-title-main') || 'Unknown Character';
   }
 
   /**
@@ -82,8 +86,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the character's occupation.
    */
   async _getOccupation(): Promise<string> {
-    const occupationElement = this._page('div.druid-data-occupation');
-    return occupationElement.text().trim() || 'Unknown';
+    return this._getText('div.druid-data-occupation') || 'Unknown';
   }
 
   /**
@@ -92,8 +95,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the character's marital status.
    */
   async _getMaritalStatus(): Promise<string> {
-    const maritalStatusElement = this._page('div.druid-data-marital');
-    return maritalStatusElement.text().trim() || 'Unknown';
+    return this._getText('div.druid-data-marital') || 'Unknown';
   }
 
   /**
@@ -101,26 +103,24 @@ export class CharacterPageParser extends Parser<Character> {
    *
    * @returns {Promise<string>} A promise that resolves to the character's birthday season.
    */
-  async _getBirthdaySeason(): Promise<string> {
-    const birthdaySeasonElement = this._page('div.druid-data-birthDate');
-    
-    const birthday = birthdaySeasonElement.text().trim();
+  async _getBirthdaySeason(): Promise<string> {  
+    const birthday = this._getText('div.druid-data-birthDate') || '';
 
     if (!birthday) {
       return 'Unknown';
     }
 
     if (birthday.includes('Spring')) {
-      return 'Spring';
+      return 'spring';
     } else if (birthday.includes('Summer')) {
-      return 'Summer';
+      return 'summer';
     } else if (birthday.includes('Fall')) {
-      return 'Fall';
+      return 'fall';
     } else if (birthday.includes('Winter')) {
-      return 'Winter';
+      return 'winter';
     }
 
-    return 'Unknown';
+    return 'unknown';
   }
 
   /**
@@ -129,19 +129,24 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<number>} A promise that resolves to the character's birthday day.
    */
   async _getBirthdayDay(): Promise<number> {
-    const birthdaySeasonElement = this._page('div.druid-data-birthDate');
-    
-    const birthday = birthdaySeasonElement.text().trim();
-    const NUMBER_REGEX = /(\d+)/;
+    const birthday = this._getText('div.druid-data-birthDate') || '';
 
+    if (!birthday) {
+      return -1; // Default to -1 if no birthday is found
+    }
+
+    const NUMBER_REGEX = /(\d+)/;
     const match = birthday.match(NUMBER_REGEX);
     const dayText = match ? match[0] : '';
 
     if (!dayText) {
-      return 1; // Default to 1 if no day is found
+      return -1; // Default to 1 if no day is found
     }
 
-    return parseInt(dayText, 10) || 1; // Default to 1 if parsing fails
+    return parseInt(
+      dayText,
+      10,
+    ) || -1; // Default to 1 if parsing fails
   }
 
   /**
@@ -150,8 +155,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the character's species.
    */
   async _getSpecies(): Promise<string> {
-    const speciesElement = this._page('div.druid-data-species');
-    return speciesElement.text().trim() || 'Unknown';
+    return this._getText('div.druid-data-species') || 'Unknown';
   }
 
   /**
@@ -160,8 +164,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the
    */
   async _getGender(): Promise<string> {
-    const genderElement = this._page('div.druid-data-gender');
-    return genderElement.text().trim() || 'Unknown';
+    return this._getText('div.druid-data-gender') || 'Unknown';
   }
 
   /**
@@ -170,8 +173,7 @@ export class CharacterPageParser extends Parser<Character> {
    * @returns {Promise<string>} A promise that resolves to the character's eye color.
    */
   async _getEyeColor(): Promise<string> {
-    const eyeColorElement = this._page('div.druid-data-eyes');
-    return eyeColorElement.text().trim() || 'Unknown';
+    return this._getText('div.druid-data-eyes') || 'Unknown';
   }
 
   /**
@@ -186,7 +188,6 @@ export class CharacterPageParser extends Parser<Character> {
       'beach-image': '',
       'fall-image': '',
       'winter-image': '',
-      'icon-image': '',
     };
 
     const mainElement = this._page('div.druid-main-image a img');
@@ -369,41 +370,4 @@ export class CharacterPageParser extends Parser<Character> {
 
     return relationships;
   }
-
-  // async _getLovedGifts(): Promise<string[]> {
-  //   const lovedGifts: string[] = [];
-
-  //   return lovedGifts;
-  // }
-
-  // async _getLikedGifts(): Promise<string[]> {
-  //   const likedGifts: string[] = [];
-
-  //   return likedGifts;
-  // }
-
-  // async _getDislikedGifts(): Promise<string[]> {
-  //   const dislikedGifts: string[] = [];
-
-  //   return dislikedGifts;
-  // }
-
-
-  // async _getHatedGifts(): Promise<string[]> {
-  //   const hatedGifts: string[] = [];
-
-  //   return hatedGifts;
-  // }
-
-  // async _getQuests(): Promise<string[]> {
-  //   const quests: string[] = [];
-
-  //   return quests;
-  // }
-
-  // async _getRequests(): Promise<string[]> {
-  //   const requests: string[] = [];
-
-  //   return requests;
-  // }
 }
