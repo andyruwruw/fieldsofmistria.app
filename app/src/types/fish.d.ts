@@ -5,12 +5,12 @@ import { Weather } from './weather';
 /**
  * Places where fish can be found.
  */
-export type FishLocation = 'River' | 'Ocean' | 'Pond';
+export type FishLocation = 'River' | 'Ocean' | 'Pond' | 'Any';
 
 /**
  * Sizes of fish.
  */
-export type FishSize = 'Small' | 'Medium' | 'Large' | 'Giant';
+export type FishSize = 'Small' | 'Medium' | 'Large' | 'Giant' | 'Any';
 
 /**
  * Represents a fish in the game.

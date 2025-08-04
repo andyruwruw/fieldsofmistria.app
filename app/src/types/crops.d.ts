@@ -1,7 +1,7 @@
 /**
  * Types of produce in the game.
  */
-export type CropType = 'Crop' | 'Fruit' | 'Forageable';
+export type CropType = 'crop' | 'fruit' | 'forageable';
 
 /**
  * Called crop, but used to represent crops, fruits and forageables.

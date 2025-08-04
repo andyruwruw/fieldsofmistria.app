@@ -1,0 +1,1529 @@
+{
+  "apple": {
+    "name": "Apple",
+    "id": "apple",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7d/Apple.png?bfa8b3",
+    "description": "The delicious fruit of the apple tree, which fruits in fall. A popular ingredient in cooking recipes.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/8/88/Apple_sapling.png/24px-Apple_sapling.png?276c61",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Apple"
+  },
+  "basil": {
+    "name": "Basil",
+    "id": "basil",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6e/Basil.png?674fff",
+    "description": "A popular herb grown in summer. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/7/79/Basil_seed.png/24px-Basil_seed.png?117342",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Basil"
+  },
+  "beet": {
+    "id": "beet",
+    "name": "Beet",
+    "description": "A fast growing winter crop. Has a strong earthy flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 4,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "winter"
+    ],
+    "type": "crop",
+    "sell": 40,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a4/Beet.png?906797",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/8/8d/Beet_seed.png?617b85",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Beet"
+  },
+  "blue-conch-shell": {
+    "name": "Blue Conch Shell",
+    "id": "blue-conch-shell",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/Blue_conch_shell.png?d3b10b",
+    "description": "A common blue conch shell.",
+    "locations": [
+      "the-beach"
+    ],
+    "sell": 20,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Conch_Shell"
+  },
+  "broccoli": {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "description": "A fall crop. Crunchy with a mild, grassy flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 75,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f1/Broccoli.png?30b67c",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/a/a3/Broccoli_seed.png?783d50",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Broccoli"
+  },
+  "burdock-root": {
+    "name": "Burdock Root",
+    "id": "burdock-root",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/56/Burdock_root.png?9584e1",
+    "description": "A wild plant foraged in winter. Has a nutty, earthy flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "mistria",
+      "the-eastern-road",
+      "the-narrows",
+      "(north)"
+    ],
+    "health": 8,
+    "stamina": 8,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/5/5b/Burdock_root_seed.png/24px-Burdock_root_seed.png?23ae8b",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Burdock_Root"
+  },
+  "cabbage": {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "description": "A slow growing spring crop. Crunchy with a mild taste, this leafy vegetable can be used in a variety of cooking recipes.",
+    "growth-time": 9,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 180,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Cabbage.png?e2dbdf",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/0/0f/Cabbage_seed.png?849a98",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cabbage"
+  },
+  "carrot": {
+    "id": "carrot",
+    "name": "Carrot",
+    "description": "A spring crop. Crunchy when raw, they become soft and sweet when cooked.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 80,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c3/Carrot.png?63a338",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/5/59/Carrot_seed.png?15d57b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Carrot"
+  },
+  "catmint": {
+    "name": "Catmint",
+    "id": "catmint",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2c/Catmint.png?53d4c7",
+    "description": "A cute purple flower grown in the summer. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "the-narrows"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/9/9e/Catmint_seed.png/24px-Catmint_seed.png?19aef4",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Catmint"
+  },
+  "cattail-fluff": {
+    "name": "Cattail Fluff",
+    "id": "cattail-fluff",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3d/Cattail_fluff.png?c8cbe8",
+    "description": "Fluff extracted from the pod of a cattail plant. Used in crafting recipes.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "sell": 5,
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cattail_Fluff"
+  },
+  "cauliflower": {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "description": "A winter crop. Has a subtle nutty flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "winter"
+    ],
+    "type": "crop",
+    "sell": 75,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/aa/Cauliflower.png?84a1b0",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/c/cc/Cauliflower_seed.png?86e568",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower"
+  },
+  "celosia": {
+    "id": "celosia",
+    "name": "Celosia",
+    "description": "A fast growing pink fall flower. Can be used in crafting recipes.",
+    "growth-time": 4,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 25,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/74/Celosia.png?5d3ec5",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/0/05/Celosia_seed.png?499026",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Celosia"
+  },
+  "cherry": {
+    "name": "Cherry",
+    "id": "cherry",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/20/Cherry.png?d6e773",
+    "description": "The small red fruit of the cherry tree, which fruits in spring. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/5/5d/Cherry_sapling.png/24px-Cherry_sapling.png?9d52e5",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cherry"
+  },
+  "chestnut": {
+    "name": "Chestnut",
+    "id": "chestnut",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/47/Chestnut.png?33615d",
+    "description": "A common nut foraged in fall. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-beach",
+      "sweetwater-farm",
+      "the-narrows"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 15,
+    "seasons": [
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chestnut"
+  },
+  "chickpea": {
+    "name": "Chickpea",
+    "id": "chickpea",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/02/Chickpea.png?63a6fc",
+    "description": "A wild vegetable grown in spring. Commonly used as an ingredient in cooking recipes.",
+    "locations": [
+      "sweetwater-farm",
+      "the-narrows",
+      "the-eastern-road"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/0/08/Chickpea_seed.png/24px-Chickpea_seed.png?162043",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chickpea"
+  },
+  "chili-pepper": {
+    "id": "chili-pepper",
+    "name": "Chili Pepper",
+    "description": "A spicy summer crop and popular seasoning. Used to add a kick to many cooking recipes.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 75,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/60/Chili_pepper.png?ebfc25",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/e/ec/Chili_pepper_seed.png?5d79ed",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chili_Pepper"
+  },
+  "chrysanthemum": {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "description": "A popular dark red fall flower. Can be used in crafting recipes.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 30,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7f/Chrysanthemum.png?4b937b",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/e/ec/Chrysanthemum_seed.png?fe13a3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chrysanthemum"
+  },
+  "coconut": {
+    "name": "Coconut",
+    "id": "coconut",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2f/Coconut.png?f5a286",
+    "description": "The versatile fruit of the coconut tree, which fruits in summer. A useful ingredient in cooking recipes.",
+    "locations": [
+      "the-beach"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 30,
+    "seasons": [
+      "summer"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Coconut"
+  },
+  "corn": {
+    "id": "corn",
+    "name": "Corn",
+    "description": "A popular summer crop and staple food. Used as a key ingredient in many cooking recipes.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 125,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f8/Corn.png?a10db5",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/9/90/Corn_seed.png?a67732",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Corn"
+  },
+  "cosmos": {
+    "name": "Cosmos",
+    "id": "cosmos",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/64/Cosmos.png?7ba0dd",
+    "description": "A deep red flower grown in the summer. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/5/5d/Cosmos_seed.png/24px-Cosmos_seed.png?c20720",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cosmos"
+  },
+  "cranberry": {
+    "id": "cranberry",
+    "name": "Cranberry",
+    "description": "A fall crop that regrows. Has a tart, fruity flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 125,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Cranberry.png?5b732c",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/4/4d/Cranberry_seed.png?b500b4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cranberry"
+  },
+  "crocus": {
+    "name": "Crocus",
+    "id": "crocus",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2f/Crocus.png?9fba3c",
+    "description": "A fetching light purple flower foraged in winter. Can be used in crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "sweetwater-farm",
+      "the-beach"
+    ],
+    "sell": 10,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crocus"
+  },
+  "cucumber": {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "description": "A popular summer crop. Delicious when eaten fresh or pickled.",
+    "growth-time": 4,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 40,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/59/Cucumber.png?ac8b1c",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/4/4c/Cucumber_seed.png?b62677",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cucumber"
+  },
+  "daffodil": {
+    "name": "Daffodil",
+    "id": "daffodil",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4b/Daffodil.png?b4d6bb",
+    "description": "A lovely yellow flower that grows in the spring. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "sweetwater-farm",
+      "the-narrows"
+    ],
+    "sell": 25,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/5/56/Daffodil_seed.png/24px-Daffodil_seed.png?1058b3",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 4,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Daffodil"
+  },
+  "daikon-radish": {
+    "id": "daikon-radish",
+    "name": "Daikon Radish",
+    "description": "A slow growing winter crop. Has a subtly sweet, peppery flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 9,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "winter"
+    ],
+    "type": "crop",
+    "sell": 180,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0e/Daikon_radish.png?8c7a76",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/a/a9/Daikon_radish_seed.png?bf3463",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Daikon_Radish"
+  },
+  "daisy": {
+    "name": "Daisy",
+    "id": "daisy",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c1/Daisy.png?d28c8a",
+    "description": "A pretty white flower grown in the summer. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "sweetwater-farm",
+      "the-narrows",
+      "the-western-ruins",
+      "the-eastern-road"
+    ],
+    "sell": 15,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/c/cb/Daisy_seed.png/24px-Daisy_seed.png?3b5f4c",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 4,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Daisy"
+  },
+  "dandelion": {
+    "name": "Dandelion",
+    "id": "dandelion",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b1/Dandelion.png?3ae3df",
+    "description": "A wild flower that grows in the spring. Sometimes used in cooking recipes.",
+    "locations": [
+      "mistria",
+      "the-narrows",
+      "sweetwater-farm"
+    ],
+    "sell": 10,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dandelion"
+  },
+  "dill": {
+    "name": "Dill",
+    "id": "dill",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Dill.png?e3933e",
+    "description": "A popular herb grown in summer. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-narrows",
+      "the-beach",
+      "the-western-ruins"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/9/95/Dill_seed.png/24px-Dill_seed.png?f089d7",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dill"
+  },
+  "fennel": {
+    "name": "Fennel",
+    "id": "fennel",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f7/Fennel.png?15d44c",
+    "description": "A wild herb foraged in spring with a mild licorice flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-narrows",
+      "the-eastern-road"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 20,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fennel"
+  },
+  "fiddlehead": {
+    "name": "Fiddlehead",
+    "id": "fiddlehead",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/75/Fiddlehead.png?593e0f",
+    "description": "A wild plant foraged in spring with a sweet grassy flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-narrows",
+      "sweetwater-farm"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 25,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fiddlehead"
+  },
+  "fog-orchid": {
+    "name": "Fog Orchid",
+    "id": "fog-orchid",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/23/Fog_orchid.png?bf2bd7",
+    "description": "A haunting white flower foraged in fall. Can be given as a gift or used in crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "the-western-ruins"
+    ],
+    "sell": 40,
+    "seasons": [
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fog_Orchid"
+  },
+  "frost-lily": {
+    "name": "Frost Lily",
+    "id": "frost-lily",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Frost_lily.png?366ced",
+    "description": "An enchanting fast growing winter flower. Can be used in crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "the-beach",
+      "the-narrows"
+    ],
+    "sell": 25,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/a/a1/Frost_lily_seed.png/24px-Frost_lily_seed.png?656054",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 4,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Frost_Lily"
+  },
+  "garlic": {
+    "name": "Garlic",
+    "id": "garlic",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Garlic.png?6941c1",
+    "description": "A fall crop that regrows. Has a strong taste and odor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-eastern-road",
+      "(in-the-ruins)"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/1/1f/Garlic_seed.png/24px-Garlic_seed.png?ebe635",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
+  },
+  "heather": {
+    "name": "Heather",
+    "id": "heather",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/46/Heather.png?d6b9bd",
+    "description": "A charming pink flower foraged in fall. Can be used in crafting recipes.",
+    "locations": [
+      "mistria",
+      "the-beach",
+      "the-narrows"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/d/d0/Heather_seed.png/24px-Heather_seed.png?e8d15f",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 9,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Heather"
+  },
+  "holly": {
+    "name": "Holly",
+    "id": "holly",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b8/Holly.png?3b62e8",
+    "description": "A wild plant foraged in winter. Can be used in crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "sweetwater-farm"
+    ],
+    "sell": 20,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Holly"
+  },
+  "horseradish": {
+    "name": "Horseradish",
+    "id": "horseradish",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7b/Horseradish.png?72ccb7",
+    "description": "A wild plant foraged in fall. Has a spicy, pungent flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm",
+      "the-eastern-road",
+      "the-beach"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 30,
+    "seasons": [
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Horseradish"
+  },
+  "ice-block": {
+    "name": "Ice Block",
+    "id": "ice-block",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9f/Ice_block.png?a54da9",
+    "description": "A foraged block of pure ice. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm",
+      "the-eastern-road",
+      "the-narrows",
+      "the-western-ruins"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 5,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Block"
+  },
+  "iris": {
+    "name": "Iris",
+    "id": "iris",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5c/Iris.png?561ee9",
+    "description": "A lovely blue flower grown in the summer. Makes a good gift.",
+    "locations": [
+      "the-beach",
+      "the-narrows",
+      "sweetwater-farm"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/a/a4/Iris_seed.png/24px-Iris_seed.png?ed917f",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Iris"
+  },
+  "jasmine": {
+    "name": "Jasmine",
+    "id": "jasmine",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c1/Jasmine.png?db70cd",
+    "description": "A delightful white flower foraged in winter. Can be used in crafting and cooking recipes.",
+    "locations": [
+      "sweetwater-farm",
+      "the-eastern-road"
+    ],
+    "sell": 35,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/c/c5/Jasmine_seed.png/24px-Jasmine_seed.png?6233d3",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 9,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
+  },
+  "lemon": {
+    "name": "Lemon",
+    "id": "lemon",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/35/Lemon.png?2a68b2",
+    "description": "The tart and citrusy fruit of the lemon tree, which fruits in spring. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-narrows"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/b/b4/Lemon_sapling.png/24px-Lemon_sapling.png?e30788",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lemon"
+  },
+  "lilac": {
+    "name": "Lilac",
+    "id": "lilac",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5f/Lilac.png?ec8693",
+    "description": "A wild purple flower that grows in the spring. Can be sold, gifted, or used in certain crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "sweetwater-farm"
+    ],
+    "sell": 35,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/60/Lilac_seed.png/24px-Lilac_seed.png?18a44c",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 9,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lilac"
+  },
+  "marigold": {
+    "name": "Marigold",
+    "id": "marigold",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3c/Marigold.png?f49872",
+    "description": "A vibrant orange flower grown in the summer. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "the-western-ruins",
+      "the-deep-woods"
+    ],
+    "sell": 40,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/0/0f/Marigold_seed.png/24px-Marigold_seed.png?3a7b1c",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 9,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Marigold"
+  },
+  "middlemist": {
+    "name": "Middlemist",
+    "id": "middlemist",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2e/Middlemist.png?d196f4",
+    "description": "A rare and beautiful red flower grown in spring. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "no-set-spawn-area,-rarely-spawn-anywhere-in-the-overworld."
+    ],
+    "sell": 100,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Middlemist"
+  },
+  "moon-fruit": {
+    "name": "Moon Fruit",
+    "id": "moon-fruit",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/63/Moon_fruit.png?9abfb3",
+    "description": "A fall crop that regrows. Has a sweet flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-eastern-road",
+      ",-near-the",
+      "wishing-well",
+      "sweetwater-farm",
+      "the-beach"
+    ],
+    "health": 8,
+    "stamina": 8,
+    "sell": 35,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/3/34/Moon_fruit_seed.png/24px-Moon_fruit_seed.png?f625e4",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit"
+  },
+  "morel-mushroom": {
+    "name": "Morel Mushroom",
+    "id": "morel-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4a/Morel_mushroom.png?9b20c9",
+    "description": "A rare mushroom foraged in spring. Has a delightful nutty flavor and is commonly used as a cooking ingredient.",
+    "locations": [
+      "no-set-spawn-area,-rarely-spawn-anywhere-in-the-overworld."
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 25,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Morel_Mushroom"
+  },
+  "nettle": {
+    "name": "Nettle",
+    "id": "nettle",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/40/Nettle.png?36b1cf",
+    "description": "A wild plant foraged in spring with an earthy taste similar to spinach. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 25,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Nettle"
+  },
+  "night-queen": {
+    "name": "Night Queen",
+    "id": "night-queen",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2d/Night_queen.png?616cd3",
+    "description": "A beautiful flower that grows in summer. Makes a nice gift.",
+    "locations": [
+      "no-set-spawn-area,-rarely-spawn-anywhere-in-the-overworld."
+    ],
+    "sell": 40,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/b/be/Night_queen_seed.png/24px-Night_queen_seed.png?17c9b0",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Night_Queen"
+  },
+  "onion": {
+    "id": "onion",
+    "name": "Onion",
+    "description": "A fall crop that regrows. Pungent, with a strong, sharp flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 135,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/51/Onion.png?472749",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/3/32/Onion_seed.png?576465",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Onion"
+  },
+  "orange": {
+    "name": "Orange",
+    "id": "orange",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/43/Orange.png?bc3277",
+    "description": "The citrusy fruit of the orange tree, which fruits in fall. A popular ingredient in cooking recipes.",
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/f/fd/Orange_sapling.png/24px-Orange_sapling.png?865ccc",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Orange"
+  },
+  "oregano": {
+    "name": "Oregano",
+    "id": "oregano",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e3/Oregano.png?d0936d",
+    "description": "A popular herb grown in summer. Commonly used as a cooking ingredient.",
+    "locations": [
+      "mistria"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/9/93/Oregano_seed.png/24px-Oregano_seed.png?9631f8",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Oregano"
+  },
+  "oyster-mushroom": {
+    "name": "Oyster Mushroom",
+    "id": "oyster-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/42/Oyster_mushroom.png?25c214",
+    "description": "A wild mushroom foraged in winter. Has an earthy flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-eastern-road",
+      "mistria",
+      "the-beach"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 25,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Oyster_Mushroom"
+  },
+  "peach": {
+    "name": "Peach",
+    "id": "peach",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e2/Peach.png?7a168e",
+    "description": "The delicate and sweet fruit of the peach tree, which fruits in summer. Used in various cooking recipes.",
+    "locations": [
+      "the-narrows"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/67/Peach_sapling.png/24px-Peach_sapling.png?5df370",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Peach"
+  },
+  "pear": {
+    "name": "Pear",
+    "id": "pear",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Pear.png?bf0bb3",
+    "description": "The sweet and juicy fruit of the pear tree, which fruits in summer. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/8/88/Pear_sapling.png/24px-Pear_sapling.png?cdcb45",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pear"
+  },
+  "peas": {
+    "id": "peas",
+    "name": "Peas",
+    "description": "A spring crop that regrows. They have an earthy flavor.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 135,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e8/Peas.png?ae8607",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/e/e0/Pea_seed.png?a984d0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Peas"
+  },
+  "pineshroom": {
+    "name": "Pineshroom",
+    "id": "pineshroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/38/Pineshroom.png?91d8b6",
+    "description": "A wild mushroom foraged in winter. It's sweet with a hint of vanilla flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 25,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom"
+  },
+  "pink-scallop-shell": {
+    "name": "Pink Scallop Shell",
+    "id": "pink-scallop-shell",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/86/Pink_scallop_shell.png?a7eaaf",
+    "description": "A common shell found on the beach.",
+    "locations": [
+      "the-beach"
+    ],
+    "sell": 20,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Scallop_Shell"
+  },
+  "poinsettia": {
+    "name": "Poinsettia",
+    "id": "poinsettia",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Poinsettia.png?b8136d",
+    "description": "A lovely red winter flower. Can be used in crafting recipes.",
+    "locations": [
+      "the-beach",
+      "the-narrows",
+      "sweetwater-farm"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/c/ca/Poinsettia_seed.png/24px-Poinsettia_seed.png?4c56db",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Poinsettia"
+  },
+  "pomegranate": {
+    "name": "Pomegranate",
+    "id": "pomegranate",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/1b/Pomegranate.png?ba69ad",
+    "description": "The seed-filled fruit of the pomegranate tree, which fruits in winter. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-narrows"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 45,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/63/Pomegranate_sapling.png/24px-Pomegranate_sapling.png?600367",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 14,
+    "regrow-time": 3,
+    "type": "fruit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate"
+  },
+  "potato": {
+    "id": "potato",
+    "name": "Potato",
+    "description": "A popular spring crop and staple food. Especially delicious when freshly baked or fried until crispy.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 75,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c2/Potato.png?e58bd2",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/e/e5/Potato_seed.png?710e48",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Potato"
+  },
+  "pumpkin": {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "description": "A slow growing fall crop. Has an earthy, slightly sweet taste. Commonly used as a cooking and crafting ingredient.",
+    "growth-time": 9,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 180,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/64/Pumpkin.png?20d1e4",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/e/e9/Pumpkin_seed.png?23c909",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin"
+  },
+  "rice-stalk": {
+    "id": "rice-stalk",
+    "name": "Rice Stalk",
+    "description": "A fall crop that regrows. Can be refined into rice, which is used in many recipes.",
+    "growth-time": 9,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 150,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Rice_stalk.png?635522",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/c/c5/Rice_seed.png?ce1d72",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rice_Stalk"
+  },
+  "rosemary": {
+    "name": "Rosemary",
+    "id": "rosemary",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/Rosemary.png?880ad8",
+    "description": "A fragrant herb grown in fall. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/62/Rosemary_seed.png/24px-Rosemary_seed.png?fbecf0",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rosemary"
+  },
+  "sage": {
+    "name": "Sage",
+    "id": "sage",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f8/Sage.png?5ab90b",
+    "description": "A popular herb grown in summer. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-narrows",
+      "the-beach"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/f/f6/Sage_seed.png/24px-Sage_seed.png?a684e4",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 6,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sage"
+  },
+  "sand-dollar": {
+    "name": "Sand Dollar",
+    "id": "sand-dollar",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3e/Sand_dollar.png?ad35b5",
+    "description": "A common shell found on the beach.",
+    "locations": [
+      "the-beach"
+    ],
+    "sell": 25,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sand_Dollar"
+  },
+  "sesame": {
+    "name": "Sesame",
+    "id": "sesame",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/07/Sesame.png?63348e",
+    "description": "A wild plant foraged in summer with a mild, nutty flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seasons": [
+      "summer"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sesame"
+  },
+  "snapdragon": {
+    "name": "Snapdragon",
+    "id": "snapdragon",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/23/Snapdragon.png?38edc9",
+    "description": "A darling pink flower foraged in winter. Can be used in crafting recipes.",
+    "locations": [
+      "the-western-ruins"
+    ],
+    "sell": 40,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/b/b1/Snapdragon_seed.png/24px-Snapdragon_seed.png?c1ded0",
+    "seasons": [
+      "winter"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snapdragon"
+  },
+  "snow-peas": {
+    "id": "snow-peas",
+    "name": "Snow Peas",
+    "description": "A winter crop that regrows. Has a very sweet flavor. Commonly used as a cooking ingredient.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "winter"
+    ],
+    "type": "crop",
+    "sell": 125,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/ff/Snow_peas.png?19b20f",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/f/ff/Snow_pea_seed.png?e1c73c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snow_Peas"
+  },
+  "snowdrop-anemone": {
+    "name": "Snowdrop Anemone",
+    "id": "snowdrop-anemone",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d4/Snowdrop_anemone.png?59b990",
+    "description": "A rare and beautiful flower that grows in spring. Can be sold, gifted, or used in certain crafting recipes.",
+    "locations": [
+      "the-western-ruins",
+      "the-beach",
+      "(requires",
+      "story-quest",
+      "\"repair-the-beach-bridge\"",
+      "to-be-completed)"
+    ],
+    "sell": 40,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/7/76/Snowdrop_anemone_seed.png/24px-Snowdrop_anemone_seed.png?2c42f8",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snowdrop_Anemone"
+  },
+  "spirit-mushroom": {
+    "name": "Spirit Mushroom",
+    "id": "spirit-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/80/Spirit_mushroom.png?d86b94",
+    "description": "A wild mushroom foraged in all seasons. It only seems to grow deep in the woods. Sometimes used in cooking recipes.",
+    "locations": [
+      "the-deep-woods"
+    ],
+    "health": 10,
+    "stamina": 10,
+    "sell": 35,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom"
+  },
+  "spirula-shell": {
+    "name": "Spirula Shell",
+    "id": "spirula-shell",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/27/Spirula_shell.png?47ab7e",
+    "description": "A common shell found on the beach.",
+    "locations": [
+      "the-beach"
+    ],
+    "sell": 30,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Spirula_Shell"
+  },
+  "strawberry": {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "description": "A spring fruit crop. Sweet and flavorful, these berries are frequently used in dessert recipes.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 125,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6d/Strawberry.png?936558",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/5/58/Strawberry_seed.png?8cddd1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Strawberry"
+  },
+  "sugar-cane": {
+    "id": "sugar-cane",
+    "name": "Sugar Cane",
+    "description": "A popular summer crop. Can be refined into sugar, which is used in many recipes.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 80,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e8/Sugar_cane.png?6166d2",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/d/d2/Sugar_cane_seed.png?9b4b5b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sugar_Cane"
+  },
+  "sunflower": {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "description": "A cheerful yellow flower that grows in the summer. Can be used in cooking or crafting recipes.",
+    "growth-time": 6,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 30,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/81/Sunflower.png?533e2d",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/3/3a/Sunflower_seed.png?501da5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sunflower"
+  },
+  "sweet-potato": {
+    "id": "sweet-potato",
+    "name": "Sweet Potato",
+    "description": "A fast growing fall crop. True to its name, it has a sweet flavor when cooked.",
+    "growth-time": 4,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 40,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/27/Sweet_potato.png?78b4e5",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/2/2c/Sweet_potato_seed.png?c9dae2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato"
+  },
+  "tea": {
+    "id": "tea",
+    "name": "Tea",
+    "description": "A summer crop that regrows. Can be steeped to make refreshing beverages.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 135,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/59/Tea.png?892509",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/1/1a/Tea_seed.png?b1f536",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tea"
+  },
+  "temple-flower": {
+    "name": "Temple Flower",
+    "id": "temple-flower",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Temple_flower.png?49b73e",
+    "description": "A wild flower foraged in all seasons. For some reason, it can only be found growing in the wild around Caldarus' Temple.",
+    "locations": [
+      "the-deep-woods"
+    ],
+    "sell": 25,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/e/e9/Temple_flower_seed.png/24px-Temple_flower_seed.png?a81266",
+    "seasons": [],
+    "growth-time": 9,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Temple_Flower"
+  },
+  "thorn-vine": {
+    "name": "Thorn Vine",
+    "id": "thorn-vine",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Thorn_vine.png?ae370a",
+    "description": "A wild plant foraged in all seasons. In addition to being extremely tough, this thorny vine grows very quickly.",
+    "locations": [
+      "the-deep-woods"
+    ],
+    "sell": 25,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Thorn_Vine"
+  },
+  "thyme": {
+    "name": "Thyme",
+    "id": "thyme",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Thyme.png?72249f",
+    "description": "A popular herb grown in summer. Commonly used as a cooking ingredient.",
+    "locations": [
+      "sweetwater-farm"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/5/55/Thyme_seed.png/24px-Thyme_seed.png?ef4ae3",
+    "seasons": [
+      "summer"
+    ],
+    "growth-time": 5,
+    "regrow-time": 3,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
+  },
+  "tomato": {
+    "id": "tomato",
+    "name": "Tomato",
+    "description": "An essential summer crop. Used as an ingredient in many cooking recipes.",
+    "growth-time": 5,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 125,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9d/Tomato.png?a3f9b3",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/6/6b/Tomato_seed.png?721462",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tomato"
+  },
+  "tulip": {
+    "name": "Tulip",
+    "id": "tulip",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cf/Tulip.png?134974",
+    "description": "A pretty pink flower grown in the spring. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "the-eastern-road",
+      "the-narrows",
+      "sweetwater-farm"
+    ],
+    "sell": 30,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/e/e6/Tulip_seed.png/24px-Tulip_seed.png?a4a9e8",
+    "seasons": [
+      "spring"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tulip"
+  },
+  "turnip": {
+    "id": "turnip",
+    "name": "Turnip",
+    "description": "A fast growing spring crop. Has a spicy taste when raw, and a sweet taste when cooked.",
+    "growth-time": 4,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "spring"
+    ],
+    "type": "crop",
+    "sell": 40,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b7/Turnip.png?e82d93",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/8/8c/Turnip_seed.png?8f99d3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Turnip"
+  },
+  "viola": {
+    "name": "Viola",
+    "id": "viola",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Viola.png?961d0a",
+    "description": "A cute yellow and purple flower foraged in fall. Can be used in crafting recipes.",
+    "locations": [
+      "the-eastern-road"
+    ],
+    "sell": 40,
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/thumb/c/c2/Viola_seed.png/24px-Viola_seed.png?c5b2d0",
+    "seasons": [
+      "fall"
+    ],
+    "growth-time": 6,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Viola"
+  },
+  "walnut": {
+    "name": "Walnut",
+    "id": "walnut",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Walnut.png?5d08dc",
+    "description": "A wild nut foraged in all seasons. Very nutritious, with an earthy flavor. Sometimes used in cooking recipes.",
+    "locations": [
+      "the-deep-woods"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 25,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Walnut"
+  },
+  "water-chestnut": {
+    "name": "Water Chestnut",
+    "id": "water-chestnut",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3b/Water_chestnut.png?701a08",
+    "description": "An invasive species brought to Mistria from wider Aldaria. Used as an ingredient in cooking recipes.",
+    "locations": [
+      "the-narrows",
+      "(along-the-water's-edge-near",
+      "errol's-cabin",
+      ")"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 5,
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut"
+  },
+  "watermelon": {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "description": "A classic summer crop. Super refreshing on a hot summer day.",
+    "growth-time": 9,
+    "regrow-time": 0,
+    "locations": [],
+    "seasons": [
+      "summer"
+    ],
+    "type": "crop",
+    "sell": 180,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/06/Watermelon.png?467527",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/2/23/Watermelon_seed.png?9c48f2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Watermelon"
+  },
+  "wheat": {
+    "id": "wheat",
+    "name": "Wheat",
+    "description": "A popular fall crop that regrows. Can be refined into flour, which is used in many recipes.",
+    "growth-time": 9,
+    "regrow-time": 3,
+    "locations": [],
+    "seasons": [
+      "fall"
+    ],
+    "type": "crop",
+    "sell": 150,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e2/Wheat.png?eb2ea5",
+    "seed-image": "https://fieldsofmistria.wiki.gg/images/1/10/Wheat_seed.png?ea933b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wheat"
+  },
+  "wild-leek": {
+    "name": "Wild Leek",
+    "id": "wild-leek",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Wild_leek.png?25b8df",
+    "description": "A wild plant foraged in spring with a pleasant taste similar to garlic. Commonly used as a cooking ingredient.",
+    "locations": [
+      "mistria",
+      "the-narrows",
+      "the-eastern-road"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 15,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Leek"
+  }
+}

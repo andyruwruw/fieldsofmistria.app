@@ -1,0 +1,2468 @@
+[
+  {
+    "id": "alligator-gar",
+    "name": "Alligator Gar",
+    "description": "A rare giant pond fish found in winter.",
+    "sell": 100,
+    "location": "pond",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/79/Alligator_gar.png?a242f3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alligator_Gar"
+  },
+  {
+    "id": "angel-fish",
+    "name": "Angel Fish",
+    "description": "A common small pond fish found in spring.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/07/Angel_fish.png?886558",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Angel_Fish"
+  },
+  {
+    "id": "archerfish",
+    "name": "Archerfish",
+    "description": "An uncommon small Tide Caverns fish. It squirts a stream of water to catch bugs.",
+    "sell": 45,
+    "location": "the-tide-caverns",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Archerfish.png?fb93c8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Archerfish"
+  },
+  {
+    "id": "armored-bass",
+    "name": "Armored Bass",
+    "description": "A common medium Lava Caves fish. This bass species has adapted to grow incredibly thick and metallic looking scales.",
+    "sell": 65,
+    "location": "the-lava-caves",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/83/Armored_bass.png?9bf00a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Armored_Bass"
+  },
+  {
+    "id": "barb",
+    "name": "Barb",
+    "description": "A common small pond fish found in spring.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4d/Barb.png?ffb943",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Barb"
+  },
+  {
+    "id": "bluefish",
+    "name": "Bluefish",
+    "description": "A common large pond fish found on rainy days in fall.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/88/Bluefish.png?afe965",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bluefish"
+  },
+  {
+    "id": "bluegill",
+    "name": "Bluegill",
+    "description": "A common small river fish found in spring.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a2/Bluegill.png?6d9af2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bluegill"
+  },
+  {
+    "id": "bonito",
+    "name": "Bonito",
+    "description": "A common medium ocean fish found in summer and winter.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8a/Bonito.png?b7c16a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bonito"
+  },
+  {
+    "id": "bowfish",
+    "name": "Bowfish",
+    "description": "A common large river fish found in winter.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f0/Bowfish.png?84632c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bowfish"
+  },
+  {
+    "id": "bream",
+    "name": "Bream",
+    "description": "A common large river fish found in summer.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/82/Bream.png?c86586",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bream"
+  },
+  {
+    "id": "brown-bullhead",
+    "name": "Brown Bullhead",
+    "description": "A common medium pond fish found in summer.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d5/Brown_bullhead.png?4d49a6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Brown_Bullhead"
+  },
+  {
+    "id": "brown-trout",
+    "name": "Brown Trout",
+    "description": "A common large pond fish found in spring.",
+    "sell": 50,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ac/Brown_trout.png?5f10ef",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Brown_Trout"
+  },
+  {
+    "id": "burbot",
+    "name": "Burbot",
+    "description": "A common large pond fish found on snowy days in winter.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/62/Burbot.png?705113",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Burbot"
+  },
+  {
+    "id": "butterfish",
+    "name": "Butterfish",
+    "description": "A common small ocean fish found in fall.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a5/Butterfish.png?9fa23c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Butterfish"
+  },
+  {
+    "id": "candelabra-seadragon",
+    "name": "Candelabra Seadragon",
+    "description": "An uncommon small Lava Caves fish. This seadragon has a number of thin protrusions that make it look like its namesake.",
+    "sell": 60,
+    "location": "the-lava-caves",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f1/Candelabra_seadragon.png?e0aba6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Candelabra_Seadragon"
+  },
+  {
+    "id": "carp",
+    "name": "Carp",
+    "description": "A common medium river fish found in spring.",
+    "sell": 35,
+    "location": "river",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Carp.png?b92e45",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Carp"
+  },
+  {
+    "id": "catfish",
+    "name": "Catfish",
+    "description": "An uncommon medium pond fish found in all seasons.",
+    "sell": 80,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/99/Catfish.png?861f9d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Catfish"
+  },
+  {
+    "id": "cave-eel",
+    "name": "Cave Eel",
+    "description": "An uncommon medium Upper Mines fish. They build nests out of stone.",
+    "sell": 50,
+    "location": "the-upper-mines",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Cave_eel.png?1e1f2e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cave_Eel"
+  },
+  {
+    "id": "cave-shark",
+    "name": "Cave Shark",
+    "description": "A rare large Upper Mines fish. How did they end up in the Mines?!",
+    "sell": 80,
+    "location": "the-upper-mines",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a0/Cave_shark.png?675b8b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shark"
+  },
+  {
+    "id": "cave-shrimp",
+    "name": "Cave Shrimp",
+    "description": "A common small Upper Mines crustacean. Its translucent body gives it a distinct appearance.",
+    "sell": 35,
+    "location": "the-upper-mines",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/27/Cave_shrimp.png?6bec9b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cave_Shrimp"
+  },
+  {
+    "id": "char",
+    "name": "Char",
+    "description": "A common large ocean fish found in summer.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d2/Char.png?bbb00e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Char"
+  },
+  {
+    "id": "cherry-fish",
+    "name": "Cherry Fish",
+    "description": "A legendary small pond fish found on breezy cherry blossom days in spring.",
+    "sell": 500,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Wind"
+    ],
+    "rarity": "Legendary",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/73/Cherry_fish.png?9d7f67",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Fish"
+  },
+  {
+    "id": "chub",
+    "name": "Chub",
+    "description": "A common small river fish found in Spring.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bd/Chub.png?4e3655",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chub"
+  },
+  {
+    "id": "chum",
+    "name": "Chum",
+    "description": "An uncommon large river fish found in summer and winter.",
+    "sell": 75,
+    "location": "river",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/29/Chum.png?6c543e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chum"
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "description": "A common small ocean crustacean found in summer.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/63/Crab.png?41626c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crab"
+  },
+  {
+    "id": "crucian-carp",
+    "name": "Crucian Carp",
+    "description": "A common medium pond fish found in spring.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/67/Crucian_carp.png?17a1b3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crucian_Carp"
+  },
+  {
+    "id": "dace",
+    "name": "Dace",
+    "description": "A common small river fish found on snowy days in winter.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/23/Dace.png?f79178",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dace"
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "description": "A common small ocean fish found in summer.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/29/Dart.png?85ff96",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dart"
+  },
+  {
+    "id": "earth-eel",
+    "name": "Earth Eel",
+    "description": "A common medium Deep Earth fish. Doesn't seem to have a mouth, so who knows what it eats.",
+    "sell": 45,
+    "location": "the-deep-earth",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4a/Earth_eel.png?f5214e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Earth_Eel"
+  },
+  {
+    "id": "emerald-horned-charger",
+    "name": "Emerald Horned Charger",
+    "description": "A rare large Deep Earth fish. This large fish is nearly all horn, which seems to be made of pure emerald.",
+    "sell": 125,
+    "location": "the-deep-earth",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/20/Emerald_horned_charger.png?9a2e5a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Emerald_Horned_Charger"
+  },
+  {
+    "id": "firesail-fish",
+    "name": "Firesail Fish",
+    "description": "A rare large Lava Caves fish found in lava. Its physiology is a complete mystery.",
+    "sell": 130,
+    "location": "the-lava-caves",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fa/Firesail_fish.png?e7e4d7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Firesail_Fish"
+  },
+  {
+    "id": "flathead-catfish",
+    "name": "Flathead Catfish",
+    "description": "A common medium pond fish found in winter.",
+    "sell": 80,
+    "location": "pond",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d9/Flathead_catfish.png?584edd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Flathead_Catfish"
+  },
+  {
+    "id": "forest-perch",
+    "name": "Forest Perch",
+    "description": "A common medium Deep Woods fish found on rainy or snowy days in all seasons.",
+    "sell": 50,
+    "location": "the-deep-woods",
+    "seasons": [],
+    "weather": [
+      "Rain",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7e/Forest_perch.png?33565a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Forest_Perch"
+  },
+  {
+    "id": "freshwater-eel",
+    "name": "Freshwater Eel",
+    "description": "A common medium river fish found in winter.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/46/Freshwater_eel.png?f95ede",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Eel"
+  },
+  {
+    "id": "gar",
+    "name": "Gar",
+    "description": "A common large river fish found in summer and winter.",
+    "sell": 35,
+    "location": "river",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c6/Gar.png?250fa0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Gar"
+  },
+  {
+    "id": "giant-koi",
+    "name": "Giant Koi",
+    "description": "A rare giant pond fish found in summer.",
+    "sell": 90,
+    "location": "pond",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/45/Giant_koi.png?9998df",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Giant_Koi"
+  },
+  {
+    "id": "giant-tilapia",
+    "name": "Giant Tilapia",
+    "description": "An uncommon giant pond fish found in winter.",
+    "sell": 80,
+    "location": "pond",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Giant_tilapia.png?763e81",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Giant_Tilapia"
+  },
+  {
+    "id": "goby",
+    "name": "Goby",
+    "description": "An uncommon medium river fish found in all seasons.",
+    "sell": 70,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/67/Goby.png?f189a7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Goby"
+  },
+  {
+    "id": "golden-shiner",
+    "name": "Golden Shiner",
+    "description": "A common small pond fish found in summer.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/23/Golden_shiner.png?44a060",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Shiner"
+  },
+  {
+    "id": "goldfish",
+    "name": "Goldfish",
+    "description": "A rare small pond fish found in spring.",
+    "sell": 120,
+    "location": "pond",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/02/Goldfish.png?b8d069",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Goldfish"
+  },
+  {
+    "id": "grayling",
+    "name": "Grayling",
+    "description": "A common small river fish found on rainy days in fall.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/11/Grayling.png?1aea51",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Grayling"
+  },
+  {
+    "id": "grouper",
+    "name": "Grouper",
+    "description": "A rare giant ocean fish found in summer.",
+    "sell": 90,
+    "location": "ocean",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c4/Grouper.png?6f7ec3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Grouper"
+  },
+  {
+    "id": "halibut",
+    "name": "Halibut",
+    "description": "A common large ocean fish found on rainy days in fall.",
+    "sell": 50,
+    "location": "ocean",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/02/Halibut.png?dc05e0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Halibut"
+  },
+  {
+    "id": "herring",
+    "name": "Herring",
+    "description": "A common small river fish found in winter.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f1/Herring.png?b6912c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Herring"
+  },
+  {
+    "id": "horse-mackerel",
+    "name": "Horse Mackerel",
+    "description": "A common small ocean fish found in winter.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ed/Horse_mackerel.png?8a02e1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Mackerel"
+  },
+  {
+    "id": "jellyfish",
+    "name": "Jellyfish",
+    "description": "An uncommon medium ocean invertebrate found in spring and fall.",
+    "sell": 80,
+    "location": "ocean",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/22/Jellyfish.png?dc12ab",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Jellyfish"
+  },
+  {
+    "id": "killifish",
+    "name": "Killifish",
+    "description": "A common small pond fish found in fall.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/10/Killifish.png?5bba81",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Killifish"
+  },
+  {
+    "id": "king-crab",
+    "name": "King Crab",
+    "description": "A common large ocean crustacean found on snowy days in winter.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/King_crab.png?9f77db",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/King_Crab"
+  },
+  {
+    "id": "koi",
+    "name": "Koi",
+    "description": "A common medium pond fish found in all seasons.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/66/Koi.png?307e89",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Koi"
+  },
+  {
+    "id": "lake-chub",
+    "name": "Lake Chub",
+    "description": "A common small pond fish found in summer.",
+    "sell": 35,
+    "location": "pond",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/46/Lake_chub.png?b716ae",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lake_Chub"
+  },
+  {
+    "id": "lake-trout",
+    "name": "Lake Trout",
+    "description": "A common large Deep Woods fish found in all seasons.",
+    "sell": 45,
+    "location": "the-deep-woods",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/3/35/Lake_trout.png?e7547a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lake_Trout"
+  },
+  {
+    "id": "lamprey",
+    "name": "Lamprey",
+    "description": "A common small river fish found in fall.",
+    "sell": 70,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2c/Lamprey.png?669f01",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lamprey"
+  },
+  {
+    "id": "lava-piranha",
+    "name": "Lava Piranha",
+    "description": "A common small Lava Caves fish. This fish couldn't be more alarming in both its appearance and its behavior.",
+    "sell": 50,
+    "location": "the-lava-caves",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fa/Lava_piranha.png?e6cf9d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Piranha"
+  },
+  {
+    "id": "leaf-fish",
+    "name": "Leaf Fish",
+    "description": "A legendary small river fish found on breezy falling leaf days in fall.",
+    "sell": 500,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Wind"
+    ],
+    "rarity": "Legendary",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/04/Leaf_fish.png?eec7e4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Leaf_Fish"
+  },
+  {
+    "id": "lightning-fish",
+    "name": "Lightning Fish",
+    "description": "A legendary medium river fish found on stormy days in summer.",
+    "sell": 500,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Storm",
+      "Thunderstorm"
+    ],
+    "rarity": "Legendary",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b4/Lightning_fish.png?cc0b25",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Fish"
+  },
+  {
+    "id": "loach",
+    "name": "Loach",
+    "description": "A common small river fish found in summer.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/44/Loach.png?a220bc",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Loach"
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "description": "A common medium ocean crustacean found in spring.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9f/Lobster.png?10760c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lobster"
+  },
+  {
+    "id": "mackerel",
+    "name": "Mackerel",
+    "description": "A common large ocean fish found on rainy days in spring.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7e/Mackerel.png?545d28",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mackerel"
+  },
+  {
+    "id": "mini-whale-shark",
+    "name": "Mini-Whale Shark",
+    "description": "A rare large Tide Caverns fish. Despite its name, it is still very large.",
+    "sell": 100,
+    "location": "the-tide-caverns",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/66/Mini_whale_shark.png?ab9822",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mini-Whale_Shark"
+  },
+  {
+    "id": "minnow",
+    "name": "Minnow",
+    "description": "A common small river fish found in summer.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8e/Minnow.png?d0bc7d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Minnow"
+  },
+  {
+    "id": "mullet",
+    "name": "Mullet",
+    "description": "A common medium ocean fish found in fall.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a4/Mullet.png?e8c2ef",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mullet"
+  },
+  {
+    "id": "muskie",
+    "name": "Muskie",
+    "description": "An uncommon large Deep Woods fish found in all seasons.",
+    "sell": 90,
+    "location": "the-deep-woods",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6f/Muskie.png?feb8c0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Muskie"
+  },
+  {
+    "id": "oarfish",
+    "name": "Oarfish",
+    "description": "A rare giant ocean fish found in winter.",
+    "sell": 100,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6b/Oarfish.png?a04b9d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Oarfish"
+  },
+  {
+    "id": "ocean-sunfish",
+    "name": "Ocean Sunfish",
+    "description": "A rare giant ocean fish found in spring.",
+    "sell": 80,
+    "location": "ocean",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/65/Ocean_sunfish.png?dffd55",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ocean_Sunfish"
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "description": "An uncommon large ocean cephalopod found in summer and winter.",
+    "sell": 70,
+    "location": "ocean",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5a/Octopus.png?e61be4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Octopus"
+  },
+  {
+    "id": "paddlefish",
+    "name": "Paddlefish",
+    "description": "A rare giant river fish found in spring.",
+    "sell": 90,
+    "location": "river",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/1d/Paddlefish.png?c9a465",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Paddlefish"
+  },
+  {
+    "id": "pebble-minnow",
+    "name": "Pebble Minnow",
+    "description": "A common small Deep Earth fish. The scales of these fish have taken on a pebbled texture to help it blend into its surroundings.",
+    "sell": 45,
+    "location": "the-deep-earth",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f2/Pebble_minnow.png?9be875",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pebble_Minnow"
+  },
+  {
+    "id": "perch",
+    "name": "Perch",
+    "description": "A common large river fish found on rainy days in fall.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/43/Perch.png?5c3d64",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perch"
+  },
+  {
+    "id": "puffer-fish",
+    "name": "Puffer Fish",
+    "description": "An uncommon medium ocean fish found in summer and winter.",
+    "sell": 90,
+    "location": "ocean",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/df/Puffer_fish.png?8ea6a1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Puffer_Fish"
+  },
+  {
+    "id": "rainbow-trout",
+    "name": "Rainbow Trout",
+    "description": "A common medium pond fish found in fall.",
+    "sell": 35,
+    "location": "pond",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b5/Rainbow_trout.png?40cdc7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rainbow_Trout"
+  },
+  {
+    "id": "razorback",
+    "name": "Razorback",
+    "description": "A rare medium river fish found in fall.",
+    "sell": 160,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm"
+    ],
+    "rarity": "Rare",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0d/Razorback.png?5bf178",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Razorback"
+  },
+  {
+    "id": "red-snapper",
+    "name": "Red Snapper",
+    "description": "A common large ocean fish found in spring and fall.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a1/Red_snapper.png?db8b53",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper"
+  },
+  {
+    "id": "roach",
+    "name": "Roach",
+    "description": "A common medium pond fish found in all seasons.",
+    "sell": 35,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/62/Roach.png?a00c68",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Roach"
+  },
+  {
+    "id": "rock-guppy",
+    "name": "Rock Guppy",
+    "description": "An uncommon small Upper Mines fish. Very similar to a regular guppy.",
+    "sell": 40,
+    "location": "the-upper-mines",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/12/Rock_guppy.png?9bf633",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Guppy"
+  },
+  {
+    "id": "rockbiter",
+    "name": "Rockbiter",
+    "description": "An uncommon medium Deep Earth fish. This fish has an over-developed jaw to help it grind down stone.",
+    "sell": 55,
+    "location": "the-deep-earth",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Rockbiter.png?3034db",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rockbiter"
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "description": "A common large river fish found in spring and fall.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e0/Salmon.png?3e68f5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Salmon"
+  },
+  {
+    "id": "sand-lance",
+    "name": "Sand Lance",
+    "description": "A common small ocean fish found in winter.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fc/Sand_lance.png?1ad58d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sand_Lance"
+  },
+  {
+    "id": "sapphire-betta",
+    "name": "Sapphire Betta",
+    "description": "A common small Tide Caverns fish. It has a lovely color.",
+    "sell": 40,
+    "location": "the-tide-caverns",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/83/Sapphire_betta.png?e19b66",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sapphire_Betta"
+  },
+  {
+    "id": "sauger",
+    "name": "Sauger",
+    "description": "A common large pond fish found in summer.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bf/Sauger.png?7e15ed",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sauger"
+  },
+  {
+    "id": "saury",
+    "name": "Saury",
+    "description": "A common large ocean fish found in fall.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9a/Saury.png?31b0af",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Saury"
+  },
+  {
+    "id": "sea-bass",
+    "name": "Sea Bass",
+    "description": "A common medium ocean fish found in winter.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f9/Sea_bass.png?105de5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bass"
+  },
+  {
+    "id": "sea-bream",
+    "name": "Sea Bream",
+    "description": "A common medium ocean fish found in spring and fall.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/10/Sea_bream.png?1efcec",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream"
+  },
+  {
+    "id": "shad",
+    "name": "Shad",
+    "description": "A common medium river fish found in fall.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Shad.png?6b6bec",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shad"
+  },
+  {
+    "id": "shadow-bass",
+    "name": "Shadow Bass",
+    "description": "A rare medium river fish found in winter.",
+    "sell": 140,
+    "location": "river",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4d/Shadow_bass.png?a3e96c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Bass"
+  },
+  {
+    "id": "shardfin",
+    "name": "Shardfin",
+    "description": "An uncommon small Deep Earth fish. This fish's sleek fin has an iridescent shimmer.",
+    "sell": 55,
+    "location": "the-deep-earth",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bb/Shardfin.png?730c00",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shardfin"
+  },
+  {
+    "id": "shark",
+    "name": "Shark",
+    "description": "A rare giant ocean fish found in fall.",
+    "sell": 100,
+    "location": "ocean",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/14/Shark.png?ab33e3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shark"
+  },
+  {
+    "id": "shrimp",
+    "name": "Shrimp",
+    "description": "A common small ocean crustacean found in spring.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/91/Shrimp.png?7c398b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shrimp"
+  },
+  {
+    "id": "silver-redhorse",
+    "name": "Silver Redhorse",
+    "description": "An uncommon medium Deep Woods fish found in all seasons.",
+    "sell": 80,
+    "location": "the-deep-woods",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dc/Silver_redhorse.png?1e972b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Redhorse"
+  },
+  {
+    "id": "snakehead",
+    "name": "Snakehead",
+    "description": "An uncommon large pond fish found in spring and fall.",
+    "sell": 60,
+    "location": "pond",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e9/Snakehead.png?5c6c0d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snakehead"
+  },
+  {
+    "id": "snapping-turtle",
+    "name": "Snapping Turtle",
+    "description": "A common large pond reptile found in summer and winter.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7b/Snapping_turtle.png?d11bb0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snapping_Turtle"
+  },
+  {
+    "id": "snow-fish",
+    "name": "Snow Fish",
+    "description": "A legendary medium ocean fish found on blizzard days in winter.",
+    "sell": 500,
+    "location": "ocean",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Blizzard"
+    ],
+    "rarity": "Legendary",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c5/Snow_fish.png?7ca2e8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snow_Fish"
+  },
+  {
+    "id": "squid",
+    "name": "Squid",
+    "description": "A common medium ocean cephalopod found in all seasons.",
+    "sell": 30,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/81/Squid.png?ec62eb",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Squid"
+  },
+  {
+    "id": "stingray",
+    "name": "Stingray",
+    "description": "A common medium ocean fish found in summer.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Stingray.png?c8c162",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stingray"
+  },
+  {
+    "id": "stone-loach",
+    "name": "Stone Loach",
+    "description": "A common medium Upper Mines fish. They easily blend in with the surrounding rocks.",
+    "sell": 35,
+    "location": "the-upper-mines",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/98/Stone_loach.png?ae7ef9",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Loach"
+  },
+  {
+    "id": "striped-bass",
+    "name": "Striped Bass",
+    "description": "A common large pond fish found in fall.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dc/Striped_bass.png?5b9414",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Striped_Bass"
+  },
+  {
+    "id": "sturgeon",
+    "name": "Sturgeon",
+    "description": "An uncommon large river fish found in spring and fall.",
+    "sell": 80,
+    "location": "river",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/42/Sturgeon.png?6a7465",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sturgeon"
+  },
+  {
+    "id": "sulfur-crab",
+    "name": "Sulfur Crab",
+    "description": "An uncommon medium Lava Caves crustacean. This crab is encased in a thick yellow coating of sulfur on its shell.",
+    "sell": 60,
+    "location": "the-lava-caves",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b8/Sulfur_crab.png?346f01",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sulfur_Crab"
+  },
+  {
+    "id": "sunny",
+    "name": "Sunny",
+    "description": "A common small Deep Woods fish found on rainy or snowy days in all seasons.",
+    "sell": 45,
+    "location": "the-deep-woods",
+    "seasons": [],
+    "weather": [
+      "Rain",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9a/Sunny.png?7487f8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sunny"
+  },
+  {
+    "id": "sweetfish",
+    "name": "Sweetfish",
+    "description": "A common medium river fish found in summer.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ed/Sweetfish.png?8e1d2b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sweetfish"
+  },
+  {
+    "id": "swordfish",
+    "name": "Swordfish",
+    "description": "An uncommon large ocean fish found in spring and fall.",
+    "sell": 80,
+    "location": "ocean",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f7/Swordfish.png?5b67fe",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Swordfish"
+  },
+  {
+    "id": "tarpon",
+    "name": "Tarpon",
+    "description": "A rare giant river fish found in summer.",
+    "sell": 100,
+    "location": "river",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Giant",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/ce/Tarpon.png?beb0cb",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tarpon"
+  },
+  {
+    "id": "tetra",
+    "name": "Tetra",
+    "description": "A common small pond fish found in all seasons.",
+    "sell": 40,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/13/Tetra.png?ad233a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tetra"
+  },
+  {
+    "id": "tilapia",
+    "name": "Tilapia",
+    "description": "A common small pond fish found in winter.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/73/Tilapia.png?ce3a62",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tilapia"
+  },
+  {
+    "id": "transparent-jellyfish",
+    "name": "Transparent Jellyfish",
+    "description": "A common medium Tide Caverns invertebrate. It evolved in darkness, resulting in an unusual transparent appearance.",
+    "sell": 40,
+    "location": "the-tide-caverns",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8c/Transparent_jellyfish.png?38e216",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Transparent_Jellyfish"
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna",
+    "description": "A common large ocean fish found in all seasons.",
+    "sell": 40,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c5/Tuna.png?4da9d7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tuna"
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "description": "A common large pond reptile found in all seasons.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e9/Turtle.png?d869d6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Turtle"
+  },
+  {
+    "id": "walleye",
+    "name": "Walleye",
+    "description": "A common large river fish found on rainy days in spring.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Walleye.png?69f1ab",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Walleye"
+  },
+  {
+    "id": "water-balloon-fish",
+    "name": "Water Balloon Fish",
+    "description": "An uncommon medium Tide Caverns fish. It takes in an impressive amount of water to discourage predators.",
+    "sell": 50,
+    "location": "the-tide-caverns",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/98/Water_balloon_fish.png?a848e7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Balloon_Fish"
+  },
+  {
+    "id": "white-perch",
+    "name": "White Perch",
+    "description": "A rare medium pond fish found in fall.",
+    "sell": 120,
+    "location": "pond",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": false,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c4/White_perch.png?ebbaea",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/White_Perch"
+  },
+  {
+    "id": "anchovy",
+    "name": "Anchovy",
+    "description": "A common small ocean fish found in spring.",
+    "sell": 35,
+    "location": "ocean",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/79/Anchovy.png?e85bbe",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Anchovy"
+  },
+  {
+    "id": "bullfrog",
+    "name": "Bullfrog",
+    "description": "A common small pond catch found on rainy and snowy days in summer and winter.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Rainy",
+      "Rain",
+      "Storm",
+      "Thunderstorm",
+      "Snow",
+      "Blizzard"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/da/Bullfrog.png?306a12",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bullfrog"
+  },
+  {
+    "id": "clam",
+    "name": "Clam",
+    "description": "A common find found in all seasons.",
+    "sell": 20,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ed/Clam.png?ffa4c1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Clam"
+  },
+  {
+    "id": "cod",
+    "name": "Cod",
+    "description": "A common large ocean fish found in summer and winter.",
+    "sell": 45,
+    "location": "ocean",
+    "seasons": [
+      "summer",
+      "winter"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/41/Cod.png?920f7f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cod"
+  },
+  {
+    "id": "crayfish",
+    "name": "Crayfish",
+    "description": "A common river crustacean found in all seasons.",
+    "sell": 25,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/53/Crayfish.png?a8bd80",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crayfish"
+  },
+  {
+    "id": "freshwater-oyster",
+    "name": "Freshwater Oyster",
+    "description": "A common river mussel, found in all seasons.",
+    "sell": 25,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e2/Freshwater_oyster.png?b3d949",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Freshwater_Oyster"
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "description": "A common small pond amphibian found in spring and fall.",
+    "sell": 35,
+    "location": "pond",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e6/Frog.png?a21748",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Frog"
+  },
+  {
+    "id": "newt",
+    "name": "Newt",
+    "description": "A common amphibian found in all seasons.",
+    "sell": 45,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/77/Newt.png?84ada0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Newt"
+  },
+  {
+    "id": "paper-pondshell",
+    "name": "Paper Pondshell",
+    "description": "A common pond mussel, found in all seasons.",
+    "sell": 20,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2f/Paper_pondshell.png?58e662",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Paper_Pondshell"
+  },
+  {
+    "id": "pearl-clam",
+    "name": "Pearl Clam",
+    "description": "A common ocean mollusk, found in all seasons.",
+    "sell": 25,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b7/Pearl_clam.png?9ff5b4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pearl_Clam"
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "description": "A common large river fish found in all seasons.",
+    "sell": 45,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/3/31/Pike.png?6bec5e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pike"
+  },
+  {
+    "id": "pollock",
+    "name": "Pollock",
+    "description": "A common large ocean fish found in all seasons.",
+    "sell": 35,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Large",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/25/Pollock.png?7fa3e4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pollock"
+  },
+  {
+    "id": "pond-snail",
+    "name": "Pond Snail",
+    "description": "A common pond gastropod found in all seasons.",
+    "sell": 25,
+    "location": "pond",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5c/Pond_snail.png?ebf068",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pond_Snail"
+  },
+  {
+    "id": "river-snail",
+    "name": "River Snail",
+    "description": "A common river gastropod found in all seasons.",
+    "sell": 20,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/2/27/River_snail.png?5a5f67",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/River_Snail"
+  },
+  {
+    "id": "rock-bass",
+    "name": "Rock Bass",
+    "description": "A common medium river fish found in spring and fall.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [
+      "spring",
+      "fall"
+    ],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/Rock_bass.png?1d46e0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Bass"
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "description": "A common small ocean fish found in all seasons.",
+    "sell": 35,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/0/04/Sardine.png?efc758",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sardine"
+  },
+  {
+    "id": "seaweed",
+    "name": "Seaweed",
+    "description": "A common plant, grows in all seasons.",
+    "sell": 15,
+    "location": "ocean",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": false,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/1/13/Seaweed.png?85eeef",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Seaweed"
+  },
+  {
+    "id": "smallmouth-bass",
+    "name": "Smallmouth Bass",
+    "description": "A common small river fish found in all seasons.",
+    "sell": 35,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Small",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Smallmouth_bass.png?2535af",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Smallmouth_Bass"
+  },
+  {
+    "id": "trout",
+    "name": "Trout",
+    "description": "A common medium river fish found in all seasons.",
+    "sell": 40,
+    "location": "river",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Medium",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/6/66/Trout.png?eab1e8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Trout"
+  },
+  {
+    "id": "wooden-treasure-box",
+    "name": "Wooden Treasure Box",
+    "description": "A common wooden treasure box. Open it to find out what's inside!",
+    "location": "Any",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Common",
+    "size": "Any",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/4/45/Wooden_chest.png?a9c366",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wooden_Treasure_Box"
+  },
+  {
+    "id": "copper-treasure-box",
+    "name": "Copper Treasure Box",
+    "description": "An uncommon copper treasure box. Open it to find out what's inside!",
+    "location": "Any",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Uncommon",
+    "size": "Any",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b5/Copper_chest.png?e75884",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Treasure_Box"
+  },
+  {
+    "id": "silver-treasure-box",
+    "name": "Silver Treasure Box",
+    "description": "A rare silver treasure box. Open it to find out what's inside!",
+    "location": "Any",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Rare",
+    "size": "Any",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c0/Silver_chest.png?6f4b6d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Treasure_Box"
+  },
+  {
+    "id": "golden-treasure-box",
+    "name": "Golden Treasure Box",
+    "description": "A very rare golden treasure box. Open it to find out what's inside!",
+    "location": "Any",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Very Rare",
+    "size": "Any",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9d/Gold_chest.png?6e3f3e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Treasure_Box"
+  },
+  {
+    "id": "abyssal-chest",
+    "name": "Abyssal Chest",
+    "description": "A chest from the abyss.",
+    "location": "Any",
+    "seasons": [],
+    "weather": [
+      "Any"
+    ],
+    "rarity": "Unknown",
+    "size": "Any",
+    "catchable": true,
+    "diveable": true,
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d1/Abyssal_chest.png?e2f59e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Abyssal_Chest"
+  }
+]

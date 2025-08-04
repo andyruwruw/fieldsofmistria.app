@@ -1,0 +1,1017 @@
+{
+  "wings": [
+    {
+      "id": "archaeology-wing",
+      "name": "Archaeology Wing",
+      "image": "https://fieldsofmistria.wiki.gg/images/thumb/e/e4/Museum_archaeology_wing.png/206px-Museum_archaeology_wing.png?282c68",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Archaeology_Wing"
+    },
+    {
+      "id": "fish-wing",
+      "name": "Fish Wing",
+      "image": "https://fieldsofmistria.wiki.gg/images/thumb/6/6b/Museum_fish_wing.png/206px-Museum_fish_wing.png?9d374b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Fish_Wing"
+    },
+    {
+      "id": "flora-wing",
+      "name": "Flora Wing",
+      "image": "https://fieldsofmistria.wiki.gg/images/thumb/5/56/Museum_flora_wing.png/206px-Museum_flora_wing.png?8bb6cb",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Flora_Wing"
+    },
+    {
+      "id": "insects-wing",
+      "name": "Insects Wing",
+      "image": "https://fieldsofmistria.wiki.gg/images/thumb/2/27/Museum_insects_wing.png/206px-Museum_insects_wing.png?413ee5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Insects_Wing"
+    }
+  ],
+  "sets": {
+    "archaeology-wing": [
+      {
+        "id": "aldarian",
+        "name": "Aldarian",
+        "items": [
+          "aldarian-gauntlet",
+          "aldarian-sword",
+          "aldarian-war-banner",
+          "family-crest-pendant",
+          "lost-crown-of-aldaria"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "caldosian",
+        "name": "Caldosian",
+        "items": [
+          "caldosian-breastplate",
+          "caldosian-drinking-horn",
+          "caldosian-emperor-bust",
+          "caldosian-sword",
+          "statuette-of-caldarus"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "alda",
+        "name": "Alda",
+        "items": [
+          "alda-bronze-sword",
+          "alda-clay-pot",
+          "alda-feather-pendant",
+          "alda-gem-bracelet",
+          "alda-mural-tablet"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "ancient",
+        "name": "Ancient",
+        "items": [
+          "ancient-crystal-goblet",
+          "ancient-gold-coin",
+          "ancient-horn-circlet",
+          "ancient-royal-scepter",
+          "ancient-stone-lantern"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "prehistoric",
+        "name": "Prehistoric",
+        "items": [
+          "amber-trapped-insect",
+          "fossilized-egg",
+          "meteorite",
+          "tiny-dinosaur-skeleton",
+          "trilobite-fossil"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "oopart",
+        "name": "Oopart",
+        "items": [
+          "black-tablet",
+          "completely-wrong-map",
+          "muttering-cube",
+          "unknown-dragon-statuette",
+          "weightless-stone"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "aquatic",
+        "name": "Aquatic",
+        "items": [
+          "coin-lump",
+          "giant-fish-scale",
+          "rubber-fish",
+          "rusted-treasure-chest",
+          "water-sphere"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "sunken",
+        "name": "Sunken",
+        "items": [
+          "criminal-confession",
+          "mermaid's-comb",
+          "rainbow-seaweed",
+          "rock-with-a-hole",
+          "rusted-shield"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "buried",
+        "name": "Buried",
+        "items": [
+          "diamond-backed-mirror",
+          "flint-arrowhead",
+          "obsidian-blade",
+          "shortcut-scroll",
+          "stone-horse"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          "miner's-helmet",
+          "miner's-pickaxe",
+          "miner's-rucksack",
+          "miner's-slab",
+          "tin-lunchbox"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "tide-cavern",
+        "name": "Tide Cavern",
+        "items": [
+          "crab-statue",
+          "dense-water",
+          "starlight-coral",
+          "stone-shell",
+          "tidestone"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          "earth-infused-stone",
+          "faceted-rock-gem",
+          "really-round-rock",
+          "rock-statue",
+          "seriously-square-stone"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          "fire-crystal",
+          "rainbow-geode",
+          "red-obsidian",
+          "tiny-volcano",
+          "warm-rock"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "ritual",
+        "name": "Ritual",
+        "items": [
+          "ritual-beads",
+          "ritual-chalice",
+          "ritual-incense-burner",
+          "ritual-scepter",
+          "ritual-tablet"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "mist",
+        "name": "Mist",
+        "items": [
+          "mist-crystal",
+          "mist-flute",
+          "mist-scroll",
+          "misty-black-mirror",
+          "misty-feather-quill"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "vintage-farm-tools",
+        "name": "Vintage Farm Tools",
+        "items": [
+          "vintage-brush",
+          "vintage-cow-bell",
+          "vintage-hammer",
+          "vintage-sickle",
+          "vintage-watering-can"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "metals-of-mistria",
+        "name": "Metals Of Mistria",
+        "items": [
+          "perfect-copper-ore",
+          "perfect-gold-ore",
+          "perfect-iron-ore",
+          "perfect-mistril-ore",
+          "perfect-silver-ore"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "gems-of-mistria",
+        "name": "Gems Of Mistria",
+        "items": [
+          "perfect-diamond",
+          "perfect-emerald",
+          "perfect-pink-diamond",
+          "perfect-ruby",
+          "perfect-sapphire"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          "crystal-apple",
+          "fossilized-mandrake-root",
+          "gathering-basket",
+          "metal-leaf",
+          "petrified-wood"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "dig-site",
+        "name": "Dig Site",
+        "items": [
+          "clay",
+          "peat",
+          "shard-mass",
+          "shards",
+          "sod"
+        ],
+        "wing": "archaeology-wing",
+        "season": "all",
+        "legendary": false
+      }
+    ],
+    "fish-wing": [
+      {
+        "id": "multi-season",
+        "name": "Multi-Season",
+        "items": [
+          "koi",
+          "pike",
+          "pollock",
+          "smallmouth-bass",
+          "trout"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "spring-river",
+        "name": "Spring River",
+        "items": [
+          "bluegill",
+          "carp",
+          "chub",
+          "paddlefish",
+          "walleye"
+        ],
+        "wing": "fish-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "spring-pond",
+        "name": "Spring Pond",
+        "items": [
+          "angel-fish",
+          "barb",
+          "brown-trout",
+          "crucian-carp",
+          "goldfish"
+        ],
+        "wing": "fish-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "spring-ocean",
+        "name": "Spring Ocean",
+        "items": [
+          "anchovy",
+          "lobster",
+          "mackerel",
+          "ocean-sunfish",
+          "shrimp"
+        ],
+        "wing": "fish-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "summer-river",
+        "name": "Summer River",
+        "items": [
+          "bream",
+          "loach",
+          "minnow",
+          "sweetfish",
+          "tarpon"
+        ],
+        "wing": "fish-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "summer-pond",
+        "name": "Summer Pond",
+        "items": [
+          "brown-bullhead",
+          "giant-koi",
+          "golden-shiner",
+          "lake-chub",
+          "sauger"
+        ],
+        "wing": "fish-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "summer-ocean",
+        "name": "Summer Ocean",
+        "items": [
+          "char",
+          "crab",
+          "dart",
+          "grouper",
+          "stingray"
+        ],
+        "wing": "fish-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "fall-river",
+        "name": "Fall River",
+        "items": [
+          "grayling",
+          "lamprey",
+          "perch",
+          "razorback",
+          "shad"
+        ],
+        "wing": "fish-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "fall-pond",
+        "name": "Fall Pond",
+        "items": [
+          "bluefish",
+          "killifish",
+          "rainbow-trout",
+          "striped-bass",
+          "white-perch"
+        ],
+        "wing": "fish-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "fall-ocean",
+        "name": "Fall Ocean",
+        "items": [
+          "butterfish",
+          "halibut",
+          "mullet",
+          "saury",
+          "shark"
+        ],
+        "wing": "fish-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "winter-river",
+        "name": "Winter River",
+        "items": [
+          "bowfish",
+          "dace",
+          "freshwater-eel",
+          "herring",
+          "shadow-bass"
+        ],
+        "wing": "fish-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "winter-pond",
+        "name": "Winter Pond",
+        "items": [
+          "alligator-gar",
+          "burbot",
+          "flathead-catfish",
+          "giant-tilapia",
+          "tilapia"
+        ],
+        "wing": "fish-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "winter-ocean",
+        "name": "Winter Ocean",
+        "items": [
+          "horse-mackerel",
+          "king-crab",
+          "oarfish",
+          "sand-lance",
+          "sea-bass"
+        ],
+        "wing": "fish-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          "sunny",
+          "forest-perch",
+          "silver-redhorse",
+          "lake-trout",
+          "muskie"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          "cave-eel",
+          "cave-shark",
+          "cave-shrimp",
+          "rock-guppy",
+          "stone-loach"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "tide-caverns",
+        "name": "Tide Caverns",
+        "items": [
+          "archerfish",
+          "mini-whale-shark",
+          "sapphire-betta",
+          "transparent-jellyfish",
+          "water-balloon-fish"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          "earth-eel",
+          "emerald-horned-charger",
+          "pebble-minnow",
+          "rockbiter",
+          "shardfin"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          "lava-piranha",
+          "candelabra-seadragon",
+          "armored-bass",
+          "sulfur-crab",
+          "firesail-fish"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "legendary",
+        "name": "Legendary",
+        "items": [
+          "cherry-fish",
+          "leaf-fish",
+          "lightning-fish",
+          "snow-fish"
+        ],
+        "wing": "fish-wing",
+        "season": "all",
+        "legendary": true
+      }
+    ],
+    "flora-wing": [
+      {
+        "id": "spring-crop",
+        "name": "Spring Crop",
+        "items": [
+          "cabbage",
+          "cherry",
+          "potato",
+          "strawberry",
+          "turnip"
+        ],
+        "wing": "flora-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "spring-flower",
+        "name": "Spring Flower",
+        "items": [
+          "daffodil",
+          "dandelion",
+          "lilac",
+          "snowdrop-anemone",
+          "tulip"
+        ],
+        "wing": "flora-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "spring-forage",
+        "name": "Spring Forage",
+        "items": [
+          "fennel",
+          "fiddlehead",
+          "morel-mushroom",
+          "nettle",
+          "wild-leek"
+        ],
+        "wing": "flora-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "summer-crop",
+        "name": "Summer Crop",
+        "items": [
+          "chili-pepper",
+          "corn",
+          "cucumber",
+          "tomato",
+          "watermelon"
+        ],
+        "wing": "flora-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "summer-flower",
+        "name": "Summer Flower",
+        "items": [
+          "catmint",
+          "cosmos",
+          "daisy",
+          "iris",
+          "marigold"
+        ],
+        "wing": "flora-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "summer-forage",
+        "name": "Summer Forage",
+        "items": [
+          "basil",
+          "dill",
+          "oregano",
+          "sage",
+          "thyme"
+        ],
+        "wing": "flora-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "fall-crop",
+        "name": "Fall Crop",
+        "items": [
+          "apple",
+          "broccoli",
+          "cranberry",
+          "pumpkin",
+          "sweet-potato"
+        ],
+        "wing": "flora-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "fall-flower",
+        "name": "Fall Flower",
+        "items": [
+          "celosia",
+          "chrysanthemum",
+          "fog-orchid",
+          "heather",
+          "viola"
+        ],
+        "wing": "flora-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "fall-forage",
+        "name": "Fall Forage",
+        "items": [
+          "chestnut",
+          "garlic",
+          "horseradish",
+          "moon-fruit",
+          "rosemary"
+        ],
+        "wing": "flora-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "winter-crop",
+        "name": "Winter Crop",
+        "items": [
+          "beet",
+          "cauliflower",
+          "daikon-radish",
+          "pomegranate",
+          "snow-peas"
+        ],
+        "wing": "flora-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "winter-flower",
+        "name": "Winter Flower",
+        "items": [
+          "crocus",
+          "frost-lily",
+          "jasmine",
+          "poinsettia",
+          "snapdragon"
+        ],
+        "wing": "flora-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "winter-forage",
+        "name": "Winter Forage",
+        "items": [
+          "burdock-root",
+          "holly",
+          "oyster-mushroom",
+          "pineshroom",
+          "rose-hip"
+        ],
+        "wing": "flora-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          "thorn-vine",
+          "spirit-mushroom",
+          "temple-flower",
+          "walnut",
+          "bell-berry"
+        ],
+        "wing": "flora-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          "narrows-moss",
+          "red-toadstool",
+          "shadow-flower",
+          "sweetroot",
+          "upper-mines-mushroom"
+        ],
+        "wing": "flora-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "tide-caverns",
+        "name": "Tide Caverns",
+        "items": [
+          "jade-dulse",
+          "mines-mussels",
+          "sea-grapes",
+          "tide-lettuce",
+          "underseaweed"
+        ],
+        "wing": "flora-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          "crystal-berries",
+          "crystal-rose",
+          "earthshroom",
+          "rockroot",
+          "shale-grass"
+        ],
+        "wing": "flora-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          "ash-mushroom",
+          "breath-of-flame",
+          "flame-pepper",
+          "hot-potato",
+          "lava-chestnuts"
+        ],
+        "wing": "flora-wing",
+        "season": "all",
+        "legendary": false
+      }
+    ],
+    "insects-wing": [
+      {
+        "id": "multi-season",
+        "name": "Multi-Season",
+        "items": [
+          "ant",
+          "bumblebee",
+          "fuzzy-moth",
+          "hummingbird-hawk-moth",
+          "praying-mantis"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "spring",
+        "name": "Spring",
+        "items": [
+          "butterfly",
+          "caterpillar",
+          "ladybug",
+          "luna-moth",
+          "roly-poly"
+        ],
+        "wing": "insects-wing",
+        "season": "spring",
+        "legendary": false
+      },
+      {
+        "id": "summer",
+        "name": "Summer",
+        "items": [
+          "cicada",
+          "cricket",
+          "dragonfly",
+          "firefly",
+          "sand-bug"
+        ],
+        "wing": "insects-wing",
+        "season": "summer",
+        "legendary": false
+      },
+      {
+        "id": "fall",
+        "name": "Fall",
+        "items": [
+          "cicada-nymph",
+          "inchworm",
+          "monarch-butterfly",
+          "tiger-swallowtail-butterfly",
+          "walking-leaf"
+        ],
+        "wing": "insects-wing",
+        "season": "fall",
+        "legendary": false
+      },
+      {
+        "id": "winter",
+        "name": "Winter",
+        "items": [
+          "brightbulb-moth",
+          "crystal-caterpillar",
+          "frost-flutter-butterfly",
+          "walking-stick",
+          "winterpillar"
+        ],
+        "wing": "insects-wing",
+        "season": "winter",
+        "legendary": false
+      },
+      {
+        "id": "rare",
+        "name": "Rare",
+        "items": [
+          "jewel-beetle",
+          "lightning-dragonfly",
+          "magma-beetle",
+          "mistmoth",
+          "orchid-mantis"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "legendary",
+        "name": "Legendary",
+        "items": [
+          "fairy-bee",
+          "flower-crown-beetle",
+          "snowball-beetle",
+          "speedy-snail",
+          "strobe-firefly"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": true
+      },
+      {
+        "id": "upper-mines",
+        "name": "Upper Mines",
+        "items": [
+          "copper-nugget-beetle",
+          "lantern-moth",
+          "mine-cricket",
+          "tunnel-millipede",
+          "worm"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "tide-caverns",
+        "name": "Tide Caverns",
+        "items": [
+          "coral-mantis",
+          "hermit-snail",
+          "puddle-spider",
+          "sea-scarab",
+          "waterfly"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-earth",
+        "name": "Deep Earth",
+        "items": [
+          "crystal-wing-moth",
+          "crystalline-cricket",
+          "deep-earthworm",
+          "gem-shard-caterpillar",
+          "rock-roach"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "lava-caves",
+        "name": "Lava Caves",
+        "items": [
+          "fire-wasp",
+          "cooktop-beetle",
+          "lava-snail",
+          "smoke-moth",
+          "diamond-beetle"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "grass",
+        "name": "Grass",
+        "items": [
+          "grasshopper",
+          "icehopper",
+          "leafhopper",
+          "petalhopper",
+          "strawhopper"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "beach",
+        "name": "Beach",
+        "items": [
+          "beach-hopper",
+          "hermit-crab",
+          "relic-crab",
+          "surf-beetle",
+          "waterbug"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      },
+      {
+        "id": "deep-woods",
+        "name": "Deep Woods",
+        "items": [
+          "windleaf-butterfly",
+          "mote-firefly",
+          "loam-caterpillar",
+          "dragon-horn-beetle",
+          "singing-katydid"
+        ],
+        "wing": "insects-wing",
+        "season": "all",
+        "legendary": false
+      }
+    ]
+  }
+}

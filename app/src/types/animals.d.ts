@@ -4,7 +4,7 @@ import { Gender } from './index';
 /**
  * Defines the home locations for animals in the game.
  */
-export type AnimalHome = 'Barn' | 'Coop' | 'Home';
+export type AnimalHome = 'Barn' | 'Coop' | 'Home' | 'Unknown' | string;
 
 /**
  * Represents the produce that an animal can provide.
