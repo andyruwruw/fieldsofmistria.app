@@ -1,0 +1,916 @@
+{
+  "henrietta": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "haydens_house",
+      "dyn_index": null,
+      "pos": {
+        "x": 80.0,
+        "y": 152.0
+      }
+    },
+    "heart_points": 21.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "landen": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "landens_house_f1",
+      "dyn_index": null,
+      "pos": {
+        "x": 359.0,
+        "y": 276.0
+      }
+    },
+    "heart_points": 245.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "west"
+  },
+  "dell": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "general_store_store",
+      "dyn_index": null,
+      "pos": {
+        "x": 308.0,
+        "y": 248.0
+      }
+    },
+    "heart_points": 357.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "east"
+  },
+  "nora": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "write_sit",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "holt_and_noras_bedroom",
+      "dyn_index": null,
+      "pos": {
+        "x": 175.0,
+        "y": 210.0
+      }
+    },
+    "heart_points": 304.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "reina": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries",
+      "coffee"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "haydens_farm",
+      "dyn_index": null,
+      "pos": {
+        "x": 1332.0,
+        "y": 352.0
+      }
+    },
+    "heart_points": 348.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries",
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "terithia": {
+    "current_routine": "general_store_shopping",
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "general_store_store",
+      "dyn_index": null,
+      "pos": {
+        "x": 176.0,
+        "y": 272.0
+      }
+    },
+    "heart_points": 266.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "seridia": {
+    "current_routine": null,
+    "outfit": "priestess",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 390.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "louis": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee"
+    ],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 93.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "vera": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee",
+      "pomegranate_juice"
+    ],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 110.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee",
+      "pomegranate_juice"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "darcy": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee",
+      "dandelion"
+    ],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 76.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee",
+      "dandelion"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "merri": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee"
+    ],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 103.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "balor": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries",
+      "ladybug",
+      "coconut"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "balors_room",
+      "dyn_index": null,
+      "pos": {
+        "x": 88.0,
+        "y": 144.0
+      }
+    },
+    "heart_points": 334.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries",
+      "ladybug",
+      "coconut"
+    ],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "taliferro": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 0.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "hemlock": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "inn",
+      "dyn_index": null,
+      "pos": {
+        "x": 351.0,
+        "y": 280.0
+      }
+    },
+    "heart_points": 346.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries"
+    ],
+    "had_arrived": true,
+    "cardinality": "east"
+  },
+  "wheedle": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 0.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "adeline": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "daisy",
+      "dandelion",
+      "candied_queen_berries",
+      "wild_berries",
+      "tulip",
+      "coffee"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "adelines_bedroom",
+      "dyn_index": null,
+      "pos": {
+        "x": 72.0,
+        "y": 191.0
+      }
+    },
+    "heart_points": 1070.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "daisy",
+      "dandelion",
+      "candied_queen_berries",
+      "wild_berries",
+      "tulip",
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "olric": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "western_ruins",
+      "dyn_index": null,
+      "pos": {
+        "x": 1472.0,
+        "y": 1232.0
+      }
+    },
+    "heart_points": 262.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "josephine": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "inn",
+      "dyn_index": null,
+      "pos": {
+        "x": 351.0,
+        "y": 334.0
+      }
+    },
+    "heart_points": 297.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries"
+    ],
+    "had_arrived": true,
+    "cardinality": "west"
+  },
+  "hayden": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "haydens_farm",
+      "dyn_index": null,
+      "pos": {
+        "x": 1308.0,
+        "y": 352.0
+      }
+    },
+    "heart_points": 238.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "west"
+  },
+  "stillwell": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 0.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "dozy": {
+    "current_routine": "dozy_snooze",
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "candied_queen_berries"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "bathhouse",
+      "dyn_index": null,
+      "pos": {
+        "x": 168.0,
+        "y": 192.0
+      }
+    },
+    "heart_points": 45.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "candied_queen_berries"
+    ],
+    "had_arrived": true,
+    "cardinality": "east"
+  },
+  "juniper": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "bathhouse",
+      "dyn_index": null,
+      "pos": {
+        "x": 202.0,
+        "y": 231.0
+      }
+    },
+    "heart_points": 301.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "celine": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries",
+      "dandelion"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "celines_room",
+      "dyn_index": null,
+      "pos": {
+        "x": 236.0,
+        "y": 175.0
+      }
+    },
+    "heart_points": 307.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries",
+      "dandelion"
+    ],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "caldarus": {
+    "current_routine": null,
+    "outfit": "human_autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Caldarus Schedules/Generic/Group 0/c_generic_2",
+    "animation": "eyes_closed",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "caldarus_house",
+      "dyn_index": null,
+      "pos": {
+        "x": 200.0,
+        "y": 199.0
+      }
+    },
+    "heart_points": 705.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "maple": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "inn",
+      "dyn_index": null,
+      "pos": {
+        "x": 224.0,
+        "y": 347.0
+      }
+    },
+    "heart_points": 357.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "zorel": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/basement_schedule",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "aldaria",
+      "dyn_index": null,
+      "pos": {
+        "x": 104.0,
+        "y": 120.0
+      }
+    },
+    "heart_points": 0.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "south"
+  },
+  "errol": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "coffee"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "western_ruins",
+      "dyn_index": null,
+      "pos": {
+        "x": 1440.0,
+        "y": 1232.0
+      }
+    },
+    "heart_points": 297.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "west"
+  },
+  "ryis": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries",
+      "basic_wood"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "landens_house_f1",
+      "dyn_index": null,
+      "pos": {
+        "x": 168.0,
+        "y": 160.0
+      }
+    },
+    "heart_points": 327.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries",
+      "basic_wood"
+    ],
+    "had_arrived": true,
+    "cardinality": "east"
+  },
+  "march": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "gold_ingot"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "blacksmith_room_left",
+      "dyn_index": null,
+      "pos": {
+        "x": 72.0,
+        "y": 163.0
+      }
+    },
+    "heart_points": 335.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "gold_ingot"
+    ],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "luc": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "wild_berries"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "inn",
+      "dyn_index": null,
+      "pos": {
+        "x": 224.0,
+        "y": 371.0
+      }
+    },
+    "heart_points": 360.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "wild_berries"
+    ],
+    "had_arrived": true,
+    "cardinality": "west"
+  },
+  "holt": {
+    "current_routine": "general_store_outside_chores",
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "town",
+      "dyn_index": null,
+      "pos": {
+        "x": 1232.0,
+        "y": 1744.0
+      }
+    },
+    "heart_points": 350.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "valen": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "clinic_f2",
+      "dyn_index": null,
+      "pos": {
+        "x": 88.0,
+        "y": 187.0
+      }
+    },
+    "heart_points": 273.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "eiland": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [
+      "candied_strawberries",
+      "coffee"
+    ],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "manor_house_entry",
+      "dyn_index": null,
+      "pos": {
+        "x": 331.0,
+        "y": 334.0
+      }
+    },
+    "heart_points": 341.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [
+      "candied_strawberries",
+      "coffee"
+    ],
+    "had_arrived": true,
+    "cardinality": "north"
+  },
+  "elsie": {
+    "current_routine": null,
+    "outfit": "autumn",
+    "known_gift_preferences": [],
+    "schedule_name": "Schedules/Fall Schedules/fall_thursday",
+    "animation": "idle",
+    "simulated_distance_traveled": 0.0,
+    "times_spoken_today": 0.0,
+    "location_position": {
+      "location_id": "elsies_bedroom",
+      "dyn_index": null,
+      "pos": {
+        "x": 136.0,
+        "y": 127.0
+      }
+    },
+    "heart_points": 252.0,
+    "current_activity": null,
+    "gift_flag": true,
+    "talk_flag": true,
+    "gifts_given": [],
+    "had_arrived": true,
+    "cardinality": "east"
+  }
+}

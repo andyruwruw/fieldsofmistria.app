@@ -1,0 +1,536 @@
+{
+  "inventories": [],
+  "size_x": 226.0,
+  "location_id": "western_ruins",
+  "size_y": 236.0,
+  "object_list": [
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 138.0,
+      "top_left_y": 114.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.29999999999999999
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 138.0,
+      "top_left_y": 124.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.47999999999999998
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 138.0,
+      "top_left_y": 126.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.37
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 138.0,
+      "top_left_y": 128.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.12
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 140.0,
+      "top_left_y": 116.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.26000000000000001
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 140.0,
+      "top_left_y": 146.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.10000000000000001
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 142.0,
+      "top_left_y": 112.0,
+      "object_id": "tree_oak",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 17.0,
+      "override_protection": true,
+      "variant_idx": 0.47999999999999998,
+      "fruiting_days": 0.0
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 142.0,
+      "top_left_y": 148.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.28000000000000003
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 144.0,
+      "top_left_y": 138.0,
+      "object_id": "bush"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 146.0,
+      "top_left_y": 90.0,
+      "object_id": "bush"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 146.0,
+      "top_left_y": 94.0,
+      "object_id": "bush"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 148.0,
+      "top_left_y": 128.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.27000000000000002
+    },
+    {
+      "ctx": 9.0,
+      "top_left_x": 152.0,
+      "managed_timer": 2.0,
+      "top_left_y": 124.0,
+      "object_id": "fog_orchid",
+      "day_count": 25.0,
+      "stage": 0.0,
+      "regrow_cycle": false
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 154.0,
+      "top_left_y": 68.0,
+      "object_id": "bush"
+    },
+    {
+      "day_count": 1.0,
+      "top_left_x": 154.0,
+      "top_left_y": 96.0,
+      "object_id": "blackberry_bush"
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 156.0,
+      "top_left_y": 58.0,
+      "object_id": "tree_plum_blossom",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 93.0,
+      "override_protection": true,
+      "variant_idx": 0.059999999999999998,
+      "fruiting_days": 0.0
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 156.0,
+      "top_left_y": 110.0,
+      "object_id": "wild_berry_bush"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 158.0,
+      "artifact_override": null,
+      "top_left_y": 132.0,
+      "object_id": "dig_site"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 160.0,
+      "top_left_y": 110.0,
+      "object_id": "wintergreen_bush"
+    },
+    {
+      "ctx": 10.0,
+      "top_left_x": 162.0,
+      "top_left_y": 68.0,
+      "object_id": "chestnut",
+      "day_count": 0.0,
+      "stage": 0.0,
+      "regrow_cycle": false
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 162.0,
+      "top_left_y": 94.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.38
+    },
+    {
+      "ctx": 9.0,
+      "top_left_x": 162.0,
+      "managed_timer": 2.0,
+      "top_left_y": 100.0,
+      "object_id": "chestnut",
+      "day_count": 25.0,
+      "stage": 0.0,
+      "regrow_cycle": false
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 164.0,
+      "top_left_y": 176.0,
+      "object_id": "wintergreen_bush"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 170.0,
+      "top_left_y": 54.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.66000000000000003
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 172.0,
+      "top_left_y": 146.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.57999999999999996
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 174.0,
+      "top_left_y": 138.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.059999999999999998
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 176.0,
+      "top_left_y": 138.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.54000000000000004
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 176.0,
+      "artifact_override": null,
+      "top_left_y": 162.0,
+      "object_id": "dig_site"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 176.0,
+      "top_left_y": 174.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.78000000000000003
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 178.0,
+      "top_left_y": 138.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.90000000000000002
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 178.0,
+      "top_left_y": 174.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.76000000000000001
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 180.0,
+      "top_left_y": 146.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.23999999999999999
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 180.0,
+      "artifact_override": null,
+      "top_left_y": 166.0,
+      "object_id": "dig_site"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 182.0,
+      "top_left_y": 54.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.28999999999999998
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 188.0,
+      "top_left_y": 176.0,
+      "object_id": "glowberry_bush"
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 190.0,
+      "top_left_y": 100.0,
+      "object_id": "tree_oak",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 21.0,
+      "override_protection": true,
+      "variant_idx": 0.35000000000000003,
+      "fruiting_days": 0.0
+    },
+    {
+      "day_count": 1.0,
+      "top_left_x": 190.0,
+      "top_left_y": 110.0,
+      "object_id": "blackberry_bush"
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 192.0,
+      "top_left_y": 58.0,
+      "object_id": "tree_plum_blossom",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 94.0,
+      "override_protection": true,
+      "variant_idx": 0.45000000000000001,
+      "fruiting_days": 0.0
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 192.0,
+      "artifact_override": null,
+      "top_left_y": 130.0,
+      "object_id": "dig_site"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 192.0,
+      "top_left_y": 176.0,
+      "object_id": "wintergreen_bush"
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 194.0,
+      "top_left_y": 110.0,
+      "object_id": "wild_berry_bush"
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 194.0,
+      "top_left_y": 168.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.040000000000000001
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 196.0,
+      "top_left_y": 68.0,
+      "object_id": "bush"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 198.0,
+      "top_left_y": 118.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.5
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 198.0,
+      "top_left_y": 160.0,
+      "object_id": "tree_oak",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 21.0,
+      "override_protection": true,
+      "variant_idx": 0.28000000000000003,
+      "fruiting_days": 0.0
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 204.0,
+      "top_left_y": 106.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.23999999999999999
+    },
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 206.0,
+      "top_left_y": 112.0,
+      "object_id": "tree_pine",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 22.0,
+      "override_protection": true,
+      "variant_idx": 0.17999999999999999,
+      "fruiting_days": 0.0
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 206.0,
+      "top_left_y": 172.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.76000000000000001
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 214.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 4.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 214.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 4.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 216.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 216.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 218.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 218.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 220.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 220.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 222.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 222.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 6.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 224.0,
+      "top_left_y": 116.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 2.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 224.0,
+      "top_left_y": 134.0,
+      "object_id": "stone_wall_tall",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "fence_image_index": 2.0
+    }
+  ],
+  "dyn_index": -1.0
+}

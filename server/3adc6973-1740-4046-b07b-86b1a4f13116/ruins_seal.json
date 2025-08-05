@@ -1,0 +1,29 @@
+{
+  "inventories": [],
+  "size_x": 50.0,
+  "location_id": "ruins_seal",
+  "size_y": 56.0,
+  "object_list": [
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 22.0,
+      "top_left_y": 10.0,
+      "object_id": "ruins_seal_door",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true
+    },
+    {
+      "hitpoints": 10000.0,
+      "top_left_x": 34.0,
+      "top_left_y": 40.0,
+      "ladder_candidate": false,
+      "object_id": "treasure_chest_gold",
+      "is_open": true,
+      "variant_idx": 0.29999999999999999
+    }
+  ],
+  "dyn_index": -1.0
+}

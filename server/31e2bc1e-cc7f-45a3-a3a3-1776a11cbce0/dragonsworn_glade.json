@@ -1,0 +1,217 @@
+{
+  "inventories": [],
+  "size_x": 302.0,
+  "location_id": "dragonsworn_glade",
+  "size_y": 182.0,
+  "object_list": [
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 124.0,
+      "top_left_y": 152.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.55000000000000004
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 126.0,
+      "top_left_y": 126.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.28999999999999998
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 128.0,
+      "top_left_y": 158.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.38
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 134.0,
+      "top_left_y": 138.0,
+      "object_id": "bush"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 136.0,
+      "top_left_y": 162.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.29999999999999999
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 138.0,
+      "managed_timer": null,
+      "top_left_y": 138.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 138.0,
+      "managed_timer": null,
+      "top_left_y": 158.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 140.0,
+      "managed_timer": null,
+      "top_left_y": 140.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 140.0,
+      "managed_timer": null,
+      "top_left_y": 160.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 142.0,
+      "top_left_y": 132.0,
+      "object_id": "bush"
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 142.0,
+      "managed_timer": null,
+      "top_left_y": 138.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 142.0,
+      "managed_timer": null,
+      "top_left_y": 158.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 158.0,
+      "top_left_y": 132.0,
+      "object_id": "bush"
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 158.0,
+      "managed_timer": null,
+      "top_left_y": 138.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 158.0,
+      "managed_timer": null,
+      "top_left_y": 158.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 160.0,
+      "managed_timer": null,
+      "top_left_y": 140.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 160.0,
+      "managed_timer": null,
+      "top_left_y": 160.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 162.0,
+      "managed_timer": null,
+      "top_left_y": 138.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "ctx": 5.0,
+      "top_left_x": 162.0,
+      "managed_timer": null,
+      "top_left_y": 158.0,
+      "object_id": "temple_flower",
+      "day_count": 81.0,
+      "stage": 4.0,
+      "regrow_cycle": false
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 164.0,
+      "top_left_y": 162.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.66000000000000003
+    },
+    {
+      "day_count": 0.0,
+      "top_left_x": 166.0,
+      "top_left_y": 138.0,
+      "object_id": "bush"
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 172.0,
+      "top_left_y": 158.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.92000000000000004
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 174.0,
+      "top_left_y": 126.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.059999999999999998
+    },
+    {
+      "hitpoints": 1.0,
+      "top_left_x": 176.0,
+      "top_left_y": 152.0,
+      "ladder_candidate": false,
+      "object_id": "weed",
+      "variant_idx": 0.70999999999999996
+    }
+  ],
+  "dyn_index": -1.0
+}

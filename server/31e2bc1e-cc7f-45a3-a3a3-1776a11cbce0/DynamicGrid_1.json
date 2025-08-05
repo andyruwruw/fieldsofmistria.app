@@ -1,0 +1,413 @@
+{
+  "inventories": [
+    [
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      }
+    ],
+    [
+      {
+        "required_tags": [],
+        "count": 26.0,
+        "item": {
+          "cosmetic": null,
+          "date_photo": null,
+          "item_id": "egg",
+          "auto_use": false,
+          "infusion": null,
+          "inner_item": null,
+          "gold_to_gain": null,
+          "pet_cosmetic_set_name": null,
+          "animal_cosmetic": null
+        }
+      },
+      {
+        "required_tags": [],
+        "count": 1.0,
+        "item": {
+          "cosmetic": null,
+          "date_photo": null,
+          "item_id": "hard_boiled_egg",
+          "auto_use": false,
+          "infusion": null,
+          "inner_item": null,
+          "gold_to_gain": null,
+          "pet_cosmetic_set_name": null,
+          "animal_cosmetic": null
+        }
+      },
+      {
+        "required_tags": [],
+        "count": 73.0,
+        "item": {
+          "cosmetic": null,
+          "date_photo": null,
+          "item_id": "grass_seed",
+          "auto_use": false,
+          "infusion": null,
+          "inner_item": null,
+          "gold_to_gain": null,
+          "pet_cosmetic_set_name": null,
+          "animal_cosmetic": null
+        }
+      },
+      {
+        "required_tags": [],
+        "count": 8.0,
+        "item": {
+          "cosmetic": null,
+          "date_photo": null,
+          "item_id": "feather",
+          "auto_use": false,
+          "infusion": null,
+          "inner_item": null,
+          "gold_to_gain": null,
+          "pet_cosmetic_set_name": null,
+          "animal_cosmetic": null
+        }
+      },
+      {
+        "required_tags": [],
+        "count": 30.0,
+        "item": {
+          "cosmetic": null,
+          "date_photo": null,
+          "item_id": "animal_currency",
+          "auto_use": false,
+          "infusion": null,
+          "inner_item": null,
+          "gold_to_gain": null,
+          "pet_cosmetic_set_name": null,
+          "animal_cosmetic": null
+        }
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      },
+      {
+        "required_tags": [],
+        "count": 0.0,
+        "item": null
+      }
+    ]
+  ],
+  "size_x": 32.0,
+  "location_id": "small_coop",
+  "size_y": 34.0,
+  "object_list": [
+    {
+      "date_photo": null,
+      "object_id": "starter_shipping_box",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "cardinal_index": 3.0,
+      "chest_icon": null,
+      "top_left_x": 6.0,
+      "top_left_y": 22.0,
+      "inventory": 0.0
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 9.0,
+      "top_left_y": 4.0,
+      "object_id": "stable_window",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true
+    },
+    {
+      "date_photo": null,
+      "cardinal_index": 3.0,
+      "top_left_x": 19.0,
+      "top_left_y": 4.0,
+      "object_id": "stable_window",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true
+    },
+    {
+      "date_photo": null,
+      "object_id": "stable_storage_chest",
+      "infusion": null,
+      "old_terrain": null,
+      "on": false,
+      "destructable": true,
+      "cardinal_index": 3.0,
+      "use_in_crafting": true,
+      "chest_icon": null,
+      "top_left_x": 21.0,
+      "top_left_y": 22.0,
+      "inventory": 1.0
+    }
+  ],
+  "dyn_index": 1.0
+}

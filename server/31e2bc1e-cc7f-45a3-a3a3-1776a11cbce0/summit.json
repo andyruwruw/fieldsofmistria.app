@@ -1,0 +1,35 @@
+{
+  "inventories": [],
+  "size_x": 252.0,
+  "location_id": "summit",
+  "size_y": 100.0,
+  "object_list": [
+    {
+      "hitpoints": 5.0,
+      "top_left_x": 112.0,
+      "top_left_y": 84.0,
+      "object_id": "tree_oak",
+      "has_fruit": false,
+      "stage": 4.0,
+      "day_count": 24.0,
+      "override_protection": true,
+      "variant_idx": 0.93000000000000005,
+      "fruiting_days": 0.0
+    },
+    {
+      "day_count": 11.0,
+      "top_left_x": 136.0,
+      "top_left_y": 84.0,
+      "object_id": "blackberry_bush"
+    },
+    {
+      "hitpoints": 3.0,
+      "top_left_x": 140.0,
+      "top_left_y": 86.0,
+      "ladder_candidate": true,
+      "object_id": "small_rock_stone_one",
+      "variant_idx": 0.16
+    }
+  ],
+  "dyn_index": -1.0
+}
