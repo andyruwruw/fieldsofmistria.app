@@ -16,7 +16,7 @@ const main = async () => {
   if (isWin) {
     await execSync(`${path.join(executableDir, executableName)} unpack ${path.join(saveDir, saveName)} ${uuidv4()}`).toString();
   } else {
-    await execSync(`wine ${path.join(executableDir, executableName)} unpack ${path.join(saveDir, saveName)} ${uuidv4()}`).toString();
+    await execSync(`xvfb-run wine ${path.join(executableDir, executableName)} unpack ${path.join(saveDir, saveName)} ${uuidv4()}`).toString();
   }
 
   console.log(`stdout: ${stdout}`);
