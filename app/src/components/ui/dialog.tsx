@@ -107,7 +107,7 @@ const DialogHeader = ({
 }: HTMLAttributes<HTMLDivElement>) => (
 	<div
 		className={combineNames(
-			'flex flex-col space-y-1.5 text-center sm:text-left',
+			'flex flex-col space-y-1.5 text-center sm:text-left mb-4',
 			className,
 		)}
 		{...props} />

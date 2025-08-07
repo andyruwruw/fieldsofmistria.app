@@ -8,13 +8,16 @@ import {
   ContextMenu,
   ContextMenuTrigger,
 } from '../ui/context-menu';
-import type {
-	JSXElementConstructor,
-	ReactElement,
+import {
+	useEffect,
+	useState,
+	type JSXElementConstructor,
+	type ReactElement,
 } from 'react';
 import { combineNames } from '../../lib/utils';
 
 // Types
+import type { FieldsOfMistriaNpcData } from '../../types/fields-of-mistria/characters';
 import type { Character } from '../../types/characters';
 
 /**
@@ -27,6 +30,11 @@ interface CharacterCardProps {
 	character: Character;
 
 	/**
+	 * The number of hearts the character has.
+	 */
+	relationship: FieldsOfMistriaNpcData;
+
+	/**
 	 * Optional function to set the open state of the character sheet.
 	 */
 	setIsOpen?: (open: boolean) => void;
@@ -37,6 +45,19 @@ interface CharacterCardProps {
 	setCharacter?: (character: Character) => void;
 }
 
+const HEART_VALUES = [
+	80,
+	180,
+	280,
+	390,
+	530,
+	705,
+	900,
+	1125,
+	1400,
+	1755,
+];
+
 /**
  * CharacterCard component that displays a character's information.
  * @param props The props for the component.
@@ -44,10 +65,36 @@ interface CharacterCardProps {
  */
 export const CharacterCard = ({
 	character,
+	relationship,
 	setIsOpen,
 	setCharacter,
 }: CharacterCardProps) => {
-  const hearts = Math.floor(0 / 250);
+	const [
+		hearts,
+		setHearts,
+	] = useState(0);
+	const [
+		maxHearts,
+		setMaxHearts,
+	] = useState(8);
+
+	useEffect(() => {
+		if (!relationship) {
+			return;
+		}
+
+		let newHearts = 0;
+
+		for (let i = 0; i < HEART_VALUES.length; i++) {
+			if (relationship?.heart_points >= HEART_VALUES[i]) {
+				newHearts++;
+			} else {
+				break;
+			}
+		}
+
+		setHearts(newHearts);
+	}, [ relationship ]);
 
   const getHearts = (count: number) => {
 		const icons: ReactElement<unknown, string | JSXElementConstructor<any>>[] = [];
@@ -57,12 +104,12 @@ export const CharacterCard = ({
 				<HeartIcon
 					key={i}
 					className={combineNames(
-						"h-5 w-5 text-neutral-500 dark:text-neutral-700",
+						'h-5 w-5 text-neutral-500 dark:text-neutral-700',
 						hearts >= i
-							? "fill-red-500 text-red-500 dark:text-red-500"
+							? 'fill-red-500 text-red-500 dark:text-red-500'
 							: character.dateable && i >= 9
-								? "fill-neutral-500 text-neutral-500 dark:fill-neutral-700 dark:text-neutral-700"
-								: "",
+								? 'fill-neutral-500 text-neutral-500 dark:fill-neutral-700 dark:text-neutral-700'
+								: '',
 					)} />,
 			);
 		}
@@ -74,7 +121,10 @@ export const CharacterCard = ({
     <ContextMenu>
       <ContextMenuTrigger asChild>
 				<button
-					className='flex select-none items-center space-x-3 overflow-x-clip rounded-lg border px-5 py-4 text-left text-neutral-950 shadow-sm transition-colors hover:cursor-pointer dark:text-neutral-50'
+					className={combineNames(
+						'flex select-none items-center space-x-3 overflow-x-clip rounded-lg border px-5 py-4 text-left text-neutral-950 shadow-sm transition-colors hover:cursor-pointer dark:text-neutral-50',
+						'card-button border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950 hover:bg-neutral-100 dark:hover:bg-neutral-800',
+					)}
 					onClick={() => {
 						setCharacter?.(character);
 						setIsOpen?.(true);
@@ -90,7 +140,7 @@ export const CharacterCard = ({
             </p>
 
 						<div className='flex'>
-							{status === 'Married' ? getHearts(14) : getHearts(10)}
+							{status === 'Dating' ? getHearts(10) : getHearts(8)}
 						</div>
 					</div>
           

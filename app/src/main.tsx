@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { StrictMode } from 'react';
 
 // Local Imports
+import { PlayersProvider } from './contexts/player/provider.tsx';
 import App from './App.tsx'
 
 // Styles
@@ -16,7 +17,9 @@ import './index.css';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <PlayersProvider>
+        <App />
+      </PlayersProvider>
     </BrowserRouter>
   </StrictMode>,
 );

@@ -4,5 +4,7 @@ Heavily inspired by [stardew.app](https://stardew.app) this is a web application
 
 - [Application](./app/)
   - The source code for the main application is written in TypeScript and React.
+- [Server](./server/)
+  - The server is built with TypeScript and Node.js, providing a RESTful API for unpacking save files.
 - [Data Reader](./data-reader/)
   - The data reader is responsible for parsing and extracting information from the [Fields of Mistria wiki](https://fieldsofmistria.wiki.gg/). It provides a structured way to access game data, such as items, locations, and NPCs.

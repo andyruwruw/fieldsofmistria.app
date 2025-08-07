@@ -4,6 +4,7 @@ import {
   RequestType,
   UploadType,
 } from '../types';
+import { Environment } from '../helpers/environment';
 
 /**
  * Various request types enum.
@@ -26,6 +27,16 @@ export const UPLOAD_TYPE = {
   NONE: 'none',
   SAVE: 'save',
 } as Dictionary<UploadType>;
+
+/**
+ * Developmental URL.
+ */
+export const DEVELOPMENT_URL = `http://localhost:5173`;
+
+/**
+ * Production URL.
+ */
+export const PRODUCTION_URL = 'fieldsofmistria.app';
 
 /**
  * File times for upload types.

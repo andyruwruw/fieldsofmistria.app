@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
 	width: 100%;
   text-align: center;
@@ -48,4 +52,10 @@ a {
 
 .character-image {
 	background-size: cover;
+}
+
+.card-button {
+	background: rgb(10, 10, 10);
+	padding: 1em 1.2em;
+	border: 1px solid rgb(38 38 38);
 }

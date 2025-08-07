@@ -21,6 +21,7 @@ import {
   ServerRequest,
   ServerResponse,
 } from '../types';
+import { handleCors } from '../helpers/cors';
 
 /**
  * Wrapper around express router.
@@ -89,7 +90,10 @@ export class Router {
     for (let i = 0; i < this._routes.length; i += 1) {
       const handler = this._routes[i];
 
-      const middleware = [ handler.execute ] as Middleware[];
+      const middleware = [
+        handleCors,
+        handler.execute,
+      ] as Middleware[];
 
       if (handler.getUpload() === UPLOAD_TYPE.SAVE) {
         const multer = upload;

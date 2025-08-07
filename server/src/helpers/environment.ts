@@ -1,5 +1,9 @@
 // Packages
 import * as dotenv from 'dotenv';
+import {
+  DEVELOPMENT_URL,
+  PRODUCTION_URL,
+} from '../config';
 
 // Setting up DotEnv
 dotenv.config();
@@ -69,4 +73,21 @@ export class Environment {
   static isWarningLayerEnabled(): boolean {
     return process.env.ENABLE_WARNING_LAYER === 'true';
   }
+
+  /**
+   * Returns origin URL depending on environment.
+   *
+   * @default DEVELOPMENT_URL
+   * @returns {string} Origin URL.
+   */
+  static getOrigin(): string {
+    if (process.env.ORIGIN_URL && process.env.ORIGIN_URL.length) {
+      return process.env.ORIGIN_URL;
+    }
+    if (process.env.ENVIRONMENT === 'production') {
+      return PRODUCTION_URL;
+    }
+    return DEVELOPMENT_URL;
+  }
+
 }
