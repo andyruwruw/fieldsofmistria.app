@@ -73,10 +73,10 @@ export const CharacterCard = ({
 		hearts,
 		setHearts,
 	] = useState(0);
-	const [
-		maxHearts,
-		setMaxHearts,
-	] = useState(8);
+	// const [
+	// 	maxHearts,
+	// 	setMaxHearts,
+	// ] = useState(8);
 
 	useEffect(() => {
 		if (!relationship) {
@@ -106,7 +106,7 @@ export const CharacterCard = ({
 					className={combineNames(
 						'h-5 w-5 text-neutral-500 dark:text-neutral-700',
 						hearts >= i
-							? 'fill-red-500 text-red-500 dark:text-red-500'
+							? 'fill-red-300 text-red-100 dark:text-red-500'
 							: character.dateable && i >= 9
 								? 'fill-neutral-500 text-neutral-500 dark:fill-neutral-700 dark:text-neutral-700'
 								: '',
@@ -130,9 +130,9 @@ export const CharacterCard = ({
 						setIsOpen?.(true);
 					}}>
 					<img
-            src={character['icon-image']}
+            src={character['spring-image']}
             alt={character.name}
-            className='h-12 w-12 object-cover object-top' />
+            className='h-12 w-10 object-cover object-top' />
 
 					<div className='flex-1'>
 						<p className='truncate font-medium'>

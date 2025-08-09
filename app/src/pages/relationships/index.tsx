@@ -5,21 +5,19 @@ import {
   useState,
   type ReactElement,
 } from 'react';
+import { IconAdjustments } from '@tabler/icons-react';
 
 // Data
-import {
-  ToggleGroup,
-  ToggleGroupItem,
-} from '../../components/ui/toggle-group';
 import { CharacterSheet } from '../../components/sheets/character-sheet';
 import { PlayersContext } from '../../contexts/player';
 import { CharacterCard } from '../../components/cards/character-card';
-import { combineNames } from '../../lib/utils';
+import { FilterSearch } from '../../components/ui/filter-btn';
 import characterData from '../../data/characters.json';
 
 // Types
 import type { FieldsOfMistriaNpcData } from '../../types/fields-of-mistria/characters';
 import type { Character } from '../../types/characters';
+import { Input } from '../../components/ui/input';
 
 const SORT_FILTERS = [
 	{
@@ -42,21 +40,26 @@ const BUBBLE_COLORS: Record<string, string> = {
  */
 export default function Relationships(): ReactElement {
   const { npcs } = useContext(PlayersContext);
-  
   const characters = characterData as unknown as Record<string, Character>;
+
+  const [
+    relationships,
+    setRelationships,
+  ] = useState<Record<string, FieldsOfMistriaNpcData>>(npcs);
+  const [
+    characterList,
+    setCharacterList,
+  ] = useState(Object.values(characters) as Character[]);
 
   const [
     search,
     setSearch,
   ] = useState('');
-	const [
-    filter,
-    setFilter,
-  ] = useState('all');
   const [
     sort,
     setSort,
   ] = useState('name');
+
   const [
     open,
     setIsOpen,
@@ -65,22 +68,47 @@ export default function Relationships(): ReactElement {
     character,
     setCharacter,
   ] = useState<Character>(characters['celine']);
-  const [
-    relationships,
-    setRelationships,
-  ] = useState<Record<string, FieldsOfMistriaNpcData>>(npcs);
-
-  const [
-    characterList,
-    setCharacterList,
-  ] = useState(Object.values(characters) as Character[]);
 
   useEffect(() => {
     // Fetch characters data if needed
     const characters = Object.values(characterData as unknown as Record<string, Character>) as Character[];
 
-    setCharacterList(characters);
-  }, [ search ]);
+    // Filter characters based on search input
+    const filteredCharacters = characters.filter((char) => {
+      if (!search) {
+        return true;
+      }
+      return char.name.toLowerCase().includes(search.toLowerCase());
+    });
+
+    if (sort === 'name') {
+      filteredCharacters.sort((
+        a,
+        b,
+      ) => (a.name.localeCompare(b.name)));
+    } else if (relationships && Object.keys(relationships).length && sort === 'hearts') {
+      filteredCharacters.sort((
+        a,
+        b,
+      ) => {
+        try {
+          const aHearts = relationships[a.id]?.heart_points || 0;
+          const bHearts = relationships[b.id]?.heart_points || 0;
+
+          return bHearts - aHearts;
+        } catch (error) {
+          console.error('Error sorting characters by hearts:', error);
+          return 0;
+        }
+      });
+    }
+
+    setCharacterList(filteredCharacters);
+  }, [
+    relationships,
+    search,
+    sort,
+  ]);
 
   useEffect(() => {
     const newRelationships = {} as Record<string, FieldsOfMistriaNpcData>;
@@ -99,44 +127,20 @@ export default function Relationships(): ReactElement {
       </h1>
 
       <section className='space-y-3'>
-        <h2 className='text-left page-subtitle ml-1 text-xl font-semibold text-gray-900 dark:text-white'>
-          All Villagers
-        </h2>
+        <div className='grid grid-cols-1 gap-2 lg:flex mb-4'>
+          <Input
+            placeholder='Search..'
+            className='flex-auto'
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }} />
 
-        <div className='grid grid-cols-1 justify-between gap-2 lg:flex'>
-          <div className='flex flex-row items-center gap-2'>
-            <ToggleGroup
-              variant='outline'
-              type='single'
-              value={filter}
-              onValueChange={(val) =>
-                setFilter(val === filter ? 'all' : val)
-              }
-              className='gap-2'>
-              <ToggleGroupItem value='0' aria-label='Show Incomplete'>
-                <span
-                  className={combineNames(
-                    'inline-block h-4 w-4 rounded-full border align-middle',
-                    BUBBLE_COLORS['0'],
-                  )} />
-                <span className='align-middle'>Incomplete</span>
-              </ToggleGroupItem>
-              <ToggleGroupItem value='2' aria-label='Show Completed'>
-                <span
-                  className={combineNames(
-                    'inline-block h-4 w-4 rounded-full border align-middle',
-                    BUBBLE_COLORS['2'],
-                  )} />
-
-                <span className='align-middle'>
-                  Completed
-                </span>
-              </ToggleGroupItem>
-            </ToggleGroup>
-          </div>
-
-          <div className='grid grid-cols-1 items-stretch gap-2 sm:flex'>
-          </div>
+          <FilterSearch
+            _filter={sort}
+            title='Sort By'
+            data={SORT_FILTERS}
+            setFilter={setSort}
+            icon={IconAdjustments} />
         </div>
 
         <div className='grid grid-cols-1 gap-4 xl:grid-cols-4'>

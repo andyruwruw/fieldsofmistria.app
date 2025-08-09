@@ -17,6 +17,7 @@ import Ranching from '../pages/ranching';
 import Animals from '../pages/animals';
 import Player from '../pages/player';
 import Quests from '../pages/quests';
+import Museum from '../pages/museum';
 import Spells from '../pages/spells';
 import Skills from '../pages/skills';
 import Crops from '../pages/crops';
@@ -39,7 +40,11 @@ function Router() {
       <Route
         path='/player'
         element={<Player />} />
-      
+
+      <Route
+        path='/museum'
+        element={<Museum />} />
+
       <Route
         path='/quests'
         element={<Quests />} />

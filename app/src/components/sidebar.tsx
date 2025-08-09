@@ -16,6 +16,7 @@ import {
   IconSeedling,
   IconSparkles,
   IconStack2,
+  IconBuildingBank,
   type Icon,
   type IconProps,
 } from '@tabler/icons-react';
@@ -79,15 +80,20 @@ const PLAYER_NAVIGATION: SidebarNavigationItem[] = [
     href: '/player',
     icon: IconId,
   },
-	{
-    name: 'Quests',
-    href: '/quests',
-    icon: IconMailOpened,
+  {
+    name: 'Museum',
+    href: '/museum',
+    icon: IconBuildingBank,
   },
 	{
     name: 'Relationships',
     href: '/relationships',
     icon: IconHeart,
+  },
+  {
+    name: 'Quests',
+    href: '/quests',
+    icon: IconMailOpened,
   },
 	{
     name: 'Animals',

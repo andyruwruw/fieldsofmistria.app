@@ -42,10 +42,10 @@ export const CharacterSheet = ({
   setIsOpen,
   character,
 }: CharacterSheetProps) => {
-  const [
-    hearts,
-    setHearts,
-  ] = useState<string>('0');
+  // const [
+  //   hearts,
+  //   setHearts,
+  // ] = useState<string>('0');
 
   return (
     <Sheet
@@ -65,7 +65,7 @@ export const CharacterSheet = ({
           </SheetTitle>
 
           <SheetDescription className='text-center italic'>
-            {character['birthday-season']} {character['birthday-day']}
+            {character['birthday-season'][0].toUpperCase() + character['birthday-season'].slice(1)} {character['birthday-day']}
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
