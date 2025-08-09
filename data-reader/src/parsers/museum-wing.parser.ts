@@ -4,11 +4,18 @@ import { Parser } from './parser';
 // Types
 import { MuseumSet } from '../models/museum';
 import { Season } from '../models/weather';
+import { ArtifactsService } from '../services/artifacts.service';
+import { BASE_URL } from '../config';
 
 /**
  * Parses a specific museum wing page.
  */
 export class MuseumWingParser extends Parser<MuseumSet[]> {
+  /**
+   * Indicates whether to store artifacts.
+   */
+  protected _storeArtifacts = false;
+
   /**
    * Parses the HTML page and returns structured data.
    *
@@ -20,6 +27,10 @@ export class MuseumWingParser extends Parser<MuseumSet[]> {
 
     const sets = [] as MuseumSet[];
     let setTitle = '';
+
+    if (title.toLowerCase().replace(/\s+/g, '-').includes('archaeology')) {
+      this._storeArtifacts = true;
+    }
 
     for (let i = 0; i < mainChildren.length; i += 1) {
       const child = mainChildren[i];
@@ -80,6 +91,9 @@ export class MuseumWingParser extends Parser<MuseumSet[]> {
       const row = table.body[i];
 
       if ('Name' in row && 'text' in row.Name) {
+        if (this._storeArtifacts) {
+          ArtifactsService.addArtifact(`${BASE_URL}${row.Name.href}`);
+        }
         items.push(row.Name.text.trim().toLowerCase().replace(/\s+/g, '-'));
       }
     }

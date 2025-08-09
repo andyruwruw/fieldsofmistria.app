@@ -5,6 +5,8 @@ export const BASE_URL = 'https://fieldsofmistria.wiki.gg';
 
 /**
  * URL for the character list.
+ * 
+ * DONE
  */
 export const CHARACTER_LIST_URL = 'https://fieldsofmistria.wiki.gg/wiki/Characters';
 

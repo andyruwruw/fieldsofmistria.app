@@ -1,0 +1,997 @@
+{
+  "aldarian-gauntlet": {
+    "id": "aldarian-gauntlet",
+    "name": "Aldarian Gauntlet",
+    "description": "A rare artifact. This battle-worn gauntlet shows heavy use.",
+    "sell": 75,
+    "location": "the-narrows",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Aldarian_gauntlet.png?8a771d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Aldarian_Gauntlet"
+  },
+  "aldarian-sword": {
+    "id": "aldarian-sword",
+    "name": "Aldarian Sword",
+    "description": "An uncommon artifact. A worn military sword, likely from the War of the Lilies.",
+    "sell": 50,
+    "location": "the-narrows",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0f/Aldarian_sword.png?3cee2a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Aldarian_Sword"
+  },
+  "aldarian-war-banner": {
+    "id": "aldarian-war-banner",
+    "name": "Aldarian War Banner",
+    "description": "A rare artifact. Emblazoned with the royal crest of Aldaria.",
+    "sell": 75,
+    "location": "the-narrows",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3f/Aldarian_war_banner.png?d1fe55",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Aldarian_War_Banner"
+  },
+  "family-crest-pendant": {
+    "id": "family-crest-pendant",
+    "name": "Family Crest Pendant",
+    "description": "An uncommon artifact. Once widely adopted in Aldaria, pendants were given to family members who were leaving home for the first time.",
+    "sell": 50,
+    "location": "the-narrows",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8c/Family_crest_pendant.png?bddca5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Family_Crest_Pendant"
+  },
+  "lost-crown-of-aldaria": {
+    "id": "lost-crown-of-aldaria",
+    "name": "Lost Crown of Aldaria",
+    "description": "A legendary artifact. Could this be the crown that was lost after the Caldosian Empire's invasion?",
+    "sell": 75,
+    "location": "the-narrows",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Lost_crown_of_aldaria.png?54d972",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lost_Crown_of_Aldaria"
+  },
+  "caldosian-breastplate": {
+    "id": "caldosian-breastplate",
+    "name": "Caldosian Breastplate",
+    "description": "A rare artifact. This magnificent breastplate is so ornate, it was likely used for ceremonial purposes.",
+    "sell": 75,
+    "location": "the-eastern-road",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Caldosian_breastplate.png?b44ce6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caldosian_Breastplate"
+  },
+  "caldosian-drinking-horn": {
+    "id": "caldosian-drinking-horn",
+    "name": "Caldosian Drinking Horn",
+    "description": "A rare artifact. Drinking horns were usually passed down through the family line.",
+    "sell": 75,
+    "location": "the-eastern-road",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5c/Caldosian_drinking_horn.png?b8a4b8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caldosian_Drinking_Horn"
+  },
+  "caldosian-emperor-bust": {
+    "id": "caldosian-emperor-bust",
+    "name": "Caldosian Emperor Bust",
+    "description": "An uncommon artifact. The bust of a Caldosian Emperor. It's not clear which one.",
+    "sell": 50,
+    "location": "the-eastern-road",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Caldosian_emperor_bust.png?6b467c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caldosian_Emperor_Bust"
+  },
+  "caldosian-sword": {
+    "id": "caldosian-sword",
+    "name": "Caldosian Sword",
+    "description": "An uncommon artifact. An imperial officer's sword from the early days of the Caldosian Empire.",
+    "sell": 50,
+    "location": "the-eastern-road",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/12/Caldosian_sword.png?a2fed5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caldosian_Sword"
+  },
+  "statuette-of-caldarus": {
+    "id": "statuette-of-caldarus",
+    "name": "Statuette of Caldarus",
+    "description": "A legendary artifact. There seems to have been a subset of the empire that once worshiped Caldarus...",
+    "sell": 125,
+    "location": "the-eastern-road",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Statuette_of_caldarus.png?e94015",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Statuette_of_Caldarus"
+  },
+  "alda-bronze-sword": {
+    "id": "alda-bronze-sword",
+    "name": "Alda Bronze Sword",
+    "description": "A rare artifact. Its intricate carvings and blue-green patina give this sword an otherworldly appearance.",
+    "sell": 75,
+    "location": "sweetwater-farm",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c9/Alda_bronze_sword.png?5bd40d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alda_Bronze_Sword"
+  },
+  "alda-clay-pot": {
+    "id": "alda-clay-pot",
+    "name": "Alda Clay Pot",
+    "description": "An uncommon artifact. Made from rich river clay, a faded pattern can still be seen. Once used by the Alda people to store food.",
+    "sell": 50,
+    "location": "sweetwater-farm",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5b/Alda_clay_pot.png?f31937",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alda_Clay_Pot"
+  },
+  "alda-feather-pendant": {
+    "id": "alda-feather-pendant",
+    "name": "Alda Feather Pendant",
+    "description": "An uncommon artifact. Once used in marriage proposals, beautifully designed.",
+    "sell": 50,
+    "location": "sweetwater-farm",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Alda_feather_pendant.png?430950",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alda_Feather_Pendant"
+  },
+  "alda-gem-bracelet": {
+    "id": "alda-gem-bracelet",
+    "name": "Alda Gem Bracelet",
+    "description": "A legendary artifact. Non-local gems suggest the Alda had trading partners across the sea.",
+    "sell": 125,
+    "location": "sweetwater-farm",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Alda_gem_bracelet.png?347810",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alda_Gem_Bracelet"
+  },
+  "alda-mural-tablet": {
+    "id": "alda-mural-tablet",
+    "name": "Alda Mural Tablet",
+    "description": "A rare artifact. Depicts a scene of the Mistrian coast, as seen hundreds of years ago.",
+    "sell": 75,
+    "location": "sweetwater-farm",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/62/Alda_mural_tablet.png?c9e735",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Alda_Mural_Tablet"
+  },
+  "ancient-crystal-goblet": {
+    "id": "ancient-crystal-goblet",
+    "name": "Ancient Crystal Goblet",
+    "description": "A rare artifact. Elegant and sturdy, this goblet was likely used during Witch Queen rituals.",
+    "sell": 75,
+    "location": "the-western-ruins",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Ancient_crystal_goblet.png?fe9d66",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Crystal_Goblet"
+  },
+  "ancient-gold-coin": {
+    "id": "ancient-gold-coin",
+    "name": "Ancient Gold Coin",
+    "description": "An uncommon artifact. Etched with the outline of the Witch Queen on one side, and a magnificent tower on the other.",
+    "sell": 50,
+    "location": "the-western-ruins",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bd/Ancient_gold_coin.png?2a288d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Gold_Coin"
+  },
+  "ancient-horn-circlet": {
+    "id": "ancient-horn-circlet",
+    "name": "Ancient Horn Circlet",
+    "description": "A rare artifact. A horn circlet from the age of the Witch Queens. Was this a fashion accessory or did it serve a greater purpose?",
+    "sell": 75,
+    "location": "the-western-ruins",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b6/Ancient_horn_circlet.png?1a5f50",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Horn_Circlet"
+  },
+  "ancient-royal-scepter": {
+    "id": "ancient-royal-scepter",
+    "name": "Ancient Royal Scepter",
+    "description": "A legendary artifact. A Royal Scepter with the head of a dragon. The symbol of the Witch Queen's authority.",
+    "sell": 125,
+    "location": "the-western-ruins",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Ancient_royal_scepter.png?d40633",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Royal_Scepter"
+  },
+  "ancient-stone-lantern": {
+    "id": "ancient-stone-lantern",
+    "name": "Ancient Stone Lantern",
+    "description": "An uncommon artifact. An impossibly delicate stone lantern from the age of the Witch Queens. It still retains an ethereal glow from within.",
+    "sell": 50,
+    "location": "the-western-ruins",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/20/Ancient_stone_lantern.png?df1705",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ancient_Stone_Lantern"
+  },
+  "amber-trapped-insect": {
+    "id": "amber-trapped-insect",
+    "name": "Amber Trapped Insect",
+    "description": "An uncommon artifact. It's noticeably bigger than today's insects.",
+    "sell": 50,
+    "location": "the-beach",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cb/Amber_trapped_insect.png?b7950c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Amber_Trapped_Insect"
+  },
+  "fossilized-egg": {
+    "id": "fossilized-egg",
+    "name": "Fossilized Egg",
+    "description": "A rare artifact. What could be inside?",
+    "sell": 75,
+    "location": "the-beach",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Fossilized_egg.png?339dce",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fossilized_Egg"
+  },
+  "meteorite": {
+    "id": "meteorite",
+    "name": "Meteorite",
+    "description": "A legendary artifact. There's no telling how long ago it fell...",
+    "sell": 125,
+    "location": "the-beach",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9e/Meteorite.png?b07875",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Meteorite"
+  },
+  "tiny-dinosaur-skeleton": {
+    "id": "tiny-dinosaur-skeleton",
+    "name": "Tiny Dinosaur Skeleton",
+    "description": "A rare artifact. Definitely not just a lizard.",
+    "sell": 75,
+    "location": "the-beach",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e7/Tiny_dinosaur_skeleton.png?3aaba1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tiny_Dinosaur_Skeleton"
+  },
+  "trilobite-fossil": {
+    "id": "trilobite-fossil",
+    "name": "Trilobite Fossil",
+    "description": "An uncommon artifact. Too many legs, but still kinda cute.",
+    "sell": 50,
+    "location": "the-beach",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c6/Trilobite_fossil.png?9d4562",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Trilobite_Fossil"
+  },
+  "black-tablet": {
+    "id": "black-tablet",
+    "name": "Black Tablet",
+    "description": "An uncommon artifact. Made of a strange metal, it's not clear what this is for.",
+    "sell": 125,
+    "location": "dig-spots(requireswell-placed-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Black_tablet.png?832df5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Black_Tablet"
+  },
+  "completely-wrong-map": {
+    "id": "completely-wrong-map",
+    "name": "Completely Wrong Map",
+    "description": "An uncommon artifact. A badly faded map that appears to show a landmass where the Western Bay now lies.",
+    "sell": 125,
+    "location": "dig-spots(requireswell-placed-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/80/Completely_wrong_map.png?a6fd45",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Completely_Wrong_Map"
+  },
+  "muttering-cube": {
+    "id": "muttering-cube",
+    "name": "Muttering Cube",
+    "description": "An uncommon artifact. This device emits a low hiss most of the time, and occasionally what sounds like voices from far away.",
+    "sell": 75,
+    "location": "dig-spots(requireswell-placed-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/32/Muttering_cube.png?b28764",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Muttering_Cube"
+  },
+  "unknown-dragon-statuette": {
+    "id": "unknown-dragon-statuette",
+    "name": "Unknown Dragon Statuette",
+    "description": "An uncommon artifact. This doesn't appear to be Caldarus.",
+    "sell": 125,
+    "location": "dig-spots(requireswell-placed-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/bc/Unknown_dragon_statuette.png?35ff5c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Unknown_Dragon_Statuette"
+  },
+  "weightless-stone": {
+    "id": "weightless-stone",
+    "name": "Weightless Stone",
+    "description": "An uncommon artifact. This black stone appears otherworldly in origin. It has no weight, and will roll around from the slightest breeze.",
+    "sell": 75,
+    "location": "dig-spots(requireswell-placed-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Weightless_stone.png?93dc95",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Weightless_Stone"
+  },
+  "coin-lump": {
+    "id": "coin-lump",
+    "name": "Coin Lump",
+    "description": "An uncommon artifact. A mass of old coins, fused together by time.",
+    "sell": 75,
+    "location": "found-whilstfishing(requiresaquatic-antiquities-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4e/Coin_lump.png?6d73f7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Coin_Lump"
+  },
+  "giant-fish-scale": {
+    "id": "giant-fish-scale",
+    "name": "Giant Fish Scale",
+    "description": "An uncommon artifact. Can't imagine what fish this came from.",
+    "sell": 50,
+    "location": "found-whilstfishing(requiresaquatic-antiquities-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/13/Giant_fish_scale.png?dbfae2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Giant_Fish_Scale"
+  },
+  "rubber-fish": {
+    "id": "rubber-fish",
+    "name": "Rubber Fish",
+    "description": "An uncommon artifact. How did this get in the water in the first place?",
+    "sell": 50,
+    "location": "found-whilstfishing(requiresaquatic-antiquities-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/59/Rubber_fish.png?9e0977",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rubber_Fish"
+  },
+  "rusted-treasure-chest": {
+    "id": "rusted-treasure-chest",
+    "name": "Rusted Treasure Chest",
+    "description": "An uncommon artifact. Looks quite valuable, a shame it can't be opened.",
+    "sell": 75,
+    "location": "found-whilstfishing(requiresaquatic-antiquities-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Rusted_treasure_chest.png?9b9f17",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rusted_Treasure_Chest"
+  },
+  "water-sphere": {
+    "id": "water-sphere",
+    "name": "Water Sphere",
+    "description": "An uncommon artifact. You're not sure why, but it won't pop.",
+    "sell": 75,
+    "location": "found-whilstfishing(requiresaquatic-antiquities-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Water_sphere.png?f84df6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Sphere"
+  },
+  "criminal-confession": {
+    "id": "criminal-confession",
+    "name": "Criminal Confession",
+    "description": "An uncommon artifact. Too bad the pages are fused together.",
+    "sell": 50,
+    "location": "found-whilstdiving(requiressunken-secrets-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ae/Criminal_confession.png?7454d3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Criminal_Confession"
+  },
+  "mermaid's-comb": {
+    "id": "mermaid's-comb",
+    "name": "Mermaid's Comb",
+    "description": "An uncommon artifact. Looks suspiciously like a fork.",
+    "sell": 50,
+    "location": "found-whilstdiving(requiressunken-secrets-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7d/Mermaid%27s_comb.png?d7aea9",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mermaid%27s_Comb"
+  },
+  "rainbow-seaweed": {
+    "id": "rainbow-seaweed",
+    "name": "Rainbow Seaweed",
+    "description": "An uncommon artifact. Can only be found floating in the current, no one seems to know where it grows.",
+    "sell": 50,
+    "location": "found-whilstdiving(requiressunken-secrets-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/53/Rainbow_seaweed.png?52af58",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rainbow_Seaweed"
+  },
+  "rock-with-a-hole": {
+    "id": "rock-with-a-hole",
+    "name": "Rock with a Hole",
+    "description": "An uncommon artifact. Seems to be naturally formed.",
+    "sell": 50,
+    "location": "found-whilstdiving(requiressunken-secrets-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cb/Rock_with_a_hole.png?44f55a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_with_a_Hole"
+  },
+  "rusted-shield": {
+    "id": "rusted-shield",
+    "name": "Rusted Shield",
+    "description": "An uncommon artifact. A very old shield with an unusual design.",
+    "sell": 50,
+    "location": "found-whilstdiving(requiressunken-secrets-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c9/Rusted_shield.png?211914",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rusted_Shield"
+  },
+  "diamond-backed-mirror": {
+    "id": "diamond-backed-mirror",
+    "name": "Diamond-backed Mirror",
+    "description": "A rare artifact. The use of diamond here feels impractical.",
+    "sell": 75,
+    "location": "the-mines",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/58/Diamond_backed_mirror.png?e47120",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Diamond-backed_Mirror"
+  },
+  "flint-arrowhead": {
+    "id": "flint-arrowhead",
+    "name": "Flint Arrowhead",
+    "description": "An uncommon artifact. Likely lost during a hunt.",
+    "sell": 50,
+    "location": "the-mines",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0b/Flint_arrowhead.png?a7be01",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Flint_Arrowhead"
+  },
+  "obsidian-blade": {
+    "id": "obsidian-blade",
+    "name": "Obsidian Blade",
+    "description": "A rare artifact. The artifact is still dangerously sharp.",
+    "sell": 75,
+    "location": "the-mines",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/36/Obsidian_blade.png?a04eca",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Blade"
+  },
+  "shortcut-scroll": {
+    "id": "shortcut-scroll",
+    "name": "Shortcut Scroll",
+    "description": "A legendary artifact. The scroll appears to show a quick and easy route to the bottom of the Mines, but you don't recognize any of the paths.",
+    "sell": 125,
+    "location": "the-mines",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c4/Shortcut_scroll.png?bfeb01",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shortcut_Scroll"
+  },
+  "stone-horse": {
+    "id": "stone-horse",
+    "name": "Stone Horse",
+    "description": "An uncommon artifact. Carefully carved and very cute.",
+    "sell": 50,
+    "location": "the-mines",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a9/Stone_horse.png?8788c3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Horse"
+  },
+  "miner's-helmet": {
+    "id": "miner's-helmet",
+    "name": "Miner's Helmet",
+    "description": "A rare artifact. There is a worn away name on it that ends with the letter L...",
+    "sell": 75,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/07/Miner%27s_helmet.png?1f0012",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Helmet"
+  },
+  "miner's-pickaxe": {
+    "id": "miner's-pickaxe",
+    "name": "Miner's Pickaxe",
+    "description": "A common artifact. It's in pretty good condition despite its age.",
+    "sell": 40,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/54/Miner%27s_pickaxe.png?5d49a5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Pickaxe"
+  },
+  "miner's-rucksack": {
+    "id": "miner's-rucksack",
+    "name": "Miner's Rucksack",
+    "description": "An uncommon artifact. It seems to have been down in the Mines a long time.",
+    "sell": 50,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/27/Miner%27s_rucksack.png?b6dd53",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Rucksack"
+  },
+  "miner's-slab": {
+    "id": "miner's-slab",
+    "name": "Miner's Slab",
+    "description": "An uncommon artifact. It appears to warn of pitfalls ahead.",
+    "sell": 50,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/03/Miner%27s_slab.png?5f4649",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Slab"
+  },
+  "tin-lunchbox": {
+    "id": "tin-lunchbox",
+    "name": "Tin Lunchbox",
+    "description": "A common artifact. Sadly, it's empty.",
+    "sell": 40,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2b/Tin_lunchbox.png?ee19c6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tin_Lunchbox"
+  },
+  "crab-statue": {
+    "id": "crab-statue",
+    "name": "Crab Statue",
+    "description": "A rare artifact. This delicately crafted statue almost seems alive.",
+    "sell": 75,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/70/Crab_statue.png?106302",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crab_Statue"
+  },
+  "dense-water": {
+    "id": "dense-water",
+    "name": "Dense Water",
+    "description": "An uncommon artifact. This water is so dense that it holds its shape even in air.",
+    "sell": 50,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c3/Dense_water.png?47fc44",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dense_Water"
+  },
+  "starlight-coral": {
+    "id": "starlight-coral",
+    "name": "Starlight Coral",
+    "description": "A common artifact. This piece of coral glimmers as if reflecting starlight.",
+    "sell": 40,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/58/Starlight_coral.png?2d18eb",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Starlight_Coral"
+  },
+  "stone-shell": {
+    "id": "stone-shell",
+    "name": "Stone Shell",
+    "description": "A common artifact. When you hold it to your ear, you can hear the sound of water flowing through deep caves.",
+    "sell": 40,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/23/Stone_shell.png?1fb1fa",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Shell"
+  },
+  "tidestone": {
+    "id": "tidestone",
+    "name": "Tidestone",
+    "description": "An uncommon artifact. This chunk of stone appears to grow and shrink slightly along with the tides.",
+    "sell": 50,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/08/Tidestone.png?cecd2d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tidestone"
+  },
+  "earth-infused-stone": {
+    "id": "earth-infused-stone",
+    "name": "Earth-infused Stone",
+    "description": "An uncommon artifact. This chunk of rock has taken on elemental qualities of earth.",
+    "sell": 50,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5f/Earth-infused_stone.png?49af36",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Earth-infused_Stone"
+  },
+  "faceted-rock-gem": {
+    "id": "faceted-rock-gem",
+    "name": "Faceted Rock Gem",
+    "description": "A uncommon artifact. Despite its mesmerizing, gem-like appearance, it's just a piece of rock.",
+    "sell": 75,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f7/Faceted_rock_gem.png?81544a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Faceted_Rock_Gem"
+  },
+  "really-round-rock": {
+    "id": "really-round-rock",
+    "name": "Really Round Rock",
+    "description": "A common artifact. This naturally formed stone is unnaturally round.",
+    "sell": 40,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/60/Really_round_rock.png?6918ab",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Really_Round_Rock"
+  },
+  "rock-statue": {
+    "id": "rock-statue",
+    "name": "Rock Statue",
+    "description": "A rare artifact. This naturally formed stone appears to be in the shape of a human, but... surely it's just a coincidence.",
+    "sell": 125,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/53/Rock_statue.png?538c74",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Statue"
+  },
+  "seriously-square-stone": {
+    "id": "seriously-square-stone",
+    "name": "Seriously Square Stone",
+    "description": "A common artifact. This naturally formed stone is a perfect square, a true delight for a rock connoisseur.",
+    "sell": 40,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Seriously_square_stone.png?50a3b9",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Seriously_Square_Stone"
+  },
+  "fire-crystal": {
+    "id": "fire-crystal",
+    "name": "Fire Crystal",
+    "description": "A common Lava Caves artifact. This crystal has been imbued by the essence of fire.",
+    "sell": 50,
+    "location": "the-lava-caves(floors-61---79)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Fire_crystal.png?b191be",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fire_Crystal"
+  },
+  "rainbow-geode": {
+    "id": "rainbow-geode",
+    "name": "Rainbow Geode",
+    "description": "An uncommon Lava Caves artifact. This incredible geode is formed of many different gems, all fused together.",
+    "sell": 60,
+    "location": "lava-caves",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8f/Rainbow_geode.png?fc4987",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rainbow_Geode"
+  },
+  "red-obsidian": {
+    "id": "red-obsidian",
+    "name": "Red Obsidian",
+    "description": "An uncommon Lava Caves artifact. This chunk of obsidian has a streak of red running through it.",
+    "sell": 60,
+    "location": "lava-caves",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/39/Red_obsidian.png?5dac82",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Obsidian"
+  },
+  "tiny-volcano": {
+    "id": "tiny-volcano",
+    "name": "Tiny Volcano",
+    "description": "A rare Lava Caves artifact. This geological formation looks a lot like a volcano, except... tiny.",
+    "sell": 135,
+    "location": "lava-caves",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cd/Tiny_volcano.png?1394f8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tiny_Volcano"
+  },
+  "warm-rock": {
+    "id": "warm-rock",
+    "name": "Warm Rock",
+    "description": "A common Lava Caves artifact. This rock is ordinary in appearance, but it remains perpetually warm to the touch.",
+    "sell": 50,
+    "location": "the-lava-caves(floors-61---79)",
+    "rarity": "Common",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f2/Warm_rock.png?82641c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Warm_Rock"
+  },
+  "ritual-beads": {
+    "id": "ritual-beads",
+    "name": "Ritual Beads",
+    "description": "An uncommon artifact. Running these beads through your hand evokes a feeling of serenity.",
+    "sell": 50,
+    "location": "ritual-chambers(requireslost-to-history-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ec/Ritual_beads.png?5b6559",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ritual_Beads"
+  },
+  "ritual-chalice": {
+    "id": "ritual-chalice",
+    "name": "Ritual Chalice",
+    "description": "An uncommon artifact. This ornate chalice was presumably used during ancient rituals.",
+    "sell": 50,
+    "location": "ritual-chambers(requireslost-to-history-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/12/Ritual_chalice.png?557d07",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ritual_Chalice"
+  },
+  "ritual-incense-burner": {
+    "id": "ritual-incense-burner",
+    "name": "Ritual Incense Burner",
+    "description": "An uncommon artifact. The faint scent of incense still clings to this ancient burner.",
+    "sell": 50,
+    "location": "ritual-chambers(requireslost-to-history-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/59/Ritual_incense_burner.png?e8bac3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ritual_Incense_Burner"
+  },
+  "ritual-scepter": {
+    "id": "ritual-scepter",
+    "name": "Ritual Scepter",
+    "description": "A rare artifact. This ritual scepter was likely used by Dragon Priestesses during rituals.",
+    "sell": 75,
+    "location": "ritual-chambers(requireslost-to-history-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ee/Ritual_scepter.png?adf966",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ritual_Scepter"
+  },
+  "ritual-tablet": {
+    "id": "ritual-tablet",
+    "name": "Ritual Tablet",
+    "description": "A rare artifact. This tablet has a series of pictographs that show how to perform a ritual. It appears that one of the figures is a dragon.",
+    "sell": 75,
+    "location": "ritual-chambers(requireslost-to-history-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fb/Ritual_tablet.png?420c88",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ritual_Tablet"
+  },
+  "mist-crystal": {
+    "id": "mist-crystal",
+    "name": "Mist Crystal",
+    "description": "An uncommon artifact. A strange hollow crystal. If you put your ear to it, you can hear a howling wind.",
+    "location": "mist-spots(requiresmist-sight-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/af/Mist_crystal.png?2f1940",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mist_Crystal"
+  },
+  "mist-flute": {
+    "id": "mist-flute",
+    "name": "Mist Flute",
+    "description": "A rare artifact. Through unknown means and at random times, this flute will play a haunting melody.",
+    "location": "mist-spots(requiresmist-sight-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/53/Mist_flute.png?1a4866",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mist_Flute"
+  },
+  "mist-scroll": {
+    "id": "mist-scroll",
+    "name": "Mist Scroll",
+    "description": "A rare artifact. The words on this scroll are illegible, due to its constantly shifting lines.",
+    "location": "mist-spots(requiresmist-sight-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/43/Mist_scroll.png?2c84c7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mist_Scroll"
+  },
+  "misty-black-mirror": {
+    "id": "misty-black-mirror",
+    "name": "Misty Black Mirror",
+    "description": "An uncommon artifact. A black mirror, filled with mist, that thrums with magical power.",
+    "location": "mist-spots(requiresmist-sight-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/de/Misty_black_mirror.png?4bf04b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Misty_Black_Mirror"
+  },
+  "misty-feather-quill": {
+    "id": "misty-feather-quill",
+    "name": "Misty Feather Quill",
+    "description": "An uncommon artifact. This ethereal quill begins to tremble when placed near paper.",
+    "location": "mist-spots(requiresmist-sight-skill)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d6/Misty_feather_quill.png?96f8e0",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Misty_Feather_Quill"
+  },
+  "vintage-brush": {
+    "id": "vintage-brush",
+    "name": "Vintage Brush",
+    "description": "A rare artifact. This cute vintage tool was used to pet farm animals in years past.",
+    "sell": 75,
+    "location": "the-farm(requiresformer-farmers-skill)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Vintage_brush.png?adb3e8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Vintage_Brush"
+  },
+  "vintage-cow-bell": {
+    "id": "vintage-cow-bell",
+    "name": "Vintage Cow Bell",
+    "description": "A legendary artifact. This vintage bell would have been used to call cows home in bygone years.",
+    "sell": 125,
+    "location": "the-farm",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/61/Vintage_cow_bell.png?c50c40",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Vintage_Cow_Bell"
+  },
+  "vintage-hammer": {
+    "id": "vintage-hammer",
+    "name": "Vintage Hammer",
+    "description": "An uncommon artifact. This vintage wooden hammer was used to break rocks before pickaxes were commonplace.",
+    "sell": 50,
+    "location": "the-farm",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7d/Vintage_hammer.png?7c37f7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Vintage_Hammer"
+  },
+  "vintage-sickle": {
+    "id": "vintage-sickle",
+    "name": "Vintage Sickle",
+    "description": "An uncommon artifact. This vintage sickle was used by past generations to turn grass into fodder.",
+    "sell": 50,
+    "location": "the-farm",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b6/Vintage_sickle.png?f667ff",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Vintage_Sickle"
+  },
+  "vintage-watering-can": {
+    "id": "vintage-watering-can",
+    "name": "Vintage Watering Can",
+    "description": "An uncommon artifact. This vintage watering can was popular among farmers back in the day.",
+    "sell": 50,
+    "location": "the-farm",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/aa/Vintage_watering_can.png?4122f6",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Vintage_Watering_Can"
+  },
+  "perfect-copper-ore": {
+    "id": "perfect-copper-ore",
+    "name": "Perfect Copper Ore",
+    "description": "An uncommon artifact. This large chunk of pure copper ore is worthy of display.",
+    "sell": 50,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9f/Perfect_copper_ore.png?f66252",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Copper_Ore"
+  },
+  "perfect-gold-ore": {
+    "id": "perfect-gold-ore",
+    "name": "Perfect Gold Ore",
+    "description": "A rare artifact. This gold ore is incredibly large and splendid.",
+    "sell": 75,
+    "location": "the-lava-caves(floors-61---79)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/63/Perfect_gold_ore.png?f40629",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Gold_Ore"
+  },
+  "perfect-iron-ore": {
+    "id": "perfect-iron-ore",
+    "name": "Perfect Iron Ore",
+    "description": "An uncommon artifact. This chunk of iron is too magnificent to simply melt down.",
+    "sell": 50,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/90/Perfect_iron_ore.png?c45762",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Iron_Ore"
+  },
+  "perfect-mistril-ore": {
+    "id": "perfect-mistril-ore",
+    "name": "Perfect Mistril Ore",
+    "description": "A rare artifact. This mistril ore is incredibly large and splendid.",
+    "sell": 75,
+    "location": "the-ancient-ruins(floors-81---99)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/21/Perfect_mistril_ore.png?fdb69b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Mistril_Ore"
+  },
+  "perfect-silver-ore": {
+    "id": "perfect-silver-ore",
+    "name": "Perfect Silver Ore",
+    "description": "An uncommon artifact. The size and sheen on this piece of silver is a work of art.",
+    "sell": 50,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0a/Perfect_silver_ore.png?3e274e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Silver_Ore"
+  },
+  "perfect-diamond": {
+    "id": "perfect-diamond",
+    "name": "Perfect Diamond",
+    "description": "A rare artifact. This diamond is incredibly large and splendid.",
+    "sell": 225,
+    "location": "the-lava-caves(floors-61---79)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e2/Perfect_diamond.png?ac54e3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Diamond"
+  },
+  "perfect-emerald": {
+    "id": "perfect-emerald",
+    "name": "Perfect Emerald",
+    "description": "An uncommon artifact. An emerald of this clarity would gain nothing from being worked further.",
+    "sell": 75,
+    "location": "the-deep-earth(floors-41---59)",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/48/Perfect_emerald.png?80882c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Emerald"
+  },
+  "perfect-pink-diamond": {
+    "id": "perfect-pink-diamond",
+    "name": "Perfect Pink Diamond",
+    "description": "A rare artifact. This pink diamond is incredibly large and splendid.",
+    "sell": 325,
+    "location": "the-ancient-ruins(floors-81---99)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/54/Perfect_pink_diamond.png?80aa1d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Pink_Diamond"
+  },
+  "perfect-ruby": {
+    "id": "perfect-ruby",
+    "name": "Perfect Ruby",
+    "description": "A rare artifact. This ruby is incredibly large and splendid.",
+    "sell": 75,
+    "location": "the-upper-mines(floors-1---19)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/1a/Perfect_ruby.png?8b714c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Ruby"
+  },
+  "perfect-sapphire": {
+    "id": "perfect-sapphire",
+    "name": "Perfect Sapphire",
+    "description": "A rare artifact. This unusually large sapphire seems to glow from within.",
+    "sell": 75,
+    "location": "the-tide-caverns(floors-21---39)",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fe/Perfect_sapphire.png?e3aca7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Sapphire"
+  },
+  "crystal-apple": {
+    "id": "crystal-apple",
+    "name": "Crystal Apple",
+    "description": "A rare artifact. Appears to have been infused with essence.",
+    "sell": 75,
+    "location": "the-deep-woods",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/52/Crystal_apple.png?6a4aca",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Apple"
+  },
+  "fossilized-mandrake-root": {
+    "id": "fossilized-mandrake-root",
+    "name": "Fossilized Mandrake Root",
+    "description": "A legendary artifact. Thankfully, it's fossilized.",
+    "sell": 125,
+    "location": "the-deep-woods",
+    "rarity": "Legendary",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c7/Fossilized_mandrake_root.png?2db359",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fossilized_Mandrake_Root"
+  },
+  "gathering-basket": {
+    "id": "gathering-basket",
+    "name": "Gathering Basket",
+    "description": "An uncommon artifact. Still smells faintly of Bell Berries.",
+    "sell": 50,
+    "location": "the-deep-woods",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Gathering_basket.png?9d7dee",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Gathering_Basket"
+  },
+  "metal-leaf": {
+    "id": "metal-leaf",
+    "name": "Metal Leaf",
+    "description": "A rare artifact. So detailed, it's not clear if it was grown or crafted.",
+    "sell": 75,
+    "location": "the-deep-woods",
+    "rarity": "Rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/16/Metal_leaf.png?913ba3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Metal_Leaf"
+  },
+  "petrified-wood": {
+    "id": "petrified-wood",
+    "name": "Petrified Wood",
+    "description": "An uncommon artifact. Incredibly old and beautiful.",
+    "sell": 50,
+    "location": "the-deep-woods",
+    "rarity": "Uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Petrified_wood.png?52c376",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Petrified_Wood"
+  },
+  "clay": {
+    "id": "clay",
+    "name": "Clay",
+    "description": "A small lump of clay. Used in a variety of crafting recipes.",
+    "sell": 5,
+    "location": "Any",
+    "rarity": "Unknown",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a2/Clay.png?a0ee32",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Clay"
+  },
+  "peat": {
+    "id": "peat",
+    "name": "Peat",
+    "description": "A brick of compressed organic matter, commonly burned as fuel. Used as a crafting material.",
+    "sell": 5,
+    "location": "the-overworld",
+    "rarity": "Unknown",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/26/Peat.png?b94780",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Peat"
+  },
+  "shard-mass": {
+    "id": "shard-mass",
+    "name": "Shard Mass",
+    "description": "A large mass of shards originating from unknown artifacts. Used as a crafting material.",
+    "sell": 10,
+    "location": "archaeologymining",
+    "rarity": "Unknown",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4b/Shard_mass.png?6468d3",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shard_Mass"
+  },
+  "shards": {
+    "id": "shards",
+    "name": "Shards",
+    "description": "Shards originating from unknown artifacts. Used as a crafting material.",
+    "sell": 5,
+    "location": "the-overworld",
+    "rarity": "Unknown",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/84/Shards.png?86122e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shards"
+  },
+  "sod": {
+    "id": "sod",
+    "name": "Sod",
+    "description": "A square of cut earth. Used as a crafting material.",
+    "sell": 5,
+    "location": "the-overworld",
+    "rarity": "Unknown",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ac/Sod.png?c4fd2f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sod"
+  }
+}

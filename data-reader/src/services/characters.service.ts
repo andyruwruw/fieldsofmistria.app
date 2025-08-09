@@ -24,7 +24,6 @@ export class CharactersService {
     const characterPromises = [];
     let last = 0;
 
-    // for (let i = 0; i < 2; i += 1) {
     for (let i = 0; i < characterUrls.length; i += 1) {
       const url = characterUrls[i];
 

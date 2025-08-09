@@ -1,9 +1,11 @@
 // Local Imports
 import { convertArrayToObjectWithIds } from './utils/convert';
 import { CharactersService } from './services/characters.service';
+import { ArtifactsService } from './services/artifacts.service';
 import { AnimalsService } from './services/animals.service';
 import { FishesService } from './services/fishes.service';
 import { MuseumService } from './services/museum.service';
+import { SkillsService } from './services/skills.service';
 import { CropsService } from './services/crops.service';
 import { BugsService } from './services/bugs.service';
 import writeToJson from './utils/json-writer';
@@ -54,12 +56,28 @@ const main = async () => {
     museum,
   );
 
+  const artifactsService = new ArtifactsService();
+  const artifacts = await artifactsService.fetch();
+
+  writeToJson(
+    'export/artifacts.json',
+    convertArrayToObjectWithIds(artifacts),
+  );
+
   const fishService = new FishesService();
   const fish = await fishService.fetch();
 
   writeToJson(
     'export/fish.json',
-    fish,
+    convertArrayToObjectWithIds(fish),
+  );
+
+  const skillsService = new SkillsService();
+  const skills = await skillsService.fetch();
+
+  writeToJson(
+    'export/skills.json',
+    convertArrayToObjectWithIds(skills),
   );
 
   console.log('Data reader is completed.');

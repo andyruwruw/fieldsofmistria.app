@@ -33,7 +33,6 @@ export class FishPageParser extends Parser<Fish> {
         href: this._url,
       } as unknown as Fish;
     } catch (error) {
-      console.log(data);
       console.log(error);
     }
 

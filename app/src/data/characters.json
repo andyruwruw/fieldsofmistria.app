@@ -103,7 +103,8 @@
       "golden-cookies",
       "moon-fruit-cake",
       "mushroom-brew",
-      "pizza"
+      "pizza",
+      "spell-fruit-parfait"
     ],
     "liked": [
       "crunchy-chickpeas",
@@ -176,6 +177,7 @@
       "rosemary-garlic-noodles",
       "seafood-boil",
       "seafood-snow-pea-noodles",
+      "spell-fruit-parfait",
       "sushi-platter"
     ],
     "liked": [
@@ -358,7 +360,6 @@
     "loved": [
       "alda-gem-bracelet",
       "apple-honey-curry",
-      "chili-coconut-curry",
       "deluxe-curry",
       "family-crest-pendant",
       "perfect-diamond",
@@ -629,6 +630,7 @@
       "ice-cream-sundae",
       "mont-blanc",
       "pumpkin-pie",
+      "spell-fruit-parfait",
       "strawberry-shortcake"
     ],
     "liked": [
@@ -959,7 +961,6 @@
     "loved": [
       "beer",
       "caldosian-drinking-horn",
-      "chili-coconut-curry",
       "crayfish-etouffee",
       "crispy-fried-earthshroom",
       "hot-toddy",
@@ -1169,7 +1170,6 @@
     "fall-image": "https://fieldsofmistria.wiki.gg/images/thumb/3/36/Josephine_fall.png/180px-Josephine_fall.png?2cd600",
     "winter-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/69/Josephine_winter.png/180px-Josephine_winter.png?a76617",
     "loved": [
-      "chili-coconut-curry",
       "crayfish-etouffee",
       "tea-with-lemon",
       "green-tea",
@@ -1812,7 +1812,6 @@
     "winter-image": "https://fieldsofmistria.wiki.gg/images/thumb/6/6f/Vera_winter.png/180px-Vera_winter.png?1d7563",
     "loved": [
       "beet-soup",
-      "chili-coconut-curry",
       "gazpacho",
       "harvest-plate",
       "mushroom-steak-dinner",
@@ -1922,11 +1921,11 @@
       "mont-blanc",
       "seafood-boil",
       "seafood-snow-pea-noodles",
+      "spell-fruit-parfait",
       "spring-galette",
       "sushi-platter"
     ],
     "liked": [
-      "chili-coconut-curry",
       "coconut-cream-pie",
       "crab-cakes",
       "fish-tacos",
@@ -2088,7 +2087,6 @@
     "liked": [
       "beet-soup",
       "breath-of-flame",
-      "chili-coconut-curry",
       "chocolate-cake",
       "crab-cakes",
       "fish-tacos",
@@ -2102,6 +2100,7 @@
       "perch-risotto",
       "pumpkin-pie",
       "sea-bream-rice",
+      "spell-fruit-parfait",
       "spirit-mushroom-tea",
       "vegetable-pot-pie",
       "vegetable-quiche"
