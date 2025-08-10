@@ -102,3 +102,52 @@ a {
 		border: 1px solid transparent;
 	}
 }
+
+.museum-set-on {
+	background: rgba(34,197,94,.1);
+	border: 1px solid rgb(20 83 45 / 1);
+}
+
+.tabs {
+	width: 100%;
+	background: transparent;
+
+	.tabs-list {
+		width: 100%;
+		background: transparent;
+	}
+}
+
+.tabs-list {
+	margin: 12px 0 24px;
+}
+
+.tabs-trigger {
+	flex-grow: 1;
+	background: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+
+	&:hover {
+		border: 1px solid transparent;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+	}
+
+	&:focus {
+		outline: 1px solid transparent;
+	}
+
+	&:focus-visible {
+		outline: 1px solid transparent;
+	}
+
+	&:active {
+		border: 1px solid transparent;
+	}
+
+	&[data-state='active'] {
+		background: transparent;
+		border-bottom: 1px solid rgb(255, 255, 255);
+		color: rgb(255,255,255);
+	}
+}

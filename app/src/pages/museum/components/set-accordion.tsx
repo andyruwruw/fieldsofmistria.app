@@ -1,6 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Packages
-import { type ReactElement } from 'react';
-import { IconSettings } from '@tabler/icons-react';
+import {
+	useEffect,
+	useState,
+	type Dispatch,
+	type ReactElement,
+	type SetStateAction,
+} from 'react';
 import clsx from 'clsx';
 
 // Local Imports
@@ -10,32 +16,21 @@ import {
 	AccordionItem,
 	AccordionTriggerNoToggle,
 } from '../../../components/ui/accordion';
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuLabel,
-	DropdownMenuRadioGroup,
-	DropdownMenuRadioItem,
-	DropdownMenuSeparator,
-	DropdownMenuTrigger,
-} from '../../../components/ui/dropdown-menu';
-import {
-	Tooltip,
-	TooltipContent,
-	TooltipProvider,
-	TooltipTrigger,
-} from '../../../components/ui/tooltip';
-
-// Types
-import type { MuseumSet } from '../../../types/museum';
+import { SetItemCard } from './set-item-card';
 import { Progress } from '../../../components/ui/progress';
 
+// Types
+import type {
+	MuseumDisplaySet,
+	MuseumDisplaySetItem,
+} from '../../../types/museum';
+
 interface SetAccordionProps {
-	set: MuseumSet;
+	set: MuseumDisplaySet;
 
-	items: Record<string, boolean>;
-
-	done: Record<string, Record<string, boolean>>;
+	setIsOpen: Dispatch<SetStateAction<boolean>>;
+	
+	setObject: Dispatch<SetStateAction<any | null>>;
 };
 
 /**
@@ -45,25 +40,48 @@ interface SetAccordionProps {
  */
 export default function SetAccordion({
 	set,
-	items = {},
-	done = {},
+	setIsOpen,
+	setObject,
 }: SetAccordionProps): ReactElement {
-	const setDone = false;
 	const isDesktop = window.innerWidth >= 768; // Example breakpoint for desktop
+
+	const [
+		done,
+		setDone,
+	] = useState(false);
+	const [
+		progress,
+		setProgress,
+	] = useState(0);
+	const [
+		count,
+		setCount,
+	] = useState(5);
+
+	useEffect(() => {
+		setDone(set.done);
+		setProgress(set.items.filter((item: MuseumDisplaySetItem) => item.done).length);
+		setCount(set.items.length);
+	}, [ set ]);
 
 	return (
 		<Accordion type='single' collapsible defaultValue='item-1' asChild>
 			<section
 				className={clsx(
 					'relative h-min select-none justify-between space-y-3 rounded-lg border px-5 pt-4 text-neutral-950 shadow-sm hover:cursor-pointer dark:text-neutral-50',
-					setDone
+					done
 						? 'border-green-900 bg-green-500/20 hover:bg-green-500/30 dark:bg-green-500/10 hover:dark:bg-green-500/20'
 						: 'border-neutral-200 dark:border-neutral-800',
 				)}>
-				<AccordionItem value='item-1' className='border-none'>
+				<AccordionItem
+					value='item-1'
+					className='border-none'>
 					<AccordionTriggerNoToggle
 						className={`ml-1 pt-0 text-xl font-semibold text-gray-900 dark:text-white hover-no-border ${isDesktop ? 'flex-row' : 'flex-col items-start'}`}
-						style={{ margin: '0', padding: '0' }}>
+						style={{
+							margin: '0 0 16px',
+							padding: '0',
+						}}>
 						<div>
 							<div className='flex items-center gap-3'>
 								<span style={{ fontSize: '20px' }}>
@@ -72,11 +90,11 @@ export default function SetAccordion({
 							</div>
 						</div>
 
-						{!setDone && (
+						{!done && (
 							<div className={`flex items-center ${isDesktop ? '' : 'pt-2'}`}>
 								<Progress
-									value={4}
-									max={4}
+									value={progress}
+									max={count}
 									className='w-32'
 								/>
 							</div>
@@ -85,6 +103,15 @@ export default function SetAccordion({
 
 					<AccordionContent asChild>
 						<div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
+							{
+								set.items.map((item: MuseumDisplaySetItem) => (
+									<SetItemCard
+										key={item.id}
+										item={item}
+										setIsOpen={setIsOpen}
+										setObject={setObject} />
+								))
+							}
 						</div>
 					</AccordionContent>
 				</AccordionItem>

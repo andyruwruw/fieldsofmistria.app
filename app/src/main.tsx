@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { StrictMode } from 'react';
 
 // Local Imports
+import { MultiSelectProvider } from './contexts/multi-select/provider.tsx';
 import { PlayersProvider } from './contexts/player/provider.tsx';
 import App from './App.tsx'
 
@@ -17,9 +18,11 @@ import './index.css';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <PlayersProvider>
-        <App />
-      </PlayersProvider>
+      <MultiSelectProvider>
+        <PlayersProvider>
+          <App />
+        </PlayersProvider>
+      </MultiSelectProvider>
     </BrowserRouter>
   </StrictMode>,
 );
