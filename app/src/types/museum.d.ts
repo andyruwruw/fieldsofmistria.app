@@ -136,6 +136,11 @@ export interface MuseumDisplaySet {
   items: MuseumDisplaySetItem[];
 
   /**
+   * The wing this set belongs to.
+   */
+  wing: string;
+
+  /**
    * Whether this set is complete.
    */
   done: boolean;

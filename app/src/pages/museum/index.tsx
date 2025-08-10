@@ -6,6 +6,7 @@ import {
   useState,
   type ReactElement,
 } from 'react';
+import { IconFilterFilled } from '@tabler/icons-react';
 
 // Local Imports
 import {
@@ -14,7 +15,24 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '../../components/ui/accordion';
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+} from '../../components/ui/card';
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from '../../components/ui/toggle-group';
+import {
+  Command,
+  CommandInput,
+} from '../../components/ui/command';
+import { PercentageIndicator } from '../../components/ui/percentage-indicator';
+import { CompletionCard } from '../../components/cards/completion-card';
 import { PlayersContext } from '../../contexts/player';
+import { combineNames } from '../../lib/utils';
+import { FilterSearch } from '../../components/ui/filter-btn';
 import artifactsData from '../../data/artifacts.json';
 import SetAccordion from './components/set-accordion';
 import museumData from '../../data/museum.json';
@@ -27,13 +45,11 @@ import type {
   Artifact,
   MuseumDisplaySet,
   MuseumDisplaySetItem,
-  MuseumSet,
   MuseumWing,
 } from '../../types/museum';
 import type { Fish } from '../../types/fish';
 import type { Crop } from '../../types/crops';
 import type { Bug } from '../../types/bugs';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
 
 /**
  * Resolves an item by its ID.
@@ -55,70 +71,9 @@ const resolveItem = (id: string): any => {
   return null;
 }
 
-/**
- * Generate a display set from a museum set.
- *
- * @param set The museum set to transform.
- * @returns The generated display set.
- */
-function generateSets(
-  wing: string,
-  sets: MuseumSet[],
-  completions: Record<string, Record<string, boolean>> = {},
-  progress: Record<string, boolean> = {},
-): MuseumDisplaySet[] {
-  const displaySets: MuseumDisplaySet[] = [];
-
-  console.log(sets);
-
-  for (const set of sets) {
-    const displaySet = {
-      id: set.id,
-      name: set.name,
-      items: [] as MuseumDisplaySetItem[],
-      done: wing in completions && set.id in completions[wing] ?completions[wing][set.id] : false,
-    } as MuseumDisplaySet;
-
-    const items = set.items;
-    let allComplete = true;
-
-    for (let i = 0; i < items.length; i += 1) {
-      const item = resolveItem(items[i]);
-
-      if (item) {
-        let forceDone = false;
-        if (item.id === 'copper-nugget-beetle' && 'copper-beetle' in progress && progress['copper-beetle']) {
-          forceDone = true;
-        }
-
-        const done = forceDone || (item.id in progress ? (progress as Record<string, boolean>)[item.id] : false);
-
-        if (!done) {
-          allComplete = false;
-        }
-
-        displaySet.items.push({
-          id: item.id,
-          name: item.name,
-          image: item.image,
-          description: item.description,
-          done,
-        });
-
-        if (!forceDone && (wing in completions && set.id in completions[wing] ?completions[wing][set.id] : false) && (!(item.id in progress) || !progress[item.id])) {
-          console.log(`Weird ID things when verifying, ${item.id}`);
-        }
-      }
-    }
-
-    if (allComplete && !displaySet.done) {
-      displaySet.done = true;
-    }
-
-    displaySets.push(displaySet);
-  }
-
-  return displaySets;
+const bubbleColors: Record<string, string> = {
+	'0': 'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950', // unfound
+	'2': 'border-green-900 bg-green-500/20', // found
 };
 
 /**
@@ -131,75 +86,193 @@ export default function Museum(): ReactElement {
   } = useContext(PlayersContext);
 
   const [
+    progress,
+    setProgress,
+  ] = useState(0);
+  const [
+    wingProgress,
+    setWingProgress,
+  ] = useState({} as Record<string, number>);
+  const [
     wings,
     setWings,
   ] = useState([] as MuseumWing[]);
   const [
     sets,
     setSets,
-  ] = useState({} as Record<string, MuseumDisplaySet[]>);
+  ] = useState([] as MuseumDisplaySet[]);
+
   const [
-    progress,
-    setProgress,
-  ] = useState({});
+    type,
+    setType,
+  ] = useState([] as Record<string, string>[]);
   const [
-    completions,
-    setCompletions,
-  ] = useState({} as Record<string, Record<string, boolean>>);
+    search,
+    setSearch,
+  ] = useState('');
+  const [
+    _filter,
+    setFilter,
+  ] = useState('all');
+  const [
+    _wingFilter,
+    setWingFilter,
+  ] = useState('all');
+  const [
+    filteredSets,
+    setFilteredSets,
+  ] = useState([] as MuseumDisplaySet[]);
 
   useEffect(() => {
-    const progress = {} as Record<string, boolean>;
+    setWings(museumData.wings);
+
+    setType([
+      {
+        value: 'all',
+        label: 'All Sets',
+      },
+      ...wings.map((wing: MuseumWing) => ({
+        value: wing.id,
+        label: wing.name,
+      }))
+    ]);
+
+    const completedItems = {} as Record<string, boolean>;
 
     if (data && data.museum_progress) {
       for (let i = 0; i < data.museum_progress.length; i += 1) {
-        progress[data.museum_progress[i].replace(/_+/g, '-').toLowerCase()] = true;
+        completedItems[data.museum_progress[i].replace(/_+/g, '-').toLowerCase()] = true;
       }
     }
 
-    setProgress(progress);
-
-    const done = {} as Record<string, Record<string, boolean>>;
+    const setCompletions = {} as Record<string, Record<string, boolean>>;
 
     if (stats && stats.set_completions) {
       for (let i = 0; i < stats.set_completions.length; i += 1) {
         const wing = stats.set_completions[i].wing;
         const set = stats.set_completions[i].set.replace(/_+/g, '-').toLowerCase();
 
-        if (!(stats.set_completions[i].wing in done)) {
-          done[stats.set_completions[i].wing] = {};
+        if (!(stats.set_completions[i].wing in setCompletions)) {
+          setCompletions[stats.set_completions[i].wing] = {};
         }
 
-        done[wing][set] = true;
+        setCompletions[wing][set] = true;
       }
     }
 
-    setCompletions(done);
+    const newSets = [] as MuseumDisplaySet[];
+    let totalItems = 0;
+    let itemsCompletedSum = 0;
+
+    const newWingProgress = {} as Record<string, number>;
+
+    for (const wing of wings) {
+      const wingSets = museumData.sets[wing.id as keyof typeof museumData.sets];
+      let wingTotalItems = 0;
+      let wingItemsCompletedSum = 0;
+
+      for (let i = 0; i < wingSets.length; i += 1) {
+        const wingId = wing.id.replace('-wing', '');
+        const set = wingSets[i];
+
+        const displaySet = {
+          id: set.id,
+          name: set.name,
+          items: [] as MuseumDisplaySetItem[],
+          done: wingId in setCompletions && set.id in setCompletions[wingId] ?setCompletions[wingId][set.id] : false,
+          wing: wing.id,
+        } as MuseumDisplaySet;
+
+        const items = set.items;
+        let allComplete = true;
+
+        for (let i = 0; i < items.length; i += 1) {
+          const item = resolveItem(items[i]);
+          totalItems += 1;
+          wingTotalItems += 1;
+
+          if (item) {
+            let forceDone = false;
+            if (item.id === 'copper-nugget-beetle' && 'copper-beetle' in completedItems && completedItems['copper-beetle']) {
+              forceDone = true;
+            }
+
+            const done = forceDone || (item.id in completedItems ? (completedItems as Record<string, boolean>)[item.id] : false);
+
+            if (!done) {
+              allComplete = false;
+            } else {
+              itemsCompletedSum += 1;
+              wingItemsCompletedSum += 1;
+            }
+
+            displaySet.items.push({
+              id: item.id,
+              name: item.name,
+              image: item.image,
+              description: item.description,
+              done,
+            });
+
+            if (!forceDone && (wingId in setCompletions && set.id in setCompletions[wingId] ?setCompletions[wingId][set.id] : false) && (!(item.id in completedItems) || !completedItems[item.id])) {
+              console.log(`Weird ID things when verifying, ${item.id}`);
+            }
+          }
+        }
+
+        if (allComplete && !displaySet.done) {
+          displaySet.done = true;
+        }
+
+        newSets.push(displaySet);
+      }
+
+      newWingProgress[wing.id] = wingItemsCompletedSum > 0 ? wingItemsCompletedSum / wingTotalItems : 0;
+    }
+
+    setWingProgress(newWingProgress);
+    setProgress(totalItems > 0 ? itemsCompletedSum / totalItems : 0);
+
+    setSets(newSets);
   }, [
     data,
     stats,
+    wings,
+
   ]);
 
   useEffect(() => {
-    setWings(museumData.wings);
+    const filtered = sets.filter((set: MuseumDisplaySet) => {
+      if (_wingFilter !== 'all') {
+        if (set.wing !== _wingFilter) {
+          return false;
+        }
+      }
 
-    const newSets = {} as Record<string, MuseumDisplaySet[]>;
+      if (_filter !== '') {
+        if (_filter === 'completed' && !set.done) {
+          return false;
+        }
+        if (_filter === 'incompleted' && set.done) {
+          return false;
+        }
+      }
 
-    for (const wing of wings) {
-      newSets[wing.id] = generateSets(
-        wing.id.replace('-wing', ''),
-        museumData.sets[wing.id as keyof typeof museumData.sets] as MuseumSet[],
-        completions,
-        progress,
-      );
-    }
+      if (search !== '') {
+        if (!(set.name.toLowerCase().includes(search.toLowerCase()))) {
+          return false;
+        }
+      }
 
-    setSets(newSets);
+      return true;
+    });
 
-    console.log(newSets);
+    setFilteredSets(filtered);
   }, [
-    progress,
-    completions,
-    wings,
+    _wingFilter,
+    _filter,
+    search,
+    sets,
   ]);
 
   const [
@@ -218,46 +291,146 @@ export default function Museum(): ReactElement {
           Museum Tracker
         </h1>
 
-        <Tabs className='tabs'>
-          <TabsList className='tabs-list' aria-label='Select a Museum Wing'>
-            {
-              wings.map((wing) => (
-                <TabsTrigger
-                  key={wing.id}
-                  className='tabs-trigger'
-                  value={`tab-${wing.id}`}>
-                  <img
-                    src={wing.image}
-                    alt={wing.name}
-                    width='42px'
-                    style={{ marginRight: '8px' }} />
+        <Accordion
+          collapsible
+          asChild
+          defaultValue='item-1'
+          type='single'>
+          <section className='space-y-3'>
+							<AccordionItem value='item-1'>
+								<AccordionTrigger
+                  className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+									Museum Completion
+								</AccordionTrigger>
 
-                  {wing.name}
-                </TabsTrigger>
-              ))
-            }
-          </TabsList>
+								<AccordionContent asChild>
+									<div className='grid grid-cols-1 grid-rows-2 gap-4 xl:grid-cols-3 2xl:grid-cols-3'>
+										<Card
+											className={combineNames(
+												'col-span-1 row-span-full flex w-full items-center justify-center',
+												progress === 1 &&
+													'border-green-900 bg-green-500/20 dark:border-green-900 dark:bg-green-500/10',
+											)}>
+											<div className='flex flex-col items-center p-4'>
+                        <CardHeader className='mb-2 flex flex-col items-center justify-between space-y-0 p-0'>
+													<CardTitle className='text-2xl font-semibold'>
+														Total Completion
+													</CardTitle>
+												</CardHeader>
 
-          {
-            Object.keys(sets).map((wing: string) => (
-              <TabsContent
-                className='tabs-content'
-                value={`tab-${wing}`}>
-                <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
-                  {
-                    sets[wing].map((set: MuseumDisplaySet) => (
-                      <SetAccordion
-                        key={set.id}
-                        set={set}
-                        setIsOpen={setIsOpen}
-                        setObject={setObject} />
-                    ))
-                  }
-                </div>
-              </TabsContent>
-            ))
-          }
-        </Tabs>
+												<PercentageIndicator
+													percentage={Math.floor(progress * 100)}
+													className='h-32 w-32 lg:h-48 lg:w-48' />
+											</div>
+										</Card>
+
+                    {
+                      wings.map((wing) => (
+                        <CompletionCard
+                          key={wing.id}
+                          title={wing.name}
+                          description={''}
+                          percentage={wingProgress[wing.id] ? Math.floor(wingProgress[wing.id] * 100) : 0}
+                          image={wing.image}
+                          footer={''} />
+                      ))
+                    }
+                  </div>
+              </AccordionContent>
+            </AccordionItem>
+          </section>
+        </Accordion>
+
+        <Accordion
+          collapsible
+          asChild
+          defaultValue='item-1'
+          type='single'>
+          <section className='space-y-3'>
+            <AccordionItem value='item-1'>
+								<AccordionTrigger
+                  className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+									All Museum Sets
+								</AccordionTrigger>
+
+								<AccordionContent asChild>
+                  <div className='flex w-full flex-col gap-2 md:flex-row md:items-center md:justify-between'>
+                    <div className='flex flex-row items-center gap-2'>
+                      <ToggleGroup
+                        variant='outline'
+                        type='single'
+                        className='gap-2'
+                        value={_filter}
+                        onValueChange={(val) =>
+                          setFilter(val === _filter ? 'all' : val)
+                        }>
+                        <ToggleGroupItem
+                          value='incompleted'
+                          aria-label='Show Incompleted'
+                          className='toggle-group-item'>
+                          <span
+                            className={combineNames(
+                              'inline-block h-4 w-4 rounded-full border align-middle',
+                              bubbleColors['0'],
+                            )} />
+
+                          <span className='align-middle'>
+                            Incompleted
+                          </span>
+                        </ToggleGroupItem>
+
+                        <ToggleGroupItem
+                          value='completed'
+                          aria-label='Show Completed'
+                          className='toggle-group-item'>
+                          <span
+                            className={combineNames(
+                              'inline-block h-4 w-4 rounded-full border align-middle',
+                              bubbleColors['2'],
+                            )} />
+                          
+                          <span className='align-middle'>
+                            Completed
+                          </span>
+                        </ToggleGroupItem>
+                      </ToggleGroup>
+                    </div>
+
+                    <div className='flex flex-row items-center gap-2'>
+                      <FilterSearch
+                        _filter={_wingFilter}
+                        title={'Wing'}
+                        data={type}
+                        setFilter={setWingFilter}
+                        icon={IconFilterFilled} />
+                    </div>
+                  </div>
+
+                  <div className='mt-2 w-full'>
+                    <Command className='w-full border border-b-0 dark:border-neutral-800'>
+                      <CommandInput
+                        onValueChange={(v) => {
+                          setSearch(v);
+                        }}
+                        placeholder='Search Sets' />
+                    </Command>
+                  </div>
+                  
+                  <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
+                    {
+                      filteredSets.map((set: MuseumDisplaySet) => (
+                        <SetAccordion
+                          key={`${set.wing}-${set.id}`}
+                          set={set}
+                          setIsOpen={setIsOpen}
+                          setObject={setObject} />
+                      ))
+                    }
+                  </div>
+                </AccordionContent>
+            </AccordionItem>
+          </section>
+        </Accordion>
       </div>
     </>
   );

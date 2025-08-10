@@ -53,8 +53,6 @@ export const SetItemCard = ({
     setDone(item.done);
   }, [ item ]);
 
-  console.log(item);
-
 	return (
 		<BooleanCard
       item={item}
