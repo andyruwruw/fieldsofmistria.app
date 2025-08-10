@@ -68,6 +68,8 @@ const resolveItem = (id: string): any => {
     return (fishData as unknown as Record<string, Fish>)[id];
   }
 
+  console.log(id);
+
   return null;
 }
 
@@ -222,6 +224,10 @@ export default function Museum(): ReactElement {
 
         if (allComplete && !displaySet.done) {
           displaySet.done = true;
+        }
+
+        if (set.name === 'Upper Mines') {
+          console.log(displaySet);
         }
 
         newSets.push(displaySet);
@@ -406,7 +412,7 @@ export default function Museum(): ReactElement {
                     </div>
                   </div>
 
-                  <div className='mt-2 w-full'>
+                  <div className='mt-2 w-full pb-5'>
                     <Command className='w-full border border-b-0 dark:border-neutral-800'>
                       <CommandInput
                         onValueChange={(v) => {

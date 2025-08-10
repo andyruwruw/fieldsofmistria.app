@@ -13,17 +13,36 @@ export class ForageableListParser extends Parser<string[]> {
    */
   async parse(): Promise<string[]> {
     const mainChildren = this._getChildren('div.mw-content-ltr');
+    let forageableUrls = [];
 
     console.log(`0%   | Fetching Forageables`);
 
     const mainTable = this._condenseTable(this._parseTable(this._firstTagAfterTag(
       'table',
-      'p',
+      'h2',
       mainChildren,
-      [],
+      [ 'Regular Forageables' ],
     )));
 
-    const forageableUrls = this._parseForageableTable(mainTable) || [];
+    forageableUrls.push(...(this._parseForageableTable(mainTable) || []));
+
+    const bushTable = this._condenseTable(this._parseTable(this._firstTagAfterTag(
+      'table',
+      'h2',
+      mainChildren,
+      [ 'Bush Forageables' ],
+    )));
+
+    forageableUrls.push(...(this._parseForageableTable(bushTable) || []));
+
+    const mineTable = this._condenseTable(this._parseTable(this._firstTagAfterTag(
+      'table',
+      'h2',
+      mainChildren,
+      [ 'Mines Forageables' ],
+    )));
+
+    forageableUrls.push(...(this._parseForageableTable(mineTable) || []));
 
     return forageableUrls;
   }

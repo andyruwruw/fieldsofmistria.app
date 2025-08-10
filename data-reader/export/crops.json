@@ -19,6 +19,19 @@
     "type": "fruit",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Apple"
   },
+  "ash-mushroom": {
+    "name": "Ash Mushroom",
+    "id": "ash-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/21/Ash_mushroom.png?31589f",
+    "description": "A delicate mushroom that releases ashlike spores when jostled.",
+    "locations": [
+      "the-lava-caves",
+      "(floors-61---79)"
+    ],
+    "sell": 10,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ash_Mushroom"
+  },
   "basil": {
     "name": "Basil",
     "id": "basil",
@@ -55,6 +68,42 @@
     "seed-image": "https://fieldsofmistria.wiki.gg/images/8/8d/Beet_seed.png?617b85",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Beet"
   },
+  "bell-berry": {
+    "name": "Bell Berry",
+    "id": "bell-berry",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/10/Bell_berry.png?2519d6",
+    "description": "A wild berry foraged in all seasons. These uniquely shaped sweet fruits are only found in Mistria. Sometimes used in cooking recipes.",
+    "locations": [
+      "the-deep-woods"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 20,
+    "seasons": [],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry"
+  },
+  "blackberry": {
+    "name": "Blackberry",
+    "id": "blackberry",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/25/Blackberry.png?f3329d",
+    "description": "A delicious berry that grows in fall. Used in a variety of cooking recipes.",
+    "locations": [
+      "sweetwater-farm",
+      "the-eastern-road",
+      "the-narrows",
+      "the-summit",
+      "the-western-ruins"
+    ],
+    "health": 1,
+    "stamina": 1,
+    "sell": 5,
+    "seasons": [
+      "fall"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Blackberry"
+  },
   "blue-conch-shell": {
     "name": "Blue Conch Shell",
     "id": "blue-conch-shell",
@@ -67,6 +116,37 @@
     "seasons": [],
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Conch_Shell"
+  },
+  "blueberry": {
+    "name": "Blueberry",
+    "id": "blueberry",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9e/Blueberry.png?7fb25c",
+    "description": "These round blue berries are foraged in spring. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-eastern-road",
+      "the-deep-woods"
+    ],
+    "health": 1,
+    "stamina": 1,
+    "sell": 5,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Blueberry"
+  },
+  "breath-of-flame": {
+    "name": "Breath of Flame",
+    "id": "breath-of-flame",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/49/Breath_of_flame.png?5c2b18",
+    "description": "These beautiful flowers continue to glow, even after they've been picked.",
+    "locations": [
+      "the-lava-caves",
+      "(floors-61---79)"
+    ],
+    "sell": 45,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Breath_of_Flame"
   },
   "broccoli": {
     "id": "broccoli",
@@ -188,6 +268,21 @@
     "image": "https://fieldsofmistria.wiki.gg/images/a/aa/Cauliflower.png?84a1b0",
     "seed-image": "https://fieldsofmistria.wiki.gg/images/c/cc/Cauliflower_seed.png?86e568",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Cauliflower"
+  },
+  "cave-mushroom": {
+    "name": "Cave Mushroom",
+    "id": "cave-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9c/Cave_mushroom.png?cbbe2b",
+    "description": "A tasty green mushroom sometimes dropped by Mushroom monsters.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 15,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cave_Mushroom"
   },
   "celosia": {
     "id": "celosia",
@@ -381,6 +476,34 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Crocus"
   },
+  "crystal-berries": {
+    "name": "Crystal Berries",
+    "id": "crystal-berries",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e8/Crystal_berries.png?3cd5f0",
+    "description": "These berries have a glasslike appearance and are very sweet.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berries"
+  },
+  "crystal-rose": {
+    "name": "Crystal Rose",
+    "id": "crystal-rose",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Crystal_rose.png?80e28a",
+    "description": "This delicate, shimmering rose appears to be made of crystal.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "sell": 35,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Rose"
+  },
   "cucumber": {
     "id": "cucumber",
     "name": "Cucumber",
@@ -490,6 +613,21 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Dill"
   },
+  "earthshroom": {
+    "name": "Earthshroom",
+    "id": "earthshroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/83/Earthshroom.png?6b48ee",
+    "description": "These mushrooms grow in dense clusters, and smell strongly of earth.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Earthshroom"
+  },
   "fennel": {
     "name": "Fennel",
     "id": "fennel",
@@ -525,6 +663,19 @@
     ],
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Fiddlehead"
+  },
+  "flame-pepper": {
+    "name": "Flame Pepper",
+    "id": "flame-pepper",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/29/Flame_pepper.png?40787c",
+    "description": "These incredibly hot peppers should be handled with care.",
+    "locations": [
+      "the-lava-caves",
+      "(floors-61---79)"
+    ],
+    "sell": 35,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Flame_Pepper"
   },
   "fog-orchid": {
     "name": "Fog Orchid",
@@ -582,6 +733,42 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Garlic"
   },
+  "glowberry": {
+    "name": "Glowberry",
+    "id": "glowberry",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e6/Glowberry.png?c1ba9c",
+    "description": "A wild plant foraged in winter. Has a sweet flavor and naturally glows. Used as a crafting and cooking ingredient.",
+    "locations": [
+      "mistria",
+      "sweetwater-farm",
+      "the-eastern-road",
+      "the-narrows",
+      "the-western-ruins"
+    ],
+    "health": 1,
+    "stamina": 1,
+    "sell": 5,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Glowberry"
+  },
+  "glowing-mushroom": {
+    "name": "Glowing Mushroom",
+    "id": "glowing-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/69/Glowing_mushroom.png?575773",
+    "description": "A glowing blue mushroom sometimes dropped by Mushroom monsters.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 15,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Glowing_Mushroom"
+  },
   "heather": {
     "name": "Heather",
     "id": "heather",
@@ -637,6 +824,35 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Horseradish"
   },
+  "hot-potato": {
+    "name": "Hot Potato",
+    "id": "hot-potato",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/44/Hot_potato.png?cd9343",
+    "description": "These pre-cooked wild potatoes have a tangy flavor that is surprisingly addictive.",
+    "locations": [
+      "the-lava-caves",
+      "(floors-61---79)"
+    ],
+    "sell": 40,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hot_Potato"
+  },
+  "hydrangea": {
+    "name": "Hydrangea",
+    "id": "hydrangea",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/64/Hydrangea.png?d09921",
+    "description": "A wild blue flower grown in the summer. Makes a nice gift.",
+    "locations": [
+      "the-eastern-road",
+      "the-deep-woods"
+    ],
+    "sell": 20,
+    "seasons": [
+      "summer"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hydrangea"
+  },
   "ice-block": {
     "name": "Ice Block",
     "id": "ice-block",
@@ -676,6 +892,21 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Iris"
   },
+  "jade-dulse": {
+    "name": "Jade Dulse",
+    "id": "jade-dulse",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/aa/Jade_dulse.png?3e1efb",
+    "description": "This seaweed makes a great thickener for soups. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Jade_Dulse"
+  },
   "jasmine": {
     "name": "Jasmine",
     "id": "jasmine",
@@ -694,6 +925,19 @@
     "regrow-time": 3,
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Jasmine"
+  },
+  "lava-chestnuts": {
+    "name": "Lava Chestnuts",
+    "id": "lava-chestnuts",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/33/Lava_chestnuts.png?cb398c",
+    "description": "These delicious chestnuts come pre-cooked!",
+    "locations": [
+      "the-lava-caves",
+      "(floors-61---79)"
+    ],
+    "sell": 45,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Chestnuts"
   },
   "lemon": {
     "name": "Lemon",
@@ -767,6 +1011,21 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Middlemist"
   },
+  "mines-mussels": {
+    "name": "Mines Mussels",
+    "id": "mines-mussels",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d2/Mines_mussels.png?f330ef",
+    "description": "These mussels grow in bunches underground. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 35,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines_Mussels"
+  },
   "moon-fruit": {
     "name": "Moon Fruit",
     "id": "moon-fruit",
@@ -807,6 +1066,19 @@
     ],
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Morel_Mushroom"
+  },
+  "narrows-moss": {
+    "name": "Narrows Moss",
+    "id": "narrows-moss",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a5/Narrows_moss.png?cb4540",
+    "description": "A unique species of moss. Very exciting to moss experts.",
+    "locations": [
+      "the-upper-mines",
+      "(floors-1---19)"
+    ],
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Narrows_Moss"
   },
   "nettle": {
     "name": "Nettle",
@@ -1071,6 +1343,19 @@
     "seed-image": "https://fieldsofmistria.wiki.gg/images/e/e9/Pumpkin_seed.png?23c909",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin"
   },
+  "red-toadstool": {
+    "name": "Red Toadstool",
+    "id": "red-toadstool",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c3/Red_toadstool.png?38d488",
+    "description": "A red mushroom sometimes dropped by Mushroom monsters. Likely poisonous.",
+    "locations": [
+      "the-upper-mines",
+      "(floors-2---19)"
+    ],
+    "sell": 15,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Toadstool"
+  },
   "rice-stalk": {
     "id": "rice-stalk",
     "name": "Rice Stalk",
@@ -1086,6 +1371,57 @@
     "image": "https://fieldsofmistria.wiki.gg/images/0/05/Rice_stalk.png?635522",
     "seed-image": "https://fieldsofmistria.wiki.gg/images/c/c5/Rice_seed.png?ce1d72",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Rice_Stalk"
+  },
+  "rockroot": {
+    "name": "Rockroot",
+    "id": "rockroot",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/06/Rockroot.png?a4f279",
+    "description": "It's hard to tell if this is part of a living plant or if it just resembles one.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rockroot"
+  },
+  "rose": {
+    "name": "Rose",
+    "id": "rose",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4f/Rose.png?9f774c",
+    "description": "A beautiful red flower grown in summer. Can be given as a gift or used in various crafting recipes.",
+    "locations": [
+      "the-manor's-gardens",
+      "(grows-on-the-bushes-near-the-gazebo)",
+      "mistria"
+    ],
+    "sell": 20,
+    "seasons": [
+      "summer"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rose"
+  },
+  "rose-hip": {
+    "name": "Rose Hip",
+    "id": "rose-hip",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/56/Rose_hip.png?888441",
+    "description": "A wild plant foraged in winter. Has a sweet and sour flavor. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-manor's-gardens",
+      "(grows-on-the-bushes-near-the-gazebo)",
+      "mistria"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 20,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rose_Hip"
   },
   "rosemary": {
     "name": "Rosemary",
@@ -1141,6 +1477,21 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Sand_Dollar"
   },
+  "sea-grapes": {
+    "name": "Sea Grapes",
+    "id": "sea-grapes",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/14/Sea_grapes.png?48f5e9",
+    "description": "These grapes have a salty pop that adds a briny taste to any dish. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 35,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Grapes"
+  },
   "sesame": {
     "name": "Sesame",
     "id": "sesame",
@@ -1157,6 +1508,34 @@
     ],
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Sesame"
+  },
+  "shadow-flower": {
+    "name": "Shadow Flower",
+    "id": "shadow-flower",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c7/Shadow_flower.png?bc6ead",
+    "description": "A rare flower that only grows in darkness. It makes a unique gift.",
+    "locations": [
+      "the-upper-mines",
+      "(floors-1---19)"
+    ],
+    "sell": 50,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shadow_Flower"
+  },
+  "shale-grass": {
+    "name": "Shale Grass",
+    "id": "shale-grass",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e8/Shale_grass.png?ccb7d1",
+    "description": "This grass only looks like it's made of rock. Very tough to cut.",
+    "locations": [
+      "the-deep-earth",
+      "(floors-41---59)"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 10,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shale_Grass"
   },
   "snapdragon": {
     "name": "Snapdragon",
@@ -1305,6 +1684,21 @@
     "seed-image": "https://fieldsofmistria.wiki.gg/images/2/2c/Sweet_potato_seed.png?c9dae2",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato"
   },
+  "sweetroot": {
+    "name": "Sweetroot",
+    "id": "sweetroot",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3e/Sweetroot.png?612c45",
+    "description": "A root that grows in caves underground. Makes a great snack, even when eaten raw!",
+    "locations": [
+      "the-upper-mines",
+      "(floors-1---19)"
+    ],
+    "health": 20,
+    "stamina": 20,
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sweetroot"
+  },
   "tea": {
     "id": "tea",
     "name": "Tea",
@@ -1370,6 +1764,21 @@
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Thyme"
   },
+  "tide-lettuce": {
+    "name": "Tide Lettuce",
+    "id": "tide-lettuce",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9a/Tide_lettuce.png?b169a9",
+    "description": "This wild lettuce has a rich flavor and a satisfying crunch. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tide_Lettuce"
+  },
   "tomato": {
     "id": "tomato",
     "name": "Tomato",
@@ -1420,6 +1829,36 @@
     "image": "https://fieldsofmistria.wiki.gg/images/b/b7/Turnip.png?e82d93",
     "seed-image": "https://fieldsofmistria.wiki.gg/images/8/8c/Turnip_seed.png?8f99d3",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Turnip"
+  },
+  "underseaweed": {
+    "name": "Underseaweed",
+    "id": "underseaweed",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/Underseaweed.png?e53352",
+    "description": "This seaweed has a mild flavor and bouncy texture. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-tide-caverns",
+      "(floors-21---39)"
+    ],
+    "health": 5,
+    "stamina": 5,
+    "sell": 30,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Underseaweed"
+  },
+  "upper-mines-mushroom": {
+    "name": "Upper Mines Mushroom",
+    "id": "upper-mines-mushroom",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2e/Upper_mines_mushroom.png?93e6f3",
+    "description": "A wild mushroom with a great flavor and texture. Commonly used as a cooking ingredient.",
+    "locations": [
+      "the-upper-mines",
+      "(floors-1---19)"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 20,
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Upper_Mines_Mushroom"
   },
   "viola": {
     "name": "Viola",
@@ -1507,6 +1946,45 @@
     "seed-image": "https://fieldsofmistria.wiki.gg/images/1/10/Wheat_seed.png?ea933b",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Wheat"
   },
+  "wild-berries": {
+    "name": "Wild Berries",
+    "id": "wild-berries",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Wild_berries.png?74509d",
+    "description": "These small red berries are foraged in spring. Used in a variety of cooking recipes.",
+    "locations": [
+      "mistria",
+      "the-narrows",
+      "sweetwater-farm",
+      "the-beach",
+      "the-eastern-road",
+      "the-deep-woods"
+    ],
+    "health": 1,
+    "stamina": 1,
+    "sell": 1,
+    "seasons": [
+      "spring"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berries"
+  },
+  "wild-grapes": {
+    "name": "Wild Grapes",
+    "id": "wild-grapes",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d2/Wild_grapes.png?42524d",
+    "description": "A wild fruit grown in the summer. Tart and delicious, they are commonly used as a cooking ingredient.",
+    "locations": [
+      "the-narrows"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "sell": 25,
+    "seasons": [
+      "summer"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Grapes"
+  },
   "wild-leek": {
     "name": "Wild Leek",
     "id": "wild-leek",
@@ -1525,5 +2003,24 @@
     ],
     "type": "forageable",
     "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Leek"
+  },
+  "wintergreen-berry": {
+    "name": "Wintergreen Berry",
+    "id": "wintergreen-berry",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/74/Wintergreen_berry.png?6a5603",
+    "description": "A wonderful winter berry. Used in a variety of cooking recipes.",
+    "locations": [
+      "the-narrows",
+      "the-western-ruins",
+      "the-deep-woods"
+    ],
+    "health": 3,
+    "stamina": 3,
+    "sell": 5,
+    "seasons": [
+      "winter"
+    ],
+    "type": "forageable",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Berry"
   }
 }
