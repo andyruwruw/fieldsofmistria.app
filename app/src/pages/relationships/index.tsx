@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // Packages
 import {
   useContext,
@@ -18,6 +19,10 @@ import characterData from '../../data/characters.json';
 import type { FieldsOfMistriaNpcData } from '../../types/fields-of-mistria/characters';
 import type { Character } from '../../types/characters';
 import { Input } from '../../components/ui/input';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../../components/ui/accordion';
+import { Card, CardHeader, CardTitle } from '../../components/ui/card';
+import { combineNames, getHeartCount } from '../../lib/utils';
+import { PercentageIndicator } from '../../components/ui/percentage-indicator';
 
 const SORT_FILTERS = [
 	{
@@ -39,13 +44,24 @@ const BUBBLE_COLORS: Record<string, string> = {
  * Relationships page component.
  */
 export default function Relationships(): ReactElement {
-  const { npcs } = useContext(PlayersContext);
+  const {
+    npcs,
+    data,
+    stats,
+    header,
+    info,
+    player,
+  } = useContext(PlayersContext);
   const characters = characterData as unknown as Record<string, Character>;
 
   const [
     relationships,
     setRelationships,
   ] = useState<Record<string, FieldsOfMistriaNpcData>>(npcs);
+  const [
+    progress,
+    setProgress,
+  ] = useState<number>(0);
   const [
     characterList,
     setCharacterList,
@@ -97,7 +113,6 @@ export default function Relationships(): ReactElement {
 
           return bHearts - aHearts;
         } catch (error) {
-          console.error('Error sorting characters by hearts:', error);
           return 0;
         }
       });
@@ -112,9 +127,16 @@ export default function Relationships(): ReactElement {
 
   useEffect(() => {
     const newRelationships = {} as Record<string, FieldsOfMistriaNpcData>;
+    let sum = 0; 
 
-    for (const key of Object.keys(npcs)) {
-      newRelationships[key] = npcs[key];
+    if (npcs) {
+      for (const key of Object.keys(npcs)) {
+        newRelationships[key] = npcs[key];
+
+        sum += getHeartCount(npcs[key]?.heart_points || 0) || 0;
+      }
+
+      setProgress(sum / ((Object.keys(npcs).length || 0) * 10));
     }
 
     setRelationships(newRelationships);
@@ -126,34 +148,133 @@ export default function Relationships(): ReactElement {
         Relationship Tracker
       </h1>
 
-      <section className='space-y-3'>
-        <div className='grid grid-cols-1 gap-2 lg:flex mb-4'>
-          <Input
-            placeholder='Search..'
-            className='flex-auto'
-            onChange={(e) => {
-              setSearch(e.target.value);
-            }} />
+      <Accordion
+        collapsible
+        asChild
+        defaultValue='item-1'
+        type='single'>
+        <section className='space-y-3'>
+            <AccordionItem value='item-1'>
+              <AccordionTrigger
+                className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+                Friendship Progress
+              </AccordionTrigger>
 
-          <FilterSearch
-            _filter={sort}
-            title='Sort By'
-            data={SORT_FILTERS}
-            setFilter={setSort}
-            icon={IconAdjustments} />
-        </div>
+              <AccordionContent asChild>
+                <div className='grid grid-cols-1 grid-rows-2 gap-4 xl:grid-cols-3 2xl:grid-cols-3'>
+                  <Card
+                    className={combineNames(
+                      'col-span-1 row-span-full flex w-full items-center justify-center',
+                      progress === 1 &&
+                        'border-green-900 bg-green-500/20 dark:border-green-900 dark:bg-green-500/10',
+                    )}>
+                    <div className='flex flex-col items-center p-4'>
+                      <CardHeader className='mb-2 flex flex-col items-center justify-between space-y-0 p-0'>
+                        <CardTitle className='text-2xl font-semibold'>
+                          Total Completion
+                        </CardTitle>
+                      </CardHeader>
 
-        <div className='grid grid-cols-1 gap-4 xl:grid-cols-4'>
-          {characterList.map((character) => (
-            <CharacterCard
-              key={character.id}
-              character={character}
-              relationship={relationships[character.id] || null}
-              setIsOpen={setIsOpen}
-              setCharacter={setCharacter} />
-          ))}
-        </div>
-      </section>
+                      <PercentageIndicator
+                        percentage={Math.floor(progress * 100)}
+                        className='h-32 w-32 lg:h-48 lg:w-48' />
+                    </div>
+                  </Card>
+                </div>
+            </AccordionContent>
+          </AccordionItem>
+        </section>
+      </Accordion>
+
+      <Accordion
+        collapsible
+        asChild
+        defaultValue='item-1'
+        type='single'>
+        <section className='space-y-3'>
+          <AccordionItem value='item-1'>
+            <AccordionTrigger
+              className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+              All Characters
+            </AccordionTrigger>
+
+            <AccordionContent asChild>
+              <div className='flex w-full flex-col gap-2 md:flex-row md:items-center md:justify-between'>
+                <div className='flex flex-row items-center gap-2'>
+                  <ToggleGroup
+                    variant='outline'
+                    type='single'
+                    className='gap-2'
+                    value={_filter}
+                    onValueChange={(val) =>
+                      setFilter(val === _filter ? 'all' : val)
+                    }>
+                    <ToggleGroupItem
+                      value='incompleted'
+                      aria-label='Show Incompleted'
+                      className='toggle-group-item'>
+                      <span
+                        className={combineNames(
+                          'inline-block h-4 w-4 rounded-full border align-middle',
+                          bubbleColors['0'],
+                        )} />
+
+                      <span className='align-middle'>
+                        Incomplete
+                      </span>
+                    </ToggleGroupItem>
+
+                    <ToggleGroupItem
+                      value='completed'
+                      aria-label='Show Completed'
+                      className='toggle-group-item'>
+                      <span
+                        className={combineNames(
+                          'inline-block h-4 w-4 rounded-full border align-middle',
+                          bubbleColors['2'],
+                        )} />
+                      
+                      <span className='align-middle'>
+                        Completed
+                      </span>
+                    </ToggleGroupItem>
+                  </ToggleGroup>
+                </div>
+
+                <div className='flex flex-row items-center gap-2'>
+                  <FilterSearch
+                    _filter={sort}
+                    title={'Sort by'}
+                    data={SORT_FILTERS}
+                    setFilter={setSort}
+                    icon={IconAdjustments} />
+                </div>
+              </div>
+
+              <div className='mt-2 w-full pb-5'>
+                <Command className='w-full border border-b-0 dark:border-neutral-800'>
+                  <CommandInput
+                    onValueChange={(v) => {
+                      setSearch(v);
+                    }}
+                    placeholder='Search Sets' />
+                </Command>
+              </div>
+
+              <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
+                {characterList.map((character) => (
+                  <CharacterCard
+                    key={character.id}
+                    character={character}
+                    relationship={relationships[character.id] || null}
+                    setIsOpen={setIsOpen}
+                    setCharacter={setCharacter} />
+                ))}
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </section>
+      </Accordion>
 
       <CharacterSheet
         open={open}

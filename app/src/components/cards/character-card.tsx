@@ -14,7 +14,7 @@ import {
 	type JSXElementConstructor,
 	type ReactElement,
 } from 'react';
-import { combineNames } from '../../lib/utils';
+import { combineNames, getHeartCount } from '../../lib/utils';
 
 // Types
 import type { FieldsOfMistriaNpcData } from '../../types/fields-of-mistria/characters';
@@ -45,19 +45,6 @@ interface CharacterCardProps {
 	setCharacter?: (character: Character) => void;
 }
 
-const HEART_VALUES = [
-	80,
-	180,
-	280,
-	390,
-	530,
-	705,
-	900,
-	1125,
-	1400,
-	1755,
-];
-
 /**
  * CharacterCard component that displays a character's information.
  * @param props The props for the component.
@@ -83,17 +70,7 @@ export const CharacterCard = ({
 			return;
 		}
 
-		let newHearts = 0;
-
-		for (let i = 0; i < HEART_VALUES.length; i++) {
-			if (relationship?.heart_points >= HEART_VALUES[i]) {
-				newHearts++;
-			} else {
-				break;
-			}
-		}
-
-		setHearts(newHearts);
+		setHearts(getHeartCount(relationship?.heart_points || 0));
 	}, [ relationship ]);
 
   const getHearts = (count: number) => {
@@ -117,6 +94,17 @@ export const CharacterCard = ({
 		return icons;
 	};
 
+	// adeline_post_8h_romantic_progression
+	// adeline_post_8h_romantic_grouping
+	// cutscene_seen_adeline_four_hearts
+	// adeline_post_8h_best_friend_gate
+	// adeline_post_8h_romantic_gate
+	// adeline_heart_event
+	// cutscene_seen_adeline_eight_hearts
+	// adeline_eight_heart_priority_bump
+	// adeline_post_8h_best_friend_grouping
+	// cutscene_seen_adeline_six_hearts
+
   return (
     <ContextMenu>
       <ContextMenuTrigger asChild>
@@ -132,10 +120,11 @@ export const CharacterCard = ({
 					<img
             src={character['spring-image']}
             alt={character.name}
-            className='h-12 w-10 object-cover object-top' />
+            className='h-14 object-cover object-top'
+						style={{ minWidth: '47px' }} />
 
 					<div className='flex-1'>
-						<p className='truncate font-medium'>
+						<p className='truncate font-medium mb-2'>
               {character.name}
             </p>
 

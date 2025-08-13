@@ -129,6 +129,7 @@ export const BooleanCard = ({
             }
             setObject(item);
             setIsOpen(true);
+            
           }}>
           <div className='flex items-center space-x-3 truncate text-left'>
 						<ItemWithOverlay

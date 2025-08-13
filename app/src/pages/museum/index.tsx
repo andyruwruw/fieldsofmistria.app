@@ -4,6 +4,7 @@ import {
   useContext,
   useEffect,
   useState,
+  type CSSProperties,
   type ReactElement,
 } from 'react';
 import { IconFilterFilled } from '@tabler/icons-react';
@@ -16,11 +17,6 @@ import {
   AccordionTrigger,
 } from '../../components/ui/accordion';
 import {
-  Card,
-  CardHeader,
-  CardTitle,
-} from '../../components/ui/card';
-import {
   ToggleGroup,
   ToggleGroupItem,
 } from '../../components/ui/toggle-group';
@@ -28,13 +24,10 @@ import {
   Command,
   CommandInput,
 } from '../../components/ui/command';
-import { PercentageIndicator } from '../../components/ui/percentage-indicator';
-import { CompletionCard } from '../../components/cards/completion-card';
 import { PlayersContext } from '../../contexts/player';
 import { combineNames } from '../../lib/utils';
 import { FilterSearch } from '../../components/ui/filter-btn';
 import artifactsData from '../../data/artifacts.json';
-import SetAccordion from './components/set-accordion';
 import museumData from '../../data/museum.json';
 import cropsData from '../../data/crops.json';
 import bugsData from '../../data/bugs.json';
@@ -50,6 +43,10 @@ import type {
 import type { Fish } from '../../types/fish';
 import type { Crop } from '../../types/crops';
 import type { Bug } from '../../types/bugs';
+import { ItemSheet } from '../../components/sheets/item-sheet';
+import MuseumHeader from './components/header';
+import PageLayout from '../../components/layouts/page';
+import { SetListAccordion } from './components/set-list-accordion';
 
 /**
  * Resolves an item by its ID.
@@ -68,14 +65,12 @@ const resolveItem = (id: string): any => {
     return (fishData as unknown as Record<string, Fish>)[id];
   }
 
-  console.log(id);
-
   return null;
 }
 
 const bubbleColors: Record<string, string> = {
 	'0': 'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950', // unfound
-	'2': 'border-green-900 bg-green-500/20', // found
+	'1': 'border-green-900 bg-green-500/20', // found
 };
 
 /**
@@ -226,10 +221,6 @@ export default function Museum(): ReactElement {
           displaySet.done = true;
         }
 
-        if (set.name === 'Upper Mines') {
-          console.log(displaySet);
-        }
-
         newSets.push(displaySet);
       }
 
@@ -289,63 +280,14 @@ export default function Museum(): ReactElement {
     object,
     setObject
   ] = useState<any | null>(null);
-  
+
   return (
     <>
-      <div className='mx-auto mt-4 w-full space-y-4'>
-        <h1 className='text-left page-title ml-1 text-2xl font-semibold text-gray-900 dark:text-white'>
-          Museum Tracker
-        </h1>
-
-        <Accordion
-          collapsible
-          asChild
-          defaultValue='item-1'
-          type='single'>
-          <section className='space-y-3'>
-							<AccordionItem value='item-1'>
-								<AccordionTrigger
-                  className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
-									Museum Completion
-								</AccordionTrigger>
-
-								<AccordionContent asChild>
-									<div className='grid grid-cols-1 grid-rows-2 gap-4 xl:grid-cols-3 2xl:grid-cols-3'>
-										<Card
-											className={combineNames(
-												'col-span-1 row-span-full flex w-full items-center justify-center',
-												progress === 1 &&
-													'border-green-900 bg-green-500/20 dark:border-green-900 dark:bg-green-500/10',
-											)}>
-											<div className='flex flex-col items-center p-4'>
-                        <CardHeader className='mb-2 flex flex-col items-center justify-between space-y-0 p-0'>
-													<CardTitle className='text-2xl font-semibold'>
-														Total Completion
-													</CardTitle>
-												</CardHeader>
-
-												<PercentageIndicator
-													percentage={Math.floor(progress * 100)}
-													className='h-32 w-32 lg:h-48 lg:w-48' />
-											</div>
-										</Card>
-
-                    {
-                      wings.map((wing) => (
-                        <CompletionCard
-                          key={wing.id}
-                          title={wing.name}
-                          description={''}
-                          percentage={wingProgress[wing.id] ? Math.floor(wingProgress[wing.id] * 100) : 0}
-                          image={wing.image}
-                          footer={''} />
-                      ))
-                    }
-                  </div>
-              </AccordionContent>
-            </AccordionItem>
-          </section>
-        </Accordion>
+      <PageLayout>
+        <MuseumHeader
+          progress={progress}
+          wings={wings}
+          wingProgress={wingProgress} />
 
         <Accordion
           collapsible
@@ -354,8 +296,7 @@ export default function Museum(): ReactElement {
           type='single'>
           <section className='space-y-3'>
             <AccordionItem value='item-1'>
-								<AccordionTrigger
-                  className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+								<AccordionTrigger className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
 									All Museum Sets
 								</AccordionTrigger>
 
@@ -381,7 +322,7 @@ export default function Museum(): ReactElement {
                             )} />
 
                           <span className='align-middle'>
-                            Incompleted
+                            Incomplete
                           </span>
                         </ToggleGroupItem>
 
@@ -424,8 +365,15 @@ export default function Museum(): ReactElement {
                   
                   <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
                     {
-                      filteredSets.map((set: MuseumDisplaySet) => (
-                        <SetAccordion
+                      filteredSets.map((
+                        set: MuseumDisplaySet,
+                        index: number,
+                      ) => (
+                        <SetListAccordion
+                          className='slide-in'
+                          style={{
+                            '--index': index / 3,
+                          } as CSSProperties}
                           key={`${set.wing}-${set.id}`}
                           set={set}
                           setIsOpen={setIsOpen}
@@ -437,7 +385,12 @@ export default function Museum(): ReactElement {
             </AccordionItem>
           </section>
         </Accordion>
-      </div>
+
+        <ItemSheet
+          open={open}
+          setIsOpen={setIsOpen}
+          item={object} />
+      </PageLayout>
     </>
   );
 }

@@ -50,14 +50,7 @@ export const InfoCard = ({
 	show,
 }: InfoCardProps): ReactNode => {
 	return (
-		<div
-			className={combineNames('relative bg-white px-5 py-4 text-neutral-950 shadow-none dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50')}>
-			{minVersion === '1.6.0' && (
-				<NewItemBadge
-					version={minVersion}
-					position='inside' />
-			)}
-
+		<div className='relative bg-white shadow-none info-card'>
 			<div
 				className={combineNames(
 					'flex items-center space-x-3 truncate rounded-lg border-none border-neutral-200',

@@ -8,7 +8,7 @@ import type { ReactElement } from 'react';
  */
 export function EssenceIcon({
   size = 24,
-}: { size: number }): ReactElement {
+}: { size?: number }): ReactElement {
   return (
     <img
       src='https://fieldsofmistria.wiki.gg/images/f/f5/Essence_drop.png?b82837'

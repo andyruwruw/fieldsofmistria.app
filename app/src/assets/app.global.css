@@ -172,3 +172,51 @@ a {
 		border-color: rgba(255, 255, 255, 0.3);
 	}
 }
+
+.center-in-margin {
+	width: 100%;
+}
+
+.info-card {
+	padding: calc(0.25rem * 5);
+	background: transparent;
+	border: solid 1px rgba(255, 255, 255, 0.1);
+	border-radius: 0.75rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slide-in {
+	--index: 0;
+
+	animation: hide calc(0.2s * var(--index)), slide-in 0.5s ease calc(0.2s * var(--index)) forwards;
+}
+
+@keyframes hide {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes slide-in {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.faded .skill-card {
+	opacity: 0.3 !important;
+}
+
+.faded h2 {
+	opacity: 0.5 !important;
+}

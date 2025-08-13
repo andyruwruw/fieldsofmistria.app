@@ -40,16 +40,14 @@ export function Topbar() {
 						onClick={() => setUploadOpen(true)}
 						data-umami-event="Upload save"
 						className="hover:bg-green-500 hover:text-neutral-50 dark:hover:bg-green-500 dark:hover:text-neutral-50">
-						Upload Save
+						{ player?.name ? 'Upload Different Save' : 'Upload Save' }
 					</Button>
 
           {
             player?.name && (
               <Button
                 variant="ghost"
-                onClick={() => setUploadOpen(true)}
-                data-umami-event="Upload save"
-                className="hover:bg-green-500 hover:text-neutral-50 dark:hover:bg-green-500 dark:hover:text-neutral-50">
+                data-umami-event="Upload save">
                 { player.name || 'Player' }
               </Button>
             )

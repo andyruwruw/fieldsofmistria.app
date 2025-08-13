@@ -3,6 +3,7 @@
 import {
 	useEffect,
 	useState,
+	type CSSProperties,
 	type Dispatch,
 	type ReactElement,
 	type SetStateAction,
@@ -16,7 +17,7 @@ import {
 	AccordionItem,
 	AccordionTriggerNoToggle,
 } from '../../../components/ui/accordion';
-import { SetItemCard } from './set-item-card';
+import { SetListAccordionItem } from './set-list-accordion-item';
 import { Progress } from '../../../components/ui/progress';
 
 // Types
@@ -25,24 +26,30 @@ import type {
 	MuseumDisplaySetItem,
 } from '../../../types/museum';
 
-interface SetAccordionProps {
+interface SetListAccordionProps {
 	set: MuseumDisplaySet;
 
 	setIsOpen: Dispatch<SetStateAction<boolean>>;
 	
 	setObject: Dispatch<SetStateAction<any | null>>;
+
+	className: string;
+
+	style: CSSProperties;
 };
 
 /**
- * SetAccordion component.
- * @param props The props for the SetAccordion component.
- * @returns The rendered SetAccordion component.
+ * SetListAccordion component.
+ * @param props The props for the SetListAccordion component.
+ * @returns The rendered SetListAccordion component.
  */
-export default function SetAccordion({
+export const SetListAccordion = ({
 	set,
 	setIsOpen,
 	setObject,
-}: SetAccordionProps): ReactElement {
+	className = '',
+	style = {} as CSSProperties,
+}: SetListAccordionProps): ReactElement => {
 	const isDesktop = window.innerWidth >= 768; // Example breakpoint for desktop
 
 	const [
@@ -65,7 +72,13 @@ export default function SetAccordion({
 	}, [ set ]);
 
 	return (
-		<Accordion type='single' collapsible defaultValue='item-1' asChild>
+		<Accordion
+			className={className}
+			style={style}
+			defaultValue='item-1'
+			type='single'
+			collapsible
+			asChild>
 			<section
 				className={clsx(
 					'relative h-min select-none justify-between space-y-3 rounded-lg border px-5 pt-4 text-neutral-950 shadow-sm hover:cursor-pointer dark:text-neutral-50',
@@ -105,7 +118,7 @@ export default function SetAccordion({
 						<div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
 							{
 								set.items.map((item: MuseumDisplaySetItem) => (
-									<SetItemCard
+									<SetListAccordionItem
 										key={item.id}
 										item={item}
 										setIsOpen={setIsOpen}

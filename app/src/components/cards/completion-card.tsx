@@ -14,6 +14,7 @@ interface CompletionCardProps {
 	percentage: number;
 	footer: string;
   image?: string;
+  color?: string;
 	[rest: string]: any;
 }
 
@@ -23,17 +24,19 @@ export const CompletionCard = ({
 	percentage,
 	footer,
   image,
+  color = '',
 	...rest
 }: CompletionCardProps) => {
 	const checkedClass =
 		percentage === 100
 			? 'border-green-900 bg-green-500/20 dark:bg-green-500/10 dark:border-green-900'
 			: '';
+
 	return (
-		<Card 
+		<Card
       className={checkedClass}
       {...rest}>
-			<div className='grid grid-cols-3'>
+			<div className='grid grid-cols-3 center-in-margin'>
 				<div className='flex col-span-2 items-center pl-5'>
           {
             (image?.length) ? <img
@@ -45,14 +48,14 @@ export const CompletionCard = ({
           }
 
 					<div className='flex flex-col'>
-            <CardHeader className='flex flex-row items-cnter justify-between space-y-0 pb-2'>
+            <CardHeader className='flex flex-row items-cnter justify-between space-y-0 pb-0'>
               <CardTitle className='text-sm font-semibold'>
                 {title}
               </CardTitle>
             </CardHeader>
 
             <CardContent>
-              <p className='text-2xl font-bold'>
+              <p className='text-2xl font-bold text-left'>
                 {description}
               </p>
 
@@ -65,8 +68,9 @@ export const CompletionCard = ({
 
 				<div className='flex justify-end items-center p-5'>
 					<PercentageIndicator
+            className='h-16 w-16'
             percentage={percentage}
-            className='h-16 w-16' />
+            color={color} />
 				</div>
 			</div>
 		</Card>

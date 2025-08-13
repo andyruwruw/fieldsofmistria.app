@@ -29,7 +29,7 @@ export interface Skill {
   /**
    * Description of the skill.
    */
-  description: string;
+  description: string | string[];
 
   /**
    * Cost of essence to unlock the skill.

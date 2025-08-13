@@ -14,9 +14,9 @@ import { BooleanCard } from '../../../components/cards/boolean-card';
 import type { MuseumDisplaySetItem } from '../../../types/museum';
 
 /**
- * Props for the SetItemCard component.
+ * Props for the SetListAccordionItem component.
  */
-interface SetItemCardProps {
+interface SetListAccordionItemProps {
   /**
    * The museum display set item to display.
    */
@@ -34,16 +34,16 @@ interface SetItemCardProps {
 }
 
 /**
- * SetItemCard component for displaying a museum display set item.
+ * SetListAccordionItem component for displaying a museum display set item.
  *
- * @param {SetItemCardProps} props The props for the component.
+ * @param {SetListAccordionItemProps} props The props for the component.
  * @returns The rendered component.
  */
-export const SetItemCard = ({
+export const SetListAccordionItem = ({
 	item,
 	setIsOpen,
 	setObject,
-}: SetItemCardProps) => {
+}: SetListAccordionItemProps) => {
   const [
     done,
     setDone,
