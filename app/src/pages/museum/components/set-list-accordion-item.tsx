@@ -9,9 +9,7 @@ import {
 
 // Local Imports
 import { BooleanCard } from '../../../components/cards/boolean-card';
-
-// Types
-import type { MuseumDisplaySetItem } from '../../../types/museum';
+import { resolveItem } from '../../../lib/utils';
 
 /**
  * Props for the SetListAccordionItem component.
@@ -20,7 +18,12 @@ interface SetListAccordionItemProps {
   /**
    * The museum display set item to display.
    */
-	item: MuseumDisplaySetItem;
+	id: string;
+
+  /**
+   * Map of completed items.
+   */
+  completedItems?: Record<string, boolean>;
   
   /**
    * Set function to open the item.
@@ -40,7 +43,8 @@ interface SetListAccordionItemProps {
  * @returns The rendered component.
  */
 export const SetListAccordionItem = ({
-	item,
+	id,
+	completedItems,
 	setIsOpen,
 	setObject,
 }: SetListAccordionItemProps) => {
@@ -48,18 +52,33 @@ export const SetListAccordionItem = ({
     done,
     setDone,
   ] = useState(false);
+  const [
+    item,
+    setItem,
+  ] = useState({} as any);
 
   useEffect(() => {
-    setDone(item.done);
-  }, [ item ]);
+    setDone(completedItems?.[id] ?? false);
+  }, [
+    id,
+    completedItems,
+  ]);
+
+  useEffect(() => {
+    setItem(resolveItem(id));
+  }, [ id ]);
 
 	return (
-		<BooleanCard
-      item={item}
-      type='any'
-      completed={done}
-      setIsOpen={setIsOpen}
-      setObject={setObject}
-      show={true} />
+    <>
+      {
+        Object.keys(item).length && <BooleanCard
+          item={item}
+          type='any'
+          completed={done}
+          setIsOpen={setIsOpen}
+          setObject={setObject}
+          show={true} />
+      }
+    </>
 	);
 };

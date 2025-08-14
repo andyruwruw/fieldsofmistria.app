@@ -25,11 +25,6 @@ import type { MuseumWing } from '../../../types/museum';
  */
 export interface MuseumHeaderProps {
   /**
-   * The progress of the museum completion.
-   */
-  progress?: number;
-
-  /**
    * The wings of the museum.
    */
   wings?: MuseumWing[];
@@ -37,7 +32,7 @@ export interface MuseumHeaderProps {
   /**
    * The progress of each museum wing.
    */
-  wingProgress?: Record<string, number>;
+  wingItemCounts?: Record<string, number[]>;
 }
 
 /**
@@ -51,13 +46,44 @@ const WING_COLORS = {
 } as Record<string, string>;
 
 /**
+ * Get the overall progress of the museum wings.
+ *
+ * @param {Record<string, number[]>} wingItemCounts The item counts for each wing.
+ * @returns {number} The overall progress as a decimal.
+ */
+const getProgress = (wingItemCounts: Record<string, number[]>): number => (Object.values(wingItemCounts).reduce((
+  acc: number[],
+  curr: number[],
+) => {
+  const [
+    done,
+    total,
+  ] = curr;
+  return [
+    acc[0] + done,
+    acc[1] + total,
+  ];
+}, [
+  0,
+  0,
+]).reduce((
+  acc: number,
+  curr: number,
+  index: number,
+) => {
+  if (index === 0) {
+    return acc + curr;
+  }
+  return acc / curr;
+}, 0));
+
+/**
  * Museum page component.
  */
-export default function MuseumHeader({
-  progress = 0,
+export const MuseumHeader = ({
   wings = [] as MuseumWing[],
-  wingProgress = {} as Record<string, number>,
-}: MuseumHeaderProps): ReactElement {
+  wingItemCounts = {} as Record<string, number[]>,
+}: MuseumHeaderProps): ReactElement => {
   return (
     <>
       <h1 className='text-left page-title ml-1 text-2xl font-semibold text-gray-900 dark:text-white'>
@@ -67,48 +93,48 @@ export default function MuseumHeader({
       <Accordion
         collapsible
         asChild
-        defaultValue='item-1'
+        defaultValue='header'
         type='single'>
         <section className='space-y-3'>
-            <AccordionItem value='header'>
-              <AccordionTrigger className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
-                Museum Completion
-              </AccordionTrigger>
+          <AccordionItem value='header'>
+            <AccordionTrigger className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+              Museum Completion
+            </AccordionTrigger>
 
-              <AccordionContent asChild>
-                <div className='grid grid-cols-1 grid-rows-2 gap-4 xl:grid-cols-3 2xl:grid-cols-3'>
-                  <Card
-                    className={combineNames(
-                      'col-span-1 row-span-full flex w-full items-center justify-center',
-                      progress === 1 &&
-                        'border-green-900 bg-green-500/20 dark:border-green-900 dark:bg-green-500/10',
-                    )}>
-                    <div className='flex flex-col items-center p-4'>
-                      <CardHeader className='mb-2 flex flex-col items-center justify-between space-y-0 p-0'>
-                        <CardTitle className='text-2xl font-semibold'>
-                          Total Completion
-                        </CardTitle>
-                      </CardHeader>
+            <AccordionContent asChild>
+              <div className='grid grid-cols-1 grid-rows-2 gap-4 xl:grid-cols-3 2xl:grid-cols-3'>
+                <Card
+                  className={combineNames(
+                    'col-span-1 row-span-full flex w-full items-center justify-center',
+                    getProgress(wingItemCounts) === 1 &&
+                      'border-green-900 bg-green-500/20 dark:border-green-900 dark:bg-green-500/10',
+                  )}>
+                  <div className='flex flex-col items-center p-4'>
+                    <CardHeader className='mb-2 flex flex-col items-center justify-between space-y-0 p-0'>
+                      <CardTitle className='text-2xl font-semibold'>
+                        Total Completion
+                      </CardTitle>
+                    </CardHeader>
 
-                      <PercentageIndicator
-                        percentage={Math.floor(progress * 100)}
-                        className='h-32 w-32 lg:h-48 lg:w-48' />
-                    </div>
-                  </Card>
+                    <PercentageIndicator
+                      percentage={Math.floor(getProgress(wingItemCounts) * 100)}
+                      className='h-32 w-32 lg:h-48 lg:w-48' />
+                  </div>
+                </Card>
 
-                  {
-                    wings.map((wing) => (
-                      <CompletionCard
-                        key={wing.id}
-                        title={wing.name}
-                        description={''}
-                        percentage={wingProgress[wing.id] ? Math.floor(wingProgress[wing.id] * 100) : 0}
-                        image={wing.image}
-                        color={WING_COLORS[wing.id]}
-                        footer={''} />
-                    ))
-                  }
-                </div>
+                {
+                  wings.map((wing) => (
+                    <CompletionCard
+                      key={wing.id}
+                      title={wing.name}
+                      description={''}
+                      percentage={wingItemCounts[wing.id.replace('-wing', '')] ? Math.floor(wingItemCounts[wing.id.replace('-wing', '')][0] / wingItemCounts[wing.id.replace('-wing', '')][1] * 100) : 0}
+                      image={wing.image}
+                      color={WING_COLORS[wing.id]}
+                      footer={''} />
+                  ))
+                }
+              </div>
             </AccordionContent>
           </AccordionItem>
         </section>

@@ -21,21 +21,46 @@ import { SetListAccordionItem } from './set-list-accordion-item';
 import { Progress } from '../../../components/ui/progress';
 
 // Types
-import type {
-	MuseumDisplaySet,
-	MuseumDisplaySetItem,
-} from '../../../types/museum';
+import type { MuseumSet } from '../../../types/museum';
 
+/**
+ * Props for the SetListAccordion component.
+ */
 interface SetListAccordionProps {
-	set: MuseumDisplaySet;
+	/**
+	 * The museum display set to show in the accordion.
+	 */
+	set: MuseumSet;
 
-	setIsOpen: Dispatch<SetStateAction<boolean>>;
+	/**
+   * Map of completed sets.
+   */
+  completedSets?: Record<string, Record<string, boolean>>;
+
+  /**
+   * Map of completed items.
+   */
+  completedItems?: Record<string, boolean>;
+
+	/**
+	 * Callback to set the open state of the accordion item.
+	 */
+	setIsOpen?: Dispatch<SetStateAction<boolean>>;
 	
-	setObject: Dispatch<SetStateAction<any | null>>;
+	/**
+	 * Callback to set the object for the accordion item.
+	 */
+	setObject?: Dispatch<SetStateAction<any | null>>;
 
-	className: string;
+	/**
+	 * Additional class names for the accordion item.
+	 */
+	className?: string;
 
-	style: CSSProperties;
+	/**
+	 * Styles for the accordion item.
+	 */
+	style?: CSSProperties;
 };
 
 /**
@@ -45,12 +70,14 @@ interface SetListAccordionProps {
  */
 export const SetListAccordion = ({
 	set,
-	setIsOpen,
-	setObject,
+	completedSets = {},
+	completedItems = {},
+	setIsOpen = () => {},
+	setObject = () => {},
 	className = '',
 	style = {} as CSSProperties,
 }: SetListAccordionProps): ReactElement => {
-	const isDesktop = window.innerWidth >= 768; // Example breakpoint for desktop
+	const isDesktop = window.innerWidth >= 768;
 
 	const [
 		done,
@@ -60,22 +87,34 @@ export const SetListAccordion = ({
 		progress,
 		setProgress,
 	] = useState(0);
-	const [
-		count,
-		setCount,
-	] = useState(5);
 
 	useEffect(() => {
-		setDone(set.done);
-		setProgress(set.items.filter((item: MuseumDisplaySetItem) => item.done).length);
-		setCount(set.items.length);
-	}, [ set ]);
+		setDone(set.id in completedSets);
+	}, [
+		set,
+		completedSets
+	]);
+
+	useEffect(() => {
+		let sum = 0;
+
+		for (const item of set.items) {
+			if (item in completedItems) {
+				sum += 1;
+			}
+		}
+
+		setProgress(sum / set.items.length);
+	}, [
+		set,
+		completedItems
+	]);
 
 	return (
 		<Accordion
 			className={className}
 			style={style}
-			defaultValue='item-1'
+			defaultValue='main'
 			type='single'
 			collapsible
 			asChild>
@@ -87,7 +126,7 @@ export const SetListAccordion = ({
 						: 'border-neutral-200 dark:border-neutral-800',
 				)}>
 				<AccordionItem
-					value='item-1'
+					value='main'
 					className='border-none'>
 					<AccordionTriggerNoToggle
 						className={`ml-1 pt-0 text-xl font-semibold text-gray-900 dark:text-white hover-no-border ${isDesktop ? 'flex-row' : 'flex-col items-start'}`}
@@ -107,7 +146,7 @@ export const SetListAccordion = ({
 							<div className={`flex items-center ${isDesktop ? '' : 'pt-2'}`}>
 								<Progress
 									value={progress}
-									max={count}
+									max={set.items.length}
 									className='w-32'
 								/>
 							</div>
@@ -117,10 +156,11 @@ export const SetListAccordion = ({
 					<AccordionContent asChild>
 						<div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
 							{
-								set.items.map((item: MuseumDisplaySetItem) => (
+								set.items.map((id: string) => (
 									<SetListAccordionItem
-										key={item.id}
-										item={item}
+										key={id}
+										id={id}
+										completedItems={completedItems}
 										setIsOpen={setIsOpen}
 										setObject={setObject} />
 								))

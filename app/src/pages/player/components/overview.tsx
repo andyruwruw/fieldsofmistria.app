@@ -72,7 +72,7 @@ export interface PlayerOverviewProps {
 /**
  * Player page overview component.
  */
-export default function PlayerOverview({
+export const PlayerOverview = ({
   name = 'No Info Found',
   farmName = 'No Info Found',
   playtime = -1,
@@ -80,7 +80,7 @@ export default function PlayerOverview({
   grossEssence = -1,
   faints = -1,
   income = [] as FieldsOfMistriaIncome[],
-}: PlayerOverviewProps): ReactElement {
+}: PlayerOverviewProps): ReactElement => {
   const [
     displayPlaytime,
     setDisplayPlaytime,

@@ -17,7 +17,7 @@ export interface PageLayoutProps {
 /**
  * Generic page layout component.
  */
-export default function PageLayout({ children }: PageLayoutProps): ReactElement {
+export const PageLayout = ({ children }: PageLayoutProps): ReactElement => {
   return (
     <div className='mx-auto mt-4 w-full space-y-4'>
       { children && <>{ children }</> }

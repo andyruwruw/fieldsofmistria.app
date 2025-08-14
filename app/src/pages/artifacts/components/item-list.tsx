@@ -16,34 +16,30 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '../../../components/ui/accordion';
-import { MuseumSetListControls } from './set-list-controls';
+import { ArtifactsItemListControls } from './set-list-controls';
 import { SetListAccordion } from './set-list-accordion';
 
 // Types
 import type {
+  Artifact,
   MuseumDisplaySet,
   MuseumSet,
   MuseumWing,
 } from '../../../types/museum';
 
 /**
- * Props for the MuseumSetList component.
+ * Props for the ArtifactsItemList component.
  */
-export interface MuseumSetListProps {
+export interface ArtifactsItemListProps {
+  /**
+   * List of artifacts.
+   */
+  artifacts: Artifact[];
+  
   /**
    * List of museum display sets.
    */
   sets: MuseumSet[];
-
-  /**
-   * List of museum wings.
-   */
-  wings: MuseumWing[];
-
-  /**
-   * Map of completed sets.
-   */
-  completedSets?: Record<string, Record<string, boolean>>;
 
   /**
    * Map of completed items.
@@ -64,72 +60,67 @@ export interface MuseumSetListProps {
 /**
  * Museum set list component.
  */
-export const MuseumSetList = ({
-  sets,
-  wings,
-  completedSets = {},
+export const ArtifactsItemList = ({
+  artifacts = [],
+  sets = [],
   completedItems = {},
   setIsOpen = () => {},
   setObject = () => {},
-}: MuseumSetListProps): ReactElement => {
+}: ArtifactsItemListProps): ReactElement => {
   // Controls
   const [
     search,
     setSearch,
   ] = useState('');
   const [
-    filter,
-    setFilter,
-  ] = useState('all');
-  const [
-    wingOptions,
-    setWingOptions,
+    setOptions,
+    setSetOptions,
   ] = useState([{
     value: 'all',
     label: 'All Sets',
   }]);
   const [
-    wingFilter,
-    setWingFilter,
+    filter,
+    setFilter,
   ] = useState('all');
 
   // Sets to show.
   const [
-    filteredSets,
-    setFilteredSets,
+    filteredItems,
+    setFilteredItems,
   ] = useState([] as MuseumSet[]);
 
   // Set wing filter options.
   useMemo(() => {
-    setWingOptions([
+    setSetOptions([
       {
         value: 'all',
         label: 'All Sets',
       },
-      ...wings.map((wing: MuseumWing) => ({
-        value: wing.id,
-        label: wing.name,
+      ...sets.map((set: MuseumSet) => ({
+        value: set.id,
+        label: set.name,
       })),
     ]);
-  }, [ wings ]);
+  }, [ sets ]);
 
   // Generate sets to show.
   useEffect(() => {
     const filtered = sets.filter((set: MuseumSet) => {
-      if (wingFilter !== 'all') {
-        if (set.wing !== wingFilter) {
-          return false;
-        }
-      }
+      // if (filter !== 'all') {
+      //   if (set.id !== filter) {
+      //     return false;
+      //   }
+      // }
 
-      if (filter !== '') {
-        if (filter === 'completed' && set.wing in completedSets && set.id in completedSets[set.wing] && completedSets?.[set.wing]?.[set.id]) {
-          return false;
-        }
-        if (filter === 'incompleted' && completedSets?.[set.wing]?.[set.id]) {
-          return false;
-        }
-      }
+      // if (filter !== '') {
+      //   if (filter === 'completed' && set.wing in completedSets && set.id in completedSets[set.wing] && completedSets?.[set.wing]?.[set.id]) {
+      //     return false;
+      //   }
+      //   if (filter === 'incompleted' && completedSets?.[set.wing]?.[set.id]) {
+      //     return false;
+      //   }
+      // }
 
       if (search !== '') {
         if (!(set.name.toLowerCase().includes(search.toLowerCase()))) {
@@ -140,13 +131,11 @@ export const MuseumSetList = ({
       return true;
     });
 
-    setFilteredSets(filtered);
+    setFilteredItems(filtered);
   }, [
     sets,
-    wingFilter,
     filter,
     search,
-    completedSets,
   ]);
 
   return (
@@ -163,7 +152,7 @@ export const MuseumSetList = ({
             </AccordionTrigger>
 
             <AccordionContent asChild>
-              <MuseumSetListControls
+              <ArtifactsItemListControls
                 filter={filter}
                 setFilter={setFilter}
                 wingOptions={wingOptions}
@@ -173,7 +162,7 @@ export const MuseumSetList = ({
 
               <div className='grid grid-cols-1 gap-4 xl:grid-cols-2'>
                 {
-                  filteredSets.map((
+                  filteredItems.map((
                     set: MuseumSet,
                     index: number,
                   ) => (

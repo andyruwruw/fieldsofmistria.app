@@ -5,7 +5,7 @@ import type {
   ReactElement,
   SetStateAction,
 } from 'react';
-import { IconFilterFilled } from '@tabler/icons-react';
+import { IconAdjustments } from '@tabler/icons-react';
 
 // Local Imports
 import {
@@ -20,9 +20,9 @@ import { combineNames } from '../../../lib/utils';
 import { FilterSearch } from '../../../components/ui/filter-btn';
 
 /**
- * Props for the MuseumSetListControls component.
+ * Props for the RelationshipsCharacterListControls component.
  */
-export interface MuseumSetListControlsProps {
+export interface RelationshipsCharacterListControlsProps {
   /**
    * Current filter value.
    */
@@ -34,19 +34,14 @@ export interface MuseumSetListControlsProps {
   setFilter?: (filter: string) => void;
 
   /**
-   * Wing options for filtering.
+   * Current sort value.
    */
-  wingOptions?: Record<'value' | 'label', string>[];
+  sort?: string;
 
   /**
-   * Current wing filter value.
+   * Sets sort input value.
    */
-  wingFilter?: string;
-
-  /**
-   * Sets wing filter value.
-   */
-  setWingFilter?: Dispatch<SetStateAction<string>>;
+  setSort?: Dispatch<SetStateAction<string>>;
 
   /**
    * Sets search input value.
@@ -55,27 +50,41 @@ export interface MuseumSetListControlsProps {
 }
 
 /**
+ * Sort filters for the character list.
+ */
+const SORT_FILTERS = [
+	{
+    value: 'name',
+    label: 'Name',
+  },
+	{
+    value: 'hearts',
+    label: 'Hearts',
+  },
+];
+
+/**
  * Colors for filter options.
  */
 const BUBBLE_COLORS: Record<string, string> = {
 	'0': 'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950', // unfound
-	'1': 'border-green-900 bg-green-500/20', // found
+	'1': 'border-pink-900 bg-pink-500/20', // found
+	'2': 'border-blue-900 bg-blue-500/20', // found
 };
 
 /**
- * Museum set list controls component.
+ * Character list controls component.
  */
-export const MuseumSetListControls = ({
+export const RelationshipsCharacterListControls = ({
   filter = 'all',
   setFilter = (filter: string) => {},
-  wingOptions = [] as Record<'value' | 'label', string>[],
-  wingFilter = 'all',
-  setWingFilter = (value: SetStateAction<string>) => {},
+  sort = 'name',
+  setSort = (value: SetStateAction<string>) => {},
   setSearch = (value: SetStateAction<string>) => {},
-}: MuseumSetListControlsProps): ReactElement => {
+}: RelationshipsCharacterListControlsProps): ReactElement => {
   return (
-    <div className='flex flex-col gap-2'>
-      <div className='flex w-full flex-col gap-2 md:flex-row md:items-center md:justify-between'>
+    <>
+      <div className='flex justify-between'>
         <div className='flex flex-row items-center gap-2'>
           <ToggleGroup
             variant='outline'
@@ -86,8 +95,8 @@ export const MuseumSetListControls = ({
               setFilter(val === filter ? 'all' : val)
             }>
             <ToggleGroupItem
-              value='incompleted'
-              aria-label='Show Incompleted'
+              value='all'
+              aria-label='Show All'
               className='toggle-group-item'>
               <span
                 className={combineNames(
@@ -96,13 +105,13 @@ export const MuseumSetListControls = ({
                 )} />
 
               <span className='align-middle'>
-                Incomplete
+                All
               </span>
             </ToggleGroupItem>
 
             <ToggleGroupItem
-              value='completed'
-              aria-label='Show Completed'
+              value='dateable'
+              aria-label='Show Dateable'
               className='toggle-group-item'>
               <span
                 className={combineNames(
@@ -111,7 +120,22 @@ export const MuseumSetListControls = ({
                 )} />
               
               <span className='align-middle'>
-                Completed
+                Dateable
+              </span>
+            </ToggleGroupItem>
+
+            <ToggleGroupItem
+              value='undateable'
+              aria-label='Show Undateable'
+              className='toggle-group-item'>
+              <span
+                className={combineNames(
+                  'inline-block h-4 w-4 rounded-full border align-middle',
+                  BUBBLE_COLORS['2'],
+                )} />
+              
+              <span className='align-middle'>
+                Undateable
               </span>
             </ToggleGroupItem>
           </ToggleGroup>
@@ -119,11 +143,11 @@ export const MuseumSetListControls = ({
 
         <div className='flex flex-row items-center gap-2'>
           <FilterSearch
-            _filter={wingFilter}
-            title={'Wing'}
-            data={wingOptions}
-            setFilter={setWingFilter}
-            icon={IconFilterFilled} />
+            _filter={sort}
+            title={'Sort by'}
+            data={SORT_FILTERS}
+            setFilter={setSort}
+            icon={IconAdjustments} />
         </div>
       </div>
 
@@ -133,9 +157,9 @@ export const MuseumSetListControls = ({
             onValueChange={(v) => {
               setSearch(v);
             }}
-            placeholder='Search Sets' />
+            placeholder='Search Characters' />
         </Command>
       </div>
-    </div>
+    </>
   );
 }
