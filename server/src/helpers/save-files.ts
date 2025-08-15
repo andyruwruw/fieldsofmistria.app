@@ -40,8 +40,8 @@ export const unpack = async (filename: string) => {
     const data = await combineJsons(exportPath);
 
     destroyPromises.push(destroy(
-      exportPath,
-      false,
+     exportPath,
+     false,
     ));
 
     await Promise.all(destroyPromises);
