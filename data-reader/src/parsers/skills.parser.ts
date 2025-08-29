@@ -1,9 +1,9 @@
 // Local Imports
+import { BASE_URL } from '../config';
 import { Parser } from './parser';
 
 // Types
 import { Skill } from '../models/skills';
-import { BASE_URL } from '../config';
 
 /**
  * Parses the main skills page to extract skills.

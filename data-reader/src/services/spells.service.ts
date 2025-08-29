@@ -1,8 +1,9 @@
 // Local Imports
+import { MAGIC_SPELLS_URL } from '../config';
+import { SpellsParser } from '../parsers/spells.parser';
 import { fetchPage } from '../utils/scraper';
 
 // Types
-import { MAGIC_SPELLS_URL } from '../config';
 import { Spell } from '../models/spells';
 
 /**
@@ -15,6 +16,22 @@ export class SpellsService {
    * @returns {Promise<Spell[]>} A promise that resolves to an array of Spell objects.
    */
   async fetch(): Promise<Spell[]> {
-    return [];
+    return this._getSpellsPage();
+  }
+
+  /**
+   * Fetches data for all spells.
+   *
+   * @returns {Promise<Spell[]>} A promise that resolves to an array of Spell objects.
+   */
+  async _getSpellsPage(): Promise<Spell[]> {
+    const page = await fetchPage(MAGIC_SPELLS_URL);
+
+    const parser = new SpellsParser(
+      MAGIC_SPELLS_URL,
+      page,
+    );
+
+    return parser.parse();
   }
 }

@@ -10,7 +10,7 @@ export type Season = 'spring'
 /**
  * Represents the weather conditions in the game.
  */
-export type Weather = 'sunny'
+export type WeatherType = 'sunny'
 | 'breezy-with-cherry-blossoms'
 | 'breezy-with-falling-leaves'
 | 'rain'
@@ -19,3 +19,13 @@ export type Weather = 'sunny'
 | 'thunderstorm'
 | 'snow'
 | 'blizzard';
+
+export interface Weather {
+  id: WeatherType;
+
+  name: string;
+
+  image: string;
+
+  description: string;
+}

@@ -1,11 +1,27 @@
 // Local Imports
+import { ArtifactsService } from '../services/artifacts.service';
+import { BASE_URL } from '../config';
 import { Parser } from './parser';
 
 // Types
 import { MuseumSet } from '../models/museum';
 import { Season } from '../models/weather';
-import { ArtifactsService } from '../services/artifacts.service';
-import { BASE_URL } from '../config';
+
+const SET_ID_MAPPING = {
+  'buried': 'mine',
+  'tide-cavern': 'tide-caverns',
+  'dig-site': 'common-finds',
+  'multi-season': 'multi-season-fish',
+  'spring-crop': 'spring-crops',
+  'summer-crop': 'summer-crops',
+  'fall-crop': 'fall-crops',
+  'winter-crop': 'winter-crops',
+  'spring-flower': 'spring-flowers',
+  'summer-flower': 'summer-flowers',
+  'fall-flower': 'fall-flowers',
+  'winter-flower': 'winter-flowers',
+
+} as Record<string, string>;
 
 /**
  * Parses a specific museum wing page.
@@ -63,8 +79,14 @@ export class MuseumWingParser extends Parser<MuseumSet[]> {
           season = 'winter' as Season;
         }
 
+        let id = setTitle.toLowerCase().replace(/\s+/g, '-');
+
+        if (id in SET_ID_MAPPING) {
+          id = SET_ID_MAPPING[id];
+        }
+
         sets.push({
-          id: setTitle.toLowerCase().replace(/\s+/g, '-'),
+          id,
           name: setTitle,
           items: tableItems,
           wing: title.toLowerCase().replace(/\s+/g, '-'),

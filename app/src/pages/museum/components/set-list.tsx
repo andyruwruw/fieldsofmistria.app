@@ -178,7 +178,7 @@ export const MuseumSetList = ({
                     index: number,
                   ) => (
                     <SetListAccordion
-                      key={`${set.wing}-${set.id}`}
+                      key={`${set.wing}-${set.id}-${index}`}
                       className='slide-in'
                       style={{
                         '--index': index / 3,

@@ -1,0 +1,42 @@
+{
+  "full-restore": {
+    "id": "full-restore",
+    "name": "Full Restore",
+    "description": "Restores all your Stamina and HP when cast.",
+    "type": "healing",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/58/Restore_spell_icon_main.png?d894c2",
+    "use": "",
+    "mana": 1,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Magic_Spells"
+  },
+  "summon-rain": {
+    "id": "summon-rain",
+    "name": "Summon Rain",
+    "description": "Summons a brief rain storm that waters all of your crops when cast.",
+    "type": "farming",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a1/Rain_spell_icon_main.png?5a2c3e",
+    "use": "Can also be used to form solid rock patches to navigate The Lava Caves",
+    "mana": 1,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Magic_Spells"
+  },
+  "growth": {
+    "id": "growth",
+    "name": "Growth",
+    "description": "Fully grows crops in a 3x3 area when cast. It can also progress tree growth by 1 stage.",
+    "type": "farming",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6d/Growth_spell_icon_main.png?418617",
+    "use": "Can also be used on regrowing Foragables",
+    "mana": 2,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Magic_Spells"
+  },
+  "dragon-s-breath": {
+    "id": "dragon-s-breath",
+    "name": "Dragon's Breath",
+    "description": "Projects a stream of fire that can be used to destroy objects and monsters for a short time.",
+    "type": "offense",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/84/Fire_spell_icon_main.png?46c595",
+    "use": "Can be used to gain access to special areas, such as The Deep Woods, and The Narrows Cave. Can also be used to clear land of Trees and grass Its impact on Fruit Trees can be disabled through the Gameplay Settings",
+    "mana": 2,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Magic_Spells"
+  }
+}

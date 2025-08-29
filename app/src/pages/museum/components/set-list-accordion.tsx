@@ -89,7 +89,9 @@ export const SetListAccordion = ({
 	] = useState(0);
 
 	useEffect(() => {
-		setDone(set.id in completedSets);
+		const completedSetsLocal = completedSets[(set.wing).replace('-wing', '')] || {};
+
+		setDone(set.id in completedSetsLocal || false);
 	}, [
 		set,
 		completedSets
@@ -104,7 +106,11 @@ export const SetListAccordion = ({
 			}
 		}
 
-		setProgress(sum / set.items.length);
+		setProgress(sum); //  / set.items.length
+
+		if (sum === set.items.length) {
+			setDone(true);
+		}
 	}, [
 		set,
 		completedItems
@@ -160,6 +166,7 @@ export const SetListAccordion = ({
 									<SetListAccordionItem
 										key={id}
 										id={id}
+										overrideComplete={done}
 										completedItems={completedItems}
 										setIsOpen={setIsOpen}
 										setObject={setObject} />

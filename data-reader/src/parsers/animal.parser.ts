@@ -1,6 +1,7 @@
 // Local Imports
 import { convertTesseraeString } from '../utils/convert';
 import { AnimalListParser } from './animal-list.parser';
+import { BASE_URL } from '../config';
 import { Parser } from './parser';
 
 // Types
@@ -98,10 +99,56 @@ export class AnimalPageParser extends Parser<Animal> {
   /**
    * Extracts the colors for the animal.
    *
-   * @returns {Promise<string[][]>} A promise that resolves to the animal's colors.
+   * @returns {Promise<Record<string, any>[]>} A promise that resolves to the animal's colors.
    */
-  async _getColors(): Promise<string[][]> {
-    return [];
+  async _getColors(): Promise<Record<string, any>[]> {
+    const data = [];
+    const mainChildren = this._getChildren('div.mw-content-ltr');
+
+    const tableWrapper = this._firstTagAfterTag(
+      'div',
+      'h2',
+      mainChildren,
+      [ 'Colors' ],
+    );
+
+    const tables = tableWrapper.children.filter((element: any) => (element.name === 'table'));
+
+    for (let i = 0; i < tables.length; i += 1) {
+      const table = this._condenseTable(this._parseTable(tables[i]));
+
+      if (!table) {
+        continue;
+      }
+
+      const tier = parseInt(table.header[0].replace('Tier ', ''));
+
+      for (let j = 0; j < table.body.length; j += 1) {
+        const keys = Object.keys(table.body[j]);
+
+        if (keys.length === 1) {
+          continue;
+        }
+
+        const color = {
+          tier,
+          color: '',
+          images: {} as Record<string, string>,
+        };
+
+        for (let key of keys) {
+          if (key.includes('Tier')) {
+            color.color = table.body[j][key].text;
+          } else if (table.body[j][key].src) {
+            color.images[key] = `${BASE_URL}/${table.body[j][key].src}`;
+          }
+        }
+
+        data.push(color);
+      }
+    }
+
+    return data;
   }
 
   /**

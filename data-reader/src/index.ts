@@ -6,9 +6,13 @@ import { AnimalsService } from './services/animals.service';
 import { FishesService } from './services/fishes.service';
 import { MuseumService } from './services/museum.service';
 import { SkillsService } from './services/skills.service';
+import { DishesService } from './services/dishes.service';
 import { CropsService } from './services/crops.service';
 import { BugsService } from './services/bugs.service';
 import writeToJson from './utils/json-writer';
+import { SpellsService } from './services/spells.service';
+import { WeatherService } from './services/weather.service';
+import { FestivalsService } from './services/festivals.service';
 
 /**
  * Main entry point for the data reader.
@@ -40,13 +44,13 @@ const main = async () => {
   //   convertArrayToObjectWithIds(animals),
   // );
 
-  const cropService = new CropsService();
-  const crops = await cropService.fetch();
+  // const cropService = new CropsService();
+  // const crops = await cropService.fetch();
 
-  writeToJson(
-    'export/crops.json',
-    convertArrayToObjectWithIds(crops),
-  );
+  // writeToJson(
+  //   'export/crops.json',
+  //   convertArrayToObjectWithIds(crops),
+  // );
 
   // const museumService = new MuseumService();
   // const museum = await museumService.fetch();
@@ -79,6 +83,58 @@ const main = async () => {
   //   'export/skills.json',
   //   convertArrayToObjectWithIds(skills),
   // );
+
+  // const dishService = new DishesService();
+  // const dishes = await dishService.fetch();
+
+  // writeToJson(
+  //   'export/dishes.json',
+  //   dishes,
+  // );
+
+  // const spellsService = new SpellsService();
+  // const spells = await spellsService.fetch();
+
+  // writeToJson(
+  //   'export/spells.json',
+  //   convertArrayToObjectWithIds(spells),
+  // );
+
+  // const weatherService = new WeatherService();
+  // const weather = await weatherService.fetch();
+
+  // writeToJson(
+  //   'export/weather.json',
+  //   convertArrayToObjectWithIds(weather),
+  // );
+
+  const festivalsService = new FestivalsService();
+  const festivals = await festivalsService.fetch();
+
+  writeToJson(
+    'export/festivals.json',
+    convertArrayToObjectWithIds(festivals),
+  );
+
+  // Monsters
+
+  // Tools
+
+  // Weapons
+
+  // Equipment
+
+  // Cosmetics
+
+  // Ranching
+
+  // Materials
+
+  // Furniture
+
+  // Blacksmithing
+
+  // Infusion
 
   console.log('Data reader is completed.');
 }

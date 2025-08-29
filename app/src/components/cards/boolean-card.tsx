@@ -106,16 +106,22 @@ export const BooleanCard = ({
   const icon = item.image as string;
 
   useEffect(() => {
-    setLocalCompleted(item.done);
+    setLocalCompleted(completed);
 
     setButtonClasses(clsx(
       'relative flex select-none items-center justify-between rounded-lg border px-5 py-4 text-neutral-950 shadow-sm hover:cursor-pointer dark:text-neutral-50',
-      item.done
+      completed
         ? 'border-green-900 bg-green-500 hover:bg-green-500 dark:bg-green-500 hover:dark:bg-green-500 museum-set-on'
         : 'border-neutral-200 bg-white hover:bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800',
       isMultiSelectMode && isSelected && 'ring-primary ring-2',
     ));
-  }, [item]);
+  }, [
+    item,
+    completed,
+    localCompleted,
+    isMultiSelectMode,
+    isSelected
+  ]);
 
   return (
     <ContextMenu>

@@ -63,7 +63,7 @@ export interface Animal {
   /**
    * Colors that this animal can be by tier.
    */
-  colors: string[][];
+  colors: Record<string, any>[];
 
   /**
    * The animal's icon image.

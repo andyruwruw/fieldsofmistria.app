@@ -1,6 +1,3 @@
-// Packages
-import { v4 as uuidv4 } from 'uuid';
-
 // Local Imports
 import {
   MESSAGE_HANDLER_PARAMETER_MISSING,
@@ -10,15 +7,17 @@ import {
   REQUEST_TYPE,
   UPLOAD_TYPE,
 } from '../../config';
+import { FieldsOfMistriaSaveData } from '../../types/fields-of-mistria';
 import { Monitor } from '../../helpers/monitor';
 import { Handler } from '../handler';
+import { unpack } from '../../helpers/save-files';
+import FieldsOfMistriaSaveParser from '../../helpers/save-parser';
 
 // Types
 import {
   ServerRequest,
   ServerResponse,
 } from '../../types';
-import { unpack } from '../../helpers/save-files';
 
 /**
  * Uploads a user's save file to be unpacked.
@@ -59,7 +58,13 @@ export class UnpackSaveHandler extends Handler {
 
       const result = await unpack(req.file.originalname);
 
-      res.status(200).send(result);
+      const parser = new FieldsOfMistriaSaveParser(result as FieldsOfMistriaSaveData);
+      const parsedData = parser.parse();
+
+      res.status(200).send({
+        ...result,
+        parsedData,
+      });
     } catch (error) {
       Monitor.log(
         UnpackSaveHandler,

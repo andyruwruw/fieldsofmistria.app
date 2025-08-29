@@ -1,0 +1,1550 @@
+{
+  "ant": {
+    "id": "ant",
+    "name": "Ant",
+    "description": "A common insect found in all seasons but winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/56/Ant.png?ed4cf8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ant"
+  },
+  "beach-hopper": {
+    "id": "beach-hopper",
+    "name": "Beach Hopper",
+    "description": "A common insect found at the beach in all seasons.",
+    "sell": 10,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9c/Beach_hopper.png?99b6be",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Beach_Hopper"
+  },
+  "brightbulb-moth": {
+    "id": "brightbulb-moth",
+    "name": "Brightbulb Moth",
+    "description": "A common insect found at night in winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/87/Brightbulb_moth.png?4204bd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Brightbulb_Moth"
+  },
+  "bumblebee": {
+    "id": "bumblebee",
+    "name": "Bumblebee",
+    "description": "A common insect found during the daytime in all seasons but winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/90/Bumblebee.png?f001c1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bumblebee"
+  },
+  "butterfly": {
+    "id": "butterfly",
+    "name": "Butterfly",
+    "description": "A common insect found during the daytime in spring.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/10/Butterfly.png?538c53",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Butterfly"
+  },
+  "caterpillar": {
+    "id": "caterpillar",
+    "name": "Caterpillar",
+    "description": "A common insect found in spring. Sometimes found when shaking trees.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/66/Caterpillar.png?ccb8dd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caterpillar"
+  },
+  "chillipede": {
+    "id": "chillipede",
+    "name": "Chillipede",
+    "description": "An uncommon insect found in fall. Found when breaking rocks.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3b/Chillipede.png?86dfc9",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chillipede"
+  },
+  "cicada": {
+    "id": "cicada",
+    "name": "Cicada",
+    "description": "A common insect found in summer. Sometimes found when shaking trees.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/89/Cicada.png?e05797",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cicada"
+  },
+  "cicada-nymph": {
+    "id": "cicada-nymph",
+    "name": "Cicada Nymph",
+    "description": "A common insect found at night in fall.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/13/Cicada_nymph.png?77fd7c",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cicada_Nymph"
+  },
+  "cooktop-beetle": {
+    "id": "cooktop-beetle",
+    "name": "Cooktop Beetle",
+    "description": "A common Lava Caves insect. The top of this beetle's shell is hot enough to fry an egg.",
+    "sell": 30,
+    "location": "the-lava-caves-(floors-61---79)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/05/Cooktop_beetle.png?60fd24",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cooktop_Beetle"
+  },
+  "copper-nugget-beetle": {
+    "id": "copper-nugget-beetle",
+    "name": "Copper Nugget Beetle",
+    "description": "An uncommon Upper Mines insect. Their unique coloration is great camouflage.",
+    "sell": 30,
+    "location": "the-upper-mines-(floors-1---19)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f4/Copper_nugget_beetle.png?d016cc",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Nugget_Beetle"
+  },
+  "coral-mantis": {
+    "id": "coral-mantis",
+    "name": "Coral Mantis",
+    "description": "An uncommon Tide Caverns insect. Its camouflage has turned this mantis into a work of art.",
+    "sell": 35,
+    "location": "the-tide-caverns-(floors-21---39)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/16/Coral_mantis.png?bcdb69",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Mantis"
+  },
+  "cricket": {
+    "id": "cricket",
+    "name": "Cricket",
+    "description": "A common insect found at night in summer.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/3d/Cricket.png?736195",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cricket"
+  },
+  "crystal-caterpillar": {
+    "id": "crystal-caterpillar",
+    "name": "Crystal Caterpillar",
+    "description": "A rare insect found on snowy days in winter.",
+    "sell": 20,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "snow",
+      "blizzard"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/6e/Crystal_caterpillar.png?ad66f8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Caterpillar"
+  },
+  "crystal-wing-moth": {
+    "id": "crystal-wing-moth",
+    "name": "Crystal Wing Moth",
+    "description": "A rare Deep Earth insect. Their delicate wings reflect the light and make them sparkle.",
+    "sell": 50,
+    "location": "the-deep-earth-(floors-41---59)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/63/Crystal_wing_moth.png?26cc34",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Wing_Moth"
+  },
+  "crystalline-cricket": {
+    "id": "crystalline-cricket",
+    "name": "Crystalline Cricket",
+    "description": "A common Deep Earth insect. The stones around it vibrate in tune with its song.",
+    "sell": 25,
+    "location": "the-deep-earth-(floors-41---59)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9c/Crystalline_cricket.png?fe8c15",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystalline_Cricket"
+  },
+  "deep-earthworm": {
+    "id": "deep-earthworm",
+    "name": "Deep Earthworm",
+    "description": "An uncommon Deep Earth insect. It's completely unlike its surface-dwelling cousin... if you're a worm expert.",
+    "sell": 25,
+    "location": "the-deep-earth-(floors-41---59)",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f2/Deep_earthworm.png?129edb",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Deep_Earthworm"
+  },
+  "diamond-beetle": {
+    "id": "diamond-beetle",
+    "name": "Diamond Beetle",
+    "description": "A rare Lava Caves insect. This wondrous beetle had an impenetrable defense... unless you pick it up.",
+    "sell": 80,
+    "location": "the-lava-caves-(floors-61---79)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/08/Diamond_beetle.png?955a72",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Diamond_Beetle"
+  },
+  "dragon-horn-beetle": {
+    "id": "dragon-horn-beetle",
+    "name": "Dragon Horn Beetle",
+    "description": "An uncommon Deep Woods insect. This beetle spends most of its time sharpening its horn.",
+    "sell": 40,
+    "location": "the-deep-woods",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/97/Dragon_horn_beetle.png?3292fd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Horn_Beetle"
+  },
+  "dragonfly": {
+    "id": "dragonfly",
+    "name": "Dragonfly",
+    "description": "An uncommon insect found during the daytime in summer.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "sunny",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/84/Dragonfly.png?55f3be",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dragonfly"
+  },
+  "fairy-bee": {
+    "id": "fairy-bee",
+    "name": "Fairy Bee",
+    "description": "A legendary insect found in the morning during fall. It's beautiful!",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "very-rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d9/Fairy_bee.png?41b5b8",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fairy_Bee"
+  },
+  "fire-wasp": {
+    "id": "fire-wasp",
+    "name": "Fire Wasp",
+    "description": "A common Lava Caves insect. Luckily this wasp seems to be a danger only to other insects.",
+    "sell": 30,
+    "location": "the-lava-caves-(floors-61---79)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d1/Fire_wasp.png?3836a4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fire_Wasp"
+  },
+  "firefly": {
+    "id": "firefly",
+    "name": "Firefly",
+    "description": "A common insect found at night in summer.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Firefly.png?ef3c15",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Firefly"
+  },
+  "flower-crown-beetle": {
+    "id": "flower-crown-beetle",
+    "name": "Flower Crown Beetle",
+    "description": "A legendary insect found during the daytime in spring. It's so cute!Special Flower Crown",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "very-rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/19/Flower_crown_beetle.png?79b197",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Flower_Crown_Beetle"
+  },
+  "frost-flutter-butterfly": {
+    "id": "frost-flutter-butterfly",
+    "name": "Frost Flutter Butterfly",
+    "description": "A common insect found during the daytime in winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/61/Frost_flutter_butterfly.png?a56676",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Frost_Flutter_Butterfly"
+  },
+  "fuzzy-moth": {
+    "id": "fuzzy-moth",
+    "name": "Fuzzy Moth",
+    "description": "An uncommon insect found at night in all seasons.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/64/Fuzzy_moth.png?afb946",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fuzzy_Moth"
+  },
+  "gem-shard-caterpillar": {
+    "id": "gem-shard-caterpillar",
+    "name": "Gem Shard Caterpillar",
+    "description": "An uncommon Deep Earth insect. It seems to feed on crystal berries.",
+    "sell": 40,
+    "location": "the-deep-earth-(floors-41---59)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/90/Gem_shard_caterpillar.png?142ccf",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Gem_Shard_Caterpillar"
+  },
+  "grasshopper": {
+    "id": "grasshopper",
+    "name": "Grasshopper",
+    "description": "A common insect found during the daytime in all seasons but winter. Sometimes found when cutting grass.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns when cutting grass",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/fc/Grasshopper.png?dc10f2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Grasshopper"
+  },
+  "hermit-crab": {
+    "id": "hermit-crab",
+    "name": "Hermit Crab",
+    "description": "A common crustacean found at the beach in all seasons.",
+    "sell": 15,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ac/Hermit_crab.png?bb4645",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Crab"
+  },
+  "hermit-snail": {
+    "id": "hermit-snail",
+    "name": "Hermit Snail",
+    "description": "An uncommon Tide Caverns insect. Decorates its shell with sand and brightly colored pebbles.",
+    "sell": 35,
+    "location": "the-tide-caverns-(floors-21---39)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/43/Hermit_snail.png?688569",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hermit_Snail"
+  },
+  "hummingbird-hawk-moth": {
+    "id": "hummingbird-hawk-moth",
+    "name": "Hummingbird Hawk Moth",
+    "description": "A rare insect found in all seasons but winter.",
+    "sell": 20,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cf/Hummingbird_hawk_moth.png?8e3c10",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hummingbird_Hawk_Moth"
+  },
+  "icehopper": {
+    "id": "icehopper",
+    "name": "Icehopper",
+    "description": "A common insect found in winter. Sometimes found when cutting grass.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns when cutting grass",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2b/Icehopper.png?e5be42",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Icehopper"
+  },
+  "inchworm": {
+    "id": "inchworm",
+    "name": "Inchworm",
+    "description": "A common insect found in fall.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e0/Inchworm.png?ed963b",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Inchworm"
+  },
+  "jewel-beetle": {
+    "id": "jewel-beetle",
+    "name": "Jewel Beetle",
+    "description": "An uncommon insect found in summer. Found when breaking rocks.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/31/Jewel_beetle.png?a0d188",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Jewel_Beetle"
+  },
+  "ladybug": {
+    "id": "ladybug",
+    "name": "Ladybug",
+    "description": "A common insect found in spring.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/3/38/Ladybug.png?a79482",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ladybug"
+  },
+  "lantern-moth": {
+    "id": "lantern-moth",
+    "name": "Lantern Moth",
+    "description": "A common Upper Mines insect. They gather near light sources in dark places.",
+    "sell": 15,
+    "location": "the-upper-mines-(floors-1---19)",
+    "spawn-condition": "Spawns near light sources",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Lantern_moth.png?e75541",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lantern_Moth"
+  },
+  "lava-snail": {
+    "id": "lava-snail",
+    "name": "Lava Snail",
+    "description": "An uncommon Lava Caves insect. This snail leaves tiny molten trails.",
+    "sell": 45,
+    "location": "the-lava-caves-(floors-61---79)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/9d/Lava_snail.png?e73ca5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Snail"
+  },
+  "leafhopper": {
+    "id": "leafhopper",
+    "name": "Leafhopper",
+    "description": "A common insect found in fall. Sometimes found when cutting grass.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns when cutting grass",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/76/Leafhopper.png?2fc4fb",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Leafhopper"
+  },
+  "lightning-dragonfly": {
+    "id": "lightning-dragonfly",
+    "name": "Lightning Dragonfly",
+    "description": "A rare insect found during thunderstorms in all seasons but winter.",
+    "sell": 20,
+    "location": "narrows-eastern-road",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "storm",
+      "thunderstorm"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7a/Lightning_dragonfly.png?382178",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lightning_Dragonfly"
+  },
+  "loam-caterpillar": {
+    "id": "loam-caterpillar",
+    "name": "Loam Caterpillar",
+    "description": "An uncommon Deep Woods insect. These caterpillars can be found munching away in the thick loam of the Deep Woods.",
+    "sell": 35,
+    "location": "the-deep-woods",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/61/Loam_caterpillar.png?de5ce7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Loam_Caterpillar"
+  },
+  "luna-moth": {
+    "id": "luna-moth",
+    "name": "Luna Moth",
+    "description": "A rare insect found at night in spring.",
+    "sell": 20,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/04/Luna_moth.png?5766de",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Luna_Moth"
+  },
+  "magma-beetle": {
+    "id": "magma-beetle",
+    "name": "Magma Beetle",
+    "description": "A rare insect found in summer.",
+    "sell": 20,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/43/Magma_beetle.png?22c295",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Magma_Beetle"
+  },
+  "mine-cricket": {
+    "id": "mine-cricket",
+    "name": "Mine Cricket",
+    "description": "A rare Upper Mines insect. Their songs are kinda catchy...",
+    "sell": 35,
+    "location": "the-upper-mines-(floors-1---19)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/1e/Mine_cricket.png?508901",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mine_Cricket"
+  },
+  "mistmoth": {
+    "id": "mistmoth",
+    "name": "Mistmoth",
+    "description": "A rare insect found at night in fall.",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/49/Mistmoth.png?88e8fd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mistmoth"
+  },
+  "monarch-butterfly": {
+    "id": "monarch-butterfly",
+    "name": "Monarch Butterfly",
+    "description": "A common insect found during the daytime in fall.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/cd/Monarch_butterfly.png?55fe6f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monarch_Butterfly"
+  },
+  "mote-firefly": {
+    "id": "mote-firefly",
+    "name": "Mote Firefly",
+    "description": "A common Deep Woods insect. Legends say that they are known to guide lost travelers out of the woods.",
+    "sell": 25,
+    "location": "the-deep-woods",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ed/Mote_firefly.png?509241",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mote_Firefly"
+  },
+  "orchid-mantis": {
+    "id": "orchid-mantis",
+    "name": "Orchid Mantis",
+    "description": "A rare insect found during the daytime in spring.",
+    "sell": 20,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/8/8e/Orchid_mantis.png?a94f65",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Orchid_Mantis"
+  },
+  "petalhopper": {
+    "id": "petalhopper",
+    "name": "Petalhopper",
+    "description": "A common insect found during the daytime in spring. Sometimes found when cutting grass.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns when breaking grass",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dc/Petalhopper.png?4ef853",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Petalhopper"
+  },
+  "polar-fly": {
+    "id": "polar-fly",
+    "name": "Polar Fly",
+    "description": "A common insect found in winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/ff/Polar_fly.png?36c224",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Polar_Fly"
+  },
+  "pond-skater": {
+    "id": "pond-skater",
+    "name": "Pond Skater",
+    "description": "An uncommon insect found in all seasons.",
+    "sell": 15,
+    "location": "narrows-eastern-road-town",
+    "spawn-condition": "On water",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e4/Pond_Skater.png?360446",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pond_Skater"
+  },
+  "praying-mantis": {
+    "id": "praying-mantis",
+    "name": "Praying Mantis",
+    "description": "A common insect found during the daytime in all seasons but winter.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/69/Praying_mantis.png?67d1d7",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Praying_Mantis"
+  },
+  "puddle-spider": {
+    "id": "puddle-spider",
+    "name": "Puddle Spider",
+    "description": "An rare Tide Caverns insect. Seems to use the vibrations on puddles to hunt.",
+    "sell": 45,
+    "location": "the-tide-caverns-(floors-21---39)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Puddle_spider.png?cc0204",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Puddle_Spider"
+  },
+  "question-mark-butterfly": {
+    "id": "question-mark-butterfly",
+    "name": "Question Mark Butterfly",
+    "description": "An uncommon insect found during the daytime in all seasons but winter.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/c7/Question_mark_butterfly.png?8e5794",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Question_Mark_Butterfly"
+  },
+  "redhead-worm": {
+    "id": "redhead-worm",
+    "name": "Redhead Worm",
+    "description": "An uncommon worm found in all seasons but winter. Found when breaking rocks.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e8/Redhead_worm.png?834914",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Redhead_Worm"
+  },
+  "relic-crab": {
+    "id": "relic-crab",
+    "name": "Relic Crab",
+    "description": "An uncommon crustacean found at the beach in all seasons.",
+    "sell": 20,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/9/99/Relic_crab.png?d0819d",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Relic_Crab"
+  },
+  "rhinoceros-beetle": {
+    "id": "rhinoceros-beetle",
+    "name": "Rhinoceros Beetle",
+    "description": "An uncommon bug found at night in all seasons but winter.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/5d/Rhinoceros_beetle.png?4a6949",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rhinoceros_Beetle"
+  },
+  "rock-roach": {
+    "id": "rock-roach",
+    "name": "Rock Roach",
+    "description": "An uncommon Deep Earth insect. It's cuter than you'd expect.",
+    "sell": 25,
+    "location": "the-deep-earth-(floors-41---59)",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/21/Rock_roach.png?fe76c2",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Roach"
+  },
+  "roly-poly": {
+    "id": "roly-poly",
+    "name": "Roly Poly",
+    "description": "An uncommon insect found in spring. Found when breaking rocks.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/15/Roly_poly.png?6383d5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Roly_Poly"
+  },
+  "sand-bug": {
+    "id": "sand-bug",
+    "name": "Sand Bug",
+    "description": "A common insect found at the beach in all seasons.",
+    "sell": 10,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/be/Sand_bug.png?f5b238",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sand_Bug"
+  },
+  "sea-scarab": {
+    "id": "sea-scarab",
+    "name": "Sea Scarab",
+    "description": "An uncommon Tide Caverns insect. Its pretty carapace looks like the sea on a sunny day.",
+    "sell": 20,
+    "location": "the-tide-caverns-(floors-21---39)",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/b/b7/Sea_scarab.png?2cba3f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Scarab"
+  },
+  "singing-katydid": {
+    "id": "singing-katydid",
+    "name": "Singing Katydid",
+    "description": "A rare Deep Woods insect. These remarkable insects spend their whole lives crafting a unique and beautiful song.",
+    "sell": 70,
+    "location": "the-deep-woods",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/1e/Singing_katydid.png?dfc28a",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Singing_Katydid"
+  },
+  "smoke-moth": {
+    "id": "smoke-moth",
+    "name": "Smoke Moth",
+    "description": "An uncommon Lava Caves insect. This moth generates a small cloud of smoke around it to help protect it from predators.",
+    "sell": 40,
+    "location": "the-lava-caves-(floors-61---79)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/69/Smoke_moth.png?8de6da",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Smoke_Moth"
+  },
+  "snail": {
+    "id": "snail",
+    "name": "Snail",
+    "description": "An uncommon gastropod found in spring.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d2/Snail.png?1277ea",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snail"
+  },
+  "snowball-beetle": {
+    "id": "snowball-beetle",
+    "name": "Snowball Beetle",
+    "description": "A legendary insect found during heavy snow in winter. It's adorable!",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "blizzard"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "very-rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d1/Snowball_beetle.png?a35e4e",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snowball_Beetle"
+  },
+  "snug-bug": {
+    "id": "snug-bug",
+    "name": "Snug Bug",
+    "description": "An uncommon insect found in winter. Found when breaking rocks.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/4c/Snug_bug.png?d58d08",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Snug_Bug"
+  },
+  "speedy-snail": {
+    "id": "speedy-snail",
+    "name": "Speedy Snail",
+    "description": "A legendary gastropod found in all seasons but winter. It goes fast!",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind",
+      "rain",
+      "rainy"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "very-rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/ae/Speedy_snail.png?d7deda",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Speedy_Snail"
+  },
+  "strawhopper": {
+    "id": "strawhopper",
+    "name": "Strawhopper",
+    "description": "A common insect found in summer. Sometimes found when cutting grass.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a9/Strawhopper.png?778ea1",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Strawhopper"
+  },
+  "strobe-firefly": {
+    "id": "strobe-firefly",
+    "name": "Strobe Firefly",
+    "description": "A legendary insect found at night in summer. It's mesmerizing!",
+    "sell": 30,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "summer"
+    ],
+    "weather": [
+      "sunny"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "very-rare",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/e2/Strobe_firefly.png?81f6ae",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Strobe_Firefly"
+  },
+  "surf-beetle": {
+    "id": "surf-beetle",
+    "name": "Surf Beetle",
+    "description": "A common insect found at the beach in all seasons.",
+    "sell": 10,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/2/2b/Surf_beetle.png?946dfd",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Surf_Beetle"
+  },
+  "tiger-swallowtail-butterfly": {
+    "id": "tiger-swallowtail-butterfly",
+    "name": "Tiger Swallowtail Butterfly",
+    "description": "An uncommon insect found during the daytime in fall.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "sunny",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/12/Tiger_swallowtail_butterfly.png?5f5c37",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tiger_Swallowtail_Butterfly"
+  },
+  "tunnel-millipede": {
+    "id": "tunnel-millipede",
+    "name": "Tunnel Millipede",
+    "description": "A common Upper Mines insect. Their many legs make quick work of tunneling.",
+    "sell": 15,
+    "location": "the-upper-mines-(floors-1---19)",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/0/0f/Tunnel_millipede.png?3df806",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tunnel_Millipede"
+  },
+  "walking-leaf": {
+    "id": "walking-leaf",
+    "name": "Walking Leaf",
+    "description": "An uncommon insect found during the daytime in fall. Sometimes found when shaking trees.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "fall"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/f/f8/Walking_leaf.png?451fa5",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Walking_Leaf"
+  },
+  "walking-stick": {
+    "id": "walking-stick",
+    "name": "Walking Stick",
+    "description": "An uncommon insect found in winter.",
+    "sell": 15,
+    "location": "overworld",
+    "spawn-condition": "",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "uncommon",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/d9/Walking_stick.png?991388",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Walking_Stick"
+  },
+  "waterbug": {
+    "id": "waterbug",
+    "name": "Waterbug",
+    "description": "A common insect found at the beach in spring.",
+    "sell": 10,
+    "location": "the-beach",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/d/dd/Waterbug.png?a861e4",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Waterbug"
+  },
+  "waterfly": {
+    "id": "waterfly",
+    "name": "Waterfly",
+    "description": "A common Tide Caverns insect. Like its firefly cousin, it uses its blue glow to signal.",
+    "sell": 20,
+    "location": "the-tide-caverns-(floors-21---39)",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/73/Waterfly.png?f14013",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Waterfly"
+  },
+  "windleaf-butterfly": {
+    "id": "windleaf-butterfly",
+    "name": "Windleaf Butterfly",
+    "description": "A common Deep Woods insect. Clever camouflage makes this insect look like leaves fluttering about.",
+    "sell": 20,
+    "location": "the-deep-woods",
+    "spawn-condition": "",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "sunny",
+      "wind",
+      "wind"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/7/7f/Windleaf_butterfly.png?51782f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Windleaf_Butterfly"
+  },
+  "winterpillar": {
+    "id": "winterpillar",
+    "name": "Winterpillar",
+    "description": "A common insect found in winter. Sometimes found when shaking trees.",
+    "sell": 10,
+    "location": "overworld",
+    "spawn-condition": "Additional spawns in trees",
+    "seasons": [
+      "winter"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Winterpillar.png?89268f",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Winterpillar"
+  },
+  "worm": {
+    "id": "worm",
+    "name": "Worm",
+    "description": "A common Upper Mines invertebrate. It's just a worm.",
+    "sell": 15,
+    "location": "the-upper-mines-(floors-1---19)",
+    "spawn-condition": "Breaking rocks",
+    "seasons": [
+      "all"
+    ],
+    "weather": [
+      "any"
+    ],
+    "time-start": 0,
+    "time-end": 0,
+    "rarity": "common",
+    "image": "https://fieldsofmistria.wiki.gg/images/5/52/Worm.png?caf317",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Worm"
+  }
+}

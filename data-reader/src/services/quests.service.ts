@@ -1,8 +1,8 @@
 // Local Imports
+import { QUESTS_URL } from '../config';
 import { fetchPage } from '../utils/scraper';
 
 // Types
-import { QUESTS_URL } from '../config';
 import { Quest } from '../models/quests';
 
 /**

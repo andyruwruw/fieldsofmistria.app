@@ -739,6 +739,54 @@ export abstract class Parser<T> {
   }
 
   /**
+   * Parses the aside section of the page.
+   *
+   * @returns {Promise<Record<string, any>>} A promise that resolves to the parsed aside data.
+   */
+  async _parseDruidAside(): Promise<Record<string, any>> {
+    const aside = this._getFirst('div.druid-infobox');
+
+    // Check if aside exists
+    if (!aside) {
+      return {};
+    }
+
+    return this._parseNestedContent(aside);
+  }
+
+  /**
+   * Converts a time string (e.g., "1h 30m") to minutes
+   *.
+   * @param time The time string to convert.
+   * @returns The equivalent time in minutes.
+   */
+  _timeToMinutes(time: string): number {
+    const match = time.match(/(\d+h)*\s*(\d+m)*/);
+
+    if (!match) {
+      return 0;
+    }
+
+    const [
+      string,
+      hours,
+      minutes,
+    ] = match;
+
+    let sum = 0;
+
+    if (hours) {
+      sum += parseInt(hours.replace(/h/g, '').trim()) * 60;
+    }
+
+    if (minutes) {
+      sum += parseInt(minutes.replace(/m/g, '').trim());
+    }
+
+    return sum;
+  }
+
+  /**
    * Parses a value from a child element.
    *
    * @param {ChildNode} element The element to parse.
@@ -759,6 +807,8 @@ export abstract class Parser<T> {
     } else if (element.type === 'tag' && element.name === 'img') {
       data.src = `${BASE_URL}${element.attribs.src}`;
       data.alt = element.attribs.alt || '';
+    } else if (element.type === 'tag' && element.name === 'audio') {
+      data.src = `${BASE_URL}${'attribs' in element.children[0] ? element.children[0].attribs.src : ''}`;
     }
 
     if ((element as Record<string, any>).children && (element as Record<string, any>).children.length > 0) {
@@ -773,9 +823,7 @@ export abstract class Parser<T> {
 
             if (childKey in data) {
               if (data[childKey] instanceof Array) {
-                if (!(data[childKey].includes(value))) {
-                  data[childKey].push(...(value instanceof Array ? value : [value]));
-                }
+                data[childKey].push(...(value instanceof Array ? value : [value]));
               } else if (value !== data[childKey]) {
                 data[childKey] = [
                   ...(data[childKey] instanceof Array ? data[childKey] : [data[childKey]]),
@@ -795,5 +843,105 @@ export abstract class Parser<T> {
     }
 
     return data;
+  }
+
+  /**
+   * Parses the nested content of an element.
+   *
+   * @param element The element to parse.
+   * @returns An array of parsed nested content.
+   */
+  protected _parseNestedContent(element: any): Record<string, any>[] {
+    const children = Array.isArray(element.children) ? element.children : element.children();
+    const result = [] as Record<string, any>[];
+
+    for (const child of children) {
+      const item = {
+        tag: child.type === 'tag' ? child.name : child.type,
+        content: null as Record<string, any> | string | number | null | undefined,
+      }
+
+      if (child.type === 'tag' && child.name === 'div') {
+        item.content = this._parseNestedContent(child);
+      } else if (child.type === 'tag' && child.name === 'table') {
+        item.content = this._parseTable(child);
+      } else {
+        item.content = this._parseValue(child);
+      }
+
+      result.push(item);
+    }
+
+    return result;
+  }
+
+  /**
+   * Finds a specific value within a child element.
+   *
+   * @param element The element to search within.
+   * @returns True if the value is found, false otherwise.
+   */
+  _findValue(
+    element: Record<string, any>,
+    value: string,
+  ): boolean {
+    const queue = [ element ];
+
+    let found = false;
+
+    while (queue.length) {
+      const current = queue.shift();
+
+      if (current && typeof current === 'object') {
+        for (const key in current) {
+          const child = current[key];
+
+          if (!child) {
+            continue;
+          }
+
+          if (typeof child === 'object') {
+            queue.push(child); 
+          } else if (child instanceof Array) {
+            for (const item of child) {
+              if (typeof item === 'object') {
+                queue.push(item);
+              } else {
+                found = found || item === value;
+              }
+            }
+          } else {
+            found = found || child === value;
+          }
+
+          if (found) {
+            return found;
+          }
+        }
+      } else {
+        found = found || current === value;
+      }
+    }
+
+    return found;
+  }
+
+  _flattenValues<T>(data: Record<string, any>): Set<T> {
+    const result = new Set<T>();
+
+    const flatten = (obj: Record<string, any>) => {
+      for (const key in obj) {
+        const value = obj[key];
+
+        if (value && typeof value === 'object') {
+          flatten(value);
+        } else {
+          result.add(value);
+        }
+      }
+    };
+
+    flatten(data);
+    return result;
   }
 }

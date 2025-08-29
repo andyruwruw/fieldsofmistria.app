@@ -1,0 +1,56 @@
+{
+  "sunny": {
+    "id": "sunny",
+    "name": "Sunny",
+    "description": "Sunny weather has no special effects.",
+    "image": "https://fieldsofmistria.wiki.gg/images/4/44/Weather_icon_sunny.png?8da538"
+  },
+  "breezy-with-cherry-blossoms": {
+    "id": "breezy-with-cherry-blossoms",
+    "name": "Breezy with Cherry Blossoms",
+    "description": "This form of windy weather only happens during the Spring. Pink flower petals fall through the air during this weather, and (if other conditions are met) the legendary Spring fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/c/ce/Weather_icon_petals.png?3504c9"
+  },
+  "breezy-with-falling-leaves": {
+    "id": "breezy-with-falling-leaves",
+    "name": "Breezy with Falling Leaves",
+    "description": "This form of windy weather only happens during the Fall. Leaves fall through the air during this weather, and (if other conditions are met) the legendary Fall fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/a/a0/Weather_icon_leaves.png?179202"
+  },
+  "rain": {
+    "id": "rain",
+    "name": "Rain",
+    "description": "In rainy weather, all crops on the farm are automatically watered.",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/16/Weather_icon_rainy.png?fbce84,/images/5/5e/Weather_icon_rain.png?40c8e0"
+  },
+  "rainy": {
+    "id": "rainy",
+    "name": "Rainy",
+    "description": "In rainy weather, all crops on the farm are automatically watered.",
+    "image": "https://fieldsofmistria.wiki.gg/images/1/16/Weather_icon_rainy.png?fbce84,/images/5/5e/Weather_icon_rain.png?40c8e0"
+  },
+  "storm": {
+    "id": "storm",
+    "name": "Storm",
+    "description": "In stormy weather, much like rainy weather, all crops on the farm are automatically watered. However, there are also added lightning animation as well as thunder sound effects During Storms, and Thunderstorm s in the Summer (if other conditions are met) the legendary Summer fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Weather_icon_storm.png?421b6d,/images/0/03/Weather_icon_thunderstorm.png?127145"
+  },
+  "thunderstorm": {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "description": "In stormy weather, much like rainy weather, all crops on the farm are automatically watered. However, there are also added lightning animation as well as thunder sound effects During Storms, and Thunderstorm s in the Summer (if other conditions are met) the legendary Summer fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Weather_icon_storm.png?421b6d,/images/0/03/Weather_icon_thunderstorm.png?127145"
+  },
+  "snow": {
+    "id": "snow",
+    "name": "Snow",
+    "description": "Snowy weather only happens during the Winter. Like rainy weather, all crops on the farm are automatically watered. During Blizzards, (if other conditions are met) the legendary Winter fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/67/Weather_icon_snow.png?59db86,/images/d/dc/Weather_icon_blizzard.png?df5c8a"
+  },
+  "blizzard": {
+    "id": "blizzard",
+    "name": "Blizzard",
+    "description": "Snowy weather only happens during the Winter. Like rainy weather, all crops on the farm are automatically watered. During Blizzards, (if other conditions are met) the legendary Winter fish will spawn.",
+    "image": "https://fieldsofmistria.wiki.gg/images/6/67/Weather_icon_snow.png?59db86,/images/d/dc/Weather_icon_blizzard.png?df5c8a"
+  }
+}

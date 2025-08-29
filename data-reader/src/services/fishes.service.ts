@@ -1,13 +1,13 @@
 // Local Imports
+import { normalizeStringLength } from '../utils/convert';
+import { FishPageParser } from '../parsers/fish.parser';
 import { FishListParser } from '../parsers/fish-list.parser';
 import { fetchPage } from '../utils/scraper';
 import { FISH_URL } from '../config';
+import wait from '../utils/wait';
 
 // Types
 import { Fish } from '../models/fish';
-import { normalizeStringLength } from '../utils/convert';
-import wait from '../utils/wait';
-import { FishPageParser } from '../parsers/fish.parser';
 
 /**
  * Service for managing fish data.

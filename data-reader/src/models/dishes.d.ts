@@ -47,6 +47,8 @@ export interface Dish {
    */
   category: string;
 
+  subCategory: string;
+
   /**
    * The selling price of the dish.
    */

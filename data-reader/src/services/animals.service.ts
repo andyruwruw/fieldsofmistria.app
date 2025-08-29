@@ -18,7 +18,7 @@ export class AnimalsService {
    * @returns {Promise<Animal[]>} A promise that resolves to an array of Animal objects.
    */
   async fetch(): Promise<Animal[]> {
-    const animalUrls = await this._getAnimalList();
+    const animalUrls = (await this._getAnimalList()).map((item: Record<string, string>): string => (item.href));
 
     const animalPromises = [];
     let last = 0;
@@ -47,9 +47,9 @@ export class AnimalsService {
   /**
    * Fetches a list of animal URLs.
    *
-   * @returns {Promise<string[]>} A promise that resolves to an array of animal URLs.
+   * @returns {Promise<Record<string, string>[]>} A promise that resolves to an array of animal URLs.
    */
-  async _getAnimalList(): Promise<string[]> {
+  async _getAnimalList(): Promise<Record<string, string>[]> {
     const page = await fetchPage(ANIMALS_URL);
 
     const parser = new AnimalListParser(

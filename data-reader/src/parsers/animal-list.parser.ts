@@ -7,7 +7,7 @@ import { AnimalHome } from '../models/animals';
 /**
  * Parses the main animal list page to extract animal URLs.
  */
-export class AnimalListParser extends Parser<string[]> {
+export class AnimalListParser extends Parser<Record<string, string>[]> {
   /**
    * Leftover data from previous parsing attempts.
    * This is used to store any data that might be needed later.
@@ -18,9 +18,9 @@ export class AnimalListParser extends Parser<string[]> {
   /**
    * Parses the HTML page and returns structured data.
    *
-   * @returns {Promise<string[]>} A promise that resolves to the parsed data.
+   * @returns {Promise<Record<string, string>[]>} A promise that resolves to the parsed data.
    */
-  async parse(): Promise<string[]> {
+  async parse(): Promise<Record<string, string>[]> {
     AnimalListParser._data = this._parseNavigationTable();
 
     const animalUrls = [];
@@ -36,7 +36,11 @@ export class AnimalListParser extends Parser<string[]> {
           continue;
         }
 
-        animalUrls.push(href);
+        animalUrls.push({
+          id,
+          href,
+          icon: animal.icon || '',
+        });
       }
     }
 
@@ -72,7 +76,7 @@ export class AnimalListParser extends Parser<string[]> {
   static getAnimalSmallIcon(id: string): string {
     for (let location in this._data.body) {
       if (id in this._data.body[location]) {
-        return this._data.body[location][id]['small-icon'];
+        return this._data.body[location][id]['icon'];
       }
     }
 

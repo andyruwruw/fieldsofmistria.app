@@ -1,8 +1,8 @@
 // Local Imports
+import { MONSTERS_URL } from '../config';
 import { fetchPage } from '../utils/scraper';
 
 // Types
-import { MONSTERS_URL } from '../config';
 import { Monster } from '../models/monsters';
 
 /**

@@ -21,6 +21,11 @@ interface SetListAccordionItemProps {
 	id: string;
 
   /**
+   * Override completeness.
+   */
+  overrideComplete?: boolean;
+
+  /**
    * Map of completed items.
    */
   completedItems?: Record<string, boolean>;
@@ -44,6 +49,7 @@ interface SetListAccordionItemProps {
  */
 export const SetListAccordionItem = ({
 	id,
+  overrideComplete,
 	completedItems,
 	setIsOpen,
 	setObject,
@@ -58,10 +64,11 @@ export const SetListAccordionItem = ({
   ] = useState({} as any);
 
   useEffect(() => {
-    setDone(completedItems?.[id] ?? false);
+    setDone((overrideComplete || completedItems?.[id]) ?? false);
   }, [
     id,
     completedItems,
+    overrideComplete,
   ]);
 
   useEffect(() => {

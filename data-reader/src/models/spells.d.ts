@@ -37,9 +37,14 @@ export interface Spell {
   mana: number;
 
   /**
-   * How to unlock the spell.
+   * How the spell is used.
    */
-  unlocking: string;
+  use: string;
+
+  /**
+   * The URL of the spell's image.
+   */
+  image: string;
 
   /**
    * Link to the spell's wiki page.

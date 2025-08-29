@@ -140,7 +140,7 @@
         "legendary": false
       },
       {
-        "id": "buried",
+        "id": "mine",
         "name": "Buried",
         "items": [
           "diamond-backed-mirror",
@@ -168,7 +168,7 @@
         "legendary": false
       },
       {
-        "id": "tide-cavern",
+        "id": "tide-caverns",
         "name": "Tide Cavern",
         "items": [
           "crab-statue",
@@ -294,7 +294,7 @@
         "legendary": false
       },
       {
-        "id": "dig-site",
+        "id": "common-finds",
         "name": "Dig Site",
         "items": [
           "clay",
@@ -310,7 +310,7 @@
     ],
     "fish-wing": [
       {
-        "id": "multi-season",
+        "id": "multi-season-fish",
         "name": "Multi-Season",
         "items": [
           "koi",
@@ -577,7 +577,7 @@
     ],
     "flora-wing": [
       {
-        "id": "spring-crop",
+        "id": "spring-crops",
         "name": "Spring Crop",
         "items": [
           "cabbage",
@@ -591,7 +591,7 @@
         "legendary": false
       },
       {
-        "id": "spring-flower",
+        "id": "spring-flowers",
         "name": "Spring Flower",
         "items": [
           "daffodil",
@@ -619,7 +619,7 @@
         "legendary": false
       },
       {
-        "id": "summer-crop",
+        "id": "summer-crops",
         "name": "Summer Crop",
         "items": [
           "chili-pepper",
@@ -633,7 +633,7 @@
         "legendary": false
       },
       {
-        "id": "summer-flower",
+        "id": "summer-flowers",
         "name": "Summer Flower",
         "items": [
           "catmint",
@@ -661,7 +661,7 @@
         "legendary": false
       },
       {
-        "id": "fall-crop",
+        "id": "fall-crops",
         "name": "Fall Crop",
         "items": [
           "apple",
@@ -675,7 +675,7 @@
         "legendary": false
       },
       {
-        "id": "fall-flower",
+        "id": "fall-flowers",
         "name": "Fall Flower",
         "items": [
           "celosia",
@@ -703,7 +703,7 @@
         "legendary": false
       },
       {
-        "id": "winter-crop",
+        "id": "winter-crops",
         "name": "Winter Crop",
         "items": [
           "beet",
@@ -717,7 +717,7 @@
         "legendary": false
       },
       {
-        "id": "winter-flower",
+        "id": "winter-flowers",
         "name": "Winter Flower",
         "items": [
           "crocus",
@@ -817,7 +817,7 @@
     ],
     "insects-wing": [
       {
-        "id": "multi-season",
+        "id": "multi-season-fish",
         "name": "Multi-Season",
         "items": [
           "ant",

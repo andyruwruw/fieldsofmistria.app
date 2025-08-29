@@ -1,12 +1,12 @@
 // Local Imports
-import { fetchPage } from '../utils/scraper';
-
-// Types
 import {
   TOOLS_URL,
   EQUIPMENT_URL,
   COSMETICS_URL,
 } from '../config';
+import { fetchPage } from '../utils/scraper';
+
+// Types
 import { Tool } from '../models/tools';
 
 /**

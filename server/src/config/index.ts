@@ -4,7 +4,6 @@ import {
   RequestType,
   UploadType,
 } from '../types';
-import { Environment } from '../helpers/environment';
 
 /**
  * Various request types enum.
@@ -49,11 +48,27 @@ export const FILE_TYPES = {
   },
 } as Record<UploadType, Dictionary<string>>;
 
+/**
+ * Is the current platform Windows?
+ */
 export const IS_WINDOWS = process.platform === 'win32';
 
+/**
+ * Directory for executable files.
+ */
 export const EXECUTABLE_DIR = 'bin';
+
+/**
+ * Name of the executable file.
+ */
 export const EXECUTABLE_NAME = 'vaultc-x86_64-pc-windows-msvc-v0.14.0.exe';
 
+/**
+ * Directory for save files.
+ */
 export const SAVE_DIR = 'saves';
-export const UNPACKED_DIR = 'unpacked';
 
+/**
+ * Directory for unpacked files.
+ */
+export const UNPACKED_DIR = 'unpacked';

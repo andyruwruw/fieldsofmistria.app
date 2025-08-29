@@ -1,0 +1,4772 @@
+{
+  "categories": {
+    "pantry": {
+      "name": "Pantry",
+      "id": "pantry",
+      "icon": "https://fieldsofmistria.wiki.gg/images/8/8d/Pantry.png?74cae5"
+    },
+    "snacks": {
+      "name": "Snacks",
+      "id": "snacks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/e/e0/Snacks.png?231d05"
+    },
+    "salads-&-greens": {
+      "name": "Salads & Greens",
+      "id": "salads-&-greens",
+      "icon": "https://fieldsofmistria.wiki.gg/images/7/7e/Salad.png?d6117d"
+    },
+    "soups-&-stews": {
+      "name": "Soups & Stews",
+      "id": "soups-&-stews",
+      "icon": "https://fieldsofmistria.wiki.gg/images/c/c7/Soups.png?c6814b"
+    },
+    "main-dishes": {
+      "name": "Main Dishes",
+      "id": "main-dishes",
+      "icon": "https://fieldsofmistria.wiki.gg/images/a/aa/Main_dishes.png?cfb805"
+    },
+    "desserts": {
+      "name": "Desserts",
+      "id": "desserts",
+      "icon": "https://fieldsofmistria.wiki.gg/images/8/83/Desserts.png?ca5573"
+    },
+    "drinks": {
+      "name": "Drinks",
+      "id": "drinks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/0/0a/Drinks.png?1c6ce6"
+    }
+  },
+  "subCategories": {
+    "misc-pantry": {
+      "name": "Misc. Pantry",
+      "id": "misc-pantry",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/2/27/Category_Miscellaneous.png/40px-Category_Miscellaneous.png?5df338",
+      "category": "pantry"
+    },
+    "pickle-and-fermenting": {
+      "name": "Pickle and Fermenting",
+      "id": "pickle-and-fermenting",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/e/eb/Pickle_and_fermenting.png/40px-Pickle_and_fermenting.png?550df9",
+      "category": "pantry"
+    },
+    "sauce-and-condiment": {
+      "name": "Sauce and Condiment",
+      "id": "sauce-and-condiment",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/d/d1/Sauce_and_condiment.png/40px-Sauce_and_condiment.png?653b74",
+      "category": "pantry"
+    },
+    "jam": {
+      "name": "Jam",
+      "id": "jam",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/f/fa/Jam.png/40px-Jam.png?5bb73a",
+      "category": "pantry"
+    },
+    "dairy": {
+      "name": "Dairy",
+      "id": "dairy",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/e/e3/Dairy.png/40px-Dairy.png?10611c",
+      "category": "pantry"
+    },
+    "greens": {
+      "name": "Greens",
+      "id": "greens",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/5/54/Greens.png/40px-Greens.png?ca2703",
+      "category": "salads-&-greens"
+    },
+    "salad": {
+      "name": "Salad",
+      "id": "salad",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/7/7e/Salad.png/40px-Salad.png?d6117d",
+      "category": "salads-&-greens"
+    },
+    "stews": {
+      "name": "Stews",
+      "id": "stews",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/13/Stews.png/40px-Stews.png?ebebd6",
+      "category": "soups-&-stews"
+    },
+    "soups": {
+      "name": "Soups",
+      "id": "soups",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/c/c7/Soups.png/40px-Soups.png?c6814b",
+      "category": "soups-&-stews"
+    },
+    "steamed-dish": {
+      "name": "Steamed Dish",
+      "id": "steamed-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/d/dd/Steamed_dish.png/40px-Steamed_dish.png?b61adc",
+      "category": "main-dishes"
+    },
+    "simmered-dish": {
+      "name": "Simmered Dish",
+      "id": "simmered-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/3/32/Simmered_dish.png/40px-Simmered_dish.png?718e40",
+      "category": "main-dishes"
+    },
+    "sauteed-dish": {
+      "name": "Sauteed Dish",
+      "id": "sauteed-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/8/8b/Sauteed_dish.png/40px-Sauteed_dish.png?25041d",
+      "category": "main-dishes"
+    },
+    "roasted-dish": {
+      "name": "Roasted Dish",
+      "id": "roasted-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/14/Roasted_dish.png/40px-Roasted_dish.png?1900e5",
+      "category": "main-dishes"
+    },
+    "handcrafted-dish": {
+      "name": "Handcrafted Dish",
+      "id": "handcrafted-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/a/a2/Handcrafted_dish.png/40px-Handcrafted_dish.png?7a9f3a",
+      "category": "main-dishes"
+    },
+    "grilled-dish": {
+      "name": "Grilled Dish",
+      "id": "grilled-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/c/ca/Grilled_dish.png/40px-Grilled_dish.png?9fc65b",
+      "category": "main-dishes"
+    },
+    "fried-dish": {
+      "name": "Fried Dish",
+      "id": "fried-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/19/Fried_dish.png/40px-Fried_dish.png?225ebf",
+      "category": "main-dishes"
+    },
+    "chilled-dish": {
+      "name": "Chilled Dish",
+      "id": "chilled-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/b/bf/Chilled_dish.png/40px-Chilled_dish.png?11e39a",
+      "category": "main-dishes"
+    },
+    "baked-dish": {
+      "name": "Baked Dish",
+      "id": "baked-dish",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/1c/Baked_dish.png/40px-Baked_dish.png?dcd634",
+      "category": "main-dishes"
+    },
+    "steamed-dessert": {
+      "name": "Steamed Dessert",
+      "id": "steamed-dessert",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/1a/Steamed_dessert.png/40px-Steamed_dessert.png?26b29c",
+      "category": "desserts"
+    },
+    "handcrafted-dessert": {
+      "name": "Handcrafted Dessert",
+      "id": "handcrafted-dessert",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/d/d7/Handcrafted_dessert.png/40px-Handcrafted_dessert.png?35f00e",
+      "category": "desserts"
+    },
+    "frozen-dessert": {
+      "name": "Frozen Dessert",
+      "id": "frozen-dessert",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/d/dc/Frozen_dessert.png/40px-Frozen_dessert.png?530a20",
+      "category": "desserts"
+    },
+    "fried-dessert": {
+      "name": "Fried Dessert",
+      "id": "fried-dessert",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/9/90/Fried_dessert.png/40px-Fried_dessert.png?ca24a5",
+      "category": "desserts"
+    },
+    "candy": {
+      "name": "Candy",
+      "id": "candy",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/1/1c/Candy.png/40px-Candy.png?97f09f",
+      "category": "desserts"
+    },
+    "baked-dessert": {
+      "name": "Baked Dessert",
+      "id": "baked-dessert",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/9/9e/Baked_dessert.png/40px-Baked_dessert.png?2db33a",
+      "category": "desserts"
+    },
+    "hot-drinks": {
+      "name": "Hot Drinks",
+      "id": "hot-drinks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/f/f8/Hot_drinks.png/40px-Hot_drinks.png?a30e6b",
+      "category": "drinks"
+    },
+    "cold-drinks": {
+      "name": "Cold Drinks",
+      "id": "cold-drinks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/4/41/Cold_drinks.png/40px-Cold_drinks.png?400371",
+      "category": "drinks"
+    }
+  },
+  "dishes": {
+    "bread": {
+      "id": "bread",
+      "name": "Bread",
+      "description": "A soft and fluffy loaf of fresh bread.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Pantry",
+      "subCategory": "Misc. Pantry",
+      "sell": 190,
+      "ingredients": [
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 6,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/e1/Bread.png?6f7809",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Bread"
+    },
+    "noodles": {
+      "id": "noodles",
+      "name": "Noodles",
+      "description": "These fresh noodles are tasty by themselves but also a versatile ingredient.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Pantry",
+      "subCategory": "Misc. Pantry",
+      "sell": 190,
+      "ingredients": [
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "The Inn for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/82/Noodles.png?9e3570",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Noodles"
+    },
+    "blackberry-jam": {
+      "id": "blackberry-jam",
+      "name": "Blackberry Jam",
+      "description": "This autumnal jam is sweet and tangy.",
+      "health": 22,
+      "stamina": 22,
+      "category": "Pantry",
+      "subCategory": "Jam",
+      "sell": 140,
+      "ingredients": [
+        {
+          "id": "blackberry",
+          "amount": 6
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Elsie's Request for Blackberries",
+      "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Blackberry_jam.png?5b4ea8",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blackberry_Jam"
+    },
+    "blueberry-jam": {
+      "id": "blueberry-jam",
+      "name": "Blueberry Jam",
+      "description": "A jam made with only the freshest blueberries. It has a sweet, mild flavor.",
+      "health": 22,
+      "stamina": 22,
+      "category": "Pantry",
+      "subCategory": "Jam",
+      "sell": 140,
+      "ingredients": [
+        {
+          "id": "blueberry",
+          "amount": 6
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Reina's Request for Blueberries",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/16/Blueberry_jam.png?1984e2",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blueberry_Jam"
+    },
+    "marmalade": {
+      "id": "marmalade",
+      "name": "Marmalade",
+      "description": "A sweet, zesty jam made with orange rind.",
+      "health": 48,
+      "stamina": 48,
+      "category": "Pantry",
+      "subCategory": "Jam",
+      "sell": 160,
+      "ingredients": [
+        {
+          "id": "orange",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Elsie's Request for an Orange",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/ed/Marmalade.png?2a6624",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Marmalade"
+    },
+    "rosehip-jam": {
+      "id": "rosehip-jam",
+      "name": "Rosehip Jam",
+      "description": "A winter jam with a tangy flavor.",
+      "health": 34,
+      "stamina": 34,
+      "category": "Pantry",
+      "subCategory": "Jam",
+      "sell": 130,
+      "ingredients": [
+        {
+          "id": "rose-hip",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Valen's Request for Rose Hips",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/79/Rosehip_jam.png?e58fdf",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rosehip_Jam"
+    },
+    "wild-berry-jam": {
+      "id": "wild-berry-jam",
+      "name": "Wild Berry Jam",
+      "description": "This fruity springtime jam is tart and sweet.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Pantry",
+      "subCategory": "Jam",
+      "sell": 115,
+      "ingredients": [
+        {
+          "id": "wild-berries",
+          "amount": 6
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/4/42/Wild_berry_jam.png?975885",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Jam"
+    },
+    "berry-bowl": {
+      "id": "berry-bowl",
+      "name": "Berry Bowl",
+      "description": "A variety of juicy, fresh-picked berries with a drizzle of honey.",
+      "health": 100,
+      "stamina": 100,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 440,
+      "ingredients": [
+        {
+          "id": "strawberry",
+          "amount": 2
+        },
+        {
+          "id": "wild-berries",
+          "amount": 4
+        },
+        {
+          "id": "blueberry",
+          "amount": 4
+        },
+        {
+          "id": "honey",
+          "amount": 2
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Wishing Well 500t Wish",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/ae/Berry_bowl.png?491341",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Berry_Bowl"
+    },
+    "canned-sardines": {
+      "id": "canned-sardines",
+      "name": "Canned Sardines",
+      "description": "These canned sardines have a satisfying meaty and salty taste.",
+      "health": 22,
+      "stamina": 22,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 65,
+      "ingredients": [
+        {
+          "id": "sardine",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Wooden Treasure Box Tackle Shop",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/31/Canned_sardines.png?422be7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Canned_Sardines"
+    },
+    "crispy-fried-earthshroom": {
+      "id": "crispy-fried-earthshroom",
+      "name": "Crispy Fried Earthshroom",
+      "description": "This umami mushroom's unique shape gives it an incredible crisp when fried.",
+      "health": 66,
+      "stamina": 66,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 250,
+      "ingredients": [
+        {
+          "id": "earthshroom",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d8/Crispy_fried_earthshroom.png?3d1079",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Crispy_Fried_Earthshroom"
+    },
+    "crunchy-chickpeas": {
+      "id": "crunchy-chickpeas",
+      "name": "Crunchy Chickpeas",
+      "description": "These crunchy and salty roasted chickpeas make a great snack.",
+      "health": 16,
+      "stamina": 16,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 60,
+      "ingredients": [
+        {
+          "id": "chickpea",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "The Upper Mines (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/34/Crunchy_chickpeas.png?49b22b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Crunchy_Chickpeas"
+    },
+    "deviled-eggs": {
+      "id": "deviled-eggs",
+      "name": "Deviled Eggs",
+      "description": "These hard boiled egg halves have a creamy, flavorful filling.",
+      "health": 32,
+      "stamina": 32,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 160,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "mayonnaise",
+          "amount": 1
+        },
+        {
+          "id": "horseradish",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Chicken Statue 10 Offering",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/55/Deviled_eggs.png?1cf12a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Deviled_Eggs"
+    },
+    "dried-squid": {
+      "id": "dried-squid",
+      "name": "Dried Squid",
+      "description": "This tasty dried squid is a popular oceanside snack.",
+      "health": 22,
+      "stamina": 22,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 60,
+      "ingredients": [
+        {
+          "id": "squid",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/66/Dried_squid.png?f8a28d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Dried_Squid"
+    },
+    "hard-boiled-egg": {
+      "id": "hard-boiled-egg",
+      "name": "Hard Boiled Egg",
+      "description": "A perfectly cooked hard boiled egg.",
+      "health": 10,
+      "stamina": 10,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 22,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Eiland's Request for Eggs",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/69/Hard_boiled_egg.png?c14011",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Hard_Boiled_Egg"
+    },
+    "pineshroom-toast": {
+      "id": "pineshroom-toast",
+      "name": "Pineshroom Toast",
+      "description": "A simple holiday sweet treat that's unique to Mistria.",
+      "health": 80,
+      "stamina": 80,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "pineshroom",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "Adeline's Request for Pineshrooms",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d3/Pineshroom_toast.png?c477a1",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pineshroom_Toast"
+    },
+    "roasted-chestnuts": {
+      "id": "roasted-chestnuts",
+      "name": "Roasted Chestnuts",
+      "description": "These chestnuts are soft and sweet.",
+      "health": 10,
+      "stamina": 10,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 30,
+      "ingredients": [
+        {
+          "id": "chestnut",
+          "amount": 2
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Hemlock's Request for Chestnuts",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a9/Roasted_chestnuts.png?8eaa1a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Chestnuts"
+    },
+    "spicy-cheddar-biscuit": {
+      "id": "spicy-cheddar-biscuit",
+      "name": "Spicy Cheddar Biscuit",
+      "description": "A fluffy biscuit with a cheesy, spicy kick.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 510,
+      "ingredients": [
+        {
+          "id": "chili-pepper",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 28,
+      "tier": 2,
+      "source": "Wishing Well 500t Wish Saturday Market at Darcy's Stall for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/27/Spicy_cheddar_biscuit.png?844d42",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Cheddar_Biscuit"
+    },
+    "spicy-water-chestnuts": {
+      "id": "spicy-water-chestnuts",
+      "name": "Spicy Water Chestnuts",
+      "description": "These crunchy water chestnuts are tossed in an irresistible spicy sauce.",
+      "health": 40,
+      "stamina": 40,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 90,
+      "ingredients": [
+        {
+          "id": "chili-pepper",
+          "amount": 1
+        },
+        {
+          "id": "water-chestnut",
+          "amount": 2
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 6,
+      "tier": 1,
+      "source": "Ship a Chili Pepper",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/63/Spicy_water_chestnuts.png?879fd0",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Water_Chestnuts"
+    },
+    "toasted-sunflower-seeds": {
+      "id": "toasted-sunflower-seeds",
+      "name": "Toasted Sunflower Seeds",
+      "description": "Salted and toasted, these sunflower seeds are best by the handful.",
+      "health": 52,
+      "stamina": 52,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 95,
+      "ingredients": [
+        {
+          "id": "sunflower",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Ship a Sunflower",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/26/Toasted_sunflower_seeds.png?d0b539",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Toasted_Sunflower_Seeds"
+    },
+    "trail-mix": {
+      "id": "trail-mix",
+      "name": "Trail Mix",
+      "description": "A tasty snack mix, good for eating on the go.",
+      "health": 12,
+      "stamina": 12,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 12,
+      "ingredients": [
+        {
+          "id": "water-chestnut",
+          "amount": 2
+        },
+        {
+          "id": "wild-berries",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/58/Trail_mix.png?5ed6e1",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Trail_Mix"
+    },
+    "water-chestnut-fritters": {
+      "id": "water-chestnut-fritters",
+      "name": "Water Chestnut Fritters",
+      "description": "These crispy water chestnuts feature a thick fried coating.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Snacks",
+      "subCategory": "",
+      "sell": 240,
+      "ingredients": [
+        {
+          "id": "water-chestnut",
+          "amount": 2
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Juniper's Request for Water Chestnuts",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d3/Water_chestnut_fritters.png?bee7aa",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Chestnut_Fritters"
+    },
+    "grilled-corn": {
+      "id": "grilled-corn",
+      "name": "Grilled Corn",
+      "description": "A smoky, juicy ear of grilled corn.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Salads & Greens",
+      "subCategory": "Greens",
+      "sell": 135,
+      "ingredients": [
+        {
+          "id": "corn",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Ship a Corn",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/2c/Grilled_corn.png?5879fe",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Corn"
+    },
+    "sauteed-snow-peas": {
+      "id": "sauteed-snow-peas",
+      "name": "Sauteed Snow Peas",
+      "description": "These crunchy snow peas are sauteed with crisp water chestnuts.",
+      "health": 34,
+      "stamina": 34,
+      "category": "Salads & Greens",
+      "subCategory": "Greens",
+      "sell": 140,
+      "ingredients": [
+        {
+          "id": "snow-peas",
+          "amount": 1
+        },
+        {
+          "id": "water-chestnut",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship a Snow Pea",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/9a/Sauteed_snow_peas.png?92c3f6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sauteed_Snow_Peas"
+    },
+    "sesame-broccoli": {
+      "id": "sesame-broccoli",
+      "name": "Sesame Broccoli",
+      "description": "This steamed broccoli is coated with sesame seeds.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Salads & Greens",
+      "subCategory": "Greens",
+      "sell": 115,
+      "ingredients": [
+        {
+          "id": "broccoli",
+          "amount": 1
+        },
+        {
+          "id": "sesame",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Vera's Request for Sesame",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/ad/Sesame_broccoli.png?c8b1d4",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Broccoli"
+    },
+    "sliced-turnip": {
+      "id": "sliced-turnip",
+      "name": "Sliced Turnip",
+      "description": "These crisp slices of turnip are mildly sweet. Tasty & refreshing.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Salads & Greens",
+      "subCategory": "Greens",
+      "sell": 40,
+      "ingredients": [
+        {
+          "id": "turnip",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Ship a Turnip",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/6b/Sliced_turnip.png?3d2b81",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sliced_Turnip"
+    },
+    "steamed-broccoli": {
+      "id": "steamed-broccoli",
+      "name": "Steamed Broccoli",
+      "description": "This broccoli is tender and juicy.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Salads & Greens",
+      "subCategory": "Greens",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "broccoli",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Ship a Broccoli",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/7a/Steamed_broccoli.png?e99c7e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Steamed_Broccoli"
+    },
+    "beet-salad": {
+      "id": "beet-salad",
+      "name": "Beet Salad",
+      "description": "This salad is made of fresh, tender slices of beet.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 40,
+      "ingredients": [
+        {
+          "id": "beet",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Ship a Beet",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/ac/Beet_salad.png?840643",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Beet_Salad"
+    },
+    "broccoli-salad": {
+      "id": "broccoli-salad",
+      "name": "Broccoli Salad",
+      "description": "A crunchy broccoli salad with plenty of tart cranberries.",
+      "health": 74,
+      "stamina": 74,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 330,
+      "ingredients": [
+        {
+          "id": "broccoli",
+          "amount": 1
+        },
+        {
+          "id": "cranberry",
+          "amount": 1
+        },
+        {
+          "id": "mayonnaise",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 18,
+      "tier": 1,
+      "source": "Reina's Request for Broccoli",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b1/Broccoli_salad.png?f46ab9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Broccoli_Salad"
+    },
+    "cabbage-slaw": {
+      "id": "cabbage-slaw",
+      "name": "Cabbage Slaw",
+      "description": "A crunchy and satisfying blend of shredded cabbage and fennel.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 220,
+      "ingredients": [
+        {
+          "id": "cabbage",
+          "amount": 1
+        },
+        {
+          "id": "fennel",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Ship a Cabbage",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3b/Cabbage_slaw.png?6fbf16",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cabbage_Slaw"
+    },
+    "cucumber-salad": {
+      "id": "cucumber-salad",
+      "name": "Cucumber Salad",
+      "description": "A crisp, refreshing salad of cucumber with dill and sesame.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 115,
+      "ingredients": [
+        {
+          "id": "cucumber",
+          "amount": 1
+        },
+        {
+          "id": "dill",
+          "amount": 1
+        },
+        {
+          "id": "sesame",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Ship a Cucumber",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/6b/Cucumber_salad.png?be093e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cucumber_Salad"
+    },
+    "herb-salad": {
+      "id": "herb-salad",
+      "name": "Herb Salad",
+      "description": "This flavor-packed salad of aromatic herbs tastes distinctly refreshing.",
+      "health": 100,
+      "stamina": 100,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 185,
+      "ingredients": [
+        {
+          "id": "sage",
+          "amount": 1
+        },
+        {
+          "id": "basil",
+          "amount": 1
+        },
+        {
+          "id": "thyme",
+          "amount": 1
+        },
+        {
+          "id": "oregano",
+          "amount": 1
+        },
+        {
+          "id": "dill",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 4,
+      "level": 30,
+      "tier": 3,
+      "source": "The Deep Earth (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/0e/Herb_salad.png?a0f121",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Herb_Salad"
+    },
+    "seaweed-salad": {
+      "id": "seaweed-salad",
+      "name": "Seaweed Salad",
+      "description": "A crunchy salad made up of thin strips of salty seaweed.",
+      "health": 42,
+      "stamina": 42,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 120,
+      "ingredients": [
+        {
+          "id": "seaweed",
+          "amount": 3
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Valen's Request for Seaweed",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/7e/Seaweed_salad.png?24ae99",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Seaweed_Salad"
+    },
+    "spring-salad": {
+      "id": "spring-salad",
+      "name": "Spring Salad",
+      "description": "This blend of wild vegetables highlights the taste of spring.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "fennel",
+          "amount": 1
+        },
+        {
+          "id": "fiddlehead",
+          "amount": 1
+        },
+        {
+          "id": "nettle",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 8,
+      "tier": 1,
+      "source": "Celine's Request for Fennel",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/83/Spring_salad.png?732cc5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spring_Salad"
+    },
+    "summer-salad": {
+      "id": "summer-salad",
+      "name": "Summer Salad",
+      "description": "This healthy salad celebrates the flavors of Summer.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 430,
+      "ingredients": [
+        {
+          "id": "cucumber",
+          "amount": 1
+        },
+        {
+          "id": "chili-pepper",
+          "amount": 1
+        },
+        {
+          "id": "tomato",
+          "amount": 1
+        },
+        {
+          "id": "corn",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 28,
+      "tier": 2,
+      "source": "The Lava Caves (requires Taste Maker Skill ) Silver Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Summer_salad.png?92d19d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Summer_Salad"
+    },
+    "tide-salad": {
+      "id": "tide-salad",
+      "name": "Tide Salad",
+      "description": "A salad that tastes like a day at the beach.",
+      "health": 76,
+      "stamina": 76,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 150,
+      "ingredients": [
+        {
+          "id": "tide-lettuce",
+          "amount": 1
+        },
+        {
+          "id": "sea-grapes",
+          "amount": 1
+        },
+        {
+          "id": "underseaweed",
+          "amount": 1
+        },
+        {
+          "id": "jade-dulse",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3f/Tide_salad.png?6d7c2a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Tide_Salad"
+    },
+    "turnip-and-cabbage-salad": {
+      "id": "turnip-and-cabbage-salad",
+      "name": "Turnip and Cabbage Salad",
+      "description": "A fresh salad with a wonderful crunch.",
+      "health": 74,
+      "stamina": 74,
+      "category": "Salads & Greens",
+      "subCategory": "Salad",
+      "sell": 280,
+      "ingredients": [
+        {
+          "id": "turnip",
+          "amount": 1
+        },
+        {
+          "id": "cabbage",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 2,
+      "source": "The Upper Mines (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/96/Turnip_and_cabbage_salad.png?50a8b5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Cabbage_Salad"
+    },
+    "fish-stew": {
+      "id": "fish-stew",
+      "name": "Fish Stew",
+      "description": "This flavorful stew blends the taste of freshly cooked fish with sweet wild leek.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Soups & Stews",
+      "subCategory": "Stews",
+      "sell": 105,
+      "ingredients": [
+        {
+          "id": "smallmouth-bass",
+          "amount": 1
+        },
+        {
+          "id": "red-snapper",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Copper Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5f/Fish_stew.png?f21fcc",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Fish_Stew"
+    },
+    "miner's-mushroom-stew": {
+      "id": "miner's-mushroom-stew",
+      "name": "Miner's Mushroom Stew",
+      "description": "This rich and savory mushroom stew is a popular dish among miners.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Soups & Stews",
+      "subCategory": "Stews",
+      "sell": 35,
+      "ingredients": [
+        {
+          "id": "upper-mines-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "cave-mushroom",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Donate an Upper Mines Mushroom to the Museum",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/74/Miner%27s_mushroom_stew.png?a8f76f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Mushroom_Stew"
+    },
+    "winter-stew": {
+      "id": "winter-stew",
+      "name": "Winter Stew",
+      "description": "A hearty stew loaded with winter vegetables.",
+      "health": 106,
+      "stamina": 106,
+      "category": "Soups & Stews",
+      "subCategory": "Stews",
+      "sell": 310,
+      "ingredients": [
+        {
+          "id": "daikon-radish",
+          "amount": 1
+        },
+        {
+          "id": "burdock-root",
+          "amount": 1
+        },
+        {
+          "id": "oyster-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 24,
+      "tier": 2,
+      "source": "Vera's Request for a Daikon Radish",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/e6/Winter_stew.png?c18ea7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Winter_Stew"
+    },
+    "beet-soup": {
+      "id": "beet-soup",
+      "name": "Beet Soup",
+      "description": "A vividly colored soup that's delicious and healthy.",
+      "health": 230,
+      "stamina": 230,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 710,
+      "ingredients": [
+        {
+          "id": "beet",
+          "amount": 1
+        },
+        {
+          "id": "carrot",
+          "amount": 1
+        },
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "onion",
+          "amount": 1
+        },
+        {
+          "id": "cabbage",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Inn (after upgrade) for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/dc/Beet_soup.png?a53c80",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Beet_Soup"
+    },
+    "clam-chowder": {
+      "id": "clam-chowder",
+      "name": "Clam Chowder",
+      "description": "A rich and creamy chowder with savory clam meat.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 170,
+      "ingredients": [
+        {
+          "id": "clam",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Errol's Request for a Clam",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/38/Clam_chowder.png?35915c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Clam_Chowder"
+    },
+    "deep-sea-soup": {
+      "id": "deep-sea-soup",
+      "name": "Deep Sea Soup",
+      "description": "This nutritious soup uses fresh ingredients to form a deep & complex flavor.",
+      "health": 52,
+      "stamina": 52,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 105,
+      "ingredients": [
+        {
+          "id": "jade-dulse",
+          "amount": 1
+        },
+        {
+          "id": "mines-mussels",
+          "amount": 1
+        },
+        {
+          "id": "underseaweed",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Donate Jade Dulse to the Museum",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Deep_sea_soup.png?70607d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Deep_Sea_Soup"
+    },
+    "onion-soup": {
+      "id": "onion-soup",
+      "name": "Onion Soup",
+      "description": "A rich onion soup that smells as good as it tastes.",
+      "health": 70,
+      "stamina": 70,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 300,
+      "ingredients": [
+        {
+          "id": "onion",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Ship an Onion",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/15/Onion_soup.png?3ca8af",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Onion_Soup"
+    },
+    "potato-soup": {
+      "id": "potato-soup",
+      "name": "Potato Soup",
+      "description": "This thick potato soup is creamy with a mild oniony flavor.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 260,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/34/Potato_soup.png?218521",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Potato_Soup"
+    },
+    "pumpkin-stew": {
+      "id": "pumpkin-stew",
+      "name": "Pumpkin Stew",
+      "description": "A rich stew made up of creamy, pureed pumpkin.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 460,
+      "ingredients": [
+        {
+          "id": "pumpkin",
+          "amount": 1
+        },
+        {
+          "id": "onion",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "rosemary",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 28,
+      "tier": 2,
+      "source": "Ship a Pumpkin",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/08/Pumpkin_stew.png?18015e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Stew"
+    },
+    "smoked-trout-soup": {
+      "id": "smoked-trout-soup",
+      "name": "Smoked Trout Soup",
+      "description": "This rich and creamy soup has an irresistible flavor of smoked fish.",
+      "health": 28,
+      "stamina": 28,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 85,
+      "ingredients": [
+        {
+          "id": "trout",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Terithia's Request for Trout",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/2a/Smoked_trout_soup.png?5d984e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Smoked_Trout_Soup"
+    },
+    "tomato-soup": {
+      "id": "tomato-soup",
+      "name": "Tomato Soup",
+      "description": "The rich tomato flavor of this soup is complimented by a touch of basil.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 220,
+      "ingredients": [
+        {
+          "id": "tomato",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "basil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Ship a Tomato",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b6/Tomato_soup.png?c779b4",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Tomato_Soup"
+    },
+    "vegetable-soup": {
+      "id": "vegetable-soup",
+      "name": "Vegetable Soup",
+      "description": "A healthy and filling soup made with fresh vegetables.",
+      "health": 80,
+      "stamina": 80,
+      "category": "Soups & Stews",
+      "subCategory": "Soups",
+      "sell": 260,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "tomato",
+          "amount": 1
+        },
+        {
+          "id": "basil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "Important Quest \"Jo's Cooking Class\"",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/db/Vegetable_soup.png?e0c302",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Soup"
+    },
+    "apple-honey-curry": {
+      "id": "apple-honey-curry",
+      "name": "Apple Honey Curry",
+      "description": "A sweet, mild curry, loaded with vegetables and served over rice.",
+      "health": 188,
+      "stamina": 188,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 600,
+      "ingredients": [
+        {
+          "id": "apple",
+          "amount": 1
+        },
+        {
+          "id": "honey",
+          "amount": 1
+        },
+        {
+          "id": "curry-powder",
+          "amount": 1
+        },
+        {
+          "id": "sweet-potato",
+          "amount": 1
+        },
+        {
+          "id": "onion",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "Harvest Festival for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/81/Apple_honey_curry.png?5b228a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Apple_Honey_Curry"
+    },
+    "braised-burdock": {
+      "id": "braised-burdock",
+      "name": "Braised Burdock",
+      "description": "This thinly sliced burdock has a sweet and savory flavor.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 180,
+      "ingredients": [
+        {
+          "id": "burdock-root",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Ship a Burdock Root",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a9/Braised_burdock.png?dde87c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Braised_Burdock"
+    },
+    "chickpea-curry": {
+      "id": "chickpea-curry",
+      "name": "Chickpea Curry",
+      "description": "This spicy curry is mellowed by the cauliflower.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 250,
+      "ingredients": [
+        {
+          "id": "chickpea",
+          "amount": 1
+        },
+        {
+          "id": "curry-powder",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d0/Chickpea_curry.png?ed87b7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chickpea_Curry"
+    },
+    "crab-cakes": {
+      "id": "crab-cakes",
+      "name": "Crab Cakes",
+      "description": "These tender cakes are packed full of savory crab. Perfect with aioli.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 490,
+      "ingredients": [
+        {
+          "id": "crab",
+          "amount": 2
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "mayonnaise",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "dill",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 30,
+      "tier": 3,
+      "source": "The Inn for 600t",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/83/Crab_cakes.png?7cac18",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Crab_Cakes"
+    },
+    "crayfish-etouffee": {
+      "id": "crayfish-etouffee",
+      "name": "Crayfish Etouffee",
+      "description": "A rich & delicious crayfish stew served over rice.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 240,
+      "ingredients": [
+        {
+          "id": "crayfish",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "The Inn for 300t Wooden Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/f/f0/Crayfish_etouffee.png?f546eb",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Crayfish_Etouffee"
+    },
+    "deluxe-curry": {
+      "id": "deluxe-curry",
+      "name": "Deluxe Curry",
+      "description": "This deluxe curry features tender vegetables and crispy fried shrimp.",
+      "health": 106,
+      "stamina": 106,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 370,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "shrimp",
+          "amount": 1
+        },
+        {
+          "id": "curry-powder",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 24,
+      "tier": 2,
+      "source": "The Inn for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/9b/Deluxe_curry.png?eddb04",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Curry"
+    },
+    "incredibly-hot-pot": {
+      "id": "incredibly-hot-pot",
+      "name": "Incredibly Hot Pot",
+      "description": "This hot pot is literally the spiciest meal in the world.",
+      "health": 152,
+      "stamina": 152,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 230,
+      "ingredients": [
+        {
+          "id": "flame-pepper",
+          "amount": 1
+        },
+        {
+          "id": "ash-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "lava-chestnuts",
+          "amount": 1
+        },
+        {
+          "id": "hot-potato",
+          "amount": 1
+        },
+        {
+          "id": "earthshroom",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 30,
+      "tier": 3,
+      "source": "The Lava Caves (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/53/Incredibly_hot_pot.png?9aab1e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Incredibly_Hot_Pot"
+    },
+    "monster-mash": {
+      "id": "monster-mash",
+      "name": "Monster Mash",
+      "description": "This mash has a truly indescribable flavor.",
+      "health": 76,
+      "stamina": 76,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 90,
+      "ingredients": [
+        {
+          "id": "monster-fang",
+          "amount": 1
+        },
+        {
+          "id": "monster-shell",
+          "amount": 1
+        },
+        {
+          "id": "monster-horn",
+          "amount": 1
+        },
+        {
+          "id": "monster-powder",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/ae/Monster_mash.png?45e5eb",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+    },
+    "mushroom-rice": {
+      "id": "mushroom-rice",
+      "name": "Mushroom Rice",
+      "description": "This fluffy mushroom rice has a nutty, toasted flavor.",
+      "health": 64,
+      "stamina": 64,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 260,
+      "ingredients": [
+        {
+          "id": "morel-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Mushroom_rice.png?52060c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Rice"
+    },
+    "rosemary-garlic-noodles": {
+      "id": "rosemary-garlic-noodles",
+      "name": "Rosemary Garlic Noodles",
+      "description": "These tender noodles are coated in a rich buttery rosemary-garlic sauce.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 400,
+      "ingredients": [
+        {
+          "id": "noodles",
+          "amount": 1
+        },
+        {
+          "id": "rosemary",
+          "amount": 1
+        },
+        {
+          "id": "garlic",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "The Inn for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d6/Rosemary_garlic_noodles.png?bf6791",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rosemary_Garlic_Noodles"
+    },
+    "simmered-daikon": {
+      "id": "simmered-daikon",
+      "name": "Simmered Daikon",
+      "description": "These soft slices of daikon have a mildly sweet flavor.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Main Dishes",
+      "subCategory": "Simmered Dish",
+      "sell": 230,
+      "ingredients": [
+        {
+          "id": "daikon-radish",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Ship a Daikon Radish",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b0/Simmered_daikon.png?e2daff",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Simmered_Daikon"
+    },
+    "fried-rice": {
+      "id": "fried-rice",
+      "name": "Fried Rice",
+      "description": "This popular dish is a perfect mix of rice and vegetables.",
+      "health": 174,
+      "stamina": 174,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 570,
+      "ingredients": [
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "carrot",
+          "amount": 1
+        },
+        {
+          "id": "peas",
+          "amount": 1
+        },
+        {
+          "id": "water-chestnut",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Lava Caves (requires Taste Maker Skill ) Wishing Well 500t Wish",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/30/Fried_rice.png?fd195b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Fried_Rice"
+    },
+    "mushroom-steak-dinner": {
+      "id": "mushroom-steak-dinner",
+      "name": "Mushroom Steak Dinner",
+      "description": "An oyster mushroom is the meaty, tender centerpiece of the meal.",
+      "health": 128,
+      "stamina": 128,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 320,
+      "ingredients": [
+        {
+          "id": "oyster-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "cauliflower",
+          "amount": 1
+        },
+        {
+          "id": "beet",
+          "amount": 1
+        },
+        {
+          "id": "tide-lettuce",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 36,
+      "tier": 3,
+      "source": "The Inn (after upgrade) for 600t",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/da/Mushroom_steak_dinner.png?c70727",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Steak_Dinner"
+    },
+    "perch-risotto": {
+      "id": "perch-risotto",
+      "name": "Perch Risotto",
+      "description": "This delicate perch filet is perfectly paired with creamy risotto.",
+      "health": 132,
+      "stamina": 132,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 460,
+      "ingredients": [
+        {
+          "id": "perch",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "garlic",
+          "amount": 1
+        },
+        {
+          "id": "rosemary",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 34,
+      "tier": 3,
+      "source": "Errol's Request for Perch",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Perch_risotto.png?3972da",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Perch_Risotto"
+    },
+    "sea-bream-rice": {
+      "id": "sea-bream-rice",
+      "name": "Sea Bream Rice",
+      "description": "This rich rice incorporates tempting chunks of sea bream.",
+      "health": 116,
+      "stamina": 116,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 350,
+      "ingredients": [
+        {
+          "id": "sea-bream",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        },
+        {
+          "id": "cave-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "earthshroom",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 36,
+      "tier": 3,
+      "source": "Terithia's Request for Earthshroom",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/02/Sea_bream_rice.png?c5efba",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream_Rice"
+    },
+    "seafood-snow-pea-noodles": {
+      "id": "seafood-snow-pea-noodles",
+      "name": "Seafood Snow Pea Noodles",
+      "description": "A dish of stir fried noodles loaded with snow peas and fresh seafood.",
+      "health": 238,
+      "stamina": 238,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 620,
+      "ingredients": [
+        {
+          "id": "snow-peas",
+          "amount": 1
+        },
+        {
+          "id": "noodles",
+          "amount": 1
+        },
+        {
+          "id": "king-crab",
+          "amount": 1
+        },
+        {
+          "id": "bonito",
+          "amount": 1
+        },
+        {
+          "id": "herring",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Inn (after upgrade) for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/4/4e/Seafood_snow_pea_noodles.png?e632bb",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Snow_Pea_Noodles"
+    },
+    "vegetable-pot-pie": {
+      "id": "vegetable-pot-pie",
+      "name": "Vegetable Pot Pie",
+      "description": "A flaky pot pie loaded with delicious vegetables in a thick gravy.",
+      "health": 192,
+      "stamina": 192,
+      "category": "Main Dishes",
+      "subCategory": "Sauteed Dish",
+      "sell": 630,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "turnip",
+          "amount": 1
+        },
+        {
+          "id": "carrot",
+          "amount": 1
+        },
+        {
+          "id": "peas",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 38,
+      "tier": 3,
+      "source": "The Deep Earth (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/1c/Vegetable_pot_pie.png?8f5c09",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Pot_Pie"
+    },
+    "roasted-cauliflower": {
+      "id": "roasted-cauliflower",
+      "name": "Roasted Cauliflower",
+      "description": "This cauliflower has a tender texture and a mild, nutty taste.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Main Dishes",
+      "subCategory": "Roasted Dish",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "cauliflower",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship a Cauliflower",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/34/Roasted_cauliflower.png?499e9d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Cauliflower"
+    },
+    "roasted-sweet-potato": {
+      "id": "roasted-sweet-potato",
+      "name": "Roasted Sweet Potato",
+      "description": "This roasted sweet potato has a custard-like consistency.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Main Dishes",
+      "subCategory": "Roasted Dish",
+      "sell": 40,
+      "ingredients": [
+        {
+          "id": "sweet-potato",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Ship a Sweet Potato",
+      "image": "https://fieldsofmistria.wiki.gg/images/f/f3/Roasted_sweet_potato.png?5430e6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Sweet_Potato"
+    },
+    "jam-sandwich": {
+      "id": "jam-sandwich",
+      "name": "Jam Sandwich",
+      "description": "A sweet sandwich made with fluffy bread and wild berry jam.",
+      "health": 65,
+      "stamina": 65,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 280,
+      "ingredients": [
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "wild-berry-jam",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/15/Jam_sandwich.png?636a05",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Jam_Sandwich"
+    },
+    "lobster-roll": {
+      "id": "lobster-roll",
+      "name": "Lobster Roll",
+      "description": "A popular seaside lunch with a rich and creamy flavor.",
+      "health": 150,
+      "stamina": 150,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 470,
+      "ingredients": [
+        {
+          "id": "lobster",
+          "amount": 1
+        },
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "mayonnaise",
+          "amount": 1
+        },
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 38,
+      "tier": 3,
+      "source": "Golden Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5e/Lobster_roll.png?b252b0",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Lobster_Roll"
+    },
+    "mackerel-sashimi": {
+      "id": "mackerel-sashimi",
+      "name": "Mackerel Sashimi",
+      "description": "An expertly cut slice of premium mackerel.",
+      "health": 16,
+      "stamina": 16,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 50,
+      "ingredients": [
+        {
+          "id": "mackerel",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Tackle Shop for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3d/Mackerel_sashimi.png?ffa55c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mackerel_Sashimi"
+    },
+    "red-snapper-sushi": {
+      "id": "red-snapper-sushi",
+      "name": "Red Snapper Sushi",
+      "description": "A premium slice of Red Snapper over seasoned rice.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 240,
+      "ingredients": [
+        {
+          "id": "red-snapper",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "The Inn for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/29/Red_snapper_sushi.png?a15c17",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Snapper_Sushi"
+    },
+    "rice-ball": {
+      "id": "rice-ball",
+      "name": "Rice Ball",
+      "description": "A simple yet satisfying meal that travels well.",
+      "health": 64,
+      "stamina": 64,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 240,
+      "ingredients": [
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "seaweed",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/88/Rice_ball.png?7df8a7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rice_Ball"
+    },
+    "salmon-sashimi": {
+      "id": "salmon-sashimi",
+      "name": "Salmon Sashimi",
+      "description": "An expertly cut slice of premium salmon.",
+      "health": 16,
+      "stamina": 16,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 40,
+      "ingredients": [
+        {
+          "id": "salmon",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Tackle Shop for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/ee/Salmon_sashimi.png?702e2a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Salmon_Sashimi"
+    },
+    "sesame-tuna-bowl": {
+      "id": "sesame-tuna-bowl",
+      "name": "Sesame Tuna Bowl",
+      "description": "A succulent bowl of sliced tuna over a bed of sesame seasoned rice.",
+      "health": 98,
+      "stamina": 98,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 340,
+      "ingredients": [
+        {
+          "id": "tuna",
+          "amount": 1
+        },
+        {
+          "id": "sesame",
+          "amount": 1
+        },
+        {
+          "id": "cucumber",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Golden Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/88/Sesame_tuna_bowl.png?c0b569",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sesame_Tuna_Bowl"
+    },
+    "spicy-crab-sushi": {
+      "id": "spicy-crab-sushi",
+      "name": "Spicy Crab Sushi",
+      "description": "These flavorful sushi rolls are filled with spicy shredded crab.",
+      "health": 116,
+      "stamina": 116,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "crab",
+          "amount": 1
+        },
+        {
+          "id": "seaweed",
+          "amount": 1
+        },
+        {
+          "id": "chili-pepper",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 22,
+      "tier": 2,
+      "source": "The Lava Caves (requires Taste Maker Skill ) Golden Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/1d/Spicy_crab_sushi.png?7f3398",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spicy_Crab_Sushi"
+    },
+    "sushi-platter": {
+      "id": "sushi-platter",
+      "name": "Sushi Platter",
+      "description": "An impressive platter featuring a selection of fresh sushi.",
+      "health": 144,
+      "stamina": 144,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 440,
+      "ingredients": [
+        {
+          "id": "tuna",
+          "amount": 1
+        },
+        {
+          "id": "salmon",
+          "amount": 1
+        },
+        {
+          "id": "mackerel",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        },
+        {
+          "id": "seaweed",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "Golden Treasure Box",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/db/Sushi_platter.png?e903fc",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sushi_Platter"
+    },
+    "tuna-sashimi": {
+      "id": "tuna-sashimi",
+      "name": "Tuna Sashimi",
+      "description": "An expertly cut slice of premium tuna.",
+      "health": 16,
+      "stamina": 16,
+      "category": "Main Dishes",
+      "subCategory": "Handcrafted Dish",
+      "sell": 40,
+      "ingredients": [
+        {
+          "id": "tuna",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d3/Tuna_sashimi.png?dc1bff",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Tuna_Sashimi"
+    },
+    "veggie-sub-sandwich": {
+      "id": "veggie-sub-sandwich",
+      "name": "Veggie Sub Sandwich",
+      "description": "This appetizing sandwich is made up of thinly sliced vegetables stacked high.",
+      "health": 246,
+      "stamina": 246,
+      "category": "",
+      "subCategory": "",
+      "sell": 730,
+      "ingredients": [
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "tide-lettuce",
+          "amount": 1
+        },
+        {
+          "id": "tomato",
+          "amount": 1
+        },
+        {
+          "id": "cucumber",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        },
+        {
+          "id": "mayonnaise",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Inn for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/7a/Veggie_sub_sandwich.png?6feaec",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Veggie_Sub_Sandwich"
+    },
+    "fish-skewers": {
+      "id": "fish-skewers",
+      "name": "Fish Skewers",
+      "description": "Crisply fried to bring out the flavor of the fish.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Main Dishes",
+      "subCategory": "Grilled Dish",
+      "sell": 85,
+      "ingredients": [
+        {
+          "id": "smallmouth-bass",
+          "amount": 1
+        },
+        {
+          "id": "pike",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 6,
+      "tier": 1,
+      "source": "Wooden Treasure Box Tackle Shop",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/9f/Fish_skewer.png?710665",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Fish_Skewers"
+    },
+    "grilled-cheese": {
+      "id": "grilled-cheese",
+      "name": "Grilled Cheese",
+      "description": "A crisply griddled sandwich full of melted cheese.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Main Dishes",
+      "subCategory": "Grilled Dish",
+      "sell": 470,
+      "ingredients": [
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 22,
+      "tier": 2,
+      "source": "The Inn for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/66/Grilled_cheese.png?260ae4",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Cheese"
+    },
+    "grilled-eel-rice-bowl": {
+      "id": "grilled-eel-rice-bowl",
+      "name": "Grilled Eel Rice Bowl",
+      "description": "A delectable grilled filet of eel served over a bed of rice.",
+      "health": 90,
+      "stamina": 90,
+      "category": "Main Dishes",
+      "subCategory": "Grilled Dish",
+      "sell": 420,
+      "ingredients": [
+        {
+          "id": "freshwater-eel",
+          "amount": 1
+        },
+        {
+          "id": "soy-sauce",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "March's Request for Freshwater Eel",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Grilled_eel_rice_bowl.png?c5f71f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Eel_Rice_Bowl"
+    },
+    "breaded-catfish": {
+      "id": "breaded-catfish",
+      "name": "Breaded Catfish",
+      "description": "This fried catfish is crispy on the outside and tender on the inside.",
+      "health": 64,
+      "stamina": 64,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 320,
+      "ingredients": [
+        {
+          "id": "catfish",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Hemlock's Request for a Catfish",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/ef/Breaded_catfish.png?aff850",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Breaded_Catfish"
+    },
+    "horseradish-salmon": {
+      "id": "horseradish-salmon",
+      "name": "Horseradish Salmon",
+      "description": "A mouthwatering salmon steak with a spicy horseradish crust.",
+      "health": 80,
+      "stamina": 80,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 330,
+      "ingredients": [
+        {
+          "id": "salmon",
+          "amount": 1
+        },
+        {
+          "id": "horseradish",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 28,
+      "tier": 1,
+      "source": "Terithia's Request for Ingredients",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/9b/Horseradish_salmon.png?4e4e5a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horseradish_Salmon"
+    },
+    "omelet": {
+      "id": "omelet",
+      "name": "Omelet",
+      "description": "This fluffy omelet is loaded with melted cheese.",
+      "health": 72,
+      "stamina": 72,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 280,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 22,
+      "tier": 2,
+      "source": "Chicken Statue 10 Offering",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/12/Omelet.png?5ee1d6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Omelet"
+    },
+    "pan-fried-bream": {
+      "id": "pan-fried-bream",
+      "name": "Pan-fried Bream",
+      "description": "A crisp, meaty flavor and a dense, juicy texture makes this dish a delight.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "bream",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "The Inn for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Pan_fried_bream.png?e8225c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Bream"
+    },
+    "pan-fried-salmon": {
+      "id": "pan-fried-salmon",
+      "name": "Pan-fried Salmon",
+      "description": "This pan fried salmon is perfectly tender and flaky.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 75,
+      "ingredients": [
+        {
+          "id": "salmon",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Wooden Treasure Box Tackle Shop",
+      "image": "https://fieldsofmistria.wiki.gg/images/4/43/Pan_fried_salmon.png?4441ad",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Salmon"
+    },
+    "pan-fried-snapper": {
+      "id": "pan-fried-snapper",
+      "name": "Pan-fried Snapper",
+      "description": "This pan fried snapper is mild and a little sweet.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Main Dishes",
+      "subCategory": "Fried Dish",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "red-snapper",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Wooden Treasure Box Tackle Shop",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d6/Pan_fried_snapper.png?163a59",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pan-fried_Snapper"
+    },
+    "baked-potato": {
+      "id": "baked-potato",
+      "name": "Baked Potato",
+      "description": "This hot and fluffy baked potato is simple but filling.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 80,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship a Potato",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5b/Baked_potato.png?c34f6e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Baked_Potato"
+    },
+    "baked-sweetroot": {
+      "id": "baked-sweetroot",
+      "name": "Baked Sweetroot",
+      "description": "After baking, its natural sweetness increases, making it a tasty treat.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 22,
+      "ingredients": [
+        {
+          "id": "sweetroot",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Donate a Sweetroot to the Museum",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3d/Baked_sweetroot.png?85f7ed",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Baked_Sweetroot"
+    },
+    "cod-with-thyme": {
+      "id": "cod-with-thyme",
+      "name": "Cod with Thyme",
+      "description": "This delicate filet of cod has been baked with peppery thyme.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 190,
+      "ingredients": [
+        {
+          "id": "cod",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "thyme",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Reina's Request for Cod",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/61/Cod_with_thyme.png?f65a48",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cod_with_Thyme"
+    },
+    "garlic-bread": {
+      "id": "garlic-bread",
+      "name": "Garlic Bread",
+      "description": "A toasted slice of bread spread with savory garlic and butter.",
+      "health": 80,
+      "stamina": 80,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 340,
+      "ingredients": [
+        {
+          "id": "bread",
+          "amount": 1
+        },
+        {
+          "id": "garlic",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 1,
+      "level": 16,
+      "tier": 1,
+      "source": "Reina's Request for Garlic",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/1b/Garlic_bread.png?b5b008",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Garlic_Bread"
+    },
+    "harvest-plate": {
+      "id": "harvest-plate",
+      "name": "Harvest Plate",
+      "description": "A meal that celebrates the bounty of the Autumn harvest.",
+      "health": 222,
+      "stamina": 222,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 760,
+      "ingredients": [
+        {
+          "id": "sweet-potato",
+          "amount": 1
+        },
+        {
+          "id": "broccoli",
+          "amount": 1
+        },
+        {
+          "id": "cranberry",
+          "amount": 1
+        },
+        {
+          "id": "pumpkin",
+          "amount": 1
+        },
+        {
+          "id": "onion",
+          "amount": 1
+        },
+        {
+          "id": "rosemary",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "Harvest Festival for t",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/e4/Harvest_plate.png?46ba47",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Harvest_Plate"
+    },
+    "loaded-baked-potato": {
+      "id": "loaded-baked-potato",
+      "name": "Loaded Baked Potato",
+      "description": "A hot and fluffy baked potato with all the trimmings.",
+      "health": 94,
+      "stamina": 94,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 320,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Hayden's Request for Baked Potato",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/01/Loaded_baked_potato.png?5a577f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Loaded_Baked_Potato"
+    },
+    "quiche": {
+      "id": "quiche",
+      "name": "Quiche",
+      "description": "A savory tart filled with fluffy eggs.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 270,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Chicken Statue 10 Offering",
+      "image": "https://fieldsofmistria.wiki.gg/images/9/94/Quiche.png?3eb890",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quiche"
+    },
+    "spring-galette": {
+      "id": "spring-galette",
+      "name": "Spring Galette",
+      "description": "A rich pastry crust highlights all the wild flavors of Spring.",
+      "health": 150,
+      "stamina": 150,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 540,
+      "ingredients": [
+        {
+          "id": "fiddlehead",
+          "amount": 1
+        },
+        {
+          "id": "morel-mushroom",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Inn for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a8/Spring_galette.png?4db76e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spring_Galette"
+    },
+    "turnip-and-potato-gratin": {
+      "id": "turnip-and-potato-gratin",
+      "name": "Turnip and Potato Gratin",
+      "description": "This dish layers thinly sliced turnip and potato with plenty of cheese and butter.",
+      "health": 106,
+      "stamina": 106,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 350,
+      "ingredients": [
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "turnip",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "cheese",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 26,
+      "tier": 2,
+      "source": "The Deep Earth (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3f/Turnip_and_potato_gratin.png?bcf8c9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Turnip_and_Potato_Gratin"
+    },
+    "vegetable-quiche": {
+      "id": "vegetable-quiche",
+      "name": "Vegetable Quiche",
+      "description": "A savory tart filled with fluffy eggs and flavorful vegetables.",
+      "health": 120,
+      "stamina": 120,
+      "category": "Main Dishes",
+      "subCategory": "Baked Dish",
+      "sell": 400,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "potato",
+          "amount": 1
+        },
+        {
+          "id": "wild-leek",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 30,
+      "tier": 3,
+      "source": "Chicken Statue 10 Offering",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/8e/Vegetable_quiche.png?801aa5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Vegetable_Quiche"
+    },
+    "berries-and-cream": {
+      "id": "berries-and-cream",
+      "name": "Berries and Cream",
+      "description": "A popular and subtly sweet combination of fresh fruit and cream.",
+      "health": 16,
+      "stamina": 16,
+      "category": "Desserts",
+      "subCategory": "Handcrafted Dessert",
+      "sell": 50,
+      "ingredients": [
+        {
+          "id": "wild-berries",
+          "amount": 6
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Eiland's Request for Berries",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/00/Berries_and_cream.png?a8d630",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Berries_and_Cream"
+    },
+    "peaches-and-cream": {
+      "id": "peaches-and-cream",
+      "name": "Peaches and Cream",
+      "description": "These sweet peach slices are topped with whipped cream.",
+      "health": 70,
+      "stamina": 70,
+      "category": "Desserts",
+      "subCategory": "Handcrafted Dessert",
+      "sell": 210,
+      "ingredients": [
+        {
+          "id": "peach",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "Ship a Peach",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3c/Peaches_and_cream.png?9391f8",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Peaches_and_Cream"
+    },
+    "salted-watermelon": {
+      "id": "salted-watermelon",
+      "name": "Salted Watermelon",
+      "description": "This slice of watermelon is extra sweet because of the salt sprinkled on it.",
+      "health": 42,
+      "stamina": 42,
+      "category": "Desserts",
+      "subCategory": "Handcrafted Dessert",
+      "sell": 220,
+      "ingredients": [
+        {
+          "id": "watermelon",
+          "amount": 1
+        },
+        {
+          "id": "rock-salt",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship a Watermelon",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/20/Salted_watermelon.png?e8d3ac",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Salted_Watermelon"
+    },
+    "ice-cream-sundae": {
+      "id": "ice-cream-sundae",
+      "name": "Ice Cream Sundae",
+      "description": "These scoops of ice cream are topped with a generous amount of chocolate sauce.",
+      "health": 178,
+      "stamina": 178,
+      "category": "Desserts",
+      "subCategory": "Frozen Dessert",
+      "sell": 660,
+      "ingredients": [
+        {
+          "id": "ice-block",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "chocolate",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 38,
+      "tier": 3,
+      "source": "Saturday Market at Darcy's Stall for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/6/6b/Ice_cream_sundae.png?a77812",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Cream_Sundae"
+    },
+    "pomegranate-sorbet": {
+      "id": "pomegranate-sorbet",
+      "name": "Pomegranate Sorbet",
+      "description": "A creamy sorbet topped with sweet and crunchy pomegranate seeds.",
+      "health": 78,
+      "stamina": 78,
+      "category": "Desserts",
+      "subCategory": "Frozen Dessert",
+      "sell": 170,
+      "ingredients": [
+        {
+          "id": "pomegranate",
+          "amount": 1
+        },
+        {
+          "id": "ice-block",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Ship a Pomegranate",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/15/Pomegranate_sorbet.png?83dc64",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Sorbet"
+    },
+    "wintergreen-ice-cream": {
+      "id": "wintergreen-ice-cream",
+      "name": "Wintergreen Ice Cream",
+      "description": "This ice cream is flavored with wintergreen, giving it an extra chill.",
+      "health": 66,
+      "stamina": 66,
+      "category": "Desserts",
+      "subCategory": "Frozen Dessert",
+      "sell": 210,
+      "ingredients": [
+        {
+          "id": "wintergreen-berry",
+          "amount": 8
+        },
+        {
+          "id": "ice-block",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Josephine's Request for Ice",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/8d/Wintergreen_ice_cream.png?54f0c7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Ice_Cream"
+    },
+    "candied-lemon-peel": {
+      "id": "candied-lemon-peel",
+      "name": "Candied Lemon Peel",
+      "description": "A sweet treat bursting with lemon flavor.",
+      "health": 48,
+      "stamina": 48,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 160,
+      "ingredients": [
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Ship a Lemon",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/57/Candied_lemon_peel.png?9ebcaf",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Candied_Lemon_Peel"
+    },
+    "candied-strawberries": {
+      "id": "candied-strawberries",
+      "name": "Candied Strawberries",
+      "description": "A crunchy sugar shell coats these juicy skewered strawberries.",
+      "health": 42,
+      "stamina": 42,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 240,
+      "ingredients": [
+        {
+          "id": "strawberry",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Ship a Strawberry",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/b5/Candied_strawberries.png?9d2224",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Candied_Strawberries"
+    },
+    "candied-walnuts": {
+      "id": "candied-walnuts",
+      "name": "Candied Walnuts",
+      "description": "These sugar coated walnuts are a perfect energy boosting snack.",
+      "health": 36,
+      "stamina": 36,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 135,
+      "ingredients": [
+        {
+          "id": "walnut",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Ship a Walnut",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/34/Candied_walnuts.png?31ddd5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Candied_Walnuts"
+    },
+    "caramel-candy": {
+      "id": "caramel-candy",
+      "name": "Caramel Candy",
+      "description": "A sticky, delicious candy made of sugar and butter.",
+      "health": 36,
+      "stamina": 36,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 200,
+      "ingredients": [
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Available From Start",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/75/Caramel_candy.png?7ae740",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Caramel_Candy"
+    },
+    "caramelized-moon-fruit": {
+      "id": "caramelized-moon-fruit",
+      "name": "Caramelized Moon Fruit",
+      "description": "This sweet caramelized moon fruit has a melt-in-your-mouth texture.",
+      "health": 42,
+      "stamina": 42,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 145,
+      "ingredients": [
+        {
+          "id": "moon-fruit",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 6,
+      "tier": 1,
+      "source": "Eiland's Request for a Moon Fruit",
+      "image": "https://fieldsofmistria.wiki.gg/images/4/46/Caramelized_moon_fruit.png?803fb6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Caramelized_Moon_Fruit"
+    },
+    "pudding": {
+      "id": "pudding",
+      "name": "Pudding",
+      "description": "A creamy, sumptuous pudding.",
+      "health": 46,
+      "stamina": 46,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 200,
+      "ingredients": [
+        {
+          "id": "chicken-egg",
+          "amount": 2
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Chicken Statue 10 Offering",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/23/Pudding.png?e91e2b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pudding"
+    },
+    "sweet-sesame-balls": {
+      "id": "sweet-sesame-balls",
+      "name": "Sweet Sesame Balls",
+      "description": "A delicious fried dessert coated in a layer of sesame seeds.",
+      "health": 90,
+      "stamina": 90,
+      "category": "Desserts",
+      "subCategory": "Candy",
+      "sell": 400,
+      "ingredients": [
+        {
+          "id": "sesame",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "oil",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "The Inn for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a7/Sweet_sesame_balls.png?8f10d7",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Sesame_Balls"
+    },
+    "apple-pie": {
+      "id": "apple-pie",
+      "name": "Apple Pie",
+      "description": "A flaky pie filled with tender slices of slow-cooked apple.",
+      "health": 92,
+      "stamina": 92,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "apple",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 2,
+      "level": 18,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/26/Apple_pie.png?71a362",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Apple_Pie"
+    },
+    "bell-berry-bakewell-tart": {
+      "id": "bell-berry-bakewell-tart",
+      "name": "Bell Berry Bakewell Tart",
+      "description": "A shortcrust pastry with a generous layer of Bell Berry Jam inside.",
+      "health": 106,
+      "stamina": 106,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 510,
+      "ingredients": [
+        {
+          "id": "bell-berry",
+          "amount": 3
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 26,
+      "tier": 2,
+      "source": "Ship a Bell berry",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/04/Bell_berry_bakewell_tart.png?d889bd",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Bell_Berry_Bakewell_Tart"
+    },
+    "cherry-tart": {
+      "id": "cherry-tart",
+      "name": "Cherry Tart",
+      "description": "This cherry tart is sour and sweet with a crumbly buttery crust.",
+      "health": 92,
+      "stamina": 92,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "cherry",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 18,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/26/Cherry_tart.png?90a991",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Tart"
+    },
+    "chocolate-cake": {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "description": "A decadent cake, incredibly moist and almost too chocolatey.",
+      "health": 110,
+      "stamina": 110,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 470,
+      "ingredients": [
+        {
+          "id": "chocolate",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Saturday Market at Darcy's Stall for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/74/Chocolate_cake.png?864136",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chocolate_Cake"
+    },
+    "cranberry-orange-scone": {
+      "id": "cranberry-orange-scone",
+      "name": "Cranberry Orange Scone",
+      "description": "This inviting scone has whole cranberries baked in.",
+      "health": 128,
+      "stamina": 128,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 480,
+      "ingredients": [
+        {
+          "id": "orange",
+          "amount": 1
+        },
+        {
+          "id": "cranberry",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 4,
+      "level": 36,
+      "tier": 2,
+      "source": "Ryis' Request for Cranberries",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5a/Cranberry_orange_scone.png?babb1d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Orange_Scone"
+    },
+    "crystal-berry-pie": {
+      "id": "crystal-berry-pie",
+      "name": "Crystal Berry Pie",
+      "description": "A pie that's as beautiful as it is tasty.",
+      "health": 94,
+      "stamina": 94,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 390,
+      "ingredients": [
+        {
+          "id": "crystal-berries",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Ship a Crystal Berry",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d7/Crystal_berry_pie.png?10c722",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Berry_Pie"
+    },
+    "golden-cheesecake": {
+      "id": "golden-cheesecake",
+      "name": "Golden Cheesecake",
+      "description": "An extravagant cheesecake, decadently rich and moist.",
+      "health": 218,
+      "stamina": 218,
+      "category": "",
+      "subCategory": "",
+      "sell": 2530,
+      "ingredients": [
+        {
+          "id": "golden-cheese",
+          "amount": 2
+        },
+        {
+          "id": "golden-egg",
+          "amount": 2
+        },
+        {
+          "id": "golden-milk",
+          "amount": 2
+        },
+        {
+          "id": "golden-butter",
+          "amount": 2
+        },
+        {
+          "id": "flour",
+          "amount": 2
+        },
+        {
+          "id": "sugar",
+          "amount": 2
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "Animal Festival from The Souvenir Stall for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/29/Golden_cheesecake.png?3ad7b9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cheesecake"
+    },
+    "golden-cookies": {
+      "id": "golden-cookies",
+      "name": "Golden Cookies",
+      "description": "Incredibly tasty cookies made with only the finest ingredients.",
+      "health": 208,
+      "stamina": 208,
+      "category": "",
+      "subCategory": "",
+      "sell": 2110,
+      "ingredients": [
+        {
+          "id": "golden-egg",
+          "amount": 2
+        },
+        {
+          "id": "golden-milk",
+          "amount": 2
+        },
+        {
+          "id": "golden-butter",
+          "amount": 2
+        },
+        {
+          "id": "flour",
+          "amount": 2
+        },
+        {
+          "id": "chocolate",
+          "amount": 2
+        },
+        {
+          "id": "sugar",
+          "amount": 2
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "Animal Festival from The Souvenir Stall for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/16/Golden_cookies.png?121510",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cookies"
+    },
+    "lemon-cake": {
+      "id": "lemon-cake",
+      "name": "Lemon Cake",
+      "description": "This delightful lemon cake is flavored with a generous amount of zest.",
+      "health": 92,
+      "stamina": 92,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 18,
+      "tier": 1,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/81/Lemon_cake.png?f8f474",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Cake"
+    },
+    "lemon-pie": {
+      "id": "lemon-pie",
+      "name": "Lemon Pie",
+      "description": "This lemon pie is a perfect balance of sweet and tart.",
+      "health": 110,
+      "stamina": 110,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 400,
+      "ingredients": [
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "The Inn for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d6/Lemon_pie.png?4ee71e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Lemon_Pie"
+    },
+    "monster-cookie": {
+      "id": "monster-cookie",
+      "name": "Monster Cookie",
+      "description": "A cursed looking cookie with a crumbly texture.",
+      "health": 56,
+      "stamina": 56,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 155,
+      "ingredients": [
+        {
+          "id": "monster-powder",
+          "amount": 1
+        },
+        {
+          "id": "monster-core",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "The Upper Mines (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/d5/Monster_cookie.png?331a4d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Cookie"
+    },
+    "mont-blanc": {
+      "id": "mont-blanc",
+      "name": "Mont Blanc",
+      "description": "The rich chestnut flavor of this dessert is complemented by its unique texture.",
+      "health": 136,
+      "stamina": 136,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 630,
+      "ingredients": [
+        {
+          "id": "chestnut",
+          "amount": 4
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "butter",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 60,
+      "stars": 5,
+      "level": 40,
+      "tier": 3,
+      "source": "The Inn for 800t",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/3a/Mont_blanc.png?24bf22",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mont_Blanc"
+    },
+    "moon-fruit-cake": {
+      "id": "moon-fruit-cake",
+      "name": "Moon Fruit Cake",
+      "description": "Juicy moon fruit is the star of this sweet, satisfying cake.",
+      "health": 98,
+      "stamina": 98,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 330,
+      "ingredients": [
+        {
+          "id": "moon-fruit",
+          "amount": 1
+        },
+        {
+          "id": "honey",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Juniper's Important Request for a Moon Fruit",
+      "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Moon_fruit_cake.png?21c6e9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit_Cake"
+    },
+    "poached-pear": {
+      "id": "poached-pear",
+      "name": "Poached Pear",
+      "description": "A pear soaked in syrup, with a sweet, melt-in-your-mouth texture.",
+      "health": 88,
+      "stamina": 88,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 165,
+      "ingredients": [
+        {
+          "id": "pear",
+          "amount": 1
+        },
+        {
+          "id": "red-wine",
+          "amount": 1
+        },
+        {
+          "id": "honey",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "Ship a Pear",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/de/Poached_pear.png?7e12ab",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Poached_Pear"
+    },
+    "pumpkin-pie": {
+      "id": "pumpkin-pie",
+      "name": "Pumpkin Pie",
+      "description": "This yummy pie uses pumpkin and spices for its custard-like filling.",
+      "health": 140,
+      "stamina": 140,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 640,
+      "ingredients": [
+        {
+          "id": "pumpkin",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "chicken-egg",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 4,
+      "level": 38,
+      "tier": 3,
+      "source": "Saturday Market at Darcy's Stall for 600t Harvest Festival for t",
+      "image": "https://fieldsofmistria.wiki.gg/images/d/dc/Pumpkin_pie.png?be3924",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pumpkin_Pie"
+    },
+    "strawberry-shortcake": {
+      "id": "strawberry-shortcake",
+      "name": "Strawberry Shortcake",
+      "description": "This dainty cake is layered with sweet strawberries and fresh cream.",
+      "health": 106,
+      "stamina": 106,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 520,
+      "ingredients": [
+        {
+          "id": "strawberry",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Eiland's Request for a Strawberry",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/15/Strawberry_shortcake.png?769343",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Strawberry_Shortcake"
+    },
+    "sweet-potato-pie": {
+      "id": "sweet-potato-pie",
+      "name": "Sweet Potato Pie",
+      "description": "This pie has a creamy sweet potato filling.",
+      "health": 78,
+      "stamina": 78,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 360,
+      "ingredients": [
+        {
+          "id": "sweet-potato",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 50,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "The Inn for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/0/0c/Sweet_potato_pie.png?602c84",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sweet_Potato_Pie"
+    },
+    "wild-berry-pie": {
+      "id": "wild-berry-pie",
+      "name": "Wild Berry Pie",
+      "description": "This delicious fruit pie is made with local wild berries.",
+      "health": 60,
+      "stamina": 60,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 320,
+      "ingredients": [
+        {
+          "id": "wild-berries",
+          "amount": 6
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Reina's Request for Berries",
+      "image": "https://fieldsofmistria.wiki.gg/images/a/a1/Wild_berry_pie.png?3e4513",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Pie"
+    },
+    "wild-berry-scone": {
+      "id": "wild-berry-scone",
+      "name": "Wild Berry Scone",
+      "description": "This tender scone is filled with sweet wild berries.",
+      "health": 52,
+      "stamina": 52,
+      "category": "Desserts",
+      "subCategory": "Baked Dessert",
+      "sell": 250,
+      "ingredients": [
+        {
+          "id": "wild-berries",
+          "amount": 6
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "flour",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 12,
+      "tier": 1,
+      "source": "Elsie's Request for Wild Berries",
+      "image": "https://fieldsofmistria.wiki.gg/images/e/e7/Wild_berry_scone.png?6895dd",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Wild_Berry_Scone"
+    },
+    "tea-with-lemon": {
+      "id": "tea-with-lemon",
+      "name": "Tea with Lemon",
+      "description": "A hot cup of black tea with a squeeze of lemon juice and a pinch of sugar.",
+      "health": 84,
+      "stamina": 84,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 320,
+      "ingredients": [
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "tea",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 16,
+      "tier": 1,
+      "source": "Adeline's Request for a Lemon Saturday Market at Darcy's Stall for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/1/1c/Cup_of_tea.png?1a3c4a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Tea_with_Lemon"
+    },
+    "green-tea": {
+      "id": "green-tea",
+      "name": "Green Tea",
+      "description": "This tea has a mellow, slightly vegetal flavor.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 145,
+      "ingredients": [
+        {
+          "id": "tea",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/8/8f/Green_Tea.png?6b078a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Green_Tea"
+    },
+    "hot-chocolate": {
+      "id": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "description": "A rich and warming chocolate drink with a hint of wintergreen.",
+      "health": 86,
+      "stamina": 86,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 300,
+      "ingredients": [
+        {
+          "id": "chocolate",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        },
+        {
+          "id": "wintergreen-berry",
+          "amount": 2
+        }
+      ],
+      "time": 40,
+      "stars": 3,
+      "level": 20,
+      "tier": 2,
+      "source": "Saturday Market at Darcy's Stall for 400t",
+      "image": "https://fieldsofmistria.wiki.gg/images/c/cc/Hot_chocolate.png?34e795",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Hot_Chocolate"
+    },
+    "jasmine-tea": {
+      "id": "jasmine-tea",
+      "name": "Jasmine Tea",
+      "description": "A hot cup of jasmine tea.",
+      "health": 34,
+      "stamina": 34,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 185,
+      "ingredients": [
+        {
+          "id": "tea",
+          "amount": 1
+        },
+        {
+          "id": "jasmine",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/28/Jasmine_tea.png?57fb4a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Jasmine_Tea"
+    },
+    "latte": {
+      "id": "latte",
+      "name": "Latte",
+      "description": "A frothy steamed blend of milk and coffee.",
+      "health": 28,
+      "stamina": 28,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 95,
+      "ingredients": [
+        {
+          "id": "coffee",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/2c/Latte.png?edfa7f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Latte"
+    },
+    "mocha": {
+      "id": "mocha",
+      "name": "Mocha",
+      "description": "A delicious cup of coffee blended with chocolate.",
+      "health": 66,
+      "stamina": 66,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 210,
+      "ingredients": [
+        {
+          "id": "coffee",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "chocolate",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 14,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/4/48/Mocha.png?402536",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mocha"
+    },
+    "roasted-rice-tea": {
+      "id": "roasted-rice-tea",
+      "name": "Roasted Rice Tea",
+      "description": "This tea features the mild toasted flavor of roasted rice.",
+      "health": 45,
+      "stamina": 40,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 350,
+      "ingredients": [
+        {
+          "id": "green-tea",
+          "amount": 1
+        },
+        {
+          "id": "rice",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 6,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/57/Roasted_rice_tea.png?83e529",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Roasted_Rice_Tea"
+    },
+    "rose-tea": {
+      "id": "rose-tea",
+      "name": "Rose Tea",
+      "description": "A soothing tea with a light rose flavor.",
+      "health": 34,
+      "stamina": 34,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 170,
+      "ingredients": [
+        {
+          "id": "tea",
+          "amount": 1
+        },
+        {
+          "id": "rose",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship Tea",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/72/Rose_tea.png?dcd2f6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rose_Tea"
+    },
+    "spirit-mushroom-tea": {
+      "id": "spirit-mushroom-tea",
+      "name": "Spirit Mushroom Tea",
+      "description": "This mushroom tea has a calming, earthy scent and a slightly bitter flavor.",
+      "health": 54,
+      "stamina": 54,
+      "category": "Drinks",
+      "subCategory": "Hot Drinks",
+      "sell": 185,
+      "ingredients": [
+        {
+          "id": "tea",
+          "amount": 1
+        },
+        {
+          "id": "spirit-mushroom",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 16,
+      "tier": 1,
+      "source": "Ship a Spirit mushroom",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/26/Spirit_mushroom_tea.png?d159e2",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Spirit_Mushroom_Tea"
+    },
+    "apple-juice": {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "description": "A sweet and crisp juice made from apples.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 50,
+      "ingredients": [
+        {
+          "id": "apple",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship an Apple",
+      "image": "https://fieldsofmistria.wiki.gg/images/f/fb/Apple_juice.png?df8e24",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Apple_Juice"
+    },
+    "cherry-smoothie": {
+      "id": "cherry-smoothie",
+      "name": "Cherry Smoothie",
+      "description": "This smoothie is thick, creamy, and loaded with cherries.",
+      "health": 66,
+      "stamina": 66,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 155,
+      "ingredients": [
+        {
+          "id": "cherry",
+          "amount": 1
+        },
+        {
+          "id": "honey",
+          "amount": 1
+        },
+        {
+          "id": "milk",
+          "amount": 1
+        }
+      ],
+      "time": 30,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "The Tide Caverns (requires Taste Maker Skill )",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/7f/Cherry_smoothie.png?16b4c5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Smoothie"
+    },
+    "coconut-milk": {
+      "id": "coconut-milk",
+      "name": "Coconut Milk",
+      "description": "A rich milk harvested from coconuts.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 30,
+      "ingredients": [
+        {
+          "id": "coconut",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Ship a Coconut",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/38/Coconut_milk.png?85020c",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Coconut_Milk"
+    },
+    "cranberry-juice": {
+      "id": "cranberry-juice",
+      "name": "Cranberry Juice",
+      "description": "A sweet and sour juice made from cranberries.",
+      "health": 24,
+      "stamina": 24,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 135,
+      "ingredients": [
+        {
+          "id": "cranberry",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 2,
+      "tier": 1,
+      "source": "Ship a Cranberry",
+      "image": "https://fieldsofmistria.wiki.gg/images/f/f6/Cranberry_juice.png?30a2ad",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cranberry_Juice"
+    },
+    "grape-juice": {
+      "id": "grape-juice",
+      "name": "Grape Juice",
+      "description": "A sweet and fresh juice made from grapes.",
+      "health": 18,
+      "stamina": 18,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 25,
+      "ingredients": [
+        {
+          "id": "wild-grapes",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 1,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/7/7b/Grape_juice.png?ed1b4d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Grape_Juice"
+    },
+    "iced-coffee": {
+      "id": "iced-coffee",
+      "name": "Iced Coffee",
+      "description": "This refreshing drink uses fresh milk to cut the bitterness of the coffee.",
+      "health": 10,
+      "stamina": 10,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 105,
+      "ingredients": [
+        {
+          "id": "milk",
+          "amount": 1
+        },
+        {
+          "id": "ice-block",
+          "amount": 1
+        },
+        {
+          "id": "coffee",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 2,
+      "level": 10,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 300t",
+      "image": "https://fieldsofmistria.wiki.gg/images/3/36/Iced_coffee.png?8f2ca9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iced_Coffee"
+    },
+    "lemonade": {
+      "id": "lemonade",
+      "name": "Lemonade",
+      "description": "This cold and refreshing drink is pleasantly sour.",
+      "health": 48,
+      "stamina": 48,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 160,
+      "ingredients": [
+        {
+          "id": "lemon",
+          "amount": 1
+        },
+        {
+          "id": "sugar",
+          "amount": 1
+        }
+      ],
+      "time": 20,
+      "stars": 1,
+      "level": 8,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/2/2a/Lemonade.png?6c3a20",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Lemonade"
+    },
+    "orange-juice": {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "description": "A sweet and citrusy juice made from oranges.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 50,
+      "ingredients": [
+        {
+          "id": "orange",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Ship an Orange",
+      "image": "https://fieldsofmistria.wiki.gg/images/b/bb/Orange_juice.png?138bec",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Orange_Juice"
+    },
+    "pomegranate-juice": {
+      "id": "pomegranate-juice",
+      "name": "Pomegranate Juice",
+      "description": "A sweet juice made from pomegranates.",
+      "health": 30,
+      "stamina": 30,
+      "category": "Drinks",
+      "subCategory": "Cold Drinks",
+      "sell": 50,
+      "ingredients": [
+        {
+          "id": "pomegranate",
+          "amount": 1
+        }
+      ],
+      "time": 10,
+      "stars": 1,
+      "level": 4,
+      "tier": 1,
+      "source": "Saturday Market at Darcy's Stall for 150t",
+      "image": "https://fieldsofmistria.wiki.gg/images/5/5e/Pomegranate_juice.png?298ae0",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Juice"
+    }
+  }
+}

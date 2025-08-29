@@ -1,8 +1,8 @@
 // Local Imports
+import { EVENTS_URL } from '../config';
 import { fetchPage } from '../utils/scraper';
 
 // Types
-import { EVENTS_URL } from '../config';
 import { Location } from '../models/locations';
 
 /**
