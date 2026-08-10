@@ -1,0 +1,1997 @@
+{
+  "the-kingdom-of-aldaria": {
+    "id": "the-kingdom-of-aldaria",
+    "name": "The Kingdom of Aldaria",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Aldaria",
+    "description": "The Kingdom of Aldaria is the nation where Mistria is located. Aldaria is a monarchy, and is lead by King Kelinien[1]. Based on  Quest descriptions, Aldaria is a non-landlocked kingdom, featuring rural regions, and mountainous areas.Before the events of Fields of Mistria, the kingdom was impacted by a major earthquake, and is in the process of rebuilding.",
+    "image": "",
+    "images": [],
+    "region": null,
+    "types": [
+      "Kingdom"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-artifact-replicator": {
+    "id": "the-artifact-replicator",
+    "name": "The Artifact Replicator",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Artifact_Replicator",
+    "description": "Back to Top",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "The Museum",
+      "id": "the-museum",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Museum"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Museum Donations, Any Wing 1 Set",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Museum#Rewards"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "balor's-wagon": {
+    "id": "balor's-wagon",
+    "name": "Balor's Wagon",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Balor%27s_Wagon",
+    "description": "Balor's Wagon is a shop run by Balor located in Mistria, north of The Player's Farm, and west of Celine's Cottage. Various items can be purchased here, including Crafting Scrolls and Recipes, Crafting and Cooking resources, Cosmetics, and Cooked Dishes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Balor%27s_wagon.png?e06b75",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Balor%27s_wagon.png?e06b75",
+        "alt": "Balor's wagon.png",
+        "caption": "Balor's Wagon"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Balor%27s_wagon_winter.png?9e8038",
+        "alt": "Balor's wagon winter.png",
+        "caption": "Balor's Wagon In  Winter"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Reach later seasons, complete various  Story Quests",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#Story_Quests"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "bathhouse-exterior(-spring)-bathhouse-exterior(-summer)-bathhouse-exterior(-fall)-bathhouse-exterior(-winter)-bathhouse-lobby-juniper's-bedroom-changing-room": {
+    "id": "bathhouse-exterior(-spring)-bathhouse-exterior(-summer)-bathhouse-exterior(-fall)-bathhouse-exterior(-winter)-bathhouse-lobby-juniper's-bedroom-changing-room",
+    "name": "Bathhouse Exterior( Spring)\nBathhouse Exterior( Summer)\nBathhouse Exterior( Fall)\nBathhouse Exterior( Winter)\nBathhouse lobby\nJuniper's Bedroom\nChanging Room",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bathhouse",
+    "description": "The Bathhouse is located in the northeast of Mistria, above  The Clinic, and is run by Juniper. Also home to Juniper's faithful companion Dozy, The Player can use the baths there to restore their  (Health) and  (Stamina).",
+    "image": "https://fieldsofmistria.wiki.gg/images/Bathhouse_exterior_spring.png?fd1988",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_exterior_spring.png?fd1988",
+        "alt": "Bathhouse exterior spring.png",
+        "caption": "Bathhouse Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_exterior_spring.png?fd1988",
+        "alt": "Bathhouse exterior spring.png",
+        "caption": "Bathhouse Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_exterior_fall.png?d93f94",
+        "alt": "Bathhouse exterior fall.png",
+        "caption": "Bathhouse Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_exterior_winter.png?b5f3cd",
+        "alt": "Bathhouse exterior winter.png",
+        "caption": "Bathhouse Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_Lobby.png?47fb8d",
+        "alt": "Bathhouse Lobby.png",
+        "caption": "The Bathhouse's lobby."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Juniper%27s_Room.png?55a3e7",
+        "alt": "Juniper's Room.png",
+        "caption": "Juniper's Bedroom."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bathhouse_Changing_Room.png?5f7bce",
+        "alt": "Bathhouse Changing Room.png",
+        "caption": "The Bathhouse's changing room."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Juniper",
+        "id": "juniper",
+        "href": ""
+      },
+      {
+        "name": "Dozy",
+        "id": "dozy",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": null,
+    "theme": "A Backwater Bathhouse",
+    "extra": {}
+  },
+  "the-bell-tower": {
+    "id": "the-bell-tower",
+    "name": "The Bell Tower",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Bell_Tower",
+    "description": "The Bell Tower is a building that is inaccessible until late in the main story. It is located in the central, western portion of town. There is a  Woodcrafting workbench just east of the tower in a small courtyard, where Ryis and Hayden can both be seen working frequently. The workbench can be used by The Player for Woodcrafting.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Bell_tower_exterior_spring.png?d51f58",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bell_tower_exterior_spring.png?d51f58",
+        "alt": "Bell tower exterior spring.png",
+        "caption": "The Bell Tower Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bell_tower_exterior_spring.png?d51f58",
+        "alt": "Bell tower exterior spring.png",
+        "caption": "The Bell Tower Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bell_tower_exterior_fall.png?31f2cb",
+        "alt": "Bell tower exterior fall.png",
+        "caption": "The Bell Tower Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Bell_tower_exterior_winter.png?f7819e",
+        "alt": "Bell tower exterior winter.png",
+        "caption": "The Bell Tower Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Repair the Bell Tower\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#repairthebelltower"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-blacksmith's-shop": {
+    "id": "the-blacksmith's-shop",
+    "name": "The Blacksmith's Shop",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Blacksmith",
+    "description": "The Blacksmith's Shop is located in Town and is run by March and Olric. The Player can use The Anvil in front of the forge outside to craft  Tools,  Equipment, and  Weapons.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Blacksmith_exterior_spring.png?3afeb9",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Blacksmith_exterior_spring.png?3afeb9",
+        "alt": "Blacksmith exterior spring.png",
+        "caption": "The Blacksmith's Shop Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Blacksmith_exterior_spring.png?3afeb9",
+        "alt": "Blacksmith exterior spring.png",
+        "caption": "The Blacksmith's Shop Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Blacksmith_exterior_fall.png?acb609",
+        "alt": "Blacksmith exterior fall.png",
+        "caption": "The Blacksmith's Shop Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Blacksmith_exterior_winter.png?a16443",
+        "alt": "Blacksmith exterior winter.png",
+        "caption": "The Blacksmith's Shop Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Blacksmith_Interior.png?e9a3f5",
+        "alt": "Blacksmith Interior.png",
+        "caption": "The Blacksmith's interior."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "March",
+        "id": "march",
+        "href": ""
+      },
+      {
+        "name": "Olric",
+        "id": "olric",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Progress through The Mines",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mines"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "caldarus'-house": {
+    "id": "caldarus'-house",
+    "name": "Caldarus' House",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Caldarus%27_House",
+    "description": "Caldarus' House is Caldarus' residence, located in the eastern section of The Deep Woods. It becomes accessible after gaining access to The Deep Woods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_spring.png/18px-Season_icon_spring.png?1c93f3",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_spring.png/18px-Season_icon_spring.png?1c93f3",
+        "alt": "Season icon spring.png",
+        "caption": "Caldarus' House Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_summer.png/18px-Season_icon_summer.png?f826d4",
+        "alt": "Season icon summer.png",
+        "caption": "Caldarus' House Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_autumn.png/18px-Season_icon_autumn.png?b79477",
+        "alt": "Season icon autumn.png",
+        "caption": "Caldarus' House Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_winter.png/18px-Season_icon_winter.png?4b2fdb",
+        "alt": "Season icon winter.png",
+        "caption": "Caldarus' House Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Deep Woods",
+      "id": "the-deep-woods",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Deep_Woods"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Caldarus",
+        "id": "caldarus",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-capital": {
+    "id": "the-capital",
+    "name": "The Capital",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Capital",
+    "description": "The Capital is a city within  The Kingdom of Aldaria that - while not currently seen directly - is often mentioned by various townsfolk (in particular Ryis), as well as in descriptions for  Quests.\nThe Capital is home to Ryis' (and presumably Landen's) family, as well as the current location of Adeline and Eiland's parents (the Baron and Baroness of Mistria). The Capital is also home to The King, and possibly other members of The Royal Family.",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "The Kingdom of Aldaria",
+      "id": "the-kingdom-of-aldaria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Aldaria"
+    },
+    "types": [
+      "Region (not seen in game)"
+    ],
+    "residents": [
+      {
+        "name": "The King Kelinien",
+        "id": "the-king-kelinien",
+        "href": ""
+      },
+      {
+        "name": "Baroness Linnet of Mistria",
+        "id": "baroness-linnet-of-mistria",
+        "href": ""
+      },
+      {
+        "name": "Baron Wiscar of Mistria",
+        "id": "baron-wiscar-of-mistria",
+        "href": ""
+      },
+      {
+        "name": "The Royal Physician: Briar",
+        "id": "the-royal-physician:-briar",
+        "href": ""
+      },
+      {
+        "name": "(Ryis') Unnamed Aunt",
+        "id": "(ryis')-unnamed-aunt",
+        "href": ""
+      },
+      {
+        "name": "(Ryis') Unnamed Mother & Father",
+        "id": "(ryis')-unnamed-mother-&-father",
+        "href": ""
+      },
+      {
+        "name": "(Ryis') Unnamed Sisters (x?)",
+        "id": "(ryis')-unnamed-sisters-(x?)",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-carpenter's-shop": {
+    "id": "the-carpenter's-shop",
+    "name": "The Carpenter's Shop",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Carpenter",
+    "description": "The Carpenter's Shop is located just outside of Town, in The Eastern Road and is run by Ryis.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Carpenter_house_starting.png?fa6cef",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Carpenter_house_starting.png?fa6cef",
+        "alt": "Carpenter house starting.png",
+        "caption": "The Carpenter's Shop, as it appears at the start of Fields of Mistria."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Carpenter_house_upgraded.png?619a61",
+        "alt": "Carpenter house upgraded.png",
+        "caption": "The Carpenter's Shop, once it's been upgraded."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Carpenter_First_Floor.png?aad8f3",
+        "alt": "Carpenter First Floor.png",
+        "caption": "The interior of Carpenter Shop's first floor."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Carpenter_Second_Floor.png?7055f1",
+        "alt": "Carpenter Second Floor.png",
+        "caption": "The interior of Carpenter Shop's second floor. Home to Ryis and Landen's bedrooms."
+      }
+    ],
+    "region": {
+      "name": "The Eastern Road",
+      "id": "the-eastern-road",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Eastern_Road"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Ryis",
+        "id": "ryis",
+        "href": ""
+      },
+      {
+        "name": "Landen",
+        "id": "landen",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Story Quest  \"Upgrade the Carpenter's Shop\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#upgradethecarpentersshop"
+    },
+    "theme": "Lumber and Sawdust",
+    "extra": {}
+  },
+  "celine's-cottage": {
+    "id": "celine's-cottage",
+    "name": "Celine's Cottage",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Celine%27s_Cottage",
+    "description": "Celine's Cottage is Celine's residence, located between The Town, and The Player's Farm. It is east of  Balor's Wagon.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Celine%27s_cottage_exterior_spring.png?c47cdb",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Celine%27s_cottage_exterior_spring.png?c47cdb",
+        "alt": "Celine's cottage exterior spring.png",
+        "caption": "Celine's Cottage Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Celine%27s_cottage_exterior_spring.png?c47cdb",
+        "alt": "Celine's cottage exterior spring.png",
+        "caption": "Celine's Cottage Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Celine%27s_cottage_exterior_fall.png?85d140",
+        "alt": "Celine's cottage exterior fall.png",
+        "caption": "Celine's Cottage Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Celine%27s_cottage_exterior_winter.png?58ca02",
+        "alt": "Celine's cottage exterior winter.png",
+        "caption": "Celine's Cottage Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Celine_demo_inside_house.png?5deeda",
+        "alt": "Celine demo inside house.png",
+        "caption": "Celine's Cottage Interior"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Celine",
+        "id": "celine",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-chicken-statue": {
+    "id": "the-chicken-statue",
+    "name": "The Chicken Statue",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Statue",
+    "description": "The Chicken Statue is located on the western side of Sweetwater Farm. Interacting with it with more than   1 Shiny Bead in your inventory will allow you to donate to it in multiples of   10 or   100.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Chicken_statue.png?989f10",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Chicken_statue.png?989f10",
+        "alt": "Chicken statue.png",
+        "caption": "The Chicken Statue"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Chicken_statue_winter.png?6786e5",
+        "alt": "Chicken statue winter.png",
+        "caption": "The Chicken Statue In  Winter"
+      }
+    ],
+    "region": {
+      "name": "Sweetwater Farm",
+      "id": "sweetwater-farm",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sweetwater_Farm"
+    },
+    "types": [
+      "Random Reward Giver"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "clinic-exterior(-spring)-clinic-exterior(-summer)-clinic-exterior(-fall)-clinic-exterior(-winter)-clinic-interior": {
+    "id": "clinic-exterior(-spring)-clinic-exterior(-summer)-clinic-exterior(-fall)-clinic-exterior(-winter)-clinic-interior",
+    "name": "Clinic Exterior( Spring)\nClinic Exterior( Summer)\nClinic Exterior( Fall)\nClinic Exterior( Winter)\nClinic Interior",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Clinic",
+    "description": "The Clinic is located to the northeast of Mistria, below  The Bathhouse and above The  General Store. It is run by Valen, the town's doctor. It acts as a clinic and store in addition to being her place of residence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Clinic_exterior_spring.png?801fc4",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Clinic_exterior_spring.png?801fc4",
+        "alt": "Clinic exterior spring.png",
+        "caption": "Clinic Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Clinic_exterior_spring.png?801fc4",
+        "alt": "Clinic exterior spring.png",
+        "caption": "Clinic Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Clinic_exterior_fall.png?587d07",
+        "alt": "Clinic exterior fall.png",
+        "caption": "Clinic Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Clinic_exterior_winter.png?31e380",
+        "alt": "Clinic exterior winter.png",
+        "caption": "Clinic Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Clinic_Interior.png?1f286c",
+        "alt": "Clinic Interior.png",
+        "caption": "The Clinic's interior."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Valen",
+        "id": "valen",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": null,
+    "theme": "Please Take A Seat",
+    "extra": {}
+  },
+  "the-dragon-forge": {
+    "id": "the-dragon-forge",
+    "name": "The Dragon Forge",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Forge",
+    "description": "Dragon-forging uses Blacksmithing - as well as  Blacksmithing skill perks - however recipes are instead unlocked via quest progression, rather than by skill level.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Dragon_forge.png?d9562f",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Dragon_forge.png?d9562f",
+        "alt": "Dragon forge.png",
+        "caption": "\"It doesn't seem useable at the moment. Perhaps there is a hint in one of the other rooms\""
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Dragon_forge_lit.png?343f4c",
+        "alt": "Dragon forge lit.png",
+        "caption": "The room containing the lit Dragon Forge"
+      }
+    ],
+    "region": {
+      "name": "Floor 90 of 5The Ancient Ruins",
+      "id": "floor-90-of-5the-ancient-ruins",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Ancient_Ruins#Floor_90"
+    },
+    "types": [
+      "Processor"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest  \"Find the Magic Key\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#findthemagickey"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "errol's-cabin": {
+    "id": "errol's-cabin",
+    "name": "Errol's Cabin",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Errol%27s_Cabin",
+    "description": "Errol's Cabin is Errol's residence, located along the river in The Narrows, south of The Museum.\nThe exterior of the cabin is fairly plain, to the left a small garden, wherein Errol grows crops according to the season, to the right a  Pomegranate Tree which fruits in  Winter.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Errol%27s_cabin_exterior_spring.png?69c4d3",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Errol%27s_cabin_exterior_spring.png?69c4d3",
+        "alt": "Errol's cabin exterior spring.png",
+        "caption": "Errol's Cabin Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Errol%27s_cabin_exterior_spring.png?69c4d3",
+        "alt": "Errol's cabin exterior spring.png",
+        "caption": "Errol's Cabin Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Errol%27s_cabin_exterior_fall.png?23d0e8",
+        "alt": "Errol's cabin exterior fall.png",
+        "caption": "Errol's Cabin Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Errol%27s_cabin_exterior_winter.png?1dfaea",
+        "alt": "Errol's cabin exterior winter.png",
+        "caption": "Errol's Cabin Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Narrows",
+      "id": "the-narrows",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Narrows"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Errol",
+        "id": "errol",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-farm": {
+    "id": "the-farm",
+    "name": "The Farm",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Farm",
+    "description": "Buildings on The Farm include:",
+    "image": "https://fieldsofmistria.wiki.gg/images/Your_farm.png?8233d4",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Your_farm.png?8233d4",
+        "alt": "Your farm.png",
+        "caption": "The Farm, as it appears on The Player's map at the start of Fields of Mistria"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Your_farm_unlocked.png?efb958",
+        "alt": "Your farm unlocked.png",
+        "caption": "The Farm, as it appears on The Player's map after expansion"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [
+      {
+        "name": "The Player",
+        "id": "the-player",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/The_Player"
+      },
+      {
+        "name": "Pet",
+        "id": "pet",
+        "href": ""
+      },
+      {
+        "name": "Farm Animals (conditional)",
+        "id": "farm-animals-(conditional)",
+        "href": ""
+      },
+      {
+        "name": "Caldarus",
+        "id": "caldarus",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "farmhouse": {
+    "id": "farmhouse",
+    "name": "Farmhouse",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Farmhouse",
+    "description": "When starting Fields of Mistria The Farmhouse comes equipped with a few basic furnishings that have functional elements:",
+    "image": "https://fieldsofmistria.wiki.gg/images/Farmhouse_starting_exterior.png?f65d52",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Farmhouse_starting_exterior.png?f65d52",
+        "alt": "Farmhouse starting exterior.png",
+        "caption": "Exterior of The Player's starting farmhouse"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Farmhouse_starting_interior.png?fb8b0d",
+        "alt": "Farmhouse starting interior.png",
+        "caption": "Interior of The Player's starting farmhouse"
+      }
+    ],
+    "region": {
+      "name": "Farm",
+      "id": "farm",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Farm"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "The Player",
+        "id": "the-player",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/The_Player"
+      },
+      {
+        "name": "Pet",
+        "id": "pet",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-fish-trap": {
+    "id": "the-fish-trap",
+    "name": "The Fish Trap",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fish_Trap",
+    "description": "Back to Top",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "The Beach",
+      "id": "the-beach",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Beach#Fish_Trap"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Repair the Beach Bridge\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#repairthebeachbridge"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-general-store": {
+    "id": "the-general-store",
+    "name": "The General Store",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/General_Store",
+    "description": "The General Store is run by Nora and Holt, with Celine working part-time. The General Store is the main method of obtaining seasonal seeds, and is currently the only location to sell any Weapons.",
+    "image": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_broken_spring.png?2b189a",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_broken_spring.png?2b189a",
+        "alt": "General store exterior broken spring.png",
+        "caption": "The General Store, as it appears at the start of Fields of Mistria."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_spring.png?32627c",
+        "alt": "General store exterior spring.png",
+        "caption": "The General Store Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_spring.png?32627c",
+        "alt": "General store exterior spring.png",
+        "caption": "The General Store Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_fall.png?212374",
+        "alt": "General store exterior fall.png",
+        "caption": "The General Store Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_store_exterior_winter.png?fb8b34",
+        "alt": "General store exterior winter.png",
+        "caption": "The General Store Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/General_Store_Interior.png?9eaf85",
+        "alt": "General Store Interior.png",
+        "caption": "The General Store's interior."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Nora",
+        "id": "nora",
+        "href": ""
+      },
+      {
+        "name": "Holt",
+        "id": "holt",
+        "href": ""
+      },
+      {
+        "name": "Dell",
+        "id": "dell",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Story Quest  \"Upgrade Hayden's Barn\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#upgradehaydensbarn"
+    },
+    "theme": "Potatoes are Half Off Today",
+    "extra": {}
+  },
+  "hayden's-shop": {
+    "id": "hayden's-shop",
+    "name": "Hayden's Shop",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hayden%27s_Shop",
+    "description": "Hayden's Shop is owned and operated by Hayden. The shop specializes in items that utilize the Ranching skill, as well as Animals. The Player can adopt animals (assuming they have the correct buildings on their own Farm), put their animals in daycare, or sell their animals. The shop is within Hayden's house, which is located on the path just West of The Player's farm.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_exterior_spring.png?30582f",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_exterior_spring.png?30582f",
+        "alt": "Hayden's Shop exterior spring.png",
+        "caption": "Hayden's Shop in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_exterior_spring.png?30582f",
+        "alt": "Hayden's Shop exterior spring.png",
+        "caption": "Hayden's Shop Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_exterior_fall.png?656c8f",
+        "alt": "Hayden's Shop exterior fall.png",
+        "caption": "Hayden's Shop Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_exterior_winter.png?2ee2b9",
+        "alt": "Hayden's Shop exterior winter.png",
+        "caption": "Hayden's Shop Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Hayden%27s_Shop_Interior.png?9881ea",
+        "alt": "Hayden's Shop Interior.png",
+        "caption": "The interior of Hayden's Shop"
+      }
+    ],
+    "region": {
+      "name": "Sweetwater Farm",
+      "id": "sweetwater-farm",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sweetwater_Farm"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Hayden",
+        "id": "hayden",
+        "href": ""
+      },
+      {
+        "name": "Henrietta",
+        "id": "henrietta",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Story Quest  \"Upgrade Hayden's Barn\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#upgradehaydensbarn"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "the-horse-statue-the-horse-statue-(-winter)": {
+    "id": "the-horse-statue-the-horse-statue-(-winter)",
+    "name": "The Horse Statue\nThe Horse Statue ( Winter)",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Statue",
+    "description": "Once The Player recieves the  Story Quest \"Find the Weathervane\" quest from Hayden, The Horse Statue can be found on the western side of The Narrows.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Horse_statue.png?42210f",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Horse_statue.png?42210f",
+        "alt": "Horse statue.png",
+        "caption": "The Horse Statue"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Horse_statue_winter.png?a2bfdc",
+        "alt": "Horse statue winter.png",
+        "caption": "The Horse Statue In  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Narrows",
+      "id": "the-narrows",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Narrows"
+    },
+    "types": [
+      "Skill Statue"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Find the Weathervane\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#findtheweathervane"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-sleeping-dragon-inn": {
+    "id": "the-sleeping-dragon-inn",
+    "name": "The Sleeping Dragon Inn",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Inn",
+    "description": "The Sleeping Dragon Inn is run by Hemlock, Josephine, and Reina. Hemlock is The Inn's Co-Owner and Bartender. Josephine is the Co-Owner. Reina is the Head Cook.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_broken_spring.png?40266c",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_broken_spring.png?40266c",
+        "alt": "Inn exterior broken spring.png",
+        "caption": "The Inn, as it appears at the start of Fields of Mistria."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_spring.png?3e4c83",
+        "alt": "Inn exterior spring.png",
+        "caption": "The Inn Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_spring.png?3e4c83",
+        "alt": "Inn exterior spring.png",
+        "caption": "The Inn Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_fall.png?1a1e19",
+        "alt": "Inn exterior fall.png",
+        "caption": "The Inn Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_exterior_winter.png?d7706b",
+        "alt": "Inn exterior winter.png",
+        "caption": "The Inn Exterior in  Winter"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Inn_Interior.png?6d81b4",
+        "alt": "Inn Interior.png",
+        "caption": "The Inn's lobby."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Hemlock",
+        "id": "hemlock",
+        "href": ""
+      },
+      {
+        "name": "Josephine",
+        "id": "josephine",
+        "href": ""
+      },
+      {
+        "name": "Reina",
+        "id": "reina",
+        "href": ""
+      },
+      {
+        "name": "Luc",
+        "id": "luc",
+        "href": ""
+      },
+      {
+        "name": "Maple",
+        "id": "maple",
+        "href": ""
+      },
+      {
+        "name": "Balor",
+        "id": "balor",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": {
+      "text": "Story Quest \"Restocking Mistria's Food Reserves\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#restockingmistriasfoodreserves"
+    },
+    "theme": "Glowing Hearth (6 AM - 8 PM)Blazing Hearth (8 PM- 2 AM)",
+    "extra": {}
+  },
+  "the-lighthouse": {
+    "id": "the-lighthouse",
+    "name": "The Lighthouse",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lighthouse",
+    "description": "The Lighthouse is a currently inaccessible building located to the southeastern side of The Beach, atop a small hill.Currently it has no known purpose, or use.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Lighthouse_broken_exterior.png?e494eb",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Lighthouse_broken_exterior.png?e494eb",
+        "alt": "Lighthouse broken exterior.png",
+        "caption": "The Lighthouse Broken Exterior"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Lighthouse_broken_exterior_winter.png?465e88",
+        "alt": "Lighthouse broken exterior winter.png",
+        "caption": "The Lighthouse Broken Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Beach",
+      "id": "the-beach",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Beach"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Unknown",
+      "href": ""
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-lost-and-found-box": {
+    "id": "the-lost-and-found-box",
+    "name": "The Lost and Found Box",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Lost_and_Found",
+    "description": "",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Lost and Found\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#lostandfound"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-manor-house": {
+    "id": "the-manor-house",
+    "name": "The Manor House",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Manor_House",
+    "description": "The Manor House is located on the northern most point of Mistria's town. Adeline, Eiland, and Elsie live in the Manor House.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Manor_House_on_a_Map.png?172e80",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Manor_House_on_a_Map.png?172e80",
+        "alt": "Manor House on a Map.png",
+        "caption": "The Manor House (highlighted in red), as it appears on the Player's map."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Manor_House_Foyer.png?a9259e",
+        "alt": "Manor House Foyer.png",
+        "caption": "The Manor's Foyer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Dining_Room.png?d8306a",
+        "alt": "Dining Room.png",
+        "caption": "The Manor's Dining Room"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Adeline%27s_Office.png?3898ae",
+        "alt": "Adeline's Office.png",
+        "caption": "Adeline's Office"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Eiland%27s_Office.png?23164c",
+        "alt": "Eiland's Office.png",
+        "caption": "Eiland's Office"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Elsie%27s_Bedroom.png?33659a",
+        "alt": "Elsie's Bedroom.png",
+        "caption": "Elsie's Bedroom"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Eiland%27s_Bedroom.png?6c3488",
+        "alt": "Eiland's Bedroom.png",
+        "caption": "Eiland's Bedroom"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Adeline%27s_Bedroom.png?138e2b",
+        "alt": "Adeline's Bedroom.png",
+        "caption": "Adeline's Bedroom"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Adeline",
+        "id": "adeline",
+        "href": ""
+      },
+      {
+        "name": "Eiland",
+        "id": "eiland",
+        "href": ""
+      },
+      {
+        "name": "Elsie",
+        "id": "elsie",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-mill": {
+    "id": "the-mill",
+    "name": "The Mill",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mill",
+    "description": "The Mill is a production building located just east of the  Request Board in Mistria.At first, The Mill is boarded up and inaccessible. The Mill is unlocked following completion of the  Story Quest \"The Mill  Restoration Project\".",
+    "image": "https://fieldsofmistria.wiki.gg/images/Mill_exterior_broken_spring.png?ef7ef6",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mill_exterior_broken_spring.png?ef7ef6",
+        "alt": "Mill exterior broken spring.png",
+        "caption": "The Mill, as it appears at the start of Fields of Mistria."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mill.png?46aeb5",
+        "alt": "Mill.png",
+        "caption": "The Mill Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mill.png?46aeb5",
+        "alt": "Mill.png",
+        "caption": "The Mill Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mill_exterior_fall.png?3c3749",
+        "alt": "Mill exterior fall.png",
+        "caption": "The Mill Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mill_exterior_winter.png?be53c1",
+        "alt": "Mill exterior winter.png",
+        "caption": "The Mill Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Processor"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"The Mill  Restoration Project\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#themillrestorationproject"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-mines": {
+    "id": "the-mines",
+    "name": "The Mines",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines",
+    "description": "Much like Caldarus' Shrine on The Farm, this dragon statue can be used to exchange  Essence for Skill Perks for The Mining and Combat skills.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Mines_default.png?f4e35f",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mines_default.png?f4e35f",
+        "alt": "Mines default.png",
+        "caption": "Entrance to The Mines"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mines_Location.jpg?476745",
+        "alt": "Mines Location.jpg",
+        "caption": "Location of The Mines on the map"
+      }
+    ],
+    "region": {
+      "name": "The Narrows",
+      "id": "the-narrows",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Narrows"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Unlocking The Mines\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#unlockingthemines"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-ancient-ruins": {
+    "id": "the-ancient-ruins",
+    "name": "The Ancient Ruins",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Ancient_Ruins",
+    "description": "To open the final seal you will need to craft these items at the  The Dragon Forge:",
+    "image": "https://fieldsofmistria.wiki.gg/images/Biome_5_default.png?4ae924",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_5_default.png?4ae924",
+        "alt": "Biome 5 default.png",
+        "caption": "A possible floor within The Ancient Ruins"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_5_floor_90.png?142078",
+        "alt": "Biome 5 floor 90.png",
+        "caption": "The Priestess' Chambers"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Seal_5.png?c37fce",
+        "alt": "Seal 5.png",
+        "caption": "The Final Seal"
+      }
+    ],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {
+      "floors": "floors 81-99 | 90 | 100",
+      "progress": "\"Find the Magic Key\" | \"Breaking The Final Seal\""
+    }
+  },
+  "the-deep-earth": {
+    "id": "the-deep-earth",
+    "name": "The Deep Earth",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Deep_Earth",
+    "description": "To progress to the next biome, The Player must complete  \"The Fire Tablet\",  \"Procuring the Sealing Scroll\", and  \"Breaking The Fire Seal\".",
+    "image": "https://fieldsofmistria.wiki.gg/images/Biome_3_default.png?e10aaa",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_3_default.png?e10aaa",
+        "alt": "Biome 3 default.png",
+        "caption": "The first floor within The Deep Earth"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Seal_3.png?3f82d7",
+        "alt": "Seal 3.png",
+        "caption": "The Open Fire Seal"
+      }
+    ],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {
+      "floors": "floors 41-59 | 60",
+      "progress": "\"Breaking The Fire Seal\""
+    }
+  },
+  "the-lava-caves": {
+    "id": "the-lava-caves",
+    "name": "The Lava Caves",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Lava_Caves",
+    "description": "To progress to the next biome, The Player must complete  \"Creating The Void Mass\", and  \"Breaking the Ruins Seal\".",
+    "image": "https://fieldsofmistria.wiki.gg/images/Biome_4_default.png?c6ea08",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_4_default.png?c6ea08",
+        "alt": "Biome 4 default.png",
+        "caption": "The first floor within The Lava Caves"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Seal_4.png?35acd3",
+        "alt": "Seal 4.png",
+        "caption": "The Ruins Seal"
+      }
+    ],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {
+      "floors": "floors 61-79 | 80",
+      "progress": "Unknown"
+    }
+  },
+  "the-tide-caverns": {
+    "id": "the-tide-caverns",
+    "name": "The Tide Caverns",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Tide_Caverns",
+    "description": "To complete  \"The Earth Tablet\" and break The Earth Seal, the following offerings are required:",
+    "image": "https://fieldsofmistria.wiki.gg/images/Biome_2_default.png?7cdad0",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_2_default.png?7cdad0",
+        "alt": "Biome 2 default.png",
+        "caption": "The first floor within The Tide Caverns"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Seal_2.png?533bd7",
+        "alt": "Seal 2.png",
+        "caption": "The Open Earth Seal"
+      }
+    ],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {
+      "floors": "floors 21-39 | 40",
+      "progress": "\"The Earth Tablet\""
+    }
+  },
+  "the-upper-mines": {
+    "id": "the-upper-mines",
+    "name": "The Upper Mines",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mines/Upper_Mines",
+    "description": "The Upper Mines consist of floors 1floors 1-19, and is the first biome The Player will encounter when exploring 0The Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Biome_1_default.png?eb632b",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Biome_1_default.png?eb632b",
+        "alt": "Biome 1 default.png",
+        "caption": "The first floor within The Upper Mines"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Seal_1.png?5f23ee",
+        "alt": "Seal 1.png",
+        "caption": "The Open Earth Seal"
+      }
+    ],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {
+      "floors": "floors 1-19 | 20",
+      "progress": "\"The Water Tablet\""
+    }
+  },
+  "mistria": {
+    "id": "mistria",
+    "name": "Mistria",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria",
+    "description": "Mistria is a town nestled amidst lush forests and tranquil shores in Fields of Mistria. This town serves as the central setting for The Player as they embark on a journey of restoration and discovery.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Town.png?aa5398",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Town.png?aa5398",
+        "alt": "Town.png",
+        "caption": "The town of Mistria, as it appears on the Player's map."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Mistriatownmap.png?45c4a1",
+        "alt": "Mistriatownmap.png",
+        "caption": "The town of Mistria, in  Spring"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": ""
+    },
+    "types": [
+      "Region"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": {
+      "text": "Various  Story Quests",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#Story_Quests"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "the-museum": {
+    "id": "the-museum",
+    "name": "The Museum",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Museum",
+    "description": "The Museum is located to the west of Mistria in The Narrows. It is run by Errol, The Museum's Curator and member of Mistria's Historical Society. The Player can donate certain items they come across over the course of the game here for varying rewards, such as  Tesserae and   Renown.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Museum_exterior_spring.png?bca3b1",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Museum_exterior_spring.png?bca3b1",
+        "alt": "Museum exterior spring.png",
+        "caption": "Museum Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Museum_exterior_summer.png?bd1186",
+        "alt": "Museum exterior summer.png",
+        "caption": "Museum Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Museum_exterior_fall.png?629d2d",
+        "alt": "Museum exterior fall.png",
+        "caption": "Museum Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Museum_exterior_winter.png?770a5a",
+        "alt": "Museum exterior winter.png",
+        "caption": "Museum Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Narrows",
+      "id": "the-narrows",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Narrows"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Museum Donations Wanted\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#museumdonationswanted"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-overworld": {
+    "id": "the-overworld",
+    "name": "The Overworld",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Overworld",
+    "description": "The Overworld is a catch-all-term used on The Fields of Mistria Wiki, for any location in Fields of Mistria that is not within 0The Mines.",
+    "image": "",
+    "images": [],
+    "region": null,
+    "types": [],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-request-board": {
+    "id": "the-request-board",
+    "name": "The Request Board",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Quests",
+    "description": "Quests, also referred to as  Story Quests, or  Requests are set objectives which provide The Player with certain rewards upon completion. These objectives will vary from quest to quest. Multiple quests can be active at once, and they do not expire. The full details and current progress of all active quests are viewable in the corresponding  Quests tab in The Journal menu.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Request_Board.png?e5a8e5",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Request_Board.png?e5a8e5",
+        "alt": "Request Board.png",
+        "caption": "The Request Board"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Request_Board_winter.png?777a56",
+        "alt": "Request Board winter.png",
+        "caption": "The Request Board In  Winter"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Quest Hub"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "a-rejuvenating-fountain": {
+    "id": "a-rejuvenating-fountain",
+    "name": "A Rejuvenating Fountain",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rejuvenating_Fountain",
+    "description": "Each Rejuvenating Fountain restores   20 Health and   20 Stamina. Each fountain can be used once per day.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Rejuvenating_fountain_spring.png?15e137",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Rejuvenating_fountain_spring.png?15e137",
+        "alt": "Rejuvenating fountain spring.png",
+        "caption": "A Rejuvenating Fountain"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Rejuvenating_fountain_winter.png?364073",
+        "alt": "Rejuvenating fountain winter.png",
+        "caption": "A Rejuvenating Fountain In  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Eastern Road",
+      "id": "the-eastern-road",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Eastern_Road#Rejuvenating_Fountain"
+    },
+    "types": [
+      "Health and Stamina Source"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "seridia's-house": {
+    "id": "seridia's-house",
+    "name": "Seridia's House",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Seridia%27s_House",
+    "description": "Seridia's House is Seridia's residence, located at the northern end of The Western Ruins. It becomes accessible after completion of The Mines' Questline.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_spring.png/18px-Season_icon_spring.png?1c93f3",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_spring.png/18px-Season_icon_spring.png?1c93f3",
+        "alt": "Season icon spring.png",
+        "caption": "Seridia's House Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_summer.png/18px-Season_icon_summer.png?f826d4",
+        "alt": "Season icon summer.png",
+        "caption": "Seridia's House Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_autumn.png/18px-Season_icon_autumn.png?b79477",
+        "alt": "Season icon autumn.png",
+        "caption": "Seridia's House Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/thumb/Season_icon_winter.png/18px-Season_icon_winter.png?4b2fdb",
+        "alt": "Season icon winter.png",
+        "caption": "Seridia's House Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Western Ruins",
+      "id": "the-western-ruins",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Western_Ruins"
+    },
+    "types": [
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Seridia",
+        "id": "seridia",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-stone-refinery": {
+    "id": "the-stone-refinery",
+    "name": "The Stone Refinery",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Refinery",
+    "description": "The Stone Refinery is a production workbench located just inside 0The Mines once built.The Stone Refinery is available following completion of the  Story Quest  \"Stone Refinery\", made available once The Player reaches Town Rank  Lvl. 55.",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "Mines",
+      "id": "mines",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mines"
+    },
+    "types": [
+      "Processor"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest  \"Stone Refinery\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#stonerefinery"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "sweetwater-farm": {
+    "id": "sweetwater-farm",
+    "name": "Sweetwater Farm",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sweetwater_Farm",
+    "description": "Sweetwater Farm is owned by Hayden. It lies directly west of The Player's Farm.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Haydenfarm_demo.png?466378",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Haydenfarm_demo.png?466378",
+        "alt": "Haydenfarm demo.png",
+        "caption": "Sweetwater Farm, as it appears on the Player's map"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Sweetwater_Farm.png?a4bc69",
+        "alt": "Sweetwater Farm.png",
+        "caption": "Sweetwater Farm in  Spring"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Region"
+    ],
+    "residents": [
+      {
+        "name": "Hayden",
+        "id": "hayden",
+        "href": ""
+      },
+      {
+        "name": "Henrietta",
+        "id": "henrietta",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "tackle-shop": {
+    "id": "tackle-shop",
+    "name": "Tackle Shop",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tackle_Shop",
+    "description": "The Tackle Shop is located on The Beach and is run by Terithia, the back section of the interior also serves as her home.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Tackle_Shop_exterior_spring.png?e560f0",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Tackle_Shop_exterior_spring.png?e560f0",
+        "alt": "Tackle Shop exterior spring.png",
+        "caption": "Tackle Shop Exterior in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Tackle_Shop_exterior_spring.png?e560f0",
+        "alt": "Tackle Shop exterior spring.png",
+        "caption": "Tackle Shop Exterior in  Summer"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Tackle_Shop_exterior_fall.png?33c0fc",
+        "alt": "Tackle Shop exterior fall.png",
+        "caption": "Tackle Shop Exterior in  Fall"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Tackle_Shop_exterior_winter.png?e62a7a",
+        "alt": "Tackle Shop exterior winter.png",
+        "caption": "Tackle Shop Exterior in  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Beach",
+      "id": "the-beach",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Beach"
+    },
+    "types": [
+      "Store",
+      "Residence"
+    ],
+    "residents": [
+      {
+        "name": "Terithia",
+        "id": "terithia",
+        "href": ""
+      }
+    ],
+    "unlock": {
+      "text": "Available From Start",
+      "href": ""
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-beach": {
+    "id": "the-beach",
+    "name": "The Beach",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Beach",
+    "description": "The Beach is the southern-most location in Fields of Mistria. It lies south of Hayden's Sweetwater Farm and southwest of The Player's Farm.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Beach.png?af7327",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Beach.png?af7327",
+        "alt": "Beach.png",
+        "caption": "The Beach in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Beach_Map.png?209ccc",
+        "alt": "Beach Map.png",
+        "caption": "The Beach, as it appears on The Player's map"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Region"
+    ],
+    "residents": [
+      {
+        "name": "Terithia",
+        "id": "terithia",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": {
+      "text": "Story Quest \"Repair the Beach Bridge\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#repairthebeachbridge"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "the-deep-woods-the-deep-woods": {
+    "id": "the-deep-woods-the-deep-woods",
+    "name": "The Deep Woods\nThe Deep Woods",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Deep_Woods",
+    "description": "The Deep Woods is a location in Fields of Mistria. It lies north of The Eastern Road.\nThe staircase leading to The Deep Woods from The Eastern Road is inaccessible until The Player completes  Story Quest  \"Breaking The Fire Seal\" and is able to remove the thick vines blocking the path.",
+    "image": "https://fieldsofmistria.wiki.gg/images/The_Deep_Woods.png?2b1e19",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/The_Deep_Woods.png?2b1e19",
+        "alt": "The Deep Woods.png",
+        "caption": "The Deep Woods, as it appears on The Player's map before they gain access."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/The_Deep_Woods_unlocked.png?e95032",
+        "alt": "The Deep Woods unlocked.png",
+        "caption": "The Deep Woods, as it appears on The Player's map after they gain access."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Region"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest  \"Breaking The Fire Seal\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#breakingthefireseal"
+    },
+    "upgrade": null,
+    "theme": "Deep Woods Theme",
+    "extra": {}
+  },
+  "the-dragonsworn-glade": {
+    "id": "the-dragonsworn-glade",
+    "name": "The Dragonsworn Glade",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Dragonsworn_Glade",
+    "description": "The Dragonsworn Glade is a location in Fields of Mistria, accessed during  Eiland's Heart Quest \"The Glade\".",
+    "image": "",
+    "images": [],
+    "region": {
+      "name": "The Grove of Rest",
+      "id": "the-grove-of-rest",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Deep_Woods#The_Grove_of_Rest"
+    },
+    "types": [
+      "Special"
+    ],
+    "residents": [],
+    "unlock": {
+      "text": "Eiland's Heart Quest \"The Glade\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Eiland/Quests#Heart_Quests"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-eastern-road": {
+    "id": "the-eastern-road",
+    "name": "The Eastern Road",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Eastern_Road",
+    "description": "The Eastern Road is east of Mistria and is northeast of the Player's Farm.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Easternroad.png?576265",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Easternroad.png?576265",
+        "alt": "Easternroad.png",
+        "caption": "The Eastern Road, as it appears at the start of Fields of Mistria."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/The_Eastern_Road.png?e85834",
+        "alt": "The Eastern Road.png",
+        "caption": "The Eastern Road, as it appears on the Player's map"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [
+      {
+        "name": "Landen",
+        "id": "landen",
+        "href": ""
+      },
+      {
+        "name": "Ryis",
+        "id": "ryis",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-narrows": {
+    "id": "the-narrows",
+    "name": "The Narrows",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Narrows",
+    "description": "The Narrows is a location in Fields of Mistria. It lies to the west of the town of Mistria, north of Sweetwater Farm, east of The Western Ruins, and south of The Summit.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Narrows.png?7a1e57",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Narrows.png?7a1e57",
+        "alt": "Narrows.png",
+        "caption": "The Narrows in Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/The_Narrows_Map.png?2b0e50",
+        "alt": "The Narrows Map.png",
+        "caption": "The Narrows, as it appears on the Player's map"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [
+      {
+        "name": "Errol",
+        "id": "errol",
+        "href": ""
+      }
+    ],
+    "unlock": null,
+    "upgrade": {
+      "text": "Story Quest \"Beautification Project\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#beautificationproject"
+    },
+    "theme": "",
+    "extra": {}
+  },
+  "the-summit": {
+    "id": "the-summit",
+    "name": "The Summit",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Summit",
+    "description": "The Summit is an unlockable location in Fields of Mistria north of The Narrows, initially inaccessible until the Player completes the  Story Quest \"Beautification of Mistria\".",
+    "image": "https://fieldsofmistria.wiki.gg/images/SUMMITfull.png?808906",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/SUMMITfull.png?808906",
+        "alt": "SUMMITfull.png",
+        "caption": "The Summit in spring."
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/The_Summit.png?68da87",
+        "alt": "The Summit.png",
+        "caption": "The Summit, as it appears on the Player's map."
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [],
+    "residents": [],
+    "unlock": {
+      "text": "Story Quest \"Beautification of Mistria\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Quests#beautificationofmistria"
+    },
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-western-ruins": {
+    "id": "the-western-ruins",
+    "name": "The Western Ruins",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/The_Western_Ruins",
+    "description": "The Western Ruins is the western-most zone in Fields of Mistria.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Western_ruinsfull.png?45ea95",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Western_ruinsfull.png?45ea95",
+        "alt": "Western ruinsfull.png",
+        "caption": "The Western Ruins in  Spring"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Western_ruins.png?25229a",
+        "alt": "Western ruins.png",
+        "caption": "The Western Ruins, as it appears on the Player's map"
+      }
+    ],
+    "region": {
+      "name": "Mistria",
+      "id": "mistria",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria"
+    },
+    "types": [
+      "Region"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  },
+  "the-wishing-well": {
+    "id": "the-wishing-well",
+    "name": "The Wishing Well",
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wishing_Well",
+    "description": "The Wishing Well is behind a large rock in The Eastern Road. A  Copper Pickaxe (or better) is needed to break it and access The Well.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Wishing_well.png?53fcdf",
+    "images": [
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Wishing_well.png?53fcdf",
+        "alt": "Wishing well.png",
+        "caption": "The Wishing Well"
+      },
+      {
+        "src": "https://fieldsofmistria.wiki.gg/images/Wishing_well_winter.png?38bde4",
+        "alt": "Wishing well winter.png",
+        "caption": "The Wishing Well In  Winter"
+      }
+    ],
+    "region": {
+      "name": "The Eastern Road",
+      "id": "the-eastern-road",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/The_Eastern_Road"
+    },
+    "types": [
+      "Random Reward Giver"
+    ],
+    "residents": [],
+    "unlock": null,
+    "upgrade": null,
+    "theme": "",
+    "extra": {}
+  }
+}

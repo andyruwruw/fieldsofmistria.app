@@ -1,0 +1,207 @@
+{
+  "worn-sword": {
+    "id": "worn-sword",
+    "name": "Worn Sword",
+    "description": "A worn but still serviceable sword. Used to cut grass and to fight, if necessary.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Worn_sword.png?4df6b0",
+    "type": "sword",
+    "tier": "worn",
+    "attack": 4,
+    "sell": 50,
+    "source": "General Store for 150t",
+    "ingredients": [],
+    "crafting-station": "",
+    "craft-time": 0,
+    "skill-level": 0,
+    "price": 150,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Worn_Sword"
+  },
+  "copper-sword": {
+    "id": "copper-sword",
+    "name": "Copper Sword",
+    "description": "A copper sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Copper_sword.png?bfde39",
+    "type": "sword",
+    "tier": "copper",
+    "attack": 8,
+    "sell": 480,
+    "source": "Blacksmithing",
+    "ingredients": [
+      {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "quantity": 4,
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0"
+      }
+    ],
+    "crafting-station": "Anvil",
+    "craft-time": 60,
+    "skill-level": 4,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Sword"
+  },
+  "iron-sword": {
+    "id": "iron-sword",
+    "name": "Iron Sword",
+    "description": "An iron sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Iron_sword.png?d2151d",
+    "type": "sword",
+    "tier": "iron",
+    "attack": 12,
+    "sell": 725,
+    "source": "Blacksmithing",
+    "ingredients": [
+      {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "quantity": 4,
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269"
+      }
+    ],
+    "crafting-station": "Anvil",
+    "craft-time": 60,
+    "skill-level": 14,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Sword"
+  },
+  "silver-sword": {
+    "id": "silver-sword",
+    "name": "Silver Sword",
+    "description": "A silver sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Silver_sword.png?35cf75",
+    "type": "sword",
+    "tier": "silver",
+    "attack": 16,
+    "sell": 970,
+    "source": "Blacksmithing",
+    "ingredients": [
+      {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "quantity": 4,
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da"
+      }
+    ],
+    "crafting-station": "Anvil",
+    "craft-time": 60,
+    "skill-level": 20,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Sword"
+  },
+  "gold-sword": {
+    "id": "gold-sword",
+    "name": "Gold Sword",
+    "description": "A splendid golden sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Gold_sword.png?14f2e4",
+    "type": "sword",
+    "tier": "gold",
+    "attack": 20,
+    "sell": 1200,
+    "source": "Blacksmithing",
+    "ingredients": [
+      {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "quantity": 4,
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f"
+      }
+    ],
+    "crafting-station": "Anvil",
+    "craft-time": 60,
+    "skill-level": 20,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Sword"
+  },
+  "mistril-sword": {
+    "id": "mistril-sword",
+    "name": "Mistril Sword",
+    "description": "A magnificent mistril sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Mistril_sword.png?906179",
+    "type": "sword",
+    "tier": "mistril",
+    "attack": 24,
+    "sell": 0,
+    "source": "Blacksmithing",
+    "ingredients": [
+      {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "quantity": 4,
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe"
+      }
+    ],
+    "crafting-station": "Anvil",
+    "craft-time": 60,
+    "skill-level": 32,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Sword"
+  },
+  "scrap-metal-sword": {
+    "id": "scrap-metal-sword",
+    "name": "Scrap Metal Sword",
+    "description": "A sword constructed out of scrap metal.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Scrap_metal_sword.png?e8b63d",
+    "type": "sword",
+    "tier": "scrap-metal",
+    "attack": 6,
+    "sell": 100,
+    "source": "Treasure Chests in The Upper Mines (requires Well Armed Skill) Feeding Mimics in The Upper Mines",
+    "ingredients": [],
+    "crafting-station": "",
+    "craft-time": 0,
+    "skill-level": 0,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Scrap_Metal_Sword"
+  },
+  "verdigris-sword": {
+    "id": "verdigris-sword",
+    "name": "Verdigris Sword",
+    "description": "A verdigris sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Verdigris_sword.png?5c5b89",
+    "type": "sword",
+    "tier": "verdigris",
+    "attack": 10,
+    "sell": 600,
+    "source": "Treasure Chests in The Tide Caverns (requires Well Armed Skill) Feeding Mimics in The Tide Caverns",
+    "ingredients": [],
+    "crafting-station": "",
+    "craft-time": 0,
+    "skill-level": 0,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Verdigris_Sword"
+  },
+  "crystal-sword": {
+    "id": "crystal-sword",
+    "name": "Crystal Sword",
+    "description": "A crystal sword.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Crystal_sword.png?ee504d",
+    "type": "sword",
+    "tier": "crystal",
+    "attack": 14,
+    "sell": 850,
+    "source": "Treasure Chests in The Deep Earth (requires Well Armed Skill) Feeding Mimics in The Deep Earth",
+    "ingredients": [],
+    "crafting-station": "",
+    "craft-time": 0,
+    "skill-level": 0,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal_Sword"
+  },
+  "tarnished-gold-sword": {
+    "id": "tarnished-gold-sword",
+    "name": "Tarnished Gold Sword",
+    "description": "A tarnished gold sword",
+    "image": "https://fieldsofmistria.wiki.gg/images/Tarnished_gold_sword.png?64f519",
+    "type": "sword",
+    "tier": "tarnished-gold",
+    "attack": 18,
+    "sell": 1100,
+    "source": "Treasure Chests in The Lava Caves (requires Well Armed Skill) Feeding Mimics in The Lava Caves",
+    "ingredients": [],
+    "crafting-station": "",
+    "craft-time": 0,
+    "skill-level": 0,
+    "price": 0,
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tarnished_Gold_Sword"
+  }
+}

@@ -1,0 +1,1114 @@
+{
+  "sapling": {
+    "id": "sapling",
+    "name": "Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_main.png/50px-Sapling_main.png?7b5720",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 24,
+    "damage": 10,
+    "essense": 5,
+    "tesserae": 5
+  },
+  "cool-sapling": {
+    "id": "cool-sapling",
+    "name": "Cool Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_cool.png/50px-Sapling_cool.png?3531cb",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "sunglasses",
+        "chance": 5
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 36,
+    "damage": 17,
+    "essense": 10,
+    "tesserae": 5
+  },
+  "blue-sapling": {
+    "id": "blue-sapling",
+    "name": "Blue Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_blue.png/50px-Sapling_blue.png?e28322",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 48,
+    "damage": 17,
+    "essense": 10,
+    "tesserae": 6
+  },
+  "purple-sapling": {
+    "id": "purple-sapling",
+    "name": "Purple Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_purple.png/50px-Sapling_purple.png?f9d29e",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 48,
+    "damage": 24,
+    "essense": 15,
+    "tesserae": 8
+  },
+  "orange-sapling": {
+    "id": "orange-sapling",
+    "name": "Orange Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_orange.png/50px-Sapling_orange.png?11f8d3",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 72,
+    "damage": 44,
+    "essense": 20,
+    "tesserae": 0
+  },
+  "pink-sapling": {
+    "id": "pink-sapling",
+    "name": "Pink Sapling",
+    "description": "Saplings are monsters encountered in The Mines. Their colors and attacks change  throughout the Floors/Mine Biomes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sapling_pink_skull.png/50px-Sapling_pink_skull.png?d854bc",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-sapling",
+        "chance": 5
+      },
+      {
+        "id": "skull-mask",
+        "chance": 5
+      },
+      {
+        "id": "skull-mask",
+        "chance": 10
+      },
+      {
+        "id": "sapling-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Sapling",
+    "health": 150,
+    "damage": 50,
+    "essense": 25,
+    "tesserae": 0
+  },
+  "rock-clod": {
+    "id": "rock-clod",
+    "name": "Rock Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rockclod_main.png/50px-Rockclod_main.png?b68669",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      },
+      {
+        "id": "rockclod-hat",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Clod",
+    "health": 8,
+    "damage": 10,
+    "essense": 5,
+    "tesserae": 5
+  },
+  "blue-rock-clod": {
+    "id": "blue-rock-clod",
+    "name": "Blue Rock Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rockclod_blue.png/50px-Rockclod_blue.png?399256",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      },
+      {
+        "id": "rockclod-hat",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Clod",
+    "health": 16,
+    "damage": 12,
+    "essense": 10,
+    "tesserae": 6
+  },
+  "green-rock-clod": {
+    "id": "green-rock-clod",
+    "name": "Green Rock Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rockclod_green.png/50px-Rockclod_green.png?524d3e",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      },
+      {
+        "id": "rockclod-hat",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Clod",
+    "health": 32,
+    "damage": 24,
+    "essense": 15,
+    "tesserae": 8
+  },
+  "red-rock-clod": {
+    "id": "red-rock-clod",
+    "name": "Red Rock Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rockclod_red.png/50px-Rockclod_red.png?fe9ec7",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      },
+      {
+        "id": "rockclod-hat",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-rockclod",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Clod",
+    "health": 48,
+    "damage": 36,
+    "essense": 20,
+    "tesserae": 12
+  },
+  "purple-rock-clod": {
+    "id": "purple-rock-clod",
+    "name": "Purple Rock Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rockclod_purple.png/50px-Rockclod_purple.png?5321f3",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "mistril-ore",
+        "chance": 70
+      },
+      {
+        "id": "pink-diamond",
+        "chance": 5
+      },
+      {
+        "id": "perfect-pink-diamond",
+        "chance": 1
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Clod",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "copper-ore-clod": {
+    "id": "copper-ore-clod",
+    "name": "Copper Ore Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copperclod.png/50px-Copperclod.png?fdee0a",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "copper-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "ruby",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      },
+      {
+        "id": "oreclod-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Ore Clod",
+    "health": 16,
+    "damage": 12,
+    "essense": 5,
+    "tesserae": 5
+  },
+  "iron-ore-clod": {
+    "id": "iron-ore-clod",
+    "name": "Iron Ore Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Ironclod.png/50px-Ironclod.png?c8ebf2",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "iron-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "sapphire",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      },
+      {
+        "id": "oreclod-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Ore Clod",
+    "health": 32,
+    "damage": 17,
+    "essense": 15,
+    "tesserae": 6
+  },
+  "silver-ore-clod": {
+    "id": "silver-ore-clod",
+    "name": "Silver Ore Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silverclod.png/50px-Silverclod.png?2df1db",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "silver-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "emerald",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      },
+      {
+        "id": "oreclod-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Ore Clod",
+    "health": 48,
+    "damage": 22,
+    "essense": 15,
+    "tesserae": 8
+  },
+  "gold-ore-clod": {
+    "id": "gold-ore-clod",
+    "name": "Gold Ore Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Goldclod.png/50px-Goldclod.png?dcce70",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "gold-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-shell",
+        "chance": 30
+      },
+      {
+        "id": "diamond",
+        "chance": 5
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      },
+      {
+        "id": "oreclod-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Ore Clod",
+    "health": 48,
+    "damage": 28,
+    "essense": 20,
+    "tesserae": 12
+  },
+  "mistril-ore-clod": {
+    "id": "mistril-ore-clod",
+    "name": "Mistril Ore Clod",
+    "description": "Clods are monsters encountered in The Mines. There are two main types, Rock Clods and Ore Clods.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistrilclod.png/50px-Mistrilclod.png?d3e45d",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "mistril-ore",
+        "chance": 70
+      },
+      {
+        "id": "pink-diamond",
+        "chance": 5
+      },
+      {
+        "id": "perfect-pink-diamond",
+        "chance": 1
+      },
+      {
+        "id": "pet-skin:-oreclod",
+        "chance": 5
+      }
+    ],
+    "type": "Ore Clod",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "red-mushroom": {
+    "id": "red-mushroom",
+    "name": "Red Mushroom",
+    "description": "The Mushroom is a common monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mushroom_red.png/50px-Mushroom_red.png?508804",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "red-toadstool",
+        "chance": 70
+      },
+      {
+        "id": "monster-powder",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-mushroom",
+        "chance": 5
+      },
+      {
+        "id": "mushroom-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Mushroom",
+    "health": 24,
+    "damage": 15,
+    "essense": 5,
+    "tesserae": 5
+  },
+  "green-mushroom": {
+    "id": "green-mushroom",
+    "name": "Green Mushroom",
+    "description": "The Mushroom is a common monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mushroom_green.png/50px-Mushroom_green.png?741a35",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "cave-mushroom",
+        "chance": 70
+      },
+      {
+        "id": "monster-powder",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-mushroom",
+        "chance": 5
+      },
+      {
+        "id": "mushroom-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Mushroom",
+    "health": 48,
+    "damage": 25,
+    "essense": 10,
+    "tesserae": 6
+  },
+  "blue-mushroom": {
+    "id": "blue-mushroom",
+    "name": "Blue Mushroom",
+    "description": "The Mushroom is a common monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mushroom_blue.png/50px-Mushroom_blue.png?1e56cd",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "glowing-mushroom",
+        "chance": 70
+      },
+      {
+        "id": "monster-powder",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-mushroom",
+        "chance": 5
+      },
+      {
+        "id": "mushroom-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Mushroom",
+    "health": 72,
+    "damage": 35,
+    "essense": 15,
+    "tesserae": 8
+  },
+  "purple-mushroom": {
+    "id": "purple-mushroom",
+    "name": "Purple Mushroom",
+    "description": "The Mushroom is a common monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mushroom_purple.png/50px-Mushroom_purple.png?3230ee",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "purple-mushroom",
+        "chance": 70
+      },
+      {
+        "id": "monster-powder",
+        "chance": 30
+      },
+      {
+        "id": "pet-skin:-mushroom",
+        "chance": 5
+      },
+      {
+        "id": "mushroom-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Mushroom",
+    "health": 96,
+    "damage": 50,
+    "essense": 20,
+    "tesserae": 0
+  },
+  "yellow-enchantern": {
+    "id": "yellow-enchantern",
+    "name": "Yellow Enchantern",
+    "description": "The Enchantern is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Enchantern_yellow.png/50px-Enchantern_yellow.png?8079d9",
+    "biome": "The Upper Mines",
+    "lowest-floor": 2,
+    "highest-floor": 19,
+    "drops": [
+      {
+        "id": "glass",
+        "chance": 70
+      },
+      {
+        "id": "monster-core",
+        "chance": 30
+      },
+      {
+        "id": "mini-lantern-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Enchantern",
+    "health": 24,
+    "damage": 12,
+    "essense": 5,
+    "tesserae": 5
+  },
+  "blue-enchantern": {
+    "id": "blue-enchantern",
+    "name": "Blue Enchantern",
+    "description": "The Enchantern is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Enchantern_blue.png/50px-Enchantern_blue.png?6e884d",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "glass",
+        "chance": 70
+      },
+      {
+        "id": "monster-core",
+        "chance": 30
+      },
+      {
+        "id": "mini-lantern-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Enchantern",
+    "health": 48,
+    "damage": 17,
+    "essense": 10,
+    "tesserae": 6
+  },
+  "blue-stalagmite": {
+    "id": "blue-stalagmite",
+    "name": "Blue Stalagmite",
+    "description": "The Stalagmite is a monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Stalagmite_blue.png/50px-Stalagmite_blue.png?6cce80",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "copper-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-horn",
+        "chance": 30
+      },
+      {
+        "id": "stalagmite-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Stalagmite",
+    "health": 24,
+    "damage": 25,
+    "essense": 5,
+    "tesserae": 6
+  },
+  "green-stalagmite": {
+    "id": "green-stalagmite",
+    "name": "Green Stalagmite",
+    "description": "The Stalagmite is a monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Stalagmite_green.png/50px-Stalagmite_green.png?c8f25f",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "iron-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-horn",
+        "chance": 30
+      },
+      {
+        "id": "stalagmite-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Stalagmite",
+    "health": 48,
+    "damage": 20,
+    "essense": 10,
+    "tesserae": 8
+  },
+  "purple-stalagmite": {
+    "id": "purple-stalagmite",
+    "name": "Purple Stalagmite",
+    "description": "The Stalagmite is a monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Stalagmite_purple.png/50px-Stalagmite_purple.png?4e4252",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "gold-ore",
+        "chance": 70
+      },
+      {
+        "id": "monster-horn",
+        "chance": 30
+      },
+      {
+        "id": "stalagmite-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Stalagmite",
+    "health": 42,
+    "damage": 35,
+    "essense": 15,
+    "tesserae": 10
+  },
+  "purple-essence-bat": {
+    "id": "purple-essence-bat",
+    "name": "Purple Essence Bat",
+    "description": "This monster is able to fly towards The Player, as well as use a ranged attack. With The  Sonic Boom Skill, these projectiles can be harnessed to damage both the Essence Bat, as well as any other nearby Monsters.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_bat_main.png?b1b68c",
+    "biome": "The Tide Caverns",
+    "lowest-floor": 21,
+    "highest-floor": 39,
+    "drops": [
+      {
+        "id": "essence-drop",
+        "chance": 70
+      },
+      {
+        "id": "monster-wing",
+        "chance": 30
+      },
+      {
+        "id": "essence-bat-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Essence Bat",
+    "health": 32,
+    "damage": 18,
+    "essense": 15,
+    "tesserae": 0
+  },
+  "blue-essence-bat": {
+    "id": "blue-essence-bat",
+    "name": "Blue Essence Bat",
+    "description": "This monster is able to fly towards The Player, as well as use a ranged attack. With The  Sonic Boom Skill, these projectiles can be harnessed to damage both the Essence Bat, as well as any other nearby Monsters.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_bat_blue.png?cdfd2e",
+    "biome": "The Deep Earth",
+    "lowest-floor": 41,
+    "highest-floor": 59,
+    "drops": [
+      {
+        "id": "essence-drop",
+        "chance": 70
+      },
+      {
+        "id": "monster-wing",
+        "chance": 30
+      },
+      {
+        "id": "essence-bat-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Essence Bat",
+    "health": 48,
+    "damage": 32,
+    "essense": 15,
+    "tesserae": 0
+  },
+  "mimic": {
+    "id": "mimic",
+    "name": "Mimic",
+    "description": "Mimics are monsters encountered in The Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mimic_main.png/50px-Mimic_main.png?e605a6",
+    "biome": "All Biomes",
+    "lowest-floor": 2,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "mimic-hat",
+        "chance": 5
+      },
+      {
+        "id": "see-page-for-loot-tables",
+        "chance": 0
+      }
+    ],
+    "type": "Mimic",
+    "health": 0,
+    "damage": 20,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "flame-spirit": {
+    "id": "flame-spirit",
+    "name": "Flame Spirit",
+    "description": "The Flame Spirit is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Flame_spirit_main.png/50px-Flame_spirit_main.png?8813ae",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "wood",
+        "chance": 70
+      },
+      {
+        "id": "peat",
+        "chance": 70
+      },
+      {
+        "id": "monster-core",
+        "chance": 30
+      },
+      {
+        "id": "flame-spirit-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Flame Spirit",
+    "health": 80,
+    "damage": 28,
+    "essense": 15,
+    "tesserae": 10
+  },
+  "purple-flame-spirit": {
+    "id": "purple-flame-spirit",
+    "name": "Purple Flame Spirit",
+    "description": "The Flame Spirit is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Flame_spirit_purple.png/50px-Flame_spirit_purple.png?b015e2",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "wood",
+        "chance": 70
+      },
+      {
+        "id": "peat",
+        "chance": 70
+      },
+      {
+        "id": "monster-core",
+        "chance": 30
+      },
+      {
+        "id": "flame-spirit-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Flame Spirit",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "lava-cat": {
+    "id": "lava-cat",
+    "name": "Lava Cat",
+    "description": "The Lava Cat is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Lava_cat_main.png/64px-Lava_cat_main.png?9d7685",
+    "biome": "The Lava Caves",
+    "lowest-floor": 61,
+    "highest-floor": 79,
+    "drops": [
+      {
+        "id": "glass",
+        "chance": 70
+      },
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "obsidian",
+        "chance": 30
+      },
+      {
+        "id": "monster-whisker",
+        "chance": 30
+      },
+      {
+        "id": "lava-cat-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Lava Cat",
+    "health": 120,
+    "damage": 35,
+    "essense": 15,
+    "tesserae": 10
+  },
+  "void-cat": {
+    "id": "void-cat",
+    "name": "Void Cat",
+    "description": "The Void Cat is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Void_cat_main.png/64px-Void_cat_main.png?1149cc",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "monster-whisker",
+        "chance": 30
+      },
+      {
+        "id": "void-cat-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Void Cat",
+    "health": 220,
+    "damage": 45,
+    "essense": 20,
+    "tesserae": 0
+  },
+  "flying-tome": {
+    "id": "flying-tome",
+    "name": "Flying Tome",
+    "description": "The Flying Tome is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Flying_tome_main.png/64px-Flying_tome_main.png?e89ed6",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "flying-tome-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Flying Tome",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "rock-stack": {
+    "id": "rock-stack",
+    "name": "Rock Stack",
+    "description": "The Rock Stack is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Rock_stack_main.png?e34117",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "stone",
+        "chance": 70
+      },
+      {
+        "id": "monster-block",
+        "chance": 30
+      },
+      {
+        "id": "rock-stack-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Rock Stack",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  },
+  "living-gryphon-statue": {
+    "id": "living-gryphon-statue",
+    "name": "Living Gryphon Statue",
+    "description": "The Living Gryphon Statue is a type of Monster encountered in the Mines.",
+    "image": "https://fieldsofmistria.wiki.gg/images/thumb/Living_griffin_statue_main.png/64px-Living_griffin_statue_main.png?a3729f",
+    "biome": "The Ancient Ruins",
+    "lowest-floor": 81,
+    "highest-floor": 99,
+    "drops": [
+      {
+        "id": "sap",
+        "chance": 70
+      },
+      {
+        "id": "monster-fang",
+        "chance": 30
+      },
+      {
+        "id": "living-gryphon-statue-hat",
+        "chance": 5
+      }
+    ],
+    "type": "Living Gryphon Statue",
+    "health": 0,
+    "damage": 0,
+    "essense": 0,
+    "tesserae": 0
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "blacksmithing-fortified": {
+    "id": "blacksmithing-fortified",
+    "name": "Fortified",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_fortified.png?d5b948",
+    "effect": "Grants bonus +4 when worn",
+    "validItems": {
+      "name": "Equipment",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Equipment",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Equipment_icon.png/24px-Equipment_icon.png?d75e43"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Fortified Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fortified_blacksmithing.png/22px-Fortified_blacksmithing.png?8a2e19"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "blacksmithing-hasty": {
+    "id": "blacksmithing-hasty",
+    "name": "Hasty",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_hasty.png?a95f89",
+    "effect": "Grants bonus 4% speed boost when worn",
+    "validItems": {
+      "name": "Equipment",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Equipment",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Equipment_icon.png/24px-Equipment_icon.png?d75e43"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Hasty Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Hasty_blacksmithing.png/22px-Hasty_blacksmithing.png?944fb0"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "blacksmithing-tireless": {
+    "id": "blacksmithing-tireless",
+    "name": "Tireless",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_tireless.png?1e0e49",
+    "effect": "Base Stamina is increased by +4 when worn",
+    "validItems": {
+      "name": "Equipment",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Equipment",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Equipment_icon.png/24px-Equipment_icon.png?d75e43"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Tireless Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Tireless_blacksmithing.png/22px-Tireless_blacksmithing.png?c98132"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "blacksmithing-leeching": {
+    "id": "blacksmithing-leeching",
+    "name": "Leeching",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_leeching.png?50cdc8",
+    "effect": "Heals 1 every time weapon with this infusion is used to attack a monster",
+    "validItems": {
+      "name": "Weapons",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Weapons",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_weapons.png/24px-Fp_wiki_store_weapons.png?62e13c"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Leech Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Leech_blacksmithing.png/22px-Leech_blacksmithing.png?1a0da7"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "blacksmithing-sharp": {
+    "id": "blacksmithing-sharp",
+    "name": "Sharp",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_sharp.png?71d560",
+    "effect": "Additional +1 Attack Power",
+    "validItems": {
+      "name": "Weapons",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Weapons",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_weapons.png/24px-Fp_wiki_store_weapons.png?62e13c"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Sharp Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Sharp_blacksmithing.png/22px-Sharp_blacksmithing.png?8b7835"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "blacksmithing-lightweight": {
+    "id": "blacksmithing-lightweight",
+    "name": "Lightweight",
+    "category": "Blacksmithing",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_blacksmith_lightweight.png?e24607",
+    "effect": "Chance to drop stamina orbs",
+    "validItems": {
+      "name": "Tools",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Tools",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_tools.png/24px-Fp_wiki_store_tools.png?68cc35"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Copper Hoe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Hoe",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_hoe.png/30px-Copper_hoe.png?b0be91"
+      }
+    ],
+    "requirement": {
+      "name": "Lightweight Blacksmithing",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Blacksmithing_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Lightweight_blacksmithing.png/22px-Lightweight_blacksmithing.png?b3433f"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-fairy": {
+    "id": "cooking-fairy",
+    "name": "Fairy",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_fairy.png?ff064e",
+    "effect": "Revive once upon fainting",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Fairy Syrup",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fairy_Syrup",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fairy_Syrup.png/30px-Fairy_Syrup.png?abdf84"
+      }
+    ],
+    "requirement": {
+      "name": "Fairy Cooking",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fairy_cooking.png/22px-Fairy_cooking.png?768e59"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-restorative": {
+    "id": "cooking-restorative",
+    "name": "Restorative",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_restorative.png?4fce51",
+    "effect": "(Health) & (Stamina) regen",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Restorative Syrup",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Restorative_Syrup",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Restorative_Syrup.png/30px-Restorative_Syrup.png?fbb712"
+      }
+    ],
+    "requirement": {
+      "name": "Restorative Cooking",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Restorative_cooking.png/22px-Restorative_cooking.png?9fda36"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-speedy": {
+    "id": "cooking-speedy",
+    "name": "Speedy",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_speedy.png?1340b3",
+    "effect": "Movement speed boost",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Speedy Syrup",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Speedy_Syrup",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Speedy_Syrup.png/30px-Speedy_Syrup.png?cf3d2b"
+      },
+      {
+        "name": "Coffee",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coffee",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Coffee.png/30px-Coffee.png?fb0310"
+      },
+      {
+        "name": "Espresso",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Espresso",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Espresso.png/30px-Espresso.png?b1c019"
+      },
+      {
+        "name": "Mocha",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mocha",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Mocha.png/30px-Mocha.png?402536"
+      },
+      {
+        "name": "Latte",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Latte",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Latte.png/30px-Latte.png?edfa7f"
+      }
+    ],
+    "requirement": {
+      "name": "Speedy Cooking",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Speedy_cooking.png/22px-Speedy_cooking.png?944fb0"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-likeable": {
+    "id": "cooking-likeable",
+    "name": "Likeable",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_likeable.png?d6c615",
+    "effect": "Treated as a liked gift",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Floral Tea",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Floral_Tea",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Floral_tea.png/30px-Floral_tea.png?564298"
+      },
+      {
+        "name": "Tulip Cake",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Tulip_Cake",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Tulip_cake.png/30px-Tulip_cake.png?6e0f25"
+      },
+      {
+        "name": "Chicky Hot Chocolate",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Chicky_Hot_Chocolate",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Chicky_hot_chocolate.png/30px-Chicky_hot_chocolate.png?d6aff4"
+      }
+    ],
+    "requirement": {
+      "name": "Likable Cooking",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Likable_cooking.png/22px-Likable_cooking.png?82ef2d"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-lovable": {
+    "id": "cooking-lovable",
+    "name": "Lovable",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_lovable.png?cf6985",
+    "effect": "Treated as a loved gift",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Scent of Spring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Scent_of_Spring",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Scent_of_spring.png/30px-Scent_of_spring.png?bb7bc1"
+      },
+      {
+        "name": "Cow-Shaped Donut",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cow-Shaped_Donut",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Cow-shaped_donut.png/30px-Cow-shaped_donut.png?5f8ef6"
+      }
+    ],
+    "requirement": {
+      "name": "Lovable Cooking",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Lovable_cooking.png/22px-Lovable_cooking.png?73340f"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "cooking-magical": {
+    "id": "cooking-magical",
+    "name": "Magical",
+    "category": "Cooking",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_cook_magical.png?a0891f",
+    "effect": "Restores one mana orb on consumption",
+    "validItems": {
+      "name": "Cooked Dishes",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_almanac_cooked_dishes.png/24px-Fp_wiki_almanac_cooked_dishes.png?b96389"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Magical Meals",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Cooking_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Magical_meals.png/22px-Magical_meals.png?d08687"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "woodcrafting-quality": {
+    "id": "woodcrafting-quality",
+    "name": "Quality",
+    "category": "Woodcrafting",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_craft_quality.png?846d7d",
+    "effect": "Items sell for 10% more Tesserae",
+    "validItems": {
+      "name": "Crafted Items",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Woodcrafting",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Skill_icon_woodcrafting.png/24px-Skill_icon_woodcrafting.png?f46e8e"
+    },
+    "preInfusedItems": [],
+    "requirement": {
+      "name": "Quality Crafting",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skills#Woodcrafting_Skill_Perks",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Quality_crafting.png/22px-Quality_crafting.png?fbda3d"
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "other-fire": {
+    "id": "other-fire",
+    "name": "Fire",
+    "category": "Other",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_sword_fire.png?788aef",
+    "effect": "Imbues the player's sword with fire for 6 hours.",
+    "validItems": {
+      "name": "Weapons",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Weapons",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_weapons.png/24px-Fp_wiki_store_weapons.png?62e13c"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Fire Snake Oil",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fire_Snake_Oil",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fire_snake_oil.png/30px-Fire_snake_oil.png?8d8800"
+      }
+    ],
+    "requirement": {
+      "name": "Uncraftable",
+      "href": "",
+      "icon": ""
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "other-ice": {
+    "id": "other-ice",
+    "name": "Ice",
+    "category": "Other",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_sword_ice.png?25030f",
+    "effect": "Imbues the player's sword with ice for 6 hours.",
+    "validItems": {
+      "name": "Weapons",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Weapons",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_weapons.png/24px-Fp_wiki_store_weapons.png?62e13c"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Ice Snake Oil",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Snake_Oil",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Ice_snake_oil.png/30px-Ice_snake_oil.png?c3f4d1"
+      }
+    ],
+    "requirement": {
+      "name": "Uncraftable",
+      "href": "",
+      "icon": ""
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  },
+  "other-venom": {
+    "id": "other-venom",
+    "name": "Venom",
+    "category": "Other",
+    "image": "https://fieldsofmistria.wiki.gg/images/Infusion_icon_sword_venom.png?62becf",
+    "effect": "Imbues the player's sword with venom for 6 hours.",
+    "validItems": {
+      "name": "Weapons",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Weapons",
+      "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Fp_wiki_store_weapons.png/24px-Fp_wiki_store_weapons.png?62e13c"
+    },
+    "preInfusedItems": [
+      {
+        "name": "Poison Snake Oil",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Poison_Snake_Oil",
+        "icon": "https://fieldsofmistria.wiki.gg/images/thumb/Poison_snake_oil.png/30px-Poison_snake_oil.png?93b4fb"
+      }
+    ],
+    "requirement": {
+      "name": "Uncraftable",
+      "href": "",
+      "icon": ""
+    },
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Infusion"
+  }
+}

@@ -1,12 +1,14 @@
 // Local Imports
 import { FestivalsParser } from '../parsers/festivals.parser';
 import { EVENTS_URL } from '../config';
-import { fetchPage } from '../utils/scraper';
+import {
+  fetchAll,
+  fetchPage,
+} from '../utils/scraper';
 
 // Types
 import { Event } from '../models/events';
 import { normalizeStringLength } from '../utils/convert';
-import wait from '../utils/wait';
 import { FestivalPageParser } from '../parsers/festival.parser';
 
 /**
@@ -21,28 +23,17 @@ export class FestivalsService {
   async fetch(): Promise<Event[]> {
     const festivalUrls = await this._getEventUrls();
 
-    const festivalPromises = [];
     let last = 0;
 
-    // const index = 30;
-
-    // for (let i = index; i < index + 10; i += 1) {
-    for (let i = 0; i < festivalUrls.length; i += 1) {
-      const url = festivalUrls[i];
-
+    const result = await fetchAll(festivalUrls, async (url: string, i: number): Promise<Event> => {
       const percent = Math.floor((i / festivalUrls.length) * 10);
       if (percent > last) {
         last = percent;
         console.log(`${normalizeStringLength(`${percent * 10}%`, 4)} | Fetching Festivals`);
       }
 
-      await wait(500);
-
-      // Fetch each festival's data
-      festivalPromises.push(this._getFestival(url));
-    }
-
-    const result = await Promise.all(festivalPromises);
+      return this._getFestival(url);
+    });
 
     console.log(`100% | Done Fetching Festivals`);
 

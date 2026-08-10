@@ -1,0 +1,2509 @@
+{
+  "recipes": {
+    "copper-ingot": {
+      "id": "copper-ingot",
+      "name": "Copper Ingot",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Ingot.png?c040f0",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+      "category": "ingot",
+      "ingredient": {
+        "id": "copper-ore",
+        "name": "Copper Ore",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ore.png/30px-Copper_Ore.png?7589a7",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ore",
+        "quantity": 10,
+        "reduced-quantity": 9,
+        "reduced-by": "Copper Expert"
+      },
+      "crafting-level": 1,
+      "time": 20,
+      "time-reductions": [
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive II"
+        }
+      ]
+    },
+    "iron-ingot": {
+      "id": "iron-ingot",
+      "name": "Iron Ingot",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Ingot.png?8aa269",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+      "category": "ingot",
+      "ingredient": {
+        "id": "iron-ore",
+        "name": "Iron Ore",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ore.png/30px-Iron_Ore.png?4cc6cd",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ore",
+        "quantity": 10,
+        "reduced-quantity": 9,
+        "reduced-by": "Iron Expert"
+      },
+      "crafting-level": 2,
+      "time": 20,
+      "time-reductions": [
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive II"
+        }
+      ]
+    },
+    "silver-ingot": {
+      "id": "silver-ingot",
+      "name": "Silver Ingot",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Ingot.png?7563da",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+      "category": "ingot",
+      "ingredient": {
+        "id": "silver-ore",
+        "name": "Silver Ore",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ore.png/30px-Silver_Ore.png?91357a",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ore",
+        "quantity": 10,
+        "reduced-quantity": 9,
+        "reduced-by": "Silver Expert"
+      },
+      "crafting-level": 4,
+      "time": 20,
+      "time-reductions": [
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive II"
+        }
+      ]
+    },
+    "gold-ingot": {
+      "id": "gold-ingot",
+      "name": "Gold Ingot",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Ingot.png?ad181f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+      "category": "ingot",
+      "ingredient": {
+        "id": "gold-ore",
+        "name": "Gold Ore",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ore.png/30px-Gold_Ore.png?d67c05",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ore",
+        "quantity": 10,
+        "reduced-quantity": 9,
+        "reduced-by": "Gold Expert"
+      },
+      "crafting-level": 6,
+      "time": 20,
+      "time-reductions": [
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive II"
+        }
+      ]
+    },
+    "mistril-ingot": {
+      "id": "mistril-ingot",
+      "name": "Mistril Ingot",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Ingot.png?dfa0fe",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+      "category": "ingot",
+      "ingredient": {
+        "id": "mistril-ore",
+        "name": "Mistril Ore",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ore.png/30px-Mistril_Ore.png?154ff8",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ore",
+        "quantity": 10
+      },
+      "crafting-level": 8,
+      "time": 20,
+      "time-reductions": [
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive II"
+        }
+      ]
+    },
+    "copper-pickaxe": {
+      "id": "copper-pickaxe",
+      "name": "Copper Pickaxe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Pickaxe.png?c71d62",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Pickaxe",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-axe": {
+      "id": "copper-axe",
+      "name": "Copper Axe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Axe.png?d8fd76",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Axe",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-hoe": {
+      "id": "copper-hoe",
+      "name": "Copper Hoe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Hoe.png?77dd44",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Hoe",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-watering-can": {
+      "id": "copper-watering-can",
+      "name": "Copper Watering Can",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Watering_Can.png?12aecf",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Watering_Can",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-fishing-rod": {
+      "id": "copper-fishing-rod",
+      "name": "Copper Fishing Rod",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Fishing_Rod.png?1ecc1e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Fishing_Rod",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-shovel": {
+      "id": "copper-shovel",
+      "name": "Copper Shovel",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Shovel.png?b37b35",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Shovel",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "copper-net": {
+      "id": "copper-net",
+      "name": "Copper Net",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Net.png?8a9d87",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Net",
+      "category": "tool",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 4,
+      "time": 30,
+      "time-reductions": [
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive III"
+        }
+      ]
+    },
+    "iron-pickaxe": {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Pickaxe.png?4f5dae",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Pickaxe",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-axe": {
+      "id": "iron-axe",
+      "name": "Iron Axe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Axe.png?e7d6de",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Axe",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-hoe": {
+      "id": "iron-hoe",
+      "name": "Iron Hoe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Hoe.png?9c4a5f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Hoe",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-watering-can": {
+      "id": "iron-watering-can",
+      "name": "Iron Watering Can",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Watering_Can.png?2da1ad",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Watering_Can",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-fishing-rod": {
+      "id": "iron-fishing-rod",
+      "name": "Iron Fishing Rod",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Fishing_Rod.png?996d06",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Fishing_Rod",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-shovel": {
+      "id": "iron-shovel",
+      "name": "Iron Shovel",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Shovel.png?98833a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Shovel",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "iron-net": {
+      "id": "iron-net",
+      "name": "Iron Net",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Net.png?6c8c67",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Net",
+      "category": "tool",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-pickaxe": {
+      "id": "silver-pickaxe",
+      "name": "Silver Pickaxe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Pickaxe.png?eda4ea",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Pickaxe",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-axe": {
+      "id": "silver-axe",
+      "name": "Silver Axe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Axe.png?3ada29",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Axe",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-hoe": {
+      "id": "silver-hoe",
+      "name": "Silver Hoe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Hoe.png?655bcb",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Hoe",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-watering-can": {
+      "id": "silver-watering-can",
+      "name": "Silver Watering Can",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Watering_Can.png?337902",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Watering_Can",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-fishing-rod": {
+      "id": "silver-fishing-rod",
+      "name": "Silver Fishing Rod",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Fishing_Rod.png?b55b77",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Fishing_Rod",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-shovel": {
+      "id": "silver-shovel",
+      "name": "Silver Shovel",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Shovel.png?b65c97",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Shovel",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "silver-net": {
+      "id": "silver-net",
+      "name": "Silver Net",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Net.png?23a446",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Net",
+      "category": "tool",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 16,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-pickaxe": {
+      "id": "gold-pickaxe",
+      "name": "Gold Pickaxe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Pickaxe.png?e327de",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Pickaxe",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-axe": {
+      "id": "gold-axe",
+      "name": "Gold Axe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Axe.png?86ddaa",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Axe",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-hoe": {
+      "id": "gold-hoe",
+      "name": "Gold Hoe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Hoe.png?84c290",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Hoe",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-watering-can": {
+      "id": "gold-watering-can",
+      "name": "Gold Watering Can",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Watering_Can.png?b1676b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Watering_Can",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-fishing-rod": {
+      "id": "gold-fishing-rod",
+      "name": "Gold Fishing Rod",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Fishing_Rod.png?b51638",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Fishing_Rod",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-shovel": {
+      "id": "gold-shovel",
+      "name": "Gold Shovel",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Shovel.png?feb68b",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Shovel",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "gold-net": {
+      "id": "gold-net",
+      "name": "Gold Net",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Net.png?fe5db9",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Net",
+      "category": "tool",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-pickaxe": {
+      "id": "mistril-pickaxe",
+      "name": "Mistril Pickaxe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Pickaxe.png?744792",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Pickaxe",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-axe": {
+      "id": "mistril-axe",
+      "name": "Mistril Axe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Axe.png?c03814",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Axe",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-hoe": {
+      "id": "mistril-hoe",
+      "name": "Mistril Hoe",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Hoe.png?fc8fcc",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Hoe",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-watering-can": {
+      "id": "mistril-watering-can",
+      "name": "Mistril Watering Can",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Watering_Can.png?fc1171",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Watering_Can",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-fishing-rod": {
+      "id": "mistril-fishing-rod",
+      "name": "Mistril Fishing Rod",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Fishing_Rod.png?76fea5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Fishing_Rod",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-shovel": {
+      "id": "mistril-shovel",
+      "name": "Mistril Shovel",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Shovel.png?89c3b6",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Shovel",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "mistril-net": {
+      "id": "mistril-net",
+      "name": "Mistril Net",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Net.png?b64095",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Net",
+      "category": "tool",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 28,
+      "time": 40,
+      "time-reductions": [
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 0,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ]
+    },
+    "copper-sword": {
+      "id": "copper-sword",
+      "name": "Copper Sword",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Sword.png?29fd5f",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Sword",
+      "category": "sword",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 8,
+      "time": 60,
+      "time-reductions": [
+        {
+          "minutes": 50,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "attack": 8
+    },
+    "iron-sword": {
+      "id": "iron-sword",
+      "name": "Iron Sword",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Sword.png?9a347e",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Sword",
+      "category": "sword",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 14,
+      "time": 60,
+      "time-reductions": [
+        {
+          "minutes": 50,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "attack": 12
+    },
+    "silver-sword": {
+      "id": "silver-sword",
+      "name": "Silver Sword",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Sword.png?332de0",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Sword",
+      "category": "sword",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 20,
+      "time": 60,
+      "time-reductions": [
+        {
+          "minutes": 50,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "attack": 16
+    },
+    "gold-sword": {
+      "id": "gold-sword",
+      "name": "Gold Sword",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_Sword.png?5d7f06",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Sword",
+      "category": "sword",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 26,
+      "time": 60,
+      "time-reductions": [
+        {
+          "minutes": 50,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "attack": 20
+    },
+    "mistril-sword": {
+      "id": "mistril-sword",
+      "name": "Mistril Sword",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Sword.png?ab1978",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Sword",
+      "category": "sword",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 32,
+      "time": 60,
+      "time-reductions": [
+        {
+          "minutes": 50,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "attack": 24
+    },
+    "copper-helmet": {
+      "id": "copper-helmet",
+      "name": "Copper Helmet",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Helmet.png?bd554a",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Helmet",
+      "category": "armor",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 6,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 2
+    },
+    "copper-armor": {
+      "id": "copper-armor",
+      "name": "Copper Armor",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Armor.png?17e8ad",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Armor",
+      "category": "armor",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 6,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 2
+    },
+    "copper-legplates": {
+      "id": "copper-legplates",
+      "name": "Copper Legplates",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Legplates.png?d884c5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Legplates",
+      "category": "armor",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 6,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 2
+    },
+    "copper-greaves": {
+      "id": "copper-greaves",
+      "name": "Copper Greaves",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Greaves.png?ae447d",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Greaves",
+      "category": "armor",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 6,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 2
+    },
+    "copper-ring": {
+      "id": "copper-ring",
+      "name": "Copper Ring",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_Ring.png?355870",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ring",
+      "category": "armor",
+      "ingredient": {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Copper_Ingot.png/30px-Copper_Ingot.png?c040f0",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 6,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 2
+    },
+    "iron-helmet": {
+      "id": "iron-helmet",
+      "name": "Iron Helmet",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Helmet.png?a2cbf5",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Helmet",
+      "category": "armor",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 12,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 4
+    },
+    "iron-armor": {
+      "id": "iron-armor",
+      "name": "Iron Armor",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Armor.png?8c6e07",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Armor",
+      "category": "armor",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 12,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 4
+    },
+    "iron-legplates": {
+      "id": "iron-legplates",
+      "name": "Iron Legplates",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Legplates.png?1743c1",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Legplates",
+      "category": "armor",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 12,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 4
+    },
+    "iron-greaves": {
+      "id": "iron-greaves",
+      "name": "Iron Greaves",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Greaves.png?545ec1",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Greaves",
+      "category": "armor",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 12,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 4
+    },
+    "iron-ring": {
+      "id": "iron-ring",
+      "name": "Iron Ring",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_Ring.png?5524f4",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ring",
+      "category": "armor",
+      "ingredient": {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Iron_Ingot.png/30px-Iron_Ingot.png?8aa269",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 12,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 4
+    },
+    "silver-helmet": {
+      "id": "silver-helmet",
+      "name": "Silver Helmet",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Helmet.png?c059df",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Helmet",
+      "category": "armor",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 18,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 6
+    },
+    "silver-armor": {
+      "id": "silver-armor",
+      "name": "Silver Armor",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Armor.png?b47c12",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Armor",
+      "category": "armor",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 18,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 6
+    },
+    "silver-legplates": {
+      "id": "silver-legplates",
+      "name": "Silver Legplates",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Legplates.png?c59c77",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Legplates",
+      "category": "armor",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 18,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 6
+    },
+    "silver-greaves": {
+      "id": "silver-greaves",
+      "name": "Silver Greaves",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Greaves.png?268928",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Greaves",
+      "category": "armor",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 18,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 6
+    },
+    "silver-ring": {
+      "id": "silver-ring",
+      "name": "Silver Ring",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_Ring.png?a1d8e4",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ring",
+      "category": "armor",
+      "ingredient": {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Silver_Ingot.png/30px-Silver_Ingot.png?7563da",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 18,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 6
+    },
+    "gold-helmet": {
+      "id": "gold-helmet",
+      "name": "Gold Helmet",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_helmet.png?8ec031",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Helmet",
+      "category": "armor",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 24,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 8
+    },
+    "gold-armor": {
+      "id": "gold-armor",
+      "name": "Gold Armor",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_armor.png?8364a2",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Armor",
+      "category": "armor",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 24,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 8
+    },
+    "gold-legplates": {
+      "id": "gold-legplates",
+      "name": "Gold Legplates",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_legplates.png?e84865",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Legplates",
+      "category": "armor",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 24,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 8
+    },
+    "gold-greaves": {
+      "id": "gold-greaves",
+      "name": "Gold Greaves",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_greaves.png?34e614",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Greaves",
+      "category": "armor",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 24,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 8
+    },
+    "gold-ring": {
+      "id": "gold-ring",
+      "name": "Gold Ring",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_ring.png?eff407",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ring",
+      "category": "armor",
+      "ingredient": {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Gold_Ingot.png/30px-Gold_Ingot.png?ad181f",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 24,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 8
+    },
+    "mistril-helmet": {
+      "id": "mistril-helmet",
+      "name": "Mistril Helmet",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_helmet.png?bb7c43",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Helmet",
+      "category": "armor",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 30,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 10
+    },
+    "mistril-armor": {
+      "id": "mistril-armor",
+      "name": "Mistril Armor",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_armor.png?aa6449",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Armor",
+      "category": "armor",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 30,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 10
+    },
+    "mistril-legplates": {
+      "id": "mistril-legplates",
+      "name": "Mistril Legplates",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_legplates.png?cda236",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Legplates",
+      "category": "armor",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 30,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 10
+    },
+    "mistril-greaves": {
+      "id": "mistril-greaves",
+      "name": "Mistril Greaves",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_greaves.png?7e6d37",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Greaves",
+      "category": "armor",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 30,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 10
+    },
+    "mistril-ring": {
+      "id": "mistril-ring",
+      "name": "Mistril Ring",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_ring.png?651977",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ring",
+      "category": "armor",
+      "ingredient": {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "image": "https://fieldsofmistria.wiki.gg/images/thumb/Mistril_Ingot.png/30px-Mistril_Ingot.png?dfa0fe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot",
+        "quantity": 4
+      },
+      "crafting-level": 30,
+      "time": 50,
+      "time-reductions": [
+        {
+          "minutes": 40,
+          "reduced-by": "Time Sensitive I"
+        },
+        {
+          "minutes": 30,
+          "reduced-by": "Time Sensitive II"
+        },
+        {
+          "minutes": 20,
+          "reduced-by": "Time Sensitive III"
+        },
+        {
+          "minutes": 10,
+          "reduced-by": "Time Sensitive IV"
+        }
+      ],
+      "defense": 10
+    }
+  },
+  "skill-perks": {
+    "copper-expert": {
+      "id": "copper-expert",
+      "name": "Copper Expert",
+      "description": "The amount of Copper Ore required to craft Copper Ingots will be reduced by 1.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Copper_expert.png?4aeeb7",
+      "tier": 1,
+      "level": 1,
+      "cost": 15
+    },
+    "time-sensitive-i": {
+      "id": "time-sensitive-i",
+      "name": "Time Sensitive I",
+      "description": "The Craft Time for all blacksmithing recipes will be reduced by 10 minutes.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Time_sensitive_i.png?b5fafc",
+      "tier": 1,
+      "level": 1,
+      "cost": 10
+    },
+    "sharp-blacksmithing": {
+      "id": "sharp-blacksmithing",
+      "name": "Sharp Blacksmithing",
+      "description": "Crafting a Weapon will occasionally result in a bonus Sharp Infusion, which grants it an additional +1 Attack Power.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sharp_blacksmithing.png?8b7835",
+      "tier": 1,
+      "level": 1,
+      "cost": 20
+    },
+    "fortified-blacksmithing": {
+      "id": "fortified-blacksmithing",
+      "name": "Fortified Blacksmithing",
+      "description": "Crafting Armor will occasionally result in a bonus Fortified Infusion, which grants you an additional +4 HP when worn.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Fortified_blacksmithing.png?8a2e19",
+      "tier": 1,
+      "level": 1,
+      "cost": 20
+    },
+    "iron-expert": {
+      "id": "iron-expert",
+      "name": "Iron Expert",
+      "description": "The amount of Iron Ore required to craft Iron Ingots will be reduced by 1.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Iron_expert.png?82d90b",
+      "tier": 2,
+      "level": 15,
+      "cost": 50
+    },
+    "time-sensitive-ii": {
+      "id": "time-sensitive-ii",
+      "name": "Time Sensitive II",
+      "description": "The Craft Time for all blacksmithing recipes will reduce by an additional 10 minutes, bringing the total reduction to 20 minutes.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Time_sensitive_ii.png?e16e19",
+      "tier": 2,
+      "level": 15,
+      "cost": 50
+    },
+    "leech-blacksmithing": {
+      "id": "leech-blacksmithing",
+      "name": "Leech Blacksmithing",
+      "description": "Crafting a Weapon will occasionally result in a bonus Leech Infusion, which restores 1 HP each time it's used to attack a Monster.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Leech_blacksmithing.png?1a0da7",
+      "tier": 2,
+      "level": 15,
+      "cost": 45
+    },
+    "lightweight-blacksmithing": {
+      "id": "lightweight-blacksmithing",
+      "name": "Lightweight Blacksmithing",
+      "description": "Crafting a Tool will occasionally result in a bonus Lightweight Infusion, occasionally dropping Stamina orbs on use.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Lightweight_blacksmithing.png?b3433f",
+      "tier": 2,
+      "level": 15,
+      "cost": 45
+    },
+    "empowered-i": {
+      "id": "empowered-i",
+      "name": "Empowered I",
+      "description": "Crafting a Tool, Weapon, or Armor will be more likely to result in an available Infused version.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Empowered_i.png?d26c27",
+      "tier": 3,
+      "level": 30,
+      "cost": 65
+    },
+    "hasty-blacksmithing": {
+      "id": "hasty-blacksmithing",
+      "name": "Hasty Blacksmithing",
+      "description": "Crafting Armor will occasionally result in a bonus Hasty Infusion, which grants you an additional 4% Speed Boost when worn.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Hasty_blacksmithing.png?944fb0",
+      "tier": 3,
+      "level": 30,
+      "cost": 75
+    },
+    "silver-expert": {
+      "id": "silver-expert",
+      "name": "Silver Expert",
+      "description": "The amount of Silver Ore required to craft Silver Ingots will be reduced by 1.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Silver_expert.png?1f8292",
+      "tier": 3,
+      "level": 30,
+      "cost": 75
+    },
+    "time-sensitive-iii": {
+      "id": "time-sensitive-iii",
+      "name": "Time Sensitive III",
+      "description": "The Craft Time for all blacksmithing recipes will reduce by another 10 minutes, bringing the total reduction to 30 minutes.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Time_sensitive_iii.png?3c1103",
+      "tier": 3,
+      "level": 30,
+      "cost": 50
+    },
+    "empowered-ii": {
+      "id": "empowered-ii",
+      "name": "Empowered II",
+      "description": "Crafting a Tool, Weapon, or Armor will be a bit more likely to result in an available Infused version than before.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Empowered_ii.png?f275f5",
+      "tier": 4,
+      "level": 45,
+      "cost": 155
+    },
+    "gold-expert": {
+      "id": "gold-expert",
+      "name": "Gold Expert",
+      "description": "The amount of Gold Ore required to craft Gold Ingots will be reduced by 1.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Gold_expert.png?f93dc1",
+      "tier": 4,
+      "level": 45,
+      "cost": 150
+    },
+    "tireless-blacksmithing": {
+      "id": "tireless-blacksmithing",
+      "name": "Tireless Blacksmithing",
+      "description": "Crafting Armor will occasionally result in a bonus Tireless Infusion, which grants you an additional +4 Stamina when worn.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Tireless_blacksmithing.png?c98132",
+      "tier": 4,
+      "level": 45,
+      "cost": 155
+    },
+    "time-sensitive-iv": {
+      "id": "time-sensitive-iv",
+      "name": "Time Sensitive IV",
+      "description": "The Craft Time for all blacksmithing recipes will reduce by yet another 10 minutes, bringing the total reduction to 40 minutes.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Time_sensitive_iv.png?b995be",
+      "tier": 4,
+      "level": 45,
+      "cost": 150
+    },
+    "mistril-expert": {
+      "id": "mistril-expert",
+      "name": "Mistril Expert",
+      "description": "The amount of Mistril Ore required to craft Mistril Ingots will be reduced by 1.",
+      "image": "https://fieldsofmistria.wiki.gg/images/Mistril_expert.png?7ea79e",
+      "tier": 5,
+      "level": 60,
+      "cost": 205
+    }
+  }
+}

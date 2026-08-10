@@ -154,3 +154,8 @@ export const INFUSIONS_URL = 'https://fieldsofmistria.wiki.gg/wiki/Infusion';
  * URL for the locations page.
  */
 export const LOCATIONS_URL = 'https://fieldsofmistria.wiki.gg/wiki/Category:Location';
+
+/**
+ * URL for the blacksmithing page.
+ */
+export const BLACKSMITHING_URL = 'https://fieldsofmistria.wiki.gg/wiki/Blacksmithing';

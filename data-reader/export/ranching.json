@@ -1,0 +1,1752 @@
+{
+  "products": {
+    "chicken-egg": {
+      "id": "chicken-egg",
+      "name": "Chicken Egg",
+      "category": "egg",
+      "animalId": "chicken",
+      "gender": "Female",
+      "qualities": [
+        {
+          "id": "chicken-egg",
+          "name": "Chicken Egg",
+          "tier": "normal",
+          "description": "An egg laid by a hen. Used as an ingredient for cooking many kinds of dishes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Egg.png/50px-Egg.png?c1189b",
+          "sell": 20,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Egg"
+        },
+        {
+          "id": "golden-egg",
+          "name": "Golden Egg",
+          "tier": "gold",
+          "description": "A gold quality egg laid by a hen. Used in high level cooking and crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_egg.png/50px-Golden_egg.png?f0942b",
+          "sell": 60,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Egg"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Egg"
+    },
+    "duck-egg": {
+      "id": "duck-egg",
+      "name": "Duck Egg",
+      "category": "egg",
+      "animalId": "duck",
+      "gender": "Female",
+      "qualities": [
+        {
+          "id": "duck-egg",
+          "name": "Duck Egg",
+          "tier": "normal",
+          "description": "An egg laid by a duck. Used as an ingredient for cooking a variety of dishes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Duck_egg.png/50px-Duck_egg.png?98b819",
+          "sell": 30,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Egg"
+        },
+        {
+          "id": "golden-duck-egg",
+          "name": "Golden Duck Egg",
+          "tier": "gold",
+          "description": "A gold quality egg laid by a duck. Used in high level cooking and crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_duck_egg.png/50px-Golden_duck_egg.png?255569",
+          "sell": 90,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Duck_Egg"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Egg"
+    },
+    "milk": {
+      "id": "milk",
+      "name": "Milk",
+      "category": "milk",
+      "animalId": "cow",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "milk",
+          "name": "Milk",
+          "tier": "normal",
+          "description": "Fresh milk from a cow. Used in a variety of cooking recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Milk.png/50px-Milk.png?e70976",
+          "sell": 40,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Milk"
+        },
+        {
+          "id": "golden-milk",
+          "name": "Golden Milk",
+          "tier": "gold",
+          "description": "Gold quality milk from a cow. Used in high level cooking recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_milk.png/50px-Golden_milk.png?ecb922",
+          "sell": 120,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Milk"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Milk"
+    },
+    "rooster-feather": {
+      "id": "rooster-feather",
+      "name": "Rooster Feather",
+      "category": "fiber",
+      "animalId": "chicken",
+      "gender": "Male",
+      "qualities": [
+        {
+          "id": "rooster-feather",
+          "name": "Rooster Feather",
+          "tier": "normal",
+          "description": "A feather dropped by a rooster. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rooster_feather.png/50px-Rooster_feather.png?45b997",
+          "sell": 60,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Rooster_Feather"
+        },
+        {
+          "id": "golden-rooster-feather",
+          "name": "Golden Rooster Feather",
+          "tier": "gold",
+          "description": "A gold quality feather dropped by a rooster. Used in high level cooking and crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_feather.png/50px-Golden_feather.png?174f02",
+          "sell": 180,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Rooster_Feather"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rooster_Feather"
+    },
+    "duck-feather": {
+      "id": "duck-feather",
+      "name": "Duck Feather",
+      "category": "fiber",
+      "animalId": "duck",
+      "gender": "Male",
+      "qualities": [
+        {
+          "id": "duck-feather",
+          "name": "Duck Feather",
+          "tier": "normal",
+          "description": "A soft feather dropped by a drake. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Duck_feather.png/50px-Duck_feather.png?c9c161",
+          "sell": 90,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Feather"
+        },
+        {
+          "id": "golden-duck-feather",
+          "name": "Golden Duck Feather",
+          "tier": "gold",
+          "description": "A gold quality feather dropped by a rooster. Used in high level cooking and crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_duck_feather.png/50px-Golden_duck_feather.png?5d37be",
+          "sell": 270,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Duck_Feather"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Feather"
+    },
+    "horse-hair": {
+      "id": "horse-hair",
+      "name": "Horse Hair",
+      "category": "fiber",
+      "animalId": "horse",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "horse-hair",
+          "name": "Horse Hair",
+          "tier": "normal",
+          "description": "Hair fiber dropped by a horse. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Horse_hair.png/50px-Horse_hair.png?a1b7f2",
+          "sell": 130,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Hair"
+        },
+        {
+          "id": "golden-horse-hair",
+          "name": "Golden Horse Hair",
+          "tier": "gold",
+          "description": "Gold quality hair fiber dropped by a horse. Used in high level crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_horse_hair.png/50px-Golden_horse_hair.png?26d735",
+          "sell": 390,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Horse_Hair"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Hair"
+    },
+    "sheep-wool": {
+      "id": "sheep-wool",
+      "name": "Sheep Wool",
+      "category": "fiber",
+      "animalId": "sheep",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "sheep-wool",
+          "name": "Sheep Wool",
+          "tier": "normal",
+          "description": "Thick and cozy wool from a sheep. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Sheep_wool.png/50px-Sheep_wool.png?cb6f14",
+          "sell": 120,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Wool"
+        },
+        {
+          "id": "golden-sheep-wool",
+          "name": "Golden Sheep Wool",
+          "tier": "gold",
+          "description": "Gold quality wool from a sheep. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_sheep_wool.png/50px-Golden_sheep_wool.png?6c660b",
+          "sell": 360,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Sheep_Wool"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Wool"
+    },
+    "rabbit-wool": {
+      "id": "rabbit-wool",
+      "name": "Rabbit Wool",
+      "category": "fiber",
+      "animalId": "rabbit",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "rabbit-wool",
+          "name": "Rabbit Wool",
+          "tier": "normal",
+          "description": "Fluffy, soft wool from a rabbit. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Rabbit_wool.png/50px-Rabbit_wool.png?4d58d9",
+          "sell": 90,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Wool"
+        },
+        {
+          "id": "golden-rabbit-wool",
+          "name": "Golden Rabbit Wool",
+          "tier": "gold",
+          "description": "Gold quality wool from a rabbit. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_rabbit_wool.png/50px-Golden_rabbit_wool.png?993ddc",
+          "sell": 270,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Rabbit_Wool"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Wool"
+    },
+    "alpaca-wool": {
+      "id": "alpaca-wool",
+      "name": "Alpaca Wool",
+      "category": "fiber",
+      "animalId": "alpaca",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "alpaca-wool",
+          "name": "Alpaca Wool",
+          "tier": "normal",
+          "description": "Soft, silky wool from an alpaca. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Alpaca_wool.png/50px-Alpaca_wool.png?f3c0fa",
+          "sell": 130,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Wool"
+        },
+        {
+          "id": "golden-alpaca-wool",
+          "name": "Golden Alpaca Wool",
+          "tier": "gold",
+          "description": "Gold quality wool from an alpaca. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_alpaca_wool.png/50px-Golden_alpaca_wool.png?58b0bd",
+          "sell": 390,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Alpaca_Wool"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Wool"
+    },
+    "bristle": {
+      "id": "bristle",
+      "name": "Bristle",
+      "category": "fiber",
+      "animalId": "capybara",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "bristle",
+          "name": "Bristle",
+          "tier": "normal",
+          "description": "Stiff hairs dropped from the coat of a capybara. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Bristle.png/50px-Bristle.png?f647a0",
+          "sell": 120,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Bristle"
+        },
+        {
+          "id": "golden-bristle",
+          "name": "Golden Bristle",
+          "tier": "gold",
+          "description": "Gold quality hairs dropped from the coat of a capybara. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_bristle.png/50px-Golden_bristle.png?ecda48",
+          "sell": 360,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Bristle"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Bristle"
+    },
+    "bull-horn": {
+      "id": "bull-horn",
+      "name": "Bull Horn",
+      "category": "other",
+      "animalId": "cow",
+      "gender": "Male",
+      "qualities": [
+        {
+          "id": "bull-horn",
+          "name": "Bull Horn",
+          "tier": "normal",
+          "description": "A horn dropped by a bull. Used in a variety of crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Bull_horn.png/50px-Bull_horn.png?ae181d",
+          "sell": 120,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Bull_Horn"
+        },
+        {
+          "id": "golden-bull-horn",
+          "name": "Golden Bull Horn",
+          "tier": "gold",
+          "description": "A gold quality horn dropped by a bull. Used in high level crafting recipes.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Golden_bull_horn.png/50px-Golden_bull_horn.png?4b444a",
+          "sell": 360,
+          "min-hearts": 8,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Bull_Horn"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Bull_Horn"
+    },
+    "shiny-bead": {
+      "id": "shiny-bead",
+      "name": "Shiny Bead",
+      "category": "other",
+      "gender": "Any",
+      "qualities": [
+        {
+          "id": "shiny-bead",
+          "name": "Shiny Bead",
+          "tier": "normal",
+          "description": "A shiny bead gifted to you by an animal as thanks for your kindness. Surely these treasured beads have some mysterious purpose.",
+          "image": "https://fieldsofmistria.wiki.gg/images/thumb/Shiny_bead.png/50px-Shiny_bead.png?c1a750",
+          "sell": 1,
+          "min-hearts": 0,
+          "href": "https://fieldsofmistria.wiki.gg/wiki/Shiny_Bead"
+        }
+      ],
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Shiny_Bead"
+    }
+  },
+  "cosmetics": {
+    "alpaca-beaded-necklace": {
+      "id": "alpaca-beaded-necklace",
+      "name": "Alpaca Beaded Necklace",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_beaded_necklace.png?c379a2",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Beaded_Necklace"
+    },
+    "alpaca-beret": {
+      "id": "alpaca-beret",
+      "name": "Alpaca Beret",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_beret.png?2455dd",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Beret"
+    },
+    "alpaca-bowtie": {
+      "id": "alpaca-bowtie",
+      "name": "Alpaca Bowtie",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_bowtie.png?d7c8e5",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Bowtie"
+    },
+    "alpaca-lacy-collar": {
+      "id": "alpaca-lacy-collar",
+      "name": "Alpaca Lacy Collar",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_lacy_collar.png?c39f4e",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Lacy_Collar"
+    },
+    "alpaca-flower-crown": {
+      "id": "alpaca-flower-crown",
+      "name": "Alpaca Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_flower_crown.png?c455dc",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Flower_Crown"
+    },
+    "alpaca-gold-pendant": {
+      "id": "alpaca-gold-pendant",
+      "name": "Alpaca Gold Pendant",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_gold_pendant.png?b8c896",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Gold_Pendant"
+    },
+    "alpaca-horns": {
+      "id": "alpaca-horns",
+      "name": "Alpaca Horns",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_horns.png?3a6e7c",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Horns"
+    },
+    "alpaca-scarf": {
+      "id": "alpaca-scarf",
+      "name": "Alpaca Scarf",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_scarf.png?94ca12",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Scarf"
+    },
+    "alpaca-spiked-collar": {
+      "id": "alpaca-spiked-collar",
+      "name": "Alpaca Spiked Collar",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_spiked_collar.png?37f130",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Spiked_Collar"
+    },
+    "alpaca-sunglasses": {
+      "id": "alpaca-sunglasses",
+      "name": "Alpaca Sunglasses",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_sunglasses.png?aba166",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Sunglasses"
+    },
+    "alpaca-winter-hat": {
+      "id": "alpaca-winter-hat",
+      "name": "Alpaca Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_winter_hat.png?afa13b",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Alpaca_Winter_Hat"
+    },
+    "blue-alpaca-ribbon": {
+      "id": "blue-alpaca-ribbon",
+      "name": "Blue Alpaca Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_ribbon_blue.png?af37d4",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Alpaca_Ribbon"
+    },
+    "red-alpaca-ribbon": {
+      "id": "red-alpaca-ribbon",
+      "name": "Red Alpaca Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_ribbon_red.png?d02416",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Alpaca_Ribbon"
+    },
+    "white-alpaca-ribbon": {
+      "id": "white-alpaca-ribbon",
+      "name": "White Alpaca Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Alpaca_ribbon_white.png?bbae88",
+      "type": "alpaca",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Alpaca_Ribbon"
+    },
+    "capybara-angel-wings": {
+      "id": "capybara-angel-wings",
+      "name": "Capybara Angel Wings",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_angel_wings.png?ed5445",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Angel_Wings"
+    },
+    "capybara-baseball-cap": {
+      "id": "capybara-baseball-cap",
+      "name": "Capybara Baseball Cap",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_baseball_cap.png?c772eb",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Baseball_Cap"
+    },
+    "capybara-bat-wings": {
+      "id": "capybara-bat-wings",
+      "name": "Capybara Bat Wings",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_bat_wings.png?515348",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Bat_Wings"
+    },
+    "capybara-bow": {
+      "id": "capybara-bow",
+      "name": "Capybara Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_bow.png?ccd247",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Bow"
+    },
+    "capybara-bowler-hat": {
+      "id": "capybara-bowler-hat",
+      "name": "Capybara Bowler Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_bowler_hat.png?44fff1",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Bowler_Hat"
+    },
+    "capybara-flower-crown": {
+      "id": "capybara-flower-crown",
+      "name": "Capybara Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_flower_crown.png?819769",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Flower_Crown"
+    },
+    "capybara-horns": {
+      "id": "capybara-horns",
+      "name": "Capybara Horns",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_horns.png?c11f98",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Horns"
+    },
+    "capybara-leaf-hat": {
+      "id": "capybara-leaf-hat",
+      "name": "Capybara Leaf Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_leaf.png?ff84d0",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Leaf_Hat"
+    },
+    "capybara-umbrella-hat": {
+      "id": "capybara-umbrella-hat",
+      "name": "Capybara Umbrella Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_umbrella_hat.png?edc0d4",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Umbrella_Hat"
+    },
+    "capybara-winter-hat": {
+      "id": "capybara-winter-hat",
+      "name": "Capybara Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_winter_hat.png?fc5d75",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Winter_Hat"
+    },
+    "capybara-yuzu-hat": {
+      "id": "capybara-yuzu-hat",
+      "name": "Capybara Yuzu Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_yuzu.png?c2bf25",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Capybara_Yuzu_Hat"
+    },
+    "blue-capybara-ribbon": {
+      "id": "blue-capybara-ribbon",
+      "name": "Blue Capybara Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_ribbon_blue.png?16b4b4",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Capybara_Ribbon"
+    },
+    "red-capybara-ribbon": {
+      "id": "red-capybara-ribbon",
+      "name": "Red Capybara Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_ribbon_red.png?cdd07c",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Capybara_Ribbon"
+    },
+    "white-capybara-ribbon": {
+      "id": "white-capybara-ribbon",
+      "name": "White Capybara Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Capybara_ribbon_white.png?b2ca59",
+      "type": "capybara",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Capybara_Ribbon"
+    },
+    "chicken-apple-hat": {
+      "id": "chicken-apple-hat",
+      "name": "Chicken Apple Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_apple_hat.png?32018e",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Apple_Hat"
+    },
+    "chicken-baseball-cap": {
+      "id": "chicken-baseball-cap",
+      "name": "Chicken Baseball Cap",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_baseball_cap.png?2daef6",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Baseball_Cap"
+    },
+    "chicken-business-tie": {
+      "id": "chicken-business-tie",
+      "name": "Chicken Business Tie",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_business_tie.png?3c95bf",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Business_Tie"
+    },
+    "chicken-ear-muffs": {
+      "id": "chicken-ear-muffs",
+      "name": "Chicken Ear Muffs",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_ear_muffs.png?902bd4",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Ear_Muffs"
+    },
+    "chicken-egg-hat": {
+      "id": "chicken-egg-hat",
+      "name": "Chicken Egg Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_egg_hat.png?54d720",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Story Quest \"Restocking Mistria's Food Reserves 2\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Egg_Hat"
+    },
+    "chicken-flower-crown": {
+      "id": "chicken-flower-crown",
+      "name": "Chicken Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_flower_crown.png?140857",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Flower_Crown"
+    },
+    "chicken-pearl-necklace": {
+      "id": "chicken-pearl-necklace",
+      "name": "Chicken Pearl Necklace",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_pearl_necklace.png?a0b38e",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Pearl_Necklace"
+    },
+    "chicken-sunglasses": {
+      "id": "chicken-sunglasses",
+      "name": "Chicken Sunglasses",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_sunglasses.png?82d40f",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Sunglasses"
+    },
+    "chicken-top-hat": {
+      "id": "chicken-top-hat",
+      "name": "Chicken Top Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_top_hat.png?99c6cc",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Top_Hat"
+    },
+    "chicken-winter-hat": {
+      "id": "chicken-winter-hat",
+      "name": "Chicken Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_winter_hat.png?8ef200",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Chicken_Winter_Hat"
+    },
+    "red-chicken-eyes": {
+      "id": "red-chicken-eyes",
+      "name": "Red Chicken Eyes",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_red_eyes.png?8dcbe1",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Chicken_Eyes"
+    },
+    "yellow-chicken-bow": {
+      "id": "yellow-chicken-bow",
+      "name": "Yellow Chicken Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Yellow_chicken_bow.png?dbe962",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Yellow_Chicken_Bow"
+    },
+    "blue-chicken-ribbon": {
+      "id": "blue-chicken-ribbon",
+      "name": "Blue Chicken Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_ribbon_blue.png?fa1c16",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Chicken_Ribbon"
+    },
+    "red-chicken-ribbon": {
+      "id": "red-chicken-ribbon",
+      "name": "Red Chicken Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_ribbon_red.png?a96637",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Chicken_Ribbon"
+    },
+    "white-chicken-ribbon": {
+      "id": "white-chicken-ribbon",
+      "name": "White Chicken Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Chicken_ribbon_white.png?f6a99b",
+      "type": "chicken",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Chicken_Ribbon"
+    },
+    "cow-antlers": {
+      "id": "cow-antlers",
+      "name": "Cow Antlers",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_antlers.png?d90bf5",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Antlers"
+    },
+    "cow-beret": {
+      "id": "cow-beret",
+      "name": "Cow Beret",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_beret.png?ca3232",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Beret"
+    },
+    "cow-bell-collar": {
+      "id": "cow-bell-collar",
+      "name": "Cow Bell Collar",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_bell_collar.png?fcf15a",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Bell_Collar"
+    },
+    "cow-cheese-hat": {
+      "id": "cow-cheese-hat",
+      "name": "Cow Cheese Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_cheese_hat.png?d07522",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Story Quest \"Restocking Mistria's Food Reserves 2\"",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Cheese_Hat"
+    },
+    "cow-cowboy-hat": {
+      "id": "cow-cowboy-hat",
+      "name": "Cow Cowboy Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_cowboy_hat.png?26dc08",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Cowboy_Hat"
+    },
+    "cow-crown": {
+      "id": "cow-crown",
+      "name": "Cow Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_crown.png?c0d808",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Crown"
+    },
+    "cow-flower-crown": {
+      "id": "cow-flower-crown",
+      "name": "Cow Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_flower_crown.png?529058",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Flower_Crown"
+    },
+    "cow-halo": {
+      "id": "cow-halo",
+      "name": "Cow Halo",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_halo.png?353178",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Halo"
+    },
+    "cow-horns": {
+      "id": "cow-horns",
+      "name": "Cow Horns",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_horns.png?c20a85",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Horns"
+    },
+    "cow-laurels": {
+      "id": "cow-laurels",
+      "name": "Cow Laurels",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_laurels.png?6a6272",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Laurels"
+    },
+    "cow-sun-hat": {
+      "id": "cow-sun-hat",
+      "name": "Cow Sun Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_sun_hat.png?2cdb70",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Cow_Sun_Hat"
+    },
+    "pink-cow-bow": {
+      "id": "pink-cow-bow",
+      "name": "Pink Cow Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pink_cow_bow.png?81daad",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Cow_Bow"
+    },
+    "pink-cow-sunglasses": {
+      "id": "pink-cow-sunglasses",
+      "name": "Pink Cow Sunglasses",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pink_cow_sunglasses.png?bad529",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Cow_Sunglasses"
+    },
+    "blue-cow-ribbon": {
+      "id": "blue-cow-ribbon",
+      "name": "Blue Cow Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_ribbon_blue.png?af37d4",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Cow_Ribbon"
+    },
+    "red-cow-ribbon": {
+      "id": "red-cow-ribbon",
+      "name": "Red Cow Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_ribbon_red.png?d02416",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Cow_Ribbon"
+    },
+    "white-cow-ribbon": {
+      "id": "white-cow-ribbon",
+      "name": "White Cow Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Cow_ribbon_white.png?bbae88",
+      "type": "cow",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Cow_Ribbon"
+    },
+    "duck-backwards-cap": {
+      "id": "duck-backwards-cap",
+      "name": "Duck Backwards Cap",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_backwards_cap.png?9e4271",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Backwards_Cap"
+    },
+    "black-duck-bowtie": {
+      "id": "black-duck-bowtie",
+      "name": "Black Duck Bowtie",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_black_bowtie.png?92e898",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Black_Duck_Bowtie"
+    },
+    "duck-bonnet": {
+      "id": "duck-bonnet",
+      "name": "Duck Bonnet",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_bonnet.png?473755",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Bonnet"
+    },
+    "duck-flower-crown": {
+      "id": "duck-flower-crown",
+      "name": "Duck Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_flower_crown.png?cd9b6d",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Flower_Crown"
+    },
+    "duck-ruffled-collar": {
+      "id": "duck-ruffled-collar",
+      "name": "Duck Ruffled Collar",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_ruffled_collar.png?ab7dae",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Ruffled_Collar"
+    },
+    "duck-strawberry-hat": {
+      "id": "duck-strawberry-hat",
+      "name": "Duck Strawberry Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_strawberry_hat.png?ca3439",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Strawberry_Hat"
+    },
+    "duck-sunglasses": {
+      "id": "duck-sunglasses",
+      "name": "Duck Sunglasses",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_sunglasses.png?e0f193",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Sunglasses"
+    },
+    "duck-sun-hat": {
+      "id": "duck-sun-hat",
+      "name": "Duck Sun Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_sun_hat.png?4dfa3a",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Sun_Hat"
+    },
+    "duck-winter-hat": {
+      "id": "duck-winter-hat",
+      "name": "Duck Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_winter_hat.png?f7f1f2",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Duck_Winter_Hat"
+    },
+    "pink-duck-bow": {
+      "id": "pink-duck-bow",
+      "name": "Pink Duck Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_pink_bow.png?9a105d",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Duck_Bow"
+    },
+    "red-duck-eyes": {
+      "id": "red-duck-eyes",
+      "name": "Red Duck Eyes",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_red_eyes.png?5f78cf",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Duck_Eyes"
+    },
+    "blue-duck-ribbon": {
+      "id": "blue-duck-ribbon",
+      "name": "Blue Duck Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_ribbon_blue.png?fa1c16",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Duck_Ribbon"
+    },
+    "red-duck-ribbon": {
+      "id": "red-duck-ribbon",
+      "name": "Red Duck Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_ribbon_red.png?a96637",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Duck_Ribbon"
+    },
+    "white-duck-ribbon": {
+      "id": "white-duck-ribbon",
+      "name": "White Duck Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Duck_ribbon_white.png?f6a99b",
+      "type": "duck",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Duck_Ribbon"
+    },
+    "horse-antlers": {
+      "id": "horse-antlers",
+      "name": "Horse Antlers",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_antlers.png?91c62a",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Antlers"
+    },
+    "horse-bandana": {
+      "id": "horse-bandana",
+      "name": "Horse Bandana",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_bandana.png?ce6d3a",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Bandana"
+    },
+    "horse-cowboy-hat": {
+      "id": "horse-cowboy-hat",
+      "name": "Horse Cowboy Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_cowboy_hat.png?a08b10",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Cowboy_Hat"
+    },
+    "horse-crown": {
+      "id": "horse-crown",
+      "name": "Horse Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_crown.png?df6060",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Crown"
+    },
+    "horse-derby-hat": {
+      "id": "horse-derby-hat",
+      "name": "Horse Derby Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_derby_hat.png?21ad90",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Derby_Hat"
+    },
+    "horse-dark-unicorn-horn": {
+      "id": "horse-dark-unicorn-horn",
+      "name": "Horse Dark Unicorn Horn",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_dark_unicorn_horn.png?1e47b2",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Dark_Unicorn_Horn"
+    },
+    "horse-flower-crown": {
+      "id": "horse-flower-crown",
+      "name": "Horse Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_flower_crown.png?83fb2d",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Flower_Crown"
+    },
+    "horse-monocle": {
+      "id": "horse-monocle",
+      "name": "Horse Monocle",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_monocle.png?aa78f2",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Monocle"
+    },
+    "horse-seashell-clips": {
+      "id": "horse-seashell-clips",
+      "name": "Horse Seashell Clips",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_seashell_clips.png?ecb5d8",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Seashell_Clips"
+    },
+    "horse-unicorn-horn": {
+      "id": "horse-unicorn-horn",
+      "name": "Horse Unicorn Horn",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_unicorn_horn.png?db11c4",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Horse_Unicorn_Horn"
+    },
+    "pink-horse-bow": {
+      "id": "pink-horse-bow",
+      "name": "Pink Horse Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pink_horse_bow.png?3899d8",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Horse_Bow"
+    },
+    "blue-horse-ribbon": {
+      "id": "blue-horse-ribbon",
+      "name": "Blue Horse Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_ribbon_blue.png?af37d4",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Horse_Ribbon"
+    },
+    "red-horse-ribbon": {
+      "id": "red-horse-ribbon",
+      "name": "Red Horse Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_ribbon_red.png?d02416",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Horse_Ribbon"
+    },
+    "white-horse-ribbon": {
+      "id": "white-horse-ribbon",
+      "name": "White Horse Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Horse_ribbon_white.png?bbae88",
+      "type": "horse",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Horse_Ribbon"
+    },
+    "pink-rabbit-bow": {
+      "id": "pink-rabbit-bow",
+      "name": "Pink Rabbit Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_pink_bow.png?896612",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Rabbit_Bow"
+    },
+    "rabbit-chef-hat": {
+      "id": "rabbit-chef-hat",
+      "name": "Rabbit Chef Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_chef_hat.png?41d10b",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Chef_Hat"
+    },
+    "rabbit-cowboy-hat": {
+      "id": "rabbit-cowboy-hat",
+      "name": "Rabbit Cowboy Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_cowboy_hat.png?3131c2",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Cowboy_Hat"
+    },
+    "rabbit-daisy-clips": {
+      "id": "rabbit-daisy-clips",
+      "name": "Rabbit Daisy Clips",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_daisy_clips.png?99865e",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Daisy_Clips"
+    },
+    "rabbit-flower-crown": {
+      "id": "rabbit-flower-crown",
+      "name": "Rabbit Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_flower_crown.png?51c9b8",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Flower_Crown"
+    },
+    "rabbit-halo": {
+      "id": "rabbit-halo",
+      "name": "Rabbit Halo",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_halo.png?203a0d",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Halo"
+    },
+    "rabbit-heart-clips": {
+      "id": "rabbit-heart-clips",
+      "name": "Rabbit Heart Clips",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_heart_clips.png?d7c99c",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Heart_Clips"
+    },
+    "rabbit-horn": {
+      "id": "rabbit-horn",
+      "name": "Rabbit Horn",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_horn.png?f8d18d",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Horn"
+    },
+    "rabbit-sunglasses": {
+      "id": "rabbit-sunglasses",
+      "name": "Rabbit Sunglasses",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_sunglasses.png?448013",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Sunglasses"
+    },
+    "rabbit-top-hat": {
+      "id": "rabbit-top-hat",
+      "name": "Rabbit Top Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_top_hat.png?1e01c0",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Top_Hat"
+    },
+    "rabbit-winter-hat": {
+      "id": "rabbit-winter-hat",
+      "name": "Rabbit Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_winter_hat.png?404fc8",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Rabbit_Winter_Hat"
+    },
+    "blue-rabbit-ribbon": {
+      "id": "blue-rabbit-ribbon",
+      "name": "Blue Rabbit Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_ribbon_blue.png?fa1c16",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Rabbit_Ribbon"
+    },
+    "red-rabbit-ribbon": {
+      "id": "red-rabbit-ribbon",
+      "name": "Red Rabbit Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_ribbon_red.png?a96637",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Rabbit_Ribbon"
+    },
+    "white-rabbit-ribbon": {
+      "id": "white-rabbit-ribbon",
+      "name": "White Rabbit Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Rabbit_ribbon_white.png?f6a99b",
+      "type": "rabbit",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Small Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Rabbit_Ribbon"
+    },
+    "pink-sheep-bow": {
+      "id": "pink-sheep-bow",
+      "name": "Pink Sheep Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_pink_bow.png?e047d2",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Sheep_Bow"
+    },
+    "sheep-flower-crown": {
+      "id": "sheep-flower-crown",
+      "name": "Sheep Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_flower_crown.png?d813a0",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Spring Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Flower_Crown"
+    },
+    "sheep-green-visor": {
+      "id": "sheep-green-visor",
+      "name": "Sheep Green Visor",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_green_visor.png?658b36",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Green_Visor"
+    },
+    "sheep-hot-water-bottle": {
+      "id": "sheep-hot-water-bottle",
+      "name": "Sheep Hot Water Bottle",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_hot_water_bottle.png?6ad2e2",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Animal Festival from The Souvenir Stall for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Hot_Water_Bottle"
+    },
+    "sheep-horns": {
+      "id": "sheep-horns",
+      "name": "Sheep Horns",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_horns.png?a4dd51",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Fall Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Horns"
+    },
+    "sheep-mushroom-hat": {
+      "id": "sheep-mushroom-hat",
+      "name": "Sheep Mushroom Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_mushroom_hat.png?5c387c",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Mushroom_Hat"
+    },
+    "sheep-palm-tree": {
+      "id": "sheep-palm-tree",
+      "name": "Sheep Palm Tree",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_palm_tree.png?7f5f5c",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Summer Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Palm_Tree"
+    },
+    "sheep-party-hat": {
+      "id": "sheep-party-hat",
+      "name": "Sheep Party Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_party_hat.png?ddb689",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 500,
+      "source": "Hayden's Shop for 500t",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Party_Hat"
+    },
+    "sheep-tartan-beret": {
+      "id": "sheep-tartan-beret",
+      "name": "Sheep Tartan Beret",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_tartan_beret.png?2e7228",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Tartan_Beret"
+    },
+    "sheep-unicorn-horn": {
+      "id": "sheep-unicorn-horn",
+      "name": "Sheep Unicorn Horn",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_unicorn_horn.png?4d9d62",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Unicorn_Horn"
+    },
+    "sheep-winter-hat": {
+      "id": "sheep-winter-hat",
+      "name": "Sheep Winter Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_winter_hat.png?1175d6",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Winter Variant",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Sheep_Winter_Hat"
+    },
+    "blue-sheep-ribbon": {
+      "id": "blue-sheep-ribbon",
+      "name": "Blue Sheep Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_ribbon_blue.png?af37d4",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 1st Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Sheep_Ribbon"
+    },
+    "red-sheep-ribbon": {
+      "id": "red-sheep-ribbon",
+      "name": "Red Sheep Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_ribbon_red.png?d02416",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 2nd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Sheep_Ribbon"
+    },
+    "white-sheep-ribbon": {
+      "id": "white-sheep-ribbon",
+      "name": "White Sheep Ribbon",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Sheep_ribbon_white.png?bbae88",
+      "type": "sheep",
+      "pet-appearance": "",
+      "buy": 0,
+      "source": "Large Animal Prize for 3rd Place",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/White_Sheep_Ribbon"
+    },
+    "pet-black-bow": {
+      "id": "pet-black-bow",
+      "name": "Pet Black Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_black_bow.png?82de89",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Black_Bow"
+    },
+    "pet-blue-bow": {
+      "id": "pet-blue-bow",
+      "name": "Pet Blue Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_blue_bow.png?2e7f25",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Blue_Bow"
+    },
+    "pet-flower-crown": {
+      "id": "pet-flower-crown",
+      "name": "Pet Flower Crown",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_flower_crown.png?3570bc",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Flower_Crown"
+    },
+    "pet-green-bow": {
+      "id": "pet-green-bow",
+      "name": "Pet Green Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_green_bow.png?d37eab",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Green_Bow"
+    },
+    "pet-halo": {
+      "id": "pet-halo",
+      "name": "Pet Halo",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_halo.png?cdf652",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Halo"
+    },
+    "pet-pink-bow": {
+      "id": "pet-pink-bow",
+      "name": "Pet Pink Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_pink_bow.png?34f7fb",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Pink_Bow"
+    },
+    "pet-purple-bow": {
+      "id": "pet-purple-bow",
+      "name": "Pet Purple Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_purple_bow.png?987cde",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Purple_Bow"
+    },
+    "pet-red-bow": {
+      "id": "pet-red-bow",
+      "name": "Pet Red Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_red_bow.png?575eca",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Red_Bow"
+    },
+    "pet-sun-hat": {
+      "id": "pet-sun-hat",
+      "name": "Pet Sun Hat",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_sun_hat.png?4dfa3a",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Sun_Hat"
+    },
+    "pet-unicorn-horn": {
+      "id": "pet-unicorn-horn",
+      "name": "Pet Unicorn Horn",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_unicorn_horn.png?a57fbf",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Unicorn_Horn"
+    },
+    "pet-yellow-bow": {
+      "id": "pet-yellow-bow",
+      "name": "Pet Yellow Bow",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_yellow_bow.png?f0afef",
+      "type": "pet",
+      "pet-appearance": "All",
+      "buy": 0,
+      "source": "Chicken Statue 10 Offering",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Pet_Yellow_Bow"
+    },
+    "skull-mask": {
+      "id": "skull-mask",
+      "name": "Skull Mask",
+      "description": "",
+      "image": "https://fieldsofmistria.wiki.gg/images/Pet_skull_mask.png?354ddd",
+      "type": "pet",
+      "pet-appearance": "Pet Skin: Sapling",
+      "buy": 0,
+      "source": "Slaying Pink Saplings in 5The Ancient Ruins",
+      "href": "https://fieldsofmistria.wiki.gg/wiki/Skull_Mask"
+    }
+  }
+}

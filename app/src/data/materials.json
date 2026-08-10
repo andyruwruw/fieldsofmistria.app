@@ -1,0 +1,3080 @@
+{
+  "blue-conch-shell": {
+    "id": "blue-conch-shell",
+    "name": "Blue Conch Shell",
+    "description": "A common blue conch shell.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Blue_conch_shell.png?d3b10b",
+    "sell": 20,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Beach",
+    "locations": [
+      "the-beach"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 80t",
+      "Possible Beach Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "fishing-bed-(blue)",
+        "name": "Fishing Bed (Blue)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fishing_Bed"
+      },
+      {
+        "id": "fishing-double-bed-(blue)",
+        "name": "Fishing Double Bed (Blue)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fishing_Double_Bed"
+      },
+      {
+        "id": "faux-blue-conch-shell",
+        "name": "Faux Blue Conch Shell",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Blue_Conch_Shell"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Blue_Conch_Shell"
+  },
+  "cave-mushroom": {
+    "id": "cave-mushroom",
+    "name": "Cave Mushroom",
+    "description": "A tasty green mushroom sometimes dropped by Mushroom monsters.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Cave_mushroom.png?cbbe2b",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39)",
+    "locations": [
+      "the-tide-caverns"
+    ],
+    "seasons": [],
+    "health": 5,
+    "stamina": 5,
+    "source": [
+      "Slaying Green Mushroom in The Tide Caverns"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "chili-coconut-curry",
+        "name": "Chili Coconut Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Chili_Coconut_Curry"
+      },
+      {
+        "id": "miner's-mushroom-stew",
+        "name": "Miner's Mushroom Stew",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Miner%27s_Mushroom_Stew"
+      },
+      {
+        "id": "sea-bream-rice",
+        "name": "Sea Bream Rice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream_Rice"
+      },
+      {
+        "id": "mushroom-stool",
+        "name": "Mushroom Stool",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Stool"
+      },
+      {
+        "id": "ornamental-emerald-rock",
+        "name": "Ornamental Emerald Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Emerald_Rock"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Cave_Mushroom"
+  },
+  "chocolate": {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "description": "A bar of quality chocolate. Used in a variety of cooking recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Chocolate.png?7ef3a0",
+    "sell": 100,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 10,
+    "stamina": 10,
+    "source": [
+      "General Store for 200t",
+      "Balor's Wagon for 200t",
+      "Maple's Request for a Mullet"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "chocolate-cake",
+        "name": "Chocolate Cake",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Chocolate_Cake"
+      },
+      {
+        "id": "golden-cookies",
+        "name": "Golden Cookies",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Golden_Cookies"
+      },
+      {
+        "id": "hot-chocolate",
+        "name": "Hot Chocolate",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Hot_Chocolate"
+      },
+      {
+        "id": "ice-cream-sundae",
+        "name": "Ice Cream Sundae",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Cream_Sundae"
+      },
+      {
+        "id": "mocha",
+        "name": "Mocha",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mocha"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Chocolate"
+  },
+  "clay": {
+    "id": "clay",
+    "name": "Clay",
+    "description": "A small lump of clay. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Clay.png?a0ee32",
+    "sell": 5,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining",
+      "Diving",
+      "Balor's Wagon for 50t",
+      "Carpenter for 50t",
+      "Refining"
+    ],
+    "donatable": true,
+    "museumWing": "Dig Site",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Clay"
+  },
+  "copper-ore": {
+    "id": "copper-ore",
+    "name": "Copper Ore",
+    "description": "Found in the upper levels of the Mines, this ore can be refined into ingots for use in crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Copper_Ore.png?7589a7",
+    "sell": 10,
+    "skills": [
+      "Blacksmithing"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Copper Nodes in The Upper Mines",
+      "Slaying Copperclod in The Upper Mines",
+      "Slaying Blue Stalagmite in The Tide Caverns",
+      "Blacksmith for 50t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "copper-ingot",
+        "name": "Copper Ingot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ingot"
+      },
+      {
+        "id": "ornamental-copper-node",
+        "name": "Ornamental Copper Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Copper_Node"
+      },
+      {
+        "id": "mines-shelf",
+        "name": "Mines Shelf",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mines_Shelf"
+      },
+      {
+        "id": "spring-flooring-(yellow)",
+        "name": "Spring Flooring (Yellow)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Spring_Flooring"
+      },
+      {
+        "id": "color-paving-stone-(orange-group)",
+        "name": "Color Paving Stone (Orange Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Copper_Ore"
+  },
+  "coral": {
+    "id": "coral",
+    "name": "Coral",
+    "description": "A pretty piece of coral. Typically found in the Tide Caverns, this material can be used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Coral.png?1db6f5",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39)",
+    "locations": [
+      "the-tide-caverns"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Breaking Coral in The Tide Caverns",
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "coral-lamp",
+        "name": "Coral Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Lamp"
+      },
+      {
+        "id": "coral-chair",
+        "name": "Coral Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Chair"
+      },
+      {
+        "id": "coral-table",
+        "name": "Coral Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Table"
+      },
+      {
+        "id": "coral-storage-chest",
+        "name": "Coral Storage Chest",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Storage_Chest"
+      },
+      {
+        "id": "coral-stone-arch",
+        "name": "Coral-Stone Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral-Stone_Arch"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Coral"
+  },
+  "crystal": {
+    "id": "crystal",
+    "name": "Crystal",
+    "description": "A shard of crystal. Used in crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Crystal.png?35d6ab",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Breaking Crystals in The Deep Earth",
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "glowing-crystal-lamp",
+        "name": "Glowing Crystal Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Glowing_Crystal_Lamp"
+      },
+      {
+        "id": "stalactite-arch",
+        "name": "Stalactite Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Stalactite_Arch"
+      },
+      {
+        "id": "rock-floor",
+        "name": "Rock Floor",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Floor"
+      },
+      {
+        "id": "dragon-claw-altar",
+        "name": "Dragon Claw Altar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Claw_Altar"
+      },
+      {
+        "id": "starry-flooring",
+        "name": "Starry Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Starry_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Crystal"
+  },
+  "curry-powder": {
+    "id": "curry-powder",
+    "name": "Curry Powder",
+    "description": "A delicious and aromatic spice blend. Used as an ingredient in cooking recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Curry_powder.png?d5af3b",
+    "sell": 20,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 40t",
+      "Balor's Wagon for 40t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "apple-honey-curry",
+        "name": "Apple Honey Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Apple_Honey_Curry"
+      },
+      {
+        "id": "chickpea-curry",
+        "name": "Chickpea Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Chickpea_Curry"
+      },
+      {
+        "id": "chili-coconut-curry",
+        "name": "Chili Coconut Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Chili_Coconut_Curry"
+      },
+      {
+        "id": "deluxe-curry",
+        "name": "Deluxe Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Curry"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Curry_Powder"
+  },
+  "deluxe-honey": {
+    "id": "deluxe-honey",
+    "name": "Deluxe Honey",
+    "description": "A sought-after syrup made by rare bees. It's a local delicacy!",
+    "image": "https://fieldsofmistria.wiki.gg/images/Deluxe_honey.png?42d07d",
+    "sell": 200,
+    "skills": [],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Apiary"
+    ],
+    "donatable": true,
+    "museumWing": "Honey",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Deluxe_Honey"
+  },
+  "diamond": {
+    "id": "diamond",
+    "name": "Diamond",
+    "description": "A rare and beautiful gem. Can be sold, gifted, or used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Diamond.png?3b472c",
+    "sell": 70,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Diamond Nodes in The Lava Caves",
+      "Slaying Goldclod in The Lava Caves",
+      "Refining",
+      "Balor's Wagon for 800t",
+      "Possible Gem Cutting Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "ornamental-diamond-rock",
+        "name": "Ornamental Diamond Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Diamond_Rock"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Diamond"
+  },
+  "emerald": {
+    "id": "emerald",
+    "name": "Emerald",
+    "description": "A shining green gem. Can be sold, gifted, or used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Emerald.png?e78d9c",
+    "sell": 60,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Emerald Nodes in The Deep Earth",
+      "Slaying Silverclod in The Deep Earth",
+      "Refining",
+      "Balor's Wagon for 240t",
+      "Wishing Well 100t Wish",
+      "Silver Treasure Box",
+      "Copper Treasure Box",
+      "Possible Gem Cutting Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "emerald-set",
+        "name": "Emerald Set",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture/Emerald_Furniture_Set"
+      },
+      {
+        "id": "ornamental-emerald-rock",
+        "name": "Ornamental Emerald Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Emerald_Rock"
+      },
+      {
+        "id": "absinthe-glass",
+        "name": "Absinthe Glass",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Absinthe_Glass"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Emerald"
+  },
+  "essence-drop": {
+    "id": "essence-drop",
+    "name": "Essence Drop",
+    "description": "A drip of magic, sometimes dropped by Essence Bats. Used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_drop.png?b82837",
+    "sell": 20,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-tide-cavernsthe-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Essence Bat in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "cottage-garden-planter",
+        "name": "Cottage Garden Planter",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cottage_Garden_Planter"
+      },
+      {
+        "id": "cottage-garden-trellis",
+        "name": "Cottage Garden Trellis",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cottage_Garden_Trellis"
+      },
+      {
+        "id": "cottage-garden-workbench",
+        "name": "Cottage Garden Workbench",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cottage_Garden_Workbench"
+      },
+      {
+        "id": "cottage-garden-arch",
+        "name": "Cottage Garden Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cottage_Garden_Arch"
+      },
+      {
+        "id": "summit-wallpaper",
+        "name": "Summit Wallpaper",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Summit_Wallpaper"
+      },
+      {
+        "id": "starry-flooring",
+        "name": "Starry Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Starry_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Essence_Drop"
+  },
+  "fiber": {
+    "id": "fiber",
+    "name": "Fiber",
+    "description": "Fiber made of plant material. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Fiber.png?48eb68",
+    "sell": 2,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Cutting Grass",
+      "Fishing",
+      "Diving",
+      "Balor's Wagon for 20t",
+      "Carpenter for 20t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      },
+      {
+        "id": "paper",
+        "name": "Paper",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Paper"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Fiber"
+  },
+  "flour": {
+    "id": "flour",
+    "name": "Flour",
+    "description": "A bag of processed wheat flour. Frequently used for baking.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Flour.png?b2cc9b",
+    "sell": 175,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 200t",
+      "Milling",
+      "Golden Treasure Box",
+      "Silver Treasure Box",
+      "Copper Treasure Box",
+      "Wooden Treasure Box"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-cooking-recipes",
+        "name": "Many Cooking Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking"
+      },
+      {
+        "id": "bakery-bread-basket",
+        "name": "Bakery Bread Basket",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Bread_Basket"
+      },
+      {
+        "id": "bakery-cutting-board",
+        "name": "Bakery Cutting Board",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Cutting_Board"
+      },
+      {
+        "id": "bakery-display-cake-slice",
+        "name": "Bakery Display Cake Slice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Display_Cake_Slice"
+      },
+      {
+        "id": "bakery-display-cake",
+        "name": "Bakery Display Cake",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Display_Cake"
+      },
+      {
+        "id": "picnic-display-donuts",
+        "name": "Picnic Display Donuts",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Picnic_Display_Donuts"
+      },
+      {
+        "id": "picnic-display-pie",
+        "name": "Picnic Display Pie",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Picnic_Display_Pie"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Flour"
+  },
+  "giant-essence-stone": {
+    "id": "giant-essence-stone",
+    "name": "Giant Essence Stone",
+    "description": "An Essence Stone. Charges a magic tool for 40 days. Consume for 200 Essence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_stone_giant.png?2a09c3",
+    "sell": 640,
+    "skills": [
+      "Farming",
+      "Ranching"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining (Requires Magic Design Skill)"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Giant_Essence_Stone"
+  },
+  "glass": {
+    "id": "glass",
+    "name": "Glass",
+    "description": "A slab of naturally formed glass. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Glass.png?815a80",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining",
+      "Slaying Any Enchantern in The Mines",
+      "Slaying Lava Cats in The Lava Caves",
+      "Diving",
+      "Fishing",
+      "Balor's Wagon for 80t",
+      "Carpenter for 80t",
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Glass"
+  },
+  "glowing-mushroom": {
+    "id": "glowing-mushroom",
+    "name": "Glowing Mushroom",
+    "description": "A glowing blue mushroom sometimes dropped by Mushroom monsters.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Glowing_mushroom.png?575773",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 5,
+    "stamina": 5,
+    "source": [
+      "Slaying Blue Mushroom in The Deep Earth"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "ornamental-sapphire-rock",
+        "name": "Ornamental Sapphire Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Sapphire_Rock"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Glowing_Mushroom"
+  },
+  "gold-ore": {
+    "id": "gold-ore",
+    "name": "Gold Ore",
+    "description": "A chunk of gold ore. Can be refined into ingots for crafting.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Gold_Ore.png?d67c05",
+    "sell": 25,
+    "skills": [
+      "Blacksmithing"
+    ],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Gold Nodes in The Lava Caves",
+      "Slaying Goldclod in The Lava Caves",
+      "Blacksmith for 100t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "gold-ingot",
+        "name": "Gold Ingot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ingot"
+      },
+      {
+        "id": "obsidian-chair",
+        "name": "Obsidian Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Chair"
+      },
+      {
+        "id": "obsidian-storage-chest",
+        "name": "Obsidian Storage Chest",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Storage_Chest"
+      },
+      {
+        "id": "obsidian-table",
+        "name": "Obsidian Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Table"
+      },
+      {
+        "id": "ornamental-gold-node",
+        "name": "Ornamental Gold Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Gold_Node"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Gold_Ore"
+  },
+  "hard-wood": {
+    "id": "hard-wood",
+    "name": "Hard Wood",
+    "description": "A piece of high quality hard wood. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Hard_wood.png?92972d",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Cutting Down Big Stumps (requires Copper Axe minimum)",
+      "Cutting Down Trees (requires Natural Skill)",
+      "Balor's Wagon for 80t",
+      "Copper Treasure Box",
+      "Birthday gift from Ryis",
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Hard_Wood"
+  },
+  "honey": {
+    "id": "honey",
+    "name": "Honey",
+    "description": "A delicious syrup made by bees. Used in a variety of cooking recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Honey.png?45a830",
+    "sell": 50,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store (After Upgrade) for 100t",
+      "Apiary"
+    ],
+    "donatable": true,
+    "museumWing": "Honey",
+    "recipes": [
+      {
+        "id": "apple-honey-curry",
+        "name": "Apple Honey Curry",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Apple_Honey_Curry"
+      },
+      {
+        "id": "berry-bowl",
+        "name": "Berry Bowl",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Berry_Bowl"
+      },
+      {
+        "id": "cherry-smoothie",
+        "name": "Cherry Smoothie",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cherry_Smoothie"
+      },
+      {
+        "id": "moon-fruit-cake",
+        "name": "Moon Fruit Cake",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Moon_Fruit_Cake"
+      },
+      {
+        "id": "poached-pear",
+        "name": "Poached Pear",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Poached_Pear"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Honey"
+  },
+  "ice-block": {
+    "id": "ice-block",
+    "name": "Ice Block",
+    "description": "A foraged block of pure ice. Commonly used as a cooking ingredient.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Ice_block.png?a54da9",
+    "sell": 5,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Sweetwater Farm The Eastern Road The Narrows The Western Ruins",
+    "locations": [
+      "sweetwater-farm-the-eastern-road-the-narrows-the-western-ruins"
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "health": 6,
+    "stamina": 6,
+    "source": [
+      "Foraging",
+      "Balor's Wagon for 25t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "ice-cream-sundae",
+        "name": "Ice Cream Sundae",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Cream_Sundae"
+      },
+      {
+        "id": "iced-coffee",
+        "name": "Iced Coffee",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iced_Coffee"
+      },
+      {
+        "id": "pomegranate-sorbet",
+        "name": "Pomegranate Sorbet",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Pomegranate_Sorbet"
+      },
+      {
+        "id": "wintergreen-ice-cream",
+        "name": "Wintergreen Ice Cream",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Wintergreen_Ice_Cream"
+      },
+      {
+        "id": "faux-ice-block",
+        "name": "Faux Ice Block",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Ice_Block"
+      },
+      {
+        "id": "lovely-cottage-icebox",
+        "name": "Lovely Cottage Icebox",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lovely_Cottage_Icebox"
+      },
+      {
+        "id": "whisky-glass",
+        "name": "Whisky Glass",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Whisky_Glass"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ice_Block"
+  },
+  "iron-ore": {
+    "id": "iron-ore",
+    "name": "Iron Ore",
+    "description": "A chunk of iron ore. Can be refined into ingots for crafting.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Iron_Ore.png?4cc6cd",
+    "sell": 15,
+    "skills": [
+      "Blacksmithing"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Iron Nodes in The Tide Caverns",
+      "Slaying Ironclod in The Tide Caverns",
+      "Slaying Green Stalagmite in The Deep Earth",
+      "Blacksmith for 50t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "iron-ingot",
+        "name": "Iron Ingot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ingot"
+      },
+      {
+        "id": "tide-touched-cavern-wall",
+        "name": "Tide-Touched Cavern Wall",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Tide-Touched_Cavern_Wall"
+      },
+      {
+        "id": "ornamental-iron-node",
+        "name": "Ornamental Iron Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Iron_Node"
+      },
+      {
+        "id": "color-paving-stone-(black-group)",
+        "name": "Color Paving Stone (Black Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Iron_Ore"
+  },
+  "large-essence-stone": {
+    "id": "large-essence-stone",
+    "name": "Large Essence Stone",
+    "description": "An Essence Stone. Charges a magic tool for 20 days. Consume for 100 Essence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_stone_large.png?4f78f0",
+    "sell": 320,
+    "skills": [
+      "Farming",
+      "Ranching"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining",
+      "Treasure Chests in The Mines",
+      "Abyssal Chests",
+      "Town Rank Level 79, Emerald",
+      "Town Rank Level 89, Gold"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Large_Essence_Stone"
+  },
+  "legendary-honey": {
+    "id": "legendary-honey",
+    "name": "Legendary Honey",
+    "description": "A legendary syrup made by legendary bees. Truly the best honey.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Legendary_honey.png?5089d1",
+    "sell": 500,
+    "skills": [],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Apiary"
+    ],
+    "donatable": true,
+    "museumWing": "Honey",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Legendary_Honey"
+  },
+  "medium-essence-stone": {
+    "id": "medium-essence-stone",
+    "name": "Medium Essence Stone",
+    "description": "An Essence Stone. Used to charge a magic tool for 10 days. Consume for 50 Essence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_stone_medium.png?391d49",
+    "sell": 160,
+    "skills": [
+      "Farming",
+      "Ranching"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining",
+      "Treasure Chests in The Mines",
+      "Abyssal Chests"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "dragon-forged-core",
+        "name": "Dragon-Forged Core",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Core"
+      },
+      {
+        "id": "dragon-forged-fang",
+        "name": "Dragon-Forged Fang",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Fang"
+      },
+      {
+        "id": "dragon-forged-horn",
+        "name": "Dragon-Forged Horn",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Horn"
+      },
+      {
+        "id": "dragon-forged-powder",
+        "name": "Dragon-Forged Powder",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Powder"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Medium_Essence_Stone"
+  },
+  "mistril-ore": {
+    "id": "mistril-ore",
+    "name": "Mistril Ore",
+    "description": "A chunk of mistril ore. Can be refined into ingots for crafting.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Mistril_Ore.png?154ff8",
+    "sell": 30,
+    "skills": [
+      "Blacksmithing"
+    ],
+    "location": "The Ancient Ruins (floors 81-99)",
+    "locations": [
+      "the-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Mistril Nodes in The Ancient Ruins",
+      "Blacksmith for 400t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "mistril-ingot",
+        "name": "Mistril Ingot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ingot"
+      },
+      {
+        "id": "witch-queen-chair",
+        "name": "Witch Queen Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Chair"
+      },
+      {
+        "id": "witch-queen-dressing-table",
+        "name": "Witch Queen Dressing Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Dressing_Table"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Mistril_Ore"
+  },
+  "monster-core": {
+    "id": "monster-core",
+    "name": "Monster Core",
+    "description": "A powered core sometimes dropped by Enchanterns. Used in certain cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_core.png?c0ee9c",
+    "sell": 20,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19) The Tide Caverns (floors 21-39) The Lava Caves (floors 61-79) The Ancient Ruins (floors 81-89, 91-99)",
+    "locations": [
+      "the-upper-minesthe-tide-cavernsthe-lava-cavesthe-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Enchantern in The Mines",
+      "Slaying Flame Spirits in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "monster-cookie",
+        "name": "Monster Cookie",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Cookie"
+      },
+      {
+        "id": "many-lighting-recipes",
+        "name": "Many Lighting Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture/Categories/Lighting"
+      },
+      {
+        "id": "color-paving-stone-(pink-group)",
+        "name": "Color Paving Stone (Pink Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "dragon-forged-core",
+        "name": "Dragon-Forged Core",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Core"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Core"
+  },
+  "monster-fang": {
+    "id": "monster-fang",
+    "name": "Monster Fang",
+    "description": "A pointed fang sometimes dropped by Saplings. Used in certain cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_fang.png?2f554b",
+    "sell": 15,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19) The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59) The Lava Caves (floors 61-79) The Ancient Ruins (floors 81-89, 91-99)",
+    "locations": [
+      "the-upper-minesthe-tide-cavernsthe-deep-earththe-lava-cavesthe-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Sapling in The Mines",
+      "Slaying Flying Tome in The Ancient Ruins",
+      "Slaying Living Gryphon Statue in The Ancient Ruins"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "monster-mash",
+        "name": "Monster Mash",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+      },
+      {
+        "id": "coral-chair",
+        "name": "Coral Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Chair"
+      },
+      {
+        "id": "coral-stone-arch",
+        "name": "Coral-Stone Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral-Stone_Arch"
+      },
+      {
+        "id": "mines-crate-chair",
+        "name": "Mines Crate Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mines_Crate_Chair"
+      },
+      {
+        "id": "stone-storage-chest",
+        "name": "Stone Storage Chest",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Storage_Chest"
+      },
+      {
+        "id": "training-dummy-(sapling)",
+        "name": "Training Dummy (Sapling)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Training_Dummy"
+      },
+      {
+        "id": "color-paving-stone-(green-group)",
+        "name": "Color Paving Stone (Green Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "dragon-forged-fang",
+        "name": "Dragon-Forged Fang",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Fang"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Fang"
+  },
+  "monster-horn": {
+    "id": "monster-horn",
+    "name": "Monster Horn",
+    "description": "A spiral horn sometimes dropped by Stalagmites. Used in certain cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_horn.png?b53daf",
+    "sell": 25,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59) The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-tide-cavernsthe-deep-earththe-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Stalagmite in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "monster-mash",
+        "name": "Monster Mash",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+      },
+      {
+        "id": "coral-table",
+        "name": "Coral Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Coral_Table"
+      },
+      {
+        "id": "dragon-priestess-fountain",
+        "name": "Dragon Priestess Fountain",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Priestess_Fountain"
+      },
+      {
+        "id": "rock-floor",
+        "name": "Rock Floor",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Floor"
+      },
+      {
+        "id": "stalactite-arch",
+        "name": "Stalactite Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Stalactite_Arch"
+      },
+      {
+        "id": "stone-dragon-figure",
+        "name": "Stone Dragon Figure",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Dragon_Figure"
+      },
+      {
+        "id": "color-paving-stone-(blue-group)",
+        "name": "Color Paving Stone (Blue Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "dragon-forged-horn",
+        "name": "Dragon-Forged Horn",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Horn"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Horn"
+  },
+  "monster-powder": {
+    "id": "monster-powder",
+    "name": "Monster Powder",
+    "description": "A magic powder sometimes dropped by Mushroom monsters. Used in cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_powder.png?d86941",
+    "sell": 15,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19) The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59) The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-upper-minesthe-tide-cavernsthe-deep-earththe-lava-caves"
+    ],
+    "seasons": [],
+    "health": 50,
+    "stamina": 50,
+    "source": [
+      "Slaying Any Mushroom in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "monster-cookie",
+        "name": "Monster Cookie",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Cookie"
+      },
+      {
+        "id": "monster-mash",
+        "name": "Monster Mash",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+      },
+      {
+        "id": "cobweb-left",
+        "name": "Cobweb Left",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cobweb_Left"
+      },
+      {
+        "id": "cobweb-right",
+        "name": "Cobweb Right",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cobweb_Right"
+      },
+      {
+        "id": "haunted-attic-wallpaper",
+        "name": "Haunted Attic Wallpaper",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Haunted_Attic_Wallpaper"
+      },
+      {
+        "id": "mistria-history-book",
+        "name": "Mistria History Book",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria_History_Book"
+      },
+      {
+        "id": "mistria-wall-map",
+        "name": "Mistria Wall Map",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mistria_Wall_Map"
+      },
+      {
+        "id": "ornamental-copper-node",
+        "name": "Ornamental Copper Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Copper_Node"
+      },
+      {
+        "id": "ornamental-silver-node",
+        "name": "Ornamental Silver Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Silver_Node"
+      },
+      {
+        "id": "color-paving-stone-(violet-group)",
+        "name": "Color Paving Stone (Violet Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "dragon-forged-powder",
+        "name": "Dragon-Forged Powder",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Powder"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Powder"
+  },
+  "monster-shell": {
+    "id": "monster-shell",
+    "name": "Monster Shell",
+    "description": "A rocky shell sometimes dropped by Clods. Used in certain cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_shell.png?b9c639",
+    "sell": 20,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19) The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59) The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-upper-minesthe-tide-cavernsthe-deep-earththe-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Clod in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "monster-mash",
+        "name": "Monster Mash",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Mash"
+      },
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Shell"
+  },
+  "monster-wing": {
+    "id": "monster-wing",
+    "name": "Monster Wing",
+    "description": "A magic wing sometimes dropped by Essence Bats. Used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Monster_wing.png?25e7c8",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-tide-cavernsthe-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Essence Bat in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "dragon-claw-altar",
+        "name": "Dragon Claw Altar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Claw_Altar"
+      },
+      {
+        "id": "color-paving-stone-(purple-group)",
+        "name": "Color Paving Stone (Purple Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Monster_Wing"
+  },
+  "obsidian": {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "A shard of volcanic glass.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Obsidian.png?c4ab75",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Breaking Obsidian Clusters in The Lava Caves",
+      "Slaying Lava Cats in The Lava Caves",
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "lava-rock-arch",
+        "name": "Lava Rock Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Arch"
+      },
+      {
+        "id": "lava-rock-floor",
+        "name": "Lava Rock Floor",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Floor"
+      },
+      {
+        "id": "obsidian-bed",
+        "name": "Obsidian Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Bed"
+      },
+      {
+        "id": "obsidian-chair",
+        "name": "Obsidian Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Chair"
+      },
+      {
+        "id": "obsidian-double-bed",
+        "name": "Obsidian Double Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Double_Bed"
+      },
+      {
+        "id": "obsidian-fence",
+        "name": "Obsidian Fence",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Fence"
+      },
+      {
+        "id": "obsidian-floor-lamp",
+        "name": "Obsidian Floor Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Floor_Lamp"
+      },
+      {
+        "id": "obsidian-storage-chest",
+        "name": "Obsidian Storage Chest",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Storage_Chest"
+      },
+      {
+        "id": "obsidian-table",
+        "name": "Obsidian Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian_Table"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Obsidian"
+  },
+  "oil": {
+    "id": "oil",
+    "name": "Oil",
+    "description": "Oil made from vegetables. Used in cooking and crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Oil.png?9c6c33",
+    "sell": 30,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 60t",
+      "Balor's Wagon for 60t",
+      "Copper Treasure Box",
+      "Wooden Treasure Box"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-cooking-recipes",
+        "name": "Many Cooking Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking"
+      },
+      {
+        "id": "basic-oil-lamp",
+        "name": "Basic Oil Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Basic_Oil_Lamp"
+      },
+      {
+        "id": "melted-candle-cluster",
+        "name": "Melted Candle Cluster",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Melted_Candle_Cluster"
+      },
+      {
+        "id": "melted-candle",
+        "name": "Melted Candle",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Melted_Candle"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Oil"
+  },
+  "paper": {
+    "id": "paper",
+    "name": "Paper",
+    "description": "Paper milled with plant fiber. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Paper.png?545f90",
+    "sell": 20,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 100t",
+      "Milling"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Paper"
+  },
+  "peat": {
+    "id": "peat",
+    "name": "Peat",
+    "description": "A brick of compressed organic matter, commonly burned as fuel. Used as a crafting material.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Peat.png?b94780",
+    "sell": 5,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Overworld",
+    "locations": [
+      "the-overworld"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining",
+      "Refining",
+      "Carpenter (requires Steady Supplies Skill) for 50t"
+    ],
+    "donatable": true,
+    "museumWing": "Dig Site",
+    "recipes": [
+      {
+        "id": "campfire",
+        "name": "Campfire",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Campfire"
+      },
+      {
+        "id": "color-paving-stone-(brown-group)",
+        "name": "Color Paving Stone (Brown Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "floor-brazier",
+        "name": "Floor Brazier",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Floor_Brazier"
+      },
+      {
+        "id": "large-paving-stone",
+        "name": "Large Paving Stone",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Large_Paving_Stone"
+      },
+      {
+        "id": "melted-candle",
+        "name": "Melted Candle",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Melted_Candle"
+      },
+      {
+        "id": "melted-candle-cluster",
+        "name": "Melted Candle Cluster",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Melted_Candle_Cluster"
+      },
+      {
+        "id": "rustic-cabin-stove",
+        "name": "Rustic Cabin Stove",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rustic_Cabin_Stove"
+      },
+      {
+        "id": "wall-brazier",
+        "name": "Wall Brazier",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Wall_Brazier"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Peat"
+  },
+  "perfect-copper-ore": {
+    "id": "perfect-copper-ore",
+    "name": "Perfect Copper Ore",
+    "description": "An uncommon artifact. This large chunk of pure copper ore is worthy of display.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_copper_ore.png?f66252",
+    "sell": 50,
+    "skills": [],
+    "location": "The Upper Mines (floors 1-19)",
+    "locations": [
+      "the-upper-mines"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Copper Nodes in The Upper Mines"
+    ],
+    "donatable": true,
+    "museumWing": "Metals Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Copper_Ore"
+  },
+  "perfect-diamond": {
+    "id": "perfect-diamond",
+    "name": "Perfect Diamond",
+    "description": "A rare artifact. This diamond is incredibly large and splendid.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_diamond.png?ac54e3",
+    "sell": 225,
+    "skills": [],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Diamond Nodes in The Lava Caves"
+    ],
+    "donatable": true,
+    "museumWing": "Gems Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Diamond"
+  },
+  "perfect-emerald": {
+    "id": "perfect-emerald",
+    "name": "Perfect Emerald",
+    "description": "An uncommon artifact. An emerald of this clarity would gain nothing from being worked further.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_emerald.png?80882c",
+    "sell": 75,
+    "skills": [],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Emerald Nodes in The Deep Earth"
+    ],
+    "donatable": true,
+    "museumWing": "Gems Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Emerald"
+  },
+  "perfect-gold-ore": {
+    "id": "perfect-gold-ore",
+    "name": "Perfect Gold Ore",
+    "description": "A rare artifact. This gold ore is incredibly large and splendid.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_gold_ore.png?f40629",
+    "sell": 75,
+    "skills": [],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Gold Nodes in The Lava Caves"
+    ],
+    "donatable": true,
+    "museumWing": "Metals Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Gold_Ore"
+  },
+  "perfect-iron-ore": {
+    "id": "perfect-iron-ore",
+    "name": "Perfect Iron Ore",
+    "description": "An uncommon artifact. This chunk of iron is too magnificent to simply melt down.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_iron_ore.png?c45762",
+    "sell": 50,
+    "skills": [],
+    "location": "The Tide Caverns (floors 21-39)",
+    "locations": [
+      "the-tide-caverns"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Iron Nodes in The Tide Caverns"
+    ],
+    "donatable": true,
+    "museumWing": "Metals Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Iron_Ore"
+  },
+  "perfect-mistril-ore": {
+    "id": "perfect-mistril-ore",
+    "name": "Perfect Mistril Ore",
+    "description": "A rare artifact. This mistril ore is incredibly large and splendid.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_mistril_ore.png?fdb69b",
+    "sell": 75,
+    "skills": [],
+    "location": "The Ancient Ruins (floors 81-99)",
+    "locations": [
+      "the-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Mistril Nodes in The Ancient Ruins"
+    ],
+    "donatable": true,
+    "museumWing": "Metals Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Mistril_Ore"
+  },
+  "perfect-pink-diamond": {
+    "id": "perfect-pink-diamond",
+    "name": "Perfect Pink Diamond",
+    "description": "A rare artifact. This pink diamond is incredibly large and splendid.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_pink_diamond.png?80aa1d",
+    "sell": 325,
+    "skills": [],
+    "location": "The Ancient Ruins (floors 81-99)",
+    "locations": [
+      "the-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Pink Diamond Nodes in The Ancient Ruins"
+    ],
+    "donatable": true,
+    "museumWing": "Gems Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Pink_Diamond"
+  },
+  "perfect-ruby": {
+    "id": "perfect-ruby",
+    "name": "Perfect Ruby",
+    "description": "A rare artifact. This ruby is incredibly large and splendid.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_ruby.png?8b714c",
+    "sell": 75,
+    "skills": [],
+    "location": "The Upper Mines (floors 1-19)",
+    "locations": [
+      "the-upper-mines"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Ruby Nodes in The Upper Mines"
+    ],
+    "donatable": true,
+    "museumWing": "Gems Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Ruby"
+  },
+  "perfect-sapphire": {
+    "id": "perfect-sapphire",
+    "name": "Perfect Sapphire",
+    "description": "A rare artifact. This unusually large sapphire seems to glow from within.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_sapphire.png?e3aca7",
+    "sell": 75,
+    "skills": [],
+    "location": "The Tide Caverns (floors 21-39)",
+    "locations": [
+      "the-tide-caverns"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Sapphire Nodes in The Tide Caverns"
+    ],
+    "donatable": true,
+    "museumWing": "Gems Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Sapphire"
+  },
+  "perfect-silver-ore": {
+    "id": "perfect-silver-ore",
+    "name": "Perfect Silver Ore",
+    "description": "An uncommon artifact. The size and sheen on this piece of silver is a work of art.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Perfect_silver_ore.png?3e274e",
+    "sell": 50,
+    "skills": [],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Silver Nodes in The Deep Earth"
+    ],
+    "donatable": true,
+    "museumWing": "Metals Of Mistria",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Perfect_Silver_Ore"
+  },
+  "pink-diamond": {
+    "id": "pink-diamond",
+    "name": "Pink Diamond",
+    "description": "A rare pink colored diamond. Can be sold, gifted, or used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Pink_diamond.png?58bdb4",
+    "sell": 300,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Ancient Ruins (floors 81-99)",
+    "locations": [
+      "the-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Pink Diamond Nodes in The Ancient Ruins",
+      "Balor's Wagon for 1,200t",
+      "Possible Gem Cutting Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "dragon-forged-core",
+        "name": "Dragon-Forged Core",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Core"
+      },
+      {
+        "id": "dragon-forged-powder",
+        "name": "Dragon-Forged Powder",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Powder"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Diamond"
+  },
+  "pink-scallop-shell": {
+    "id": "pink-scallop-shell",
+    "name": "Pink Scallop Shell",
+    "description": "A common shell found on the beach.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Pink_scallop_shell.png?a7eaaf",
+    "sell": 20,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Beach",
+    "locations": [
+      "the-beach"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 60t",
+      "Possible Beach Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "fishing-bed-(red)",
+        "name": "Fishing Bed (Red)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fishing_Bed"
+      },
+      {
+        "id": "fishing-double-bed-(red)",
+        "name": "Fishing Double Bed (Red)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fishing_Double_Bed"
+      },
+      {
+        "id": "low-tide-flooring",
+        "name": "Low Tide Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Low_Tide_Flooring"
+      },
+      {
+        "id": "faux-pink-scallop-shell",
+        "name": "Faux Pink Scallop Shell",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Pink_Scallop_Shell"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Pink_Scallop_Shell"
+  },
+  "premium-honey": {
+    "id": "premium-honey",
+    "name": "Premium Honey",
+    "description": "A premium syrup made by uncommon bees. Better than your average honey.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Premium_honey.png?7fd7e6",
+    "sell": 100,
+    "skills": [],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Apiary"
+    ],
+    "donatable": true,
+    "museumWing": "Honey",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Premium_Honey"
+  },
+  "purple-mushroom": {
+    "id": "purple-mushroom",
+    "name": "Purple Mushroom",
+    "description": "A spotted purple mushroom sometimes dropped by Mushroom monsters.Used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Purple_mushroom.png?bc0511",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-lava-caves"
+    ],
+    "seasons": [],
+    "health": 5,
+    "stamina": 5,
+    "source": [
+      "Slaying Purple Mushroom in The Lava Caves"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "lava-rock-floor",
+        "name": "Lava Rock Floor",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Floor"
+      },
+      {
+        "id": "lava-rock-wall",
+        "name": "Lava Rock Wall",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Wall"
+      },
+      {
+        "id": "ornamental-gold-node",
+        "name": "Ornamental Gold Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Gold_Node"
+      },
+      {
+        "id": "water-sprite-statue-(v2)",
+        "name": "Water Sprite Statue (v2)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Sprite_Statue"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Purple_Mushroom"
+  },
+  "red-toadstool": {
+    "id": "red-toadstool",
+    "name": "Red Toadstool",
+    "description": "A red mushroom sometimes dropped by Mushroom monsters. Likely poisonous.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Red_toadstool.png?38d488",
+    "sell": 15,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19)",
+    "locations": [
+      "the-upper-mines"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Red Mushroom in The Upper Mines"
+    ],
+    "donatable": true,
+    "museumWing": "Upper Mines",
+    "recipes": [
+      {
+        "id": "ornamental-ruby-rock",
+        "name": "Ornamental Ruby Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Ruby_Rock"
+      },
+      {
+        "id": "color-paving-stone-(red-group)",
+        "name": "Color Paving Stone (Red Group)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Red_Toadstool"
+  },
+  "refined-stone": {
+    "id": "refined-stone",
+    "name": "Refined Stone",
+    "description": "Refined Stone. Used in a variety of high-level crafting recipes",
+    "image": "https://fieldsofmistria.wiki.gg/images/Refined_stone.png?c66fae",
+    "sell": 22,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "lava-rock-arch",
+        "name": "Lava Rock Arch",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Arch"
+      },
+      {
+        "id": "lava-rock-floor",
+        "name": "Lava Rock Floor",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Floor"
+      },
+      {
+        "id": "lava-rock-wall",
+        "name": "Lava Rock Wall",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Lava_Rock_Wall"
+      },
+      {
+        "id": "ornamental-diamond-rock",
+        "name": "Ornamental Diamond Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Diamond_Rock"
+      },
+      {
+        "id": "ornamental-gold-node",
+        "name": "Ornamental Gold Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Gold_Node"
+      },
+      {
+        "id": "water-sprite-statue",
+        "name": "Water Sprite Statue",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Water_Sprite_Statue"
+      },
+      {
+        "id": "witch-queen-bed",
+        "name": "Witch Queen Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Bed"
+      },
+      {
+        "id": "witch-queen-chair",
+        "name": "Witch Queen Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Chair"
+      },
+      {
+        "id": "witch-queen-double-bed",
+        "name": "Witch Queen Double Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Double_Bed"
+      },
+      {
+        "id": "witch-queen-dressing-table",
+        "name": "Witch Queen Dressing Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Dressing_Table"
+      },
+      {
+        "id": "witch-queen-nightstand",
+        "name": "Witch Queen Nightstand",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Nightstand"
+      },
+      {
+        "id": "witch-queen-table",
+        "name": "Witch Queen Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Table"
+      },
+      {
+        "id": "witch-queen-wallpaper",
+        "name": "Witch Queen Wallpaper",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Wallpaper"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Refined_Stone"
+  },
+  "rice": {
+    "id": "rice",
+    "name": "Rice",
+    "description": "A bag of processed rice. Used as an ingredient in many kinds of dishes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Rice.png?7f7ffd",
+    "sell": 175,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 200t",
+      "Balor's Wagon for 200t",
+      "Milling",
+      "Golden Treasure Box",
+      "Silver Treasure Box",
+      "Copper Treasure Box",
+      "Wooden Treasure Box"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-cooking-recipes",
+        "name": "Many Cooking Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking"
+      },
+      {
+        "id": "rice-sign",
+        "name": "Rice Sign",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rice_Sign"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rice"
+  },
+  "rock-salt": {
+    "id": "rock-salt",
+    "name": "Rock Salt",
+    "description": "Salt from a natural deposit. Used in a variety of cooking recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Rock_salt.png?98a6ed",
+    "sell": 25,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 50t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "canned-sardines",
+        "name": "Canned Sardines",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Canned_Sardines"
+      },
+      {
+        "id": "crunchy-chickpeas",
+        "name": "Crunchy Chickpeas",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Crunchy_Chickpeas"
+      },
+      {
+        "id": "dried-squid",
+        "name": "Dried Squid",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dried_Squid"
+      },
+      {
+        "id": "grilled-cheese",
+        "name": "Grilled Cheese",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Cheese"
+      },
+      {
+        "id": "rice-ball",
+        "name": "Rice Ball",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rice_Ball"
+      },
+      {
+        "id": "salted-watermelon",
+        "name": "Salted Watermelon",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Salted_Watermelon"
+      },
+      {
+        "id": "toasted-sunflower-seeds",
+        "name": "Toasted Sunflower Seeds",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Toasted_Sunflower_Seeds"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Salt"
+  },
+  "ruby": {
+    "id": "ruby",
+    "name": "Ruby",
+    "description": "A sparkling red gem. Can be sold, gifted, or used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Ruby.png?1e36cc",
+    "sell": 45,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 1-19)",
+    "locations": [
+      "the-upper-mines"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Ruby Nodes in The Upper Mines",
+      "Slaying Copperclod in The Upper Mines",
+      "Refining",
+      "Balor's Wagon for 180t",
+      "Wishing Well 100t Wish",
+      "Wooden Treasure Box",
+      "Possible Gem Cutting Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "ornate-rug-set",
+        "name": "Ornate Rug Set",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture/Ornate_Rug_Furniture_Set"
+      },
+      {
+        "id": "ornamental-ruby-rock",
+        "name": "Ornamental Ruby Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Ruby_Rock"
+      },
+      {
+        "id": "spring-flooring-(pink)",
+        "name": "Spring Flooring (Pink)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Spring_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Ruby"
+  },
+  "sand-dollar": {
+    "id": "sand-dollar",
+    "name": "Sand Dollar",
+    "description": "A common shell found on the beach.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Sand_dollar.png?ad35b5",
+    "sell": 25,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Beach",
+    "locations": [
+      "the-beach"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 100t",
+      "Possible Beach Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "faux-sand-dollar",
+        "name": "Faux Sand Dollar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Sand_Dollar"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sand_Dollar"
+  },
+  "sap": {
+    "id": "sap",
+    "name": "Sap",
+    "description": "A drip of sticky sap, sometimes dropped by Saplings. Used in a variety of crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Sap.png?108360",
+    "sell": 5,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Upper Mines (floors 2-19) The Tide Caverns (floors 21-39) The Deep Earth (floors 41-59) The Lava Caves (floors 61-79)",
+    "locations": [
+      "the-upper-minesthe-tide-cavernsthe-deep-earththe-lava-caves"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Sapling in The Mines"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sap"
+  },
+  "sapphire": {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "description": "A lustrous blue gem. Can be sold, gifted, or used in certain crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Sapphire.png?ff919c",
+    "sell": 50,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Tide Caverns (floors 21-39) Large Rock in The Narrows",
+    "locations": [
+      "the-tide-cavernslarge-rock-in-the-narrows"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Sapphire Nodes in The Tide Caverns",
+      "Mining Large Rock in The Narrows",
+      "Slaying Ironclod in The Tide Caverns",
+      "Refining",
+      "Balor's Wagon for 200t",
+      "Wishing Well 100t Wish",
+      "Silver Treasure Box",
+      "Copper Treasure Box",
+      "Possible Gem Cutting Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "ornate-rug-set",
+        "name": "Ornate Rug Set",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture/Ornate_Rug_Furniture_Set"
+      },
+      {
+        "id": "ornamental-sapphire-rock",
+        "name": "Ornamental Sapphire Rock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Sapphire_Rock"
+      },
+      {
+        "id": "spring-flooring-(purple)",
+        "name": "Spring Flooring (Purple)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Spring_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sapphire"
+  },
+  "shard-mass": {
+    "id": "shard-mass",
+    "name": "Shard Mass",
+    "description": "A large mass of shards originating from unknown artifacts. Used as a crafting material.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Shard_mass.png?6468d3",
+    "sell": 10,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Archaeology Mining",
+    "locations": [
+      "archaeology-mining"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Dig Spots",
+      "Balor's Wagon for 80t",
+      "Refining"
+    ],
+    "donatable": true,
+    "museumWing": "Dig Site",
+    "recipes": [
+      {
+        "id": "large-alda-pot",
+        "name": "Large Alda Pot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Large_Alda_Pot"
+      },
+      {
+        "id": "caldosian-decorative-scroll",
+        "name": "Caldosian Decorative Scroll",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Caldosian_Decorative_Scroll"
+      },
+      {
+        "id": "explorer-globe",
+        "name": "Explorer Globe",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Explorer_Globe"
+      },
+      {
+        "id": "witch-queen-flooring",
+        "name": "Witch Queen Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Flooring"
+      },
+      {
+        "id": "witch-queen-moon-lamp",
+        "name": "Witch Queen Moon Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Moon_Lamp"
+      },
+      {
+        "id": "witch-queen-pillar",
+        "name": "Witch Queen Pillar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Pillar"
+      },
+      {
+        "id": "witch-queen-table",
+        "name": "Witch Queen Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Table"
+      },
+      {
+        "id": "witch-queen-throne",
+        "name": "Witch Queen Throne",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Throne"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shard_Mass"
+  },
+  "shards": {
+    "id": "shards",
+    "name": "Shards",
+    "description": "Shards originating from unknown artifacts. Used as a crafting material.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Shards.png?86122e",
+    "sell": 5,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Overworld",
+    "locations": [
+      "the-overworld"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Dig Spots",
+      "Balor's Wagon for 50t",
+      "Refining"
+    ],
+    "donatable": true,
+    "museumWing": "Dig Site",
+    "recipes": [
+      {
+        "id": "large-alda-pot",
+        "name": "Large Alda Pot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Large_Alda_Pot"
+      },
+      {
+        "id": "color-paving-stone-(white-/-gray-group-1)",
+        "name": "Color Paving Stone (White / Gray Group 1)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      },
+      {
+        "id": "haunted-attic-wall-shelf",
+        "name": "Haunted Attic Wall Shelf",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Haunted_Attic_Wall_Shelf"
+      },
+      {
+        "id": "witch-queen-cauldron",
+        "name": "Witch Queen Cauldron",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Cauldron"
+      },
+      {
+        "id": "witch-queen-nightstand",
+        "name": "Witch Queen Nightstand",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Nightstand"
+      },
+      {
+        "id": "witch-queen-table",
+        "name": "Witch Queen Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Table"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Shards"
+  },
+  "silver-ore": {
+    "id": "silver-ore",
+    "name": "Silver Ore",
+    "description": "A chunk of silver ore. Can be refined into ingots for crafting.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Silver_Ore.png?91357a",
+    "sell": 20,
+    "skills": [
+      "Blacksmithing"
+    ],
+    "location": "The Deep Earth (floors 41-59)",
+    "locations": [
+      "the-deep-earth"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Silver Nodes in The Deep Earth",
+      "Slaying Silverclod in The Deep Earth",
+      "Blacksmith for 100t"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "silver-ingot",
+        "name": "Silver Ingot",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ingot"
+      },
+      {
+        "id": "ornamental-silver-node",
+        "name": "Ornamental Silver Node",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Ornamental_Silver_Node"
+      },
+      {
+        "id": "rock-wall",
+        "name": "Rock Wall",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Rock_Wall"
+      },
+      {
+        "id": "dragon-claw-altar",
+        "name": "Dragon Claw Altar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon_Claw_Altar"
+      },
+      {
+        "id": "color-paving-stone-(white-/-gray-group-2)",
+        "name": "Color Paving Stone (White / Gray Group 2)",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Color_Paving_Stone"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Silver_Ore"
+  },
+  "small-essence-stone": {
+    "id": "small-essence-stone",
+    "name": "Small Essence Stone",
+    "description": "An Essence Stone. Used to charge a magic tool for 5 days. Consume for 25 Essence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_stone_small.png?1d4206",
+    "sell": 80,
+    "skills": [
+      "Farming",
+      "Ranching"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining",
+      "Treasure Chests in The Mines",
+      "Abyssal Chests"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Small_Essence_Stone"
+  },
+  "sod": {
+    "id": "sod",
+    "name": "Sod",
+    "description": "A square of cut earth. Used as a crafting material.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Sod.png?c4fd2f",
+    "sell": 5,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Overworld",
+    "locations": [
+      "the-overworld"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Archaeology",
+      "Mining",
+      "Carpenter (requires Steady Supplies Skill) for 50t",
+      "Refining"
+    ],
+    "donatable": true,
+    "museumWing": "Dig Site",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sod"
+  },
+  "soy-sauce": {
+    "id": "soy-sauce",
+    "name": "Soy Sauce",
+    "description": "A tasty and essential condiment. Used in cooking recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Soy_sauce.png?193fa1",
+    "sell": 30,
+    "skills": [
+      "Cooking"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 60t",
+      "Balor's Wagon for 60t",
+      "Copper Treasure Box",
+      "Wooden Treasure Box"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "braised-burdock",
+        "name": "Braised Burdock",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Braised_Burdock"
+      },
+      {
+        "id": "fried-rice",
+        "name": "Fried Rice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Fried_Rice"
+      },
+      {
+        "id": "grilled-eel-rice-bowl",
+        "name": "Grilled Eel Rice Bowl",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Grilled_Eel_Rice_Bowl"
+      },
+      {
+        "id": "mushroom-rice",
+        "name": "Mushroom Rice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Mushroom_Rice"
+      },
+      {
+        "id": "sea-bream-rice",
+        "name": "Sea Bream Rice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Sea_Bream_Rice"
+      },
+      {
+        "id": "seafood-snow-pea-noodles",
+        "name": "Seafood Snow Pea Noodles",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Seafood_Snow_Pea_Noodles"
+      },
+      {
+        "id": "seaweed-salad",
+        "name": "Seaweed Salad",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Seaweed_Salad"
+      },
+      {
+        "id": "simmered-daikon",
+        "name": "Simmered Daikon",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Simmered_Daikon"
+      },
+      {
+        "id": "sushi-platter",
+        "name": "Sushi Platter",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Sushi_Platter"
+      },
+      {
+        "id": "winter-stew",
+        "name": "Winter Stew",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Winter_Stew"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Soy_Sauce"
+  },
+  "spirula-shell": {
+    "id": "spirula-shell",
+    "name": "Spirula Shell",
+    "description": "A common shell found on the beach.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Spirula_shell.png?47ab7e",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "The Beach",
+    "locations": [
+      "the-beach"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Foraging on The Beach",
+      "Balor's Wagon for 120t",
+      "Possible Beach Date Reward"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "low-tide-flooring",
+        "name": "Low Tide Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Low_Tide_Flooring"
+      },
+      {
+        "id": "faux-spirula-shell",
+        "name": "Faux Spirula Shell",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Spirula_Shell"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Spirula_Shell"
+  },
+  "stone": {
+    "id": "stone",
+    "name": "Stone",
+    "description": "A piece of stone. Essential for many crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Stone.png?43ea8f",
+    "sell": 2,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining",
+      "Slaying Any Rockclod in The Mines",
+      "Caught as Projectile from Any Clod in The Mines",
+      "Slaying Lava Cats in The Lava Caves",
+      "Balor's Wagon for 20t",
+      "Carpenter for 20t",
+      "Pet Job \"Collect Stone\""
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      },
+      {
+        "id": "all-stone-refinery-recipes",
+        "name": "All Stone Refinery Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Stone_Refinery"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Stone"
+  },
+  "sugar": {
+    "id": "sugar",
+    "name": "Sugar",
+    "description": "A bag of processed sugar. Used to sweeten dishes when cooking.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Sugar.png?afa6a9",
+    "sell": 100,
+    "skills": [
+      "Cooking",
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "General Store for 115t",
+      "Milling",
+      "Golden Treasure Box",
+      "Silver Treasure Box",
+      "Copper Treasure Box",
+      "Wooden Treasure Box"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-cooking-recipes",
+        "name": "Many Cooking Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Cooking"
+      },
+      {
+        "id": "bakery-cookie-jar",
+        "name": "Bakery Cookie Jar",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Cookie_Jar"
+      },
+      {
+        "id": "bakery-dessert-case",
+        "name": "Bakery Dessert Case",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Dessert_Case"
+      },
+      {
+        "id": "bakery-display-cake-slice",
+        "name": "Bakery Display Cake Slice",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Display_Cake_Slice"
+      },
+      {
+        "id": "bakery-display-cake",
+        "name": "Bakery Display Cake",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Bakery_Display_Cake"
+      },
+      {
+        "id": "picnic-display-pie",
+        "name": "Picnic Display Pie",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Picnic_Display_Pie"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Sugar"
+  },
+  "tiny-essence-stone": {
+    "id": "tiny-essence-stone",
+    "name": "Tiny Essence Stone",
+    "description": "An Essence Stone. Used to charge a magic tool for 1 day. Consume for 5 Essence.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Essence_stone_tiny.png?52de1b",
+    "sell": 20,
+    "skills": [
+      "Farming",
+      "Ranching"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Refining",
+      "Treasure Chests in The Mines",
+      "Abyssal Chests"
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Tiny_Essence_Stone"
+  },
+  "void-herb": {
+    "id": "void-herb",
+    "name": "Void Herb",
+    "description": "A void herb found throughout the Mines. Can be used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Void_herb.png?750fbc",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting",
+      "The Dragon Forge"
+    ],
+    "location": "Any Floor Without a Seal (floors 1-19, 21-39, 41-59, 61-79, 81-99)",
+    "locations": [
+      "any-floor-without-a-seal"
+    ],
+    "seasons": [],
+    "health": 10,
+    "stamina": 10,
+    "source": [
+      "Foraging (Requires Void Sight)"
+    ],
+    "donatable": true,
+    "museumWing": "Void Forage",
+    "recipes": [
+      {
+        "id": "faux-void-herb",
+        "name": "Faux Void Herb",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Faux_Void_Herb"
+      },
+      {
+        "id": "witch-queen-nightstand",
+        "name": "Witch Queen Nightstand",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Nightstand"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Void_Herb"
+  },
+  "void-pearl": {
+    "id": "void-pearl",
+    "name": "Void Pearl",
+    "description": "A void pearl found by fishing up small fish shadows in the Mines. Can be used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Void_pearl.png?c7e0ca",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting",
+      "The Dragon Forge"
+    ],
+    "location": "Any Floor Without a Seal (floors 1-19, 21-39, 41-59, 61-79, 81-99)",
+    "locations": [
+      "any-floor-without-a-seal"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Fishing (Requires Void Sight)"
+    ],
+    "donatable": true,
+    "museumWing": "Void Forage",
+    "recipes": [
+      {
+        "id": "witch-queen-moon-lamp",
+        "name": "Witch Queen Moon Lamp",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Moon_Lamp"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Void_Pearl"
+  },
+  "void-powder": {
+    "id": "void-powder",
+    "name": "Void Powder",
+    "description": "Void Powder dropped from defeated Monsters. Can be used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Void_powder.png?171eeb",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting",
+      "The Dragon Forge"
+    ],
+    "location": "Any Floor Without a Seal (floors 1-19, 21-39, 41-59, 61-79, 81-99)",
+    "locations": [
+      "any-floor-without-a-seal"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Slaying Any Monster (Requires Void Sight)"
+    ],
+    "donatable": true,
+    "museumWing": "Void Forage",
+    "recipes": [
+      {
+        "id": "dragon-forged-horn",
+        "name": "Dragon-Forged Horn",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Dragon-Forged_Horn"
+      },
+      {
+        "id": "witch-queen-flooring",
+        "name": "Witch Queen Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Void_Powder"
+  },
+  "void-stone": {
+    "id": "void-stone",
+    "name": "Void Stone",
+    "description": "A void stone found throughout the Mines. Can be used in high level crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Void_stone.png?cec503",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting",
+      "The Dragon Forge"
+    ],
+    "location": "Any Floor Without a Seal (floors 1-19, 21-39, 41-59, 61-79, 81-99)",
+    "locations": [
+      "any-floor-without-a-seal"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Mining Void Stone Nodes"
+    ],
+    "donatable": true,
+    "museumWing": "Void Forage",
+    "recipes": [
+      {
+        "id": "witch-queen-chair",
+        "name": "Witch Queen Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Chair"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Void_Stone"
+  },
+  "voidite": {
+    "id": "voidite",
+    "name": "Voidite",
+    "description": "A shard of voidite.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Voidite.png?341d6a",
+    "sell": 30,
+    "skills": [
+      "Woodcrafting",
+      "The Dragon Forge"
+    ],
+    "location": "The Ancient Ruins (floors 81-99)",
+    "locations": [
+      "the-ancient-ruins"
+    ],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Breaking Voidite Clusters in The Ancient Ruins"
+    ],
+    "donatable": true,
+    "museumWing": "Void Forage",
+    "recipes": [
+      {
+        "id": "witch-queen-bed",
+        "name": "Witch Queen Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Bed"
+      },
+      {
+        "id": "witch-queen-chair",
+        "name": "Witch Queen Chair",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Chair"
+      },
+      {
+        "id": "witch-queen-double-bed",
+        "name": "Witch Queen Double Bed",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Double_Bed"
+      },
+      {
+        "id": "witch-queen-dressing-table",
+        "name": "Witch Queen Dressing Table",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Dressing_Table"
+      },
+      {
+        "id": "witch-queen-flooring",
+        "name": "Witch Queen Flooring",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Witch_Queen_Flooring"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Voidite"
+  },
+  "wood": {
+    "id": "wood",
+    "name": "Wood",
+    "description": "A piece of cut wood. Essential for many crafting recipes.",
+    "image": "https://fieldsofmistria.wiki.gg/images/Wood.png?aa1101",
+    "sell": 2,
+    "skills": [
+      "Woodcrafting"
+    ],
+    "location": "Unknown",
+    "locations": [],
+    "seasons": [],
+    "health": 0,
+    "stamina": 0,
+    "source": [
+      "Cutting Down Trees and Branches",
+      "Breaking Debris in The Mines",
+      "Slaying Flame Spirits in The Mines",
+      "Fishing",
+      "Diving",
+      "Balor's Wagon for 20t",
+      "Carpenter for 20t",
+      "Refining",
+      "Pet Job \"Collect Wood\""
+    ],
+    "donatable": false,
+    "museumWing": "",
+    "recipes": [
+      {
+        "id": "many-furniture-recipes",
+        "name": "Many Furniture Recipes",
+        "href": "https://fieldsofmistria.wiki.gg/wiki/Furniture"
+      }
+    ],
+    "href": "https://fieldsofmistria.wiki.gg/wiki/Wood"
+  }
+}
