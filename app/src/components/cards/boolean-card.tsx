@@ -109,10 +109,10 @@ export const BooleanCard = ({
     setLocalCompleted(completed);
 
     setButtonClasses(clsx(
-      'relative flex select-none items-center justify-between rounded-lg border px-5 py-4 text-neutral-950 shadow-sm hover:cursor-pointer dark:text-neutral-50',
+      'relative flex select-none items-center justify-between rounded-lg border px-5 py-4 text-foreground shadow-sm hover:cursor-pointer',
       completed
-        ? 'border-green-900 bg-green-500 hover:bg-green-500 dark:bg-green-500 hover:dark:bg-green-500 museum-set-on'
-        : 'border-neutral-200 bg-white hover:bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800',
+        ? 'border-brand bg-brand hover:bg-brand museum-set-on'
+        : 'border-border bg-surface hover:bg-muted',
       isMultiSelectMode && isSelected && 'ring-primary ring-2',
     ));
   }, [
@@ -150,19 +150,19 @@ export const BooleanCard = ({
                 {name}
               </p>
 
-							<p className='truncate text-sm text-neutral-500 dark:text-neutral-400'>
+							<p className='truncate text-sm text-foreground-muted'>
 								{description}
 							</p>
 						</div>
 					</div>
 
-					<IconChevronRight className='h-5 w-5 flex-shrink-0 text-neutral-500 dark:text-neutral-400' />
+					<IconChevronRight className='h-5 w-5 flex-shrink-0 text-foreground-muted' />
         </button>
       </ContextMenuTrigger>
 
       <ContextMenuContent className='w-48'>
         <ContextMenuCheckboxItem>
-          <div className={`h-4 w-4 rounded-full border ${localCompleted ? 'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950' : 'border-green-900 bg-green-500/20 dark:bg-green-500/10'}`} />
+          <div className={`h-4 w-4 rounded-full border ${localCompleted ? 'border-border bg-surface' : 'border-brand/40 bg-brand/15'}`} />
 
           <p>
             {`Set ${localCompleted ? 'Inc' : 'C'}omplete`}

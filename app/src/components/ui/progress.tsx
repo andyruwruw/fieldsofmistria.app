@@ -28,12 +28,12 @@ const Progress = forwardRef<
 		<ProgressPrimitive.Root
 			ref={ref}
 			className={combineNames(
-				'relative flex h-2 w-full overflow-hidden rounded-full bg-neutral-900/20 dark:bg-neutral-50/20 ',
+				'relative flex h-2 w-full overflow-hidden rounded-full bg-foreground/20',
 				className,
 			)}
 			{...props}>
 			<ProgressPrimitive.Indicator
-				className='h-full w-full flex-1 bg-neutral-900 transition-all dark:bg-neutral-50'
+				className='h-full w-full flex-1 bg-foreground transition-all'
 				style={{
 					transform: `translateX(-${100 - (value && max ? (value / max) * 100 : 0)}%)`,
 				}} />

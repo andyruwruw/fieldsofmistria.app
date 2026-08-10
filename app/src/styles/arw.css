@@ -1,0 +1,147 @@
+/**
+ * arw style: mistria
+ *
+ * Distilled from fieldsofmistria.app's existing UI: a shadcn-flavored
+ * neutral palette (inverted default buttons, near-black dark chrome at
+ * exactly neutral-950/#0a0a0a) with green as the one accent color, used for
+ * completion/positive state and the primary call-to-action hover. Base-backed:
+ * no structural overrides, only tokens. Dark mode: `.dark` on <html>.
+ *
+ * Source of truth: themes/mistria/style.css in the frontend-bootstrap skill.
+ * Restyles are token-value edits here (and upstream if they belong to the
+ * theme's identity), never raw colors in TSX.
+ */
+
+@import 'tailwindcss';
+@config '../../tailwind.config.cjs';
+
+/* ── Tokens ─────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Surfaces */
+  --arw-bg: #ffffff;
+  --arw-bg-alt: #fafafa;          /* neutral-50 */
+  --arw-surface: #ffffff;
+  --arw-muted: #f5f5f5;           /* neutral-100 */
+  --arw-border: #e5e5e5;          /* neutral-200 */
+  --arw-divider: #f5f5f5;         /* neutral-100 */
+
+  /* Text */
+  --arw-text-1: #0a0a0a;          /* neutral-950 */
+  --arw-text-2: #737373;          /* neutral-500 */
+  --arw-text-3: #a3a3a3;          /* neutral-400 */
+
+  /* Brand (mistria green) */
+  --arw-brand: #22c55e;           /* green-500 */
+  --arw-brand-hover: #16a34a;     /* green-600 */
+  --arw-brand-muted-bg: #dcfce7;  /* green-100 */
+  --arw-brand-muted-text: #15803d;/* green-700 */
+  --arw-on-brand: #ffffff;
+  --arw-ring: #a3a3a3;            /* neutral-400 */
+
+  /* Destructive */
+  --arw-danger: #ef4444;          /* red-500 */
+  --arw-danger-hover: #dc2626;    /* red-600 */
+
+  /* Status chip pairs (muted-100 bg / 700 text) + solid dots */
+  --arw-status-default-bg: #f5f5f5;
+  --arw-status-default-text: #525252;
+  --arw-status-default-dot: #a3a3a3;
+  --arw-status-running-bg: #dbeafe;
+  --arw-status-running-text: #1d4ed8;
+  --arw-status-running-dot: #3b82f6;
+  --arw-status-pending-bg: #fef9c3;
+  --arw-status-pending-text: #a16207;
+  --arw-status-pending-dot: #eab308;
+  --arw-status-retry-bg: #ffedd5;
+  --arw-status-retry-text: #c2410c;
+  --arw-status-retry-dot: #f97316;
+  --arw-status-success-bg: #dcfce7;
+  --arw-status-success-text: #15803d;
+  --arw-status-success-dot: #22c55e;
+  --arw-status-error-bg: #fee2e2;
+  --arw-status-error-text: #b91c1c;
+  --arw-status-error-dot: #ef4444;
+  --arw-status-warning-bg: #fef3c7;
+  --arw-status-warning-text: #b45309;
+  --arw-status-warning-dot: #f59e0b;
+
+  /* Shape & type */
+  --arw-radius-sm: 0.375rem;
+  --arw-radius-md: 0.5rem;
+  --arw-radius-lg: 0.75rem;
+  --arw-font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --arw-font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --arw-font-pixel: '3x5', ui-monospace, monospace;
+  --arw-shadow-overlay: 0 10px 38px -10px rgb(0 0 0 / 0.35), 0 10px 20px -15px rgb(0 0 0 / 0.2);
+}
+
+.dark {
+  /* Surfaces (exact neutral-950 body background used by the app) */
+  --arw-bg: #0a0a0a;              /* neutral-950 */
+  --arw-bg-alt: #0a0a0a;
+  --arw-surface: #0a0a0a;
+  --arw-muted: #262626;           /* neutral-800 */
+  --arw-border: #262626;          /* neutral-800 */
+  --arw-divider: #171717;         /* neutral-900 */
+
+  /* Text */
+  --arw-text-1: #fafafa;          /* neutral-50 */
+  --arw-text-2: #a3a3a3;          /* neutral-400 */
+  --arw-text-3: #525252;          /* neutral-600 */
+
+  /* Brand */
+  --arw-brand-muted-bg: rgb(34 197 94 / 0.15);
+  --arw-brand-muted-text: #86efac; /* green-300 */
+  --arw-ring: #262626;            /* neutral-800 */
+
+  /* Status chip pairs (bg-500/15, text-300) */
+  --arw-status-default-bg: #262626;
+  --arw-status-default-text: #a3a3a3;
+  --arw-status-running-bg: rgb(59 130 246 / 0.15);
+  --arw-status-running-text: #93c5fd;
+  --arw-status-pending-bg: rgb(234 179 8 / 0.15);
+  --arw-status-pending-text: #fde047;
+  --arw-status-retry-bg: rgb(249 115 22 / 0.15);
+  --arw-status-retry-text: #fdba74;
+  --arw-status-success-bg: rgb(34 197 94 / 0.1);
+  --arw-status-success-text: #86efac;
+  --arw-status-error-bg: rgb(239 68 68 / 0.15);
+  --arw-status-error-text: #fca5a5;
+  --arw-status-warning-bg: rgb(245 158 11 / 0.15);
+  --arw-status-warning-text: #fcd34d;
+}
+
+/* ── Base ───────────────────────────────────────────────────────────────── */
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  @font-face {
+    font-family: '3x5';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/3-by-5-pixel-font.woff2) format('woff2');
+  }
+
+  a {
+    color: inherit !important;
+  }
+}
+
+/* ── App chrome ─────────────────────────────────────────────────────────── */
+
+.sidebar {
+  @apply border-r border-border;
+}
+
+.top-bar {
+  @apply border-b border-border;
+}
+
+.top-bar h1 {
+  font-size: 16px;
+}

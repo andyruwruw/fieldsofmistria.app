@@ -1,13 +1,12 @@
- 
 // Packages
 import {
   useState,
   type ReactNode,
 } from 'react';
-import axios from 'axios';
 
 // Local Imports
 import { PlayersContext } from '.';
+import api from '../../api';
 
 // Types
 import type {
@@ -108,34 +107,16 @@ export const PlayersProvider = ({ children }: { children: ReactNode }) => {
    * @returns {Promise<void>} A promise that resolves when the save is unpacked.
    */
   const unpackSave = async (save: File): Promise<void> => {
-    const form = new FormData();
-    form.append(
-      'file',
-      save,
-    );
+    const unpackedData = await api.saves.uploadSave(save);
 
-    const response = await axios.post(
-      'http://localhost:3000/saves',
-      form,
-      {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      },
-    );
-
-    if (response.status === 200) {
-      const unpackedData = response.data as FieldsOfMistriaSaveData;
-
-      setLocations(getLocations(unpackedData));
-      setData(unpackedData.gamedata);
-      setStats(unpackedData.game_stats);
-      setHeader(unpackedData.header);
-      setInfo(unpackedData.info);
-      setNpcs(unpackedData.npcs);
-      setPlayer(unpackedData.player);
-      setQuests(unpackedData.quests);
-    }
+    setLocations(getLocations(unpackedData));
+    setData(unpackedData.gamedata);
+    setStats(unpackedData.game_stats);
+    setHeader(unpackedData.header);
+    setInfo(unpackedData.info);
+    setNpcs(unpackedData.npcs);
+    setPlayer(unpackedData.player);
+    setQuests(unpackedData.quests);
   };
 
 	return (

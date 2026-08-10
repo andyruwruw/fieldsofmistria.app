@@ -5,8 +5,6 @@ import { Toaster } from 'sonner';
 import { Topbar } from './components/top-bar';
 import { Sidebar } from './components/sidebar';
 
-// Styles
-import './assets/app.global.css';
 import Router from './router';
 
 /**

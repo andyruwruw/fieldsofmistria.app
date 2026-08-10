@@ -9,8 +9,7 @@ import { PlayersProvider } from './contexts/player/provider.tsx';
 import App from './App.tsx'
 
 // Styles
-import '@radix-ui/themes/styles.css';
-import './index.css';
+import './styles/arw.css';
 
 /**
  * Main entry point for the React application.

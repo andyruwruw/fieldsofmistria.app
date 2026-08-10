@@ -78,7 +78,7 @@ export const PercentageIndicator = ({
       viewBox='0 0 36 36'
       className={className}>
 			<path
-				className='block fill-none stroke-neutral-200 dark:stroke-neutral-800'
+				className='block fill-none stroke-border'
 				strokeLinecap='round'
 				strokeWidth='3'
 				strokeDasharray='100, 100'
@@ -98,7 +98,7 @@ export const PercentageIndicator = ({
 				textAnchor='middle'
 				x='18.5'
 				y='21'
-				className='-m-1 fill-neutral-600 text-[0.5em] font-semibold dark:fill-white/80'>
+				className='-m-1 fill-foreground-muted text-[0.5em] font-semibold'>
         { overrideText || `${percentage || 0}%` }
       </text>
 		</svg>

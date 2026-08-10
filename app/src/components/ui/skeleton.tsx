@@ -15,7 +15,7 @@ const Skeleton = ({
 }: React.HTMLAttributes<HTMLDivElement>): ReactElement => (
   <div
     className={combineNames(
-      "animate-pulse rounded-md bg-neutral-900/10 dark:bg-neutral-50/10",
+      'animate-pulse rounded-md bg-foreground/10',
       className,
     )}
     {...props} />

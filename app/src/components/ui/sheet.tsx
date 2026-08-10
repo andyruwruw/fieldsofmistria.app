@@ -41,7 +41,7 @@ const SheetPortal = SheetPrimitive.Portal;
  * It defines the base styles and can be extended with additional classes.
  */
 const sheetVariants = cva(
-	'fixed z-50 gap-4 bg-white p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 dark:bg-neutral-950 dark:border-neutral-800',
+	'fixed z-50 gap-4 border-border bg-surface p-6 shadow-overlay transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500',
 	{
 		variants: {
 			side: {
@@ -115,7 +115,7 @@ const SheetContent = forwardRef<
 			{...props}>
 			{children}
 
-			<SheetPrimitive.Close className='absolute right-4 top-4 rounded-sm opacity-70 ring-offset-white transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-neutral-100 dark:ring-offset-neutral-950 dark:focus:ring-neutral-300 dark:data-[state=open]:bg-neutral-800'>
+			<SheetPrimitive.Close className='absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-muted'>
 				<Cross2Icon className='h-4 w-4' />
 
 				<span className='sr-only'>
@@ -186,7 +186,7 @@ const SheetTitle = forwardRef<
 	<SheetPrimitive.Title
 		ref={ref}
 		className={combineNames(
-			'text-lg font-semibold text-neutral-950 dark:text-neutral-50',
+			'text-lg font-semibold text-foreground',
 			className,
 		)}
 		{...props} />
@@ -212,7 +212,7 @@ const SheetDescription = forwardRef<
 	<SheetPrimitive.Description
 		ref={ref}
 		className={combineNames(
-      'text-sm text-neutral-500 dark:text-neutral-400',
+      'text-sm text-foreground-muted',
       className,
     )}
 		{...props} />

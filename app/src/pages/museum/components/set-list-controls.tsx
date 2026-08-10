@@ -58,8 +58,8 @@ export interface MuseumSetListControlsProps {
  * Colors for filter options.
  */
 const BUBBLE_COLORS: Record<string, string> = {
-	'0': 'border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950', // unfound
-	'1': 'border-green-900 bg-green-500/20', // found
+	'0': 'border-border bg-surface', // unfound
+	'1': 'border-brand/40 bg-brand/15', // found
 };
 
 /**
@@ -128,7 +128,7 @@ export const MuseumSetListControls = ({
       </div>
 
       <div className='mt-2 w-full pb-5'>
-        <Command className='w-full border border-b-0 dark:border-neutral-800'>
+        <Command className='w-full border border-b-0 border-border'>
           <CommandInput
             onValueChange={(v) => {
               setSearch(v);

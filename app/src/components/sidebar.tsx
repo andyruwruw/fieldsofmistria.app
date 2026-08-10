@@ -41,7 +41,7 @@ import { Button } from './ui/button';
  * @returns The rendered component.
  */
 export const SidebarCategory = ({ children }: { children: string }) => (
-	<h2 className='mb-2 mt-4 px-4 font-bold tracking-tight text-left text-neutral-800 dark:text-neutral-300'>
+	<h2 className='mb-2 mt-4 px-4 font-bold tracking-tight text-left text-foreground'>
 		{children}
 	</h2>
 );
@@ -204,7 +204,7 @@ export function Sidebar({ className }: React.HTMLAttributes<HTMLDivElement>) {
                   'w-full justify-start',
                   item.href === location.pathname
                     ? ''
-                    : 'text-neutral-600 dark:text-neutral-400',
+                    : 'text-foreground-muted',
                 )}
                 asChild>
                 <Link to={item.href}>
@@ -232,7 +232,7 @@ export function Sidebar({ className }: React.HTMLAttributes<HTMLDivElement>) {
                   'w-full justify-start',
                   item.href === location.pathname
                     ? ''
-                    : 'text-neutral-600 dark:text-neutral-400',
+                    : 'text-foreground-muted',
                 )}
                 asChild>
                 <Link to={item.href}>

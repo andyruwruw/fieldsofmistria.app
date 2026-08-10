@@ -32,7 +32,7 @@ const AccordionItem = forwardRef<
 	<AccordionPrimitive.Item
 		ref={ref}
 		className={combineNames(
-      'border-b dark:border-neutral-800',
+      'border-b border-border',
       className,
     )}
 		{...props} />
@@ -74,10 +74,10 @@ const AccordionTrigger = forwardRef<
 				<div className='flex'>
 					{pullRight}
 
-					<ChevronDownIcon className=' ml-2 h-4 w-4 shrink-0 text-neutral-500 transition-transform duration-200 dark:text-neutral-400' />
+					<ChevronDownIcon className=' ml-2 h-4 w-4 shrink-0 text-foreground-muted transition-transform duration-200' />
 				</div>
 			) : (
-				<ChevronDownIcon className='h-4 w-4 shrink-0 text-neutral-500 transition-transform duration-200 dark:text-neutral-400' />
+				<ChevronDownIcon className='h-4 w-4 shrink-0 text-foreground-muted transition-transform duration-200' />
 			)}
 		</AccordionPrimitive.Trigger>
 	</AccordionPrimitive.Header>

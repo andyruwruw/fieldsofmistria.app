@@ -29,7 +29,7 @@ export const CompletionCard = ({
 }: CompletionCardProps) => {
 	const checkedClass =
 		percentage === 100
-			? 'border-green-900 bg-green-500/20 dark:bg-green-500/10 dark:border-green-900'
+			? 'border-brand/40 bg-brand/15'
 			: '';
 
 	return (
@@ -59,7 +59,7 @@ export const CompletionCard = ({
                 {description}
               </p>
 
-              <p className='text-xs font-medium text-neutral-500 dark:text-neutral-500'>
+              <p className='text-xs font-medium text-foreground-muted'>
                 {footer}
               </p>
             </CardContent>

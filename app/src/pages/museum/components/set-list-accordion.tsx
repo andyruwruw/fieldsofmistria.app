@@ -126,16 +126,16 @@ export const SetListAccordion = ({
 			asChild>
 			<section
 				className={clsx(
-					'relative h-min select-none justify-between space-y-3 rounded-lg border px-5 pt-4 text-neutral-950 shadow-sm hover:cursor-pointer dark:text-neutral-50',
+					'relative h-min select-none justify-between space-y-3 rounded-lg border px-5 pt-4 text-foreground shadow-sm hover:cursor-pointer',
 					done
-						? 'border-green-900 bg-green-500/20 hover:bg-green-500/30 dark:bg-green-500/10 hover:dark:bg-green-500/20'
-						: 'border-neutral-200 dark:border-neutral-800',
+						? 'border-brand/40 bg-brand/15 hover:bg-brand/25'
+						: 'border-border',
 				)}>
 				<AccordionItem
 					value='main'
 					className='border-none'>
 					<AccordionTriggerNoToggle
-						className={`ml-1 pt-0 text-xl font-semibold text-gray-900 dark:text-white hover-no-border ${isDesktop ? 'flex-row' : 'flex-col items-start'}`}
+						className={`ml-1 pt-0 text-xl font-semibold text-foreground hover-no-border ${isDesktop ? 'flex-row' : 'flex-col items-start'}`}
 						style={{
 							margin: '0 0 16px',
 							padding: '0',

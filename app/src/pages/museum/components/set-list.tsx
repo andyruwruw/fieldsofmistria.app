@@ -158,7 +158,7 @@ export const MuseumSetList = ({
         type='single'>
         <section className='space-y-3'>
           <AccordionItem value='item-1'>
-            <AccordionTrigger className='ml-1 text-xl font-semibold text-gray-900 dark:text-white accordion-trigger'>
+            <AccordionTrigger className='ml-1 text-xl font-semibold text-foreground accordion-trigger'>
               All Museum Sets
             </AccordionTrigger>
 

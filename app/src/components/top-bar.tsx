@@ -20,7 +20,7 @@ export function Topbar() {
 
   return (
     <>
-      <div className='top-bar flex items-center justify-between bg-white px-7 py-3.5 dark:bg-neutral-950 sm:flex-row sm:items-center sm:space-y-0 md:h-16'>
+      <div className='top-bar flex items-center justify-between bg-surface px-7 py-3.5 sm:flex-row sm:items-center sm:space-y-0 md:h-16'>
         <Link to='/'>
           <div className='flex flex-shrink-0 items-center'>
             <img
@@ -39,7 +39,7 @@ export function Topbar() {
 						variant="secondary"
 						onClick={() => setUploadOpen(true)}
 						data-umami-event="Upload save"
-						className="hover:bg-green-500 hover:text-neutral-50 dark:hover:bg-green-500 dark:hover:text-neutral-50">
+						className='hover:bg-brand hover:text-on-brand'>
 						{ player?.name ? 'Upload Different Save' : 'Upload Save' }
 					</Button>
 
