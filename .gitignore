@@ -1,1 +1,25 @@
 example-save
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+
+# Claude Code local (personal) settings — not shared config
+.claude/settings.local.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
